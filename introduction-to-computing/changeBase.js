@@ -68,11 +68,11 @@ const getRemainder = (dividend, divisor) => {
  * @param {Number} integer
  * @returns {String}
  */
-const integerBaseTo = (base, integer) => {
+const integerDecimalBaseTo = (base, integer) => {
   if (integer < base) return hexadecimalDigits(integer)
   const quotient = getInteger(integer / base)
   const remainder = getRemainder(integer, base)
-  return `${integerBaseTo(base, quotient)}${remainder}`
+  return `${integerDecimalBaseTo(base, quotient)}${remainder}`
 }
 
 /**
@@ -81,24 +81,39 @@ const integerBaseTo = (base, integer) => {
  * @param {Number} precision
  * @returns {String}
  */
-const decimalsBaseTo = (base, decimalPart, precision = 0) => {
+const decimalsDecimalBaseTo = (base, decimalPart, precision = 0) => {
   if (precision === 10) return ''
-  if (base * decimalPart === 0) return 0
   const numberXdecimals = decimalPart * base
+  if (numberXdecimals === 0) return 0
   const digitToLeave = hexadecimalDigits(getInteger(numberXdecimals))
   const remainder = getDecimals(numberXdecimals.toString()) - getDecimals(digitToLeave)
-  return `${digitToLeave}${decimalsBaseTo(base, remainder, ++precision)}`
+  return `${digitToLeave}${decimalsDecimalBaseTo(base, remainder, ++precision)}`
 }
 
 const floatBaseDecimalTo = (base, strNumber) => {
-  const integerPart = integerBaseTo(base, getInteger(strNumber))
-  let decimalPart = decimalsBaseTo(base, getDecimals(strNumber))
+  const integerPart = integerDecimalBaseTo(base, getInteger(strNumber))
+  const decimalPart = decimalsDecimalBaseTo(base, getDecimals(strNumber))
   return {
     number: `${integerPart}${decimalPart === 0 ? '' : `.${decimalPart}`}`,
     integer: integerPart,
     decimal: `0.${decimalPart}`
   }
 }
+
+// Convert a number in any base to decimal base
+
+/**
+ * @param {Number} base
+ * @param {String} strInteger
+ */
+const integerAnyBaseToDecimal = (base, strInteger) => {
+  const digit = parseInt(strInteger.slice(0, 1))
+  if (strInteger.length === 1) return digit
+  const positionValue = base ** (strInteger.length - 1)
+  return digit * positionValue + integerAnyBaseToDecimal(base, strInteger.slice(1))
+}
+
+const floatAnyBaseToDecimal = (base, strNumber) => {}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -113,10 +128,15 @@ readline.on('line', line => {
     return
   }
 
-  const newNumber = floatBaseDecimalTo(2, line)
+  const currentBase = 16
+
+  const newNumber = floatBaseDecimalTo(currentBase, line)
   console.log(newNumber.integer)
-  console.log(newNumber.decimal)
-  console.log(newNumber.number)
+  // console.log(newNumber.decimal)
+  // console.log(newNumber.number)
+
+  console.log('Decode')
+  console.log(integerAnyBaseToDecimal(currentBase, newNumber.integer))
 
   console.log()
   console.log('Write another number:')
