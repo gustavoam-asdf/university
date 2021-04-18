@@ -17,7 +17,7 @@ readline.on('line', line => {
     return
   }
 
-  const currentBase = 4
+  const currentBase = 16
 
   const encodeNumber = decimalToAny(currentBase, line)
   console.log('Encode')

@@ -1,14 +1,17 @@
 // Another way to use numbers in Javascript because in this the numbers are implemented are really bad
 
+const isHex = require('./isHex')
+
 /**
- * @param {String} strNumber
+ * @param {Number} number
  */
-const getDecimals = strNumber => {
-  if (isNaN(strNumber)) throw new TypeError('Argument most be a number')
+const getDecimals = number => {
+  const strNumber = number.toString()
+  if (!isHex(strNumber)) throw new TypeError('Argument most be a number')
   let decimalPart = 0
-  let decimalsIndex = strNumber.indexOf('.')
-  if (decimalsIndex !== -1) {
-    decimalPart = parseFloat(`0.${strNumber.slice(decimalsIndex + 1)}`)
+  const floatingPoint = strNumber.indexOf('.')
+  if (floatingPoint !== -1) {
+    decimalPart = parseFloat(`0.${strNumber.slice(floatingPoint + 1)}`)
   }
   return decimalPart.toString()
 }
