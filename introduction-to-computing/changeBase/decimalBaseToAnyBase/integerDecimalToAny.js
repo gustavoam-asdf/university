@@ -6,11 +6,11 @@ const encodeHexadecimal = require('../encodeHexadecimal')
  * @param {Number} integer
  * @returns {String}
  */
-const integerDecimalBaseToAny = (base, integer) => {
+const integerDecimalToAny = (base, integer) => {
   if (integer < base) return encodeHexadecimal(integer)
   const quotient = getInteger(integer / base)
   const remainder = getRemainder(integer, base)
-  return `${integerDecimalBaseToAny(base, quotient)}${remainder}`
+  return `${integerDecimalToAny(base, quotient)}${remainder}`
 }
 
-module.exports = integerDecimalBaseToAny
+module.exports = integerDecimalToAny

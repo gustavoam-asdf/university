@@ -2,9 +2,9 @@ const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
 })
-const baseDecimalToAny = require('./decimalBaseToAnyBase/baseDecimalToAny')
-const anyBaseToDecimal = require('./anyBaseToDecimalBase/anyBaseToDecimal')
-///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+const decimalToAny = require('./decimalBaseToAnyBase/decimalToAny')
+const anyToDecimal = require('./anyBaseToDecimalBase/anyToDecimal')
 
 readline.on('line', line => {
   if (isNaN(line)) {
@@ -19,12 +19,13 @@ readline.on('line', line => {
 
   const currentBase = 2
 
-  const newNumber = baseDecimalToAny(currentBase, line)
+  const encodeNumber = decimalToAny(currentBase, line)
   console.log('Encode')
-  console.log(newNumber)
+  console.log(encodeNumber)
 
+  const decodeNumber = anyToDecimal(currentBase, encodeNumber.number)
   console.log('Decode')
-  console.log(anyBaseToDecimal(currentBase, newNumber.integer))
+  console.log(decodeNumber)
 
   console.log()
   console.log('Write another number:')
