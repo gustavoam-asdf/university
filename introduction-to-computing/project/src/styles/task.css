@@ -1,0 +1,27 @@
+.task {
+  position: fixed;
+  bottom: 6em;
+  right: 5em;
+  height: 6em;
+  width: 6em;
+  background-color: var(--blue);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  box-shadow: 3px 5px 10px rgb(59, 59, 59);
+}
+
+.task:hover,
+.task:focus,
+.task:active {
+  background-color: var(--dark-blue);
+}
+
+.task__button {
+  width: max-content;
+  height: max-content;
+  color: var(--white);
+}
