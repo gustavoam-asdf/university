@@ -1,0 +1,25 @@
+@import url(./variables.css);
+
+.container {
+  display: grid;
+  grid-template-rows: 8% auto 4%;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  height: 100vh;
+}
+
+.main__header {
+  grid-area: header;
+  background-color: var(--turquoise);
+}
+
+.main {
+  background-color: var(--light-turquoise);
+}
+
+.main__footer {
+  grid-area: footer;
+  background-color: var(--turquoise);
+}

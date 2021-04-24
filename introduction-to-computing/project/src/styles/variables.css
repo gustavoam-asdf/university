@@ -1,0 +1,21 @@
+@import url(../../node_modules/normalize.css/normalize.css);
+
+:root {
+  --turquoise: #038ae6;
+  --light-turquoise: #8fc2fc;
+  --blue: #2058b5;
+  --dark-blue: #000261;
+  --light-blue: #a3c4d6;
+  --overlay: #53494969;
+  --red: #bb2929;
+  --wine: #6c0000;
+  --white: #ebf9ff;
+  --green: #1ed12d;
+  --pink: #ffa9a9;
+  --z-index-0: 0;
+  --z-index-1: 1;
+  --z-index-10: 10;
+  --z-index-100: 100;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
