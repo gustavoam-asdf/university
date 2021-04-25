@@ -1,5 +1,5 @@
 @import url(./variables.css);
-@import url(./task.css);
+@import url(./tasks.css);
 
 .container {
   display: grid;

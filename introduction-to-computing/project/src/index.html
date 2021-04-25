@@ -16,11 +16,19 @@
   </head>
   <body class="container">
     <header class="main__header"></header>
-    <main class="main"></main>
-    <aside class="task">
-      <i class="task__button fa fa-3x fa-tasks"></i>
+    <main class="main" id="main"></main>
+    <aside class="tasks__button" id="tasks__button">
+      <i class="fa fa-3x fa-tasks"></i>
     </aside>
+    <div class="tasks display-block" id="tasks">
+      <h2 class="title">Proyectos realizados</h2>
+      <nav>
+        <ul>
+          <li><a class="task" href="#change-base">Cambiar la base de un número</a></li>
+        </ul>
+      </nav>
+    </div>
     <footer class="main__footer"></footer>
-    <script src="./js/index.js"></script>
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>

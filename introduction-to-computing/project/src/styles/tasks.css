@@ -1,0 +1,42 @@
+.tasks {
+  background-color: var(--overlay);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: var(--z-index-10);
+}
+
+.tasks .title {
+  text-align: center;
+  margin: 5em 0 0 1em;
+  color: var(--white);
+}
+
+.tasks__button {
+  position: fixed;
+  bottom: 6em;
+  right: 5em;
+  height: 6em;
+  width: 6em;
+  background-color: var(--blue);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  box-shadow: 3px 5px 10px rgb(59, 59, 59);
+  z-index: var(--z-index-100);
+}
+
+.tasks__button:hover,
+.tasks__button:focus,
+.tasks__button:active {
+  background-color: var(--dark-blue);
+}
+
+.tasks__button i {
+  color: var(--white);
+}
