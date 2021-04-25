@@ -27,7 +27,7 @@ const tasksHandler = (tasks, tasksButton, showingTasks) => {
   return !showingTasks
 }
 
-tasksButton.addEventListener('click', async () => {
+tasksButton.addEventListener('click', () => {
   showingTasks = tasksHandler(tasks, tasksButton, showingTasks)
 })
 
