@@ -3,7 +3,8 @@
  * @returns
  */
 export const isHex = strNumber => {
-  return strNumber.search(/^[0-9A-Fa-f]+(\.[0-9A-Fa-f]+)?$/) !== -1
+  const temp = strNumber.toString()
+  return temp.search(/^[0-9A-Fa-f]+(\.[0-9A-Fa-f]+)?$/) !== -1
 }
 
 /**
