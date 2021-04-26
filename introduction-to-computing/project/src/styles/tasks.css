@@ -49,8 +49,8 @@
 
 .tasks__button {
   position: fixed;
-  bottom: 6em;
-  right: 5em;
+  bottom: 4em;
+  right: 4em;
   height: 6em;
   width: 6em;
   background-color: var(--blue);

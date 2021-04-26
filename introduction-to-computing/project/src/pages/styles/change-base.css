@@ -37,6 +37,17 @@
   transition: 0.3s ease all;
 }
 
+.form__input:disabled,
+.form__input:read-only {
+  background-color: var(--turquoise);
+  color: var(--white);
+}
+
+.form__input:disabled::placeholder,
+.form__input:read-only::placeholder {
+  color: var(--light-turquoise);
+}
+
 .form__input:focus {
   border: 0.25em solid var(--turquoise);
   outline: none;

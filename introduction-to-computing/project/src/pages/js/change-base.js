@@ -1,4 +1,5 @@
-import { isHex, isNumber } from './changeBase/validateNumber.js'
+import { isHex, isInteger } from './changeBase/validateNumber.js'
+import decimalToAny from './changeBase/decimalBaseToAnyBase/decimalToAny.js'
 
 const changeBaseForm = document.getElementById('change-base__form')
 
@@ -30,12 +31,17 @@ const drawInfo = (test, targetInput) => {
 }
 
 const inputHandler = targetInput => {
+  const value = targetInput.value
   if (targetInput.name === 'number') {
-    verifier.number = drawInfo(isHex(targetInput.value), targetInput)
+    verifier.number = drawInfo(isHex(value), targetInput)
   } else if (targetInput.name === 'current-base') {
-    verifier.currentBase = drawInfo(isNumber(targetInput.value), targetInput)
+    verifier.currentBase = drawInfo(isInteger(value) && parseInt(value) > 1, targetInput)
   } else if (targetInput.name === 'target-base') {
-    verifier.targetBase = drawInfo(isNumber(targetInput.value), targetInput)
+    const currentBase = document.getElementById('current-base')
+    verifier.targetBase = drawInfo(
+      isInteger(value) && value !== currentBase.value && parseInt(value) > 1,
+      targetInput
+    )
   }
 }
 
@@ -54,17 +60,28 @@ changeBaseForm.addEventListener('blur', evt => {
 changeBaseForm.addEventListener('submit', evt => {
   evt.preventDefault()
   if (verifier.number && verifier.currentBase && verifier.targetBase) {
-    changeBaseForm.reset()
     document.getElementById('form__message').classList.remove('form__message-active')
     document.getElementById('form__success-message').classList.add('form__success-message-active')
     setTimeout(() => {
       document
         .getElementById('form__success-message')
         .classList.remove('form__success-message-active')
-    }, 5000)
+    }, 2000)
     document
       .querySelectorAll('.form__group')
       .forEach(group => group.classList.remove('form__group-correct'))
+
+    const number = document.getElementById('number').value
+    const currentBase = Number(document.getElementById('current-base').value)
+    const targetBase = Number(document.getElementById('target-base').value)
+    const result = document.getElementById('result')
+    let numberResult
+    console.log({ number, currentBase, targetBase })
+    if (currentBase === 10) {
+      numberResult = decimalToAny(targetBase, number)
+    }
+
+    result.value = numberResult.number
   } else {
     document.getElementById('form__message').classList.add('form__message-active')
   }

@@ -13,3 +13,11 @@ export const isHex = strNumber => {
 export const isNumber = strNumber => {
   return strNumber.search(/^[0-9]+(\.[0-9]+)?$/) !== -1
 }
+
+/**
+ * @param {String} strNumber
+ * @returns
+ */
+export const isInteger = strNumber => {
+  return strNumber.search(/^[0-9]+$/) !== -1
+}
