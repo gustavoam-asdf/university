@@ -11,7 +11,7 @@ import decimalsDecimalToAny from './decimalsDecimalToAny.js'
  */
 const decimalToAny = (base, strNumber) => {
   const integerPart = integerDecimalToAny(base, getInteger(strNumber))
-  const decimalPart = `0.${decimalsDecimalToAny(base, getDecimals(strNumber))}`
+  const decimalPart = getDecimals(`0.${decimalsDecimalToAny(base, getDecimals(strNumber))}`)
   return {
     base,
     number: `${integerPart}${decimalPart === '0.0' ? '' : `${decimalPart.slice(1)}`}`,

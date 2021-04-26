@@ -41,6 +41,8 @@
 .form__input:read-only {
   background-color: var(--turquoise);
   color: var(--white);
+  font-size: 1.25em;
+  font-weight: 600;
 }
 
 .form__input:disabled::placeholder,

@@ -1,5 +1,6 @@
 import { isHex, isInteger } from './changeBase/validateNumber.js'
 import decimalToAny from './changeBase/decimalBaseToAnyBase/decimalToAny.js'
+import anyToDecimal from './changeBase/anyBaseToDecimalBase/anyToDecimal.js'
 
 const changeBaseForm = document.getElementById('change-base__form')
 
@@ -76,11 +77,12 @@ changeBaseForm.addEventListener('submit', evt => {
     const targetBase = Number(document.getElementById('target-base').value)
     const result = document.getElementById('result')
     let numberResult
-    console.log({ number, currentBase, targetBase })
     if (currentBase === 10) {
       numberResult = decimalToAny(targetBase, number)
+    } else {
+      numberResult = anyToDecimal(currentBase, number)
+      numberResult = decimalToAny(targetBase, numberResult.number)
     }
-
     result.value = numberResult.number
   } else {
     document.getElementById('form__message').classList.add('form__message-active')
