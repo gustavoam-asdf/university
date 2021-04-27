@@ -57,7 +57,7 @@ tasks.addEventListener('click', async evt => {
   renderPage(currentPage, pagesContainer)
   setTimeout(() => {
     preloader.remove()
-  }, 1000)
+  }, 200)
   showingTasks = tasksHandler(tasks, tasksButtonOC, true)
 })
 
