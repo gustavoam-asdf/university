@@ -1,5 +1,9 @@
 import getPage from './functions/getPage.js'
 import renderPage from './functions/renderPage.js'
+import './preloader.js'
+
+const preloader = document.createElement('pre-loader')
+
 let showingTasks = false
 const tasksButtonOC = document.getElementById('tasks__button-oc')
 const tasksButtonHome = document.getElementById('tasks__button-home')
@@ -43,6 +47,7 @@ tasksButtonHome.addEventListener('click', () => {
 tasks.addEventListener('click', async evt => {
   const taskClicked = evt.target.closest('a')
   if (!taskClicked) return
+  document.body.prepend(preloader)
   if (currentPage.name !== 'index') {
     pagesContainer.innerHTML = ''
     currentPage.styleLink.remove()
@@ -50,6 +55,9 @@ tasks.addEventListener('click', async evt => {
   }
   currentPage = await getPage(taskClicked.getAttribute('href'))
   renderPage(currentPage, pagesContainer)
+  setTimeout(() => {
+    preloader.remove()
+  }, 1000)
   showingTasks = tasksHandler(tasks, tasksButtonOC, true)
 })
 
