@@ -1,5 +1,6 @@
 .cover {
   margin: auto;
+  padding-bottom: 7em;
   width: 80%;
   max-width: 1200px;
   display: grid;
@@ -28,6 +29,7 @@
 }
 
 .unheval-text {
+  grid-area: text;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -62,4 +64,59 @@
 .member {
   font-size: 1.2em;
   margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 930px) {
+  .cover {
+    grid-template-columns: 8em auto 8em;
+  }
+
+  .unheval-logo,
+  .sistemas-logo {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+
+  .unheval-text .title {
+    font-size: 1.5em;
+  }
+
+  .unheval-text .subtitle {
+    font-size: 1.25em;
+  }
+
+  .member {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 8em 10em 1fr;
+    grid-template-areas:
+      'l_unheval l_unheval l_unheval l_sistemas l_sistemas l_sistemas'
+      'text text text text text text'
+      'members members members members members members';
+  }
+
+  .unheval-text .title {
+    font-size: 1.4em;
+  }
+
+  .unheval-text .subtitle {
+    font-size: 1.15em;
+  }
+
+  .members .subtitle {
+    font-size: 1.2em;
+    margin: 0 0 0.25em;
+  }
+
+  .member {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+  }
 }

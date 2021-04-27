@@ -1,6 +1,6 @@
 .tasks {
   background-color: var(--overlay);
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
@@ -47,12 +47,11 @@
   background-color: var(--dark-blue);
 }
 
-.tasks__button {
-  position: fixed;
-  bottom: 4em;
-  right: 4em;
-  height: 6em;
+.tasks__button-oc,
+.tasks__button-home {
   width: 6em;
+  height: 6em;
+  position: fixed;
   background-color: var(--blue);
   border-radius: 50%;
   display: flex;
@@ -64,12 +63,34 @@
   z-index: var(--z-index-100);
 }
 
-.tasks__button:hover,
-.tasks__button:focus,
-.tasks__button:active {
+.tasks__button-oc {
+  bottom: 3em;
+  right: 3em;
+}
+
+.tasks__button-home {
+  bottom: 3em;
+  left: 3em;
+}
+
+.tasks__button-oc:focus,
+.tasks__button-oc:active,
+.tasks__button-home:focus,
+.tasks__button-home:active {
   background-color: var(--dark-blue);
 }
 
-.tasks__button i {
+.tasks__button-oc i,
+.tasks__button-home i {
   color: var(--white);
+}
+
+@media screen and (max-width: 1200px) {
+  .tasks .title {
+    width: 80%;
+  }
+
+  .tasks__list {
+    width: 80%;
+  }
 }

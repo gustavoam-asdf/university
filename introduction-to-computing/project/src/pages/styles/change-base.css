@@ -1,3 +1,9 @@
+.change-base {
+  padding-bottom: 8em;
+  width: 80%;
+  max-width: 35em;
+}
+
 .change-base .title {
   margin-top: 0;
   text-align: center;

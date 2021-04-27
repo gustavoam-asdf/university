@@ -1,7 +1,8 @@
 import getPage from './functions/getPage.js'
 import renderPage from './functions/renderPage.js'
 let showingTasks = false
-const tasksButton = document.getElementById('tasks__button')
+const tasksButtonOC = document.getElementById('tasks__button-oc')
+const tasksButtonHome = document.getElementById('tasks__button-home')
 const tasks = document.getElementById('tasks')
 const pagesContainer = document.getElementById('main')
 
@@ -12,23 +13,31 @@ let currentPage = {
   scriptLink: {}
 }
 
-const tasksHandler = (tasks, tasksButton, showingTasks) => {
+const tasksHandler = (tasks, tasksButtonOC, showingTasks) => {
   if (showingTasks) {
-    tasksButton.querySelector('i').classList.remove('fa-times')
-    tasksButton.querySelector('i').classList.add('fa-tasks')
+    tasksButtonOC.querySelector('i').classList.remove('fa-times')
+    tasksButtonOC.querySelector('i').classList.add('fa-tasks')
     tasks.classList.remove('display-block')
     tasks.classList.add('display-none')
   } else {
-    tasksButton.querySelector('i').classList.remove('fa-tasks')
-    tasksButton.querySelector('i').classList.add('fa-times')
+    tasksButtonOC.querySelector('i').classList.remove('fa-tasks')
+    tasksButtonOC.querySelector('i').classList.add('fa-times')
     tasks.classList.remove('display-none')
     tasks.classList.add('display-block')
   }
   return !showingTasks
 }
 
-tasksButton.addEventListener('click', () => {
-  showingTasks = tasksHandler(tasks, tasksButton, showingTasks)
+tasksButtonOC.addEventListener('click', () => {
+  showingTasks = tasksHandler(tasks, tasksButtonOC, showingTasks)
+})
+
+tasksButtonHome.addEventListener('click', () => {
+  if (location.hash) {
+    location.href = './'
+    return
+  }
+  showingTasks = tasksHandler(tasks, tasksButtonOC, true)
 })
 
 tasks.addEventListener('click', async evt => {
@@ -41,7 +50,7 @@ tasks.addEventListener('click', async evt => {
   }
   currentPage = await getPage(taskClicked.getAttribute('href'))
   renderPage(currentPage, pagesContainer)
-  showingTasks = tasksHandler(tasks, tasksButton, true)
+  showingTasks = tasksHandler(tasks, tasksButtonOC, true)
 })
 
 addEventListener('DOMContentLoaded', async evt => {
