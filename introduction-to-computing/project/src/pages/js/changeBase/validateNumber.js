@@ -6,7 +6,7 @@ import firstDigit from './firstDigit.js'
  */
 export const isHex = strNumber => {
   const temp = strNumber.toString()
-  return temp.search(/^[0-9A-Fa-f]+(\.[0-9A-Fa-f]+)?$/) !== -1
+  return temp.search(/^[0-9A-F]+(\.[0-9A-F]+)?$/) !== -1
 }
 
 /**
