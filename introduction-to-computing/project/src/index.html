@@ -12,22 +12,25 @@
     />
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Project</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
   </head>
   <body class="container">
     <header class="main__header"></header>
     <main class="main" id="main"></main>
-    <aside class="tasks__button" id="tasks__button">
+    <aside class="tasks__button-oc" id="tasks__button-oc">
       <i class="fa fa-3x fa-tasks"></i>
     </aside>
     <div class="tasks display-none" id="tasks">
       <h2 class="title">Proyectos realizados</h2>
       <nav>
         <ul class="tasks__list">
-          <li><a class="task" href="#cover">Inicio</a></li>
           <li><a class="task" href="#change-base">Cambiar la base de un número</a></li>
           <li><a class="task" href="#another-task">Próximo proyecto</a></li>
         </ul>
       </nav>
+      <aside class="tasks__button-home" id="tasks__button-home">
+        <i class="fa fa-3x fa-home"></i>
+      </aside>
     </div>
     <script type="module" src="./js/index.js"></script>
   </body>

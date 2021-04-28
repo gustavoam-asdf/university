@@ -1,6 +1,8 @@
 const renderPage = (page, pageContainer) => {
   pageContainer.innerHTML = page.html
-  document.body.append(page.scriptLink)
+  setTimeout(() => {
+    document.body.append(page.scriptLink)
+  }, 0)
 }
 
 export default renderPage
