@@ -1,3 +1,5 @@
+import firstDigit from './firstDigit.js'
+
 /**
  * @param {String} strNumber
  * @returns
@@ -21,4 +23,11 @@ export const isNumber = strNumber => {
  */
 export const isInteger = strNumber => {
   return strNumber.search(/^[0-9]+$/) !== -1
+}
+
+export const existInBase = (strNumber, base) => {
+  const digit = firstDigit(strNumber)
+  if (strNumber.length === 1) return digit.asNumber <= base
+  if (digit.asNumber >= base) return false
+  return existInBase(strNumber.slice(digit.length), base)
 }

@@ -89,7 +89,8 @@
 .form__message {
   color: var(--white);
   background: var(--red);
-  padding: 0.5em 0.95em;
+  margin: 0;
+  padding: 0.55em 0.95em;
   border-radius: 0.25em;
   text-align: center;
   display: none;

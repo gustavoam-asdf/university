@@ -1,4 +1,4 @@
-import { isHex, isInteger } from './changeBase/validateNumber.js'
+import { existInBase, isHex, isInteger } from './changeBase/validateNumber.js'
 import decimalToAny from './changeBase/decimalBaseToAnyBase/decimalToAny.js'
 import anyToDecimal from './changeBase/anyBaseToDecimalBase/anyToDecimal.js'
 
@@ -46,22 +46,38 @@ const inputHandler = targetInput => {
   }
 }
 
-changeBaseForm.addEventListener('keyup', evt => {
+const inputEventHandler = evt => {
   const inputPressed = evt.target.closest('input')
   if (!inputPressed) return
   inputHandler(inputPressed)
-})
+}
 
-changeBaseForm.addEventListener('blur', evt => {
-  const inputPressed = evt.target.closest('input')
-  if (!inputPressed) return
-  inputHandler(inputPressed)
-})
+changeBaseForm.addEventListener('keyup', inputEventHandler)
+changeBaseForm.addEventListener('keydown', inputEventHandler)
+changeBaseForm.addEventListener('blur', inputEventHandler)
+changeBaseForm.addEventListener('focus', inputEventHandler)
+changeBaseForm.addEventListener('change', inputEventHandler)
+changeBaseForm.addEventListener('paste', inputEventHandler)
 
 changeBaseForm.addEventListener('submit', evt => {
   evt.preventDefault()
+  const errorMessage = document.getElementById('form__message')
+
+  const number = document.getElementById('number').value
+  const currentBase = Number(document.getElementById('current-base').value)
+  const targetBase = Number(document.getElementById('target-base').value)
+  const result = document.getElementById('result')
+
   if (verifier.number && verifier.currentBase && verifier.targetBase) {
-    document.getElementById('form__message').classList.remove('form__message-active')
+    if (!existInBase(number, currentBase)) {
+      errorMessage.lastChild.textContent = ' El número que ingresó no existe en esa base'
+      errorMessage.classList.add('form__message-active')
+      setTimeout(() => {
+        errorMessage.classList.add('form__message-active')
+      }, 1000)
+      return
+    }
+    errorMessage.classList.remove('form__message-active')
     document.getElementById('form__success-message').classList.add('form__success-message-active')
     setTimeout(() => {
       document
@@ -72,10 +88,6 @@ changeBaseForm.addEventListener('submit', evt => {
       .querySelectorAll('.form__group')
       .forEach(group => group.classList.remove('form__group-correct'))
 
-    const number = document.getElementById('number').value
-    const currentBase = Number(document.getElementById('current-base').value)
-    const targetBase = Number(document.getElementById('target-base').value)
-    const result = document.getElementById('result')
     let numberResult
     if (currentBase === 10) {
       numberResult = decimalToAny(targetBase, number)
@@ -85,6 +97,7 @@ changeBaseForm.addEventListener('submit', evt => {
     }
     result.value = numberResult.number
   } else {
-    document.getElementById('form__message').classList.add('form__message-active')
+    errorMessage.lastChild.textContent = ' Por favor rellena el formulario correctamente'
+    errorMessage.classList.add('form__message-active')
   }
 })
