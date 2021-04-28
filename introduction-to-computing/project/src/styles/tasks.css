@@ -75,8 +75,10 @@
 
 .tasks__button-oc:focus,
 .tasks__button-oc:active,
+.tasks__button-oc:hover,
 .tasks__button-home:focus,
-.tasks__button-home:active {
+.tasks__button-home:active,
+.tasks__button-home:hover {
   background-color: var(--dark-blue);
 }
 
