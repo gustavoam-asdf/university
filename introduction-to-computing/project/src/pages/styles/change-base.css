@@ -82,6 +82,7 @@
   font-size: 1.1em;
   z-index: var(--z-index-10);
   opacity: 0;
+  transition: 0.3s ease all;
 }
 
 .form__message,
@@ -140,11 +141,12 @@
   margin: 1em 0 0;
   padding: 0.5em 1em;
   color: var(--white);
-  display: none;
+  opacity: 0;
+  transition: 0.3s ease all;
 }
 
 .form__success-message-active {
-  display: block;
+  opacity: 1;
 }
 
 /* ----- -----  Estilos para Validacion ----- ----- */
