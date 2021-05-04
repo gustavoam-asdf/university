@@ -25,8 +25,8 @@ const drawInfo = (test, targetInput) => {
   } else {
     groupInput.classList.remove('form__group-correct')
     groupInput.classList.add('form__group-incorrect')
-    document.querySelector('i').classList.remove('fa-check-circle')
-    document.querySelector('i').classList.add('fa-times-circle')
+    groupInput.querySelector('i').classList.remove('fa-check-circle')
+    groupInput.querySelector('i').classList.add('fa-times-circle')
   }
   return test
 }
