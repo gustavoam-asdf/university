@@ -1,14 +1,27 @@
 import decimalToAny from '../changeBase/decimalBaseToAnyBase/decimalToAny.js'
+import firstDigit from '../changeBase/firstDigit.js'
 import completeWithZeros from './completeWithZeros.js'
 
 const decimalToBinary = (strNumber, precision = 100) => decimalToAny(2, strNumber, precision)
 
-const normalize = ({ unsignedNumber }, mantissaLength) => {
+const normalize = ({ unsignedNumber }) => {
   if (typeof unsignedNumber !== 'string')
     throw new TypeError('Argument must be a number type string')
   const pointPosition = unsignedNumber.indexOf('.')
-  const exponent = pointPosition === -1 ? 0 : pointPosition - 1
-  if (exponent === 0) return { exponent, mantissa: unsignedNumber.slice(2) }
+  let exponent = 0
+  if (pointPosition === -1) return { exponent, mantissa: unsignedNumber.slice(2) }
+
+  if (firstDigit(unsignedNumber).asNumber === 0) {
+    const firstOne = unsignedNumber.search(/1/)
+
+    exponent = (firstOne - 1) * -1
+    // console.log({ firstOne, unsignedNumber, mantissa: unsignedNumber.slice(firstOne + 1) })
+    return {
+      exponent,
+      mantissa: unsignedNumber.slice(firstOne + 1)
+    }
+  }
+
   const tmpMantissa = [...unsignedNumber.replace('.', '')]
   tmpMantissa.splice(1, 0, '.')
   return {
@@ -32,14 +45,16 @@ const excess = (shift, number) => {
   const binaryNumber = decimalToBinary(number)
   const { exponent, mantissa } = normalize(binaryNumber)
 
-  console.log(`A binario: ${binaryNumber.unsignedNumber}`)
-  console.log(`Exponente: ${exponent}`)
-  console.log(`Mantissa: ${mantissa}`)
   return {
     sign: binaryNumber.sign,
     exponent: completeWithZeros(decimalToBinary(exponent + shift), exponentLength),
-    mantissa: completeWithZeros({ unsignedNumber: mantissa }, mantissaLength, 'right')
+    mantissa: completeWithZeros({ unsignedNumber: mantissa }, mantissaLength, 'right', true)
   }
 }
 
-console.log(excess(127, -14.5))
+console.log(excess(1023, 0.0025))
+console.log(excess(1023, -0.0025))
+console.log(excess(1023, 0.0625))
+// console.log(excess(1023, -0.0625))
+// console.log(excess(1023, 0.625))
+console.log(excess(1023, -1.225))
