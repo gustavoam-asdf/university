@@ -7,9 +7,10 @@ import encodeHexadecimal from '../encodeHexadecimal.js'
  * @returns {String}
  */
 const integerDecimalToAny = (base, integer) => {
-  if (integer < base) return encodeHexadecimal(integer)
-  const quotient = getInteger(integer / base)
-  const remainder = getRemainder(integer, base)
+  const absolute = Math.abs(integer)
+  if (absolute < base) return encodeHexadecimal(absolute)
+  const quotient = getInteger(absolute / base)
+  const remainder = getRemainder(absolute, base)
   return `${integerDecimalToAny(base, quotient)}${remainder}`
 }
 

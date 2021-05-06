@@ -2,7 +2,7 @@
 import { isHex } from './validateNumber.js'
 
 /**
- * @param {String} number
+ * @param {Number} number
  * @returns {String}
  */
 const getInteger = number => {

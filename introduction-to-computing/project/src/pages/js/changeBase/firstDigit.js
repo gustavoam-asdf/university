@@ -1,5 +1,4 @@
 import decodeDigitHexadecimal from './decodeDigitHexadecimal.js'
-import encodeHexadecimal from './encodeHexadecimal.js'
 
 /**
  * @param {String} strNumber

@@ -10,11 +10,14 @@ import decimalsDecimalToAny from './decimalsDecimalToAny.js'
  * @returns
  */
 const decimalToAny = (base, strNumber, precision = 100) => {
+  const sign = strNumber > 0 ? '' : '-'
   const integerPart = integerDecimalToAny(base, getInteger(strNumber))
   const decimalPart = decimalsDecimalToAny(base, getDecimals(strNumber), precision)
   return {
     base,
-    number: `${integerPart}${decimalPart !== '' ? `.${decimalPart}` : ''}`,
+    sign: sign === '' ? '0' : '1',
+    number: `${sign}${integerPart}${decimalPart !== '' ? `.${decimalPart}` : ''}`,
+    unsignedNumber: `${integerPart}${decimalPart !== '' ? `.${decimalPart}` : ''}`,
     integer: integerPart,
     decimal: decimalPart
   }
