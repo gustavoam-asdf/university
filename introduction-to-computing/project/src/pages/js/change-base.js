@@ -97,7 +97,7 @@ changeBaseForm.addEventListener('submit', evt => {
     }
     result.value = numberResult.number
   } else {
-    errorMessage.lastChild.textContent = ' Por favor rellena el formulario correctamente'
+    errorMessage.lastChild.textContent = 'Por favor rellena el formulario correctamente'
     errorMessage.classList.add('form__message-active')
   }
 })
