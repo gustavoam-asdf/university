@@ -36,8 +36,8 @@ tasksButtonOC.addEventListener('click', () => {
   showingTasks = tasksHandler(tasks, tasksButtonOC, showingTasks)
 })
 
-tasksButtonHome.addEventListener('click', () => {
-  if (location.hash) {
+tasks.addEventListener('click', evt => {
+  if (location.hash && evt.target.closest('#tasks__button-home')) {
     location.href = './'
     return
   }

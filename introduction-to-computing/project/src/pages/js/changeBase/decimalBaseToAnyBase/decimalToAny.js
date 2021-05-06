@@ -9,12 +9,12 @@ import decimalsDecimalToAny from './decimalsDecimalToAny.js'
  * @param {String} strNumber
  * @returns
  */
-const decimalToAny = (base, strNumber) => {
+const decimalToAny = (base, strNumber, precision = 100) => {
   const integerPart = integerDecimalToAny(base, getInteger(strNumber))
-  const decimalPart = getDecimals(`0.${decimalsDecimalToAny(base, getDecimals(strNumber))}`)
+  const decimalPart = decimalsDecimalToAny(base, getDecimals(strNumber), precision)
   return {
     base,
-    number: `${integerPart}${decimalPart === '0.0' ? '' : `${decimalPart.slice(1)}`}`,
+    number: `${integerPart}${decimalPart !== '' ? `.${decimalPart}` : ''}`,
     integer: integerPart,
     decimal: decimalPart
   }
