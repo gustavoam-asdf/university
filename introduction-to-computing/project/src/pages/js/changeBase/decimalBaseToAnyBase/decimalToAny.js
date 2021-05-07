@@ -9,7 +9,7 @@ import decimalsDecimalToAny from './decimalsDecimalToAny.js'
  * @param {String} strNumber
  * @returns
  */
-const decimalToAny = (base, strNumber) => {
+const decimalToAny = (base, strNumber) => { //
   const integerPart = integerDecimalToAny(base, getInteger(strNumber))
   const decimalPart = getDecimals(`0.${decimalsDecimalToAny(base, getDecimals(strNumber))}`)
   return {

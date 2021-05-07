@@ -1,11 +1,12 @@
 import getInteger from './getInteger.js'
+import { isHex } from './validateNumber.js'
 
 /**
  * @param {Number} value
  * @returns the representation of a number greater than 10 in hexadecimal or the value entered if it isn't in the range
  */
 const encodeHexadecimal = value => {
-  if (isNaN(value)) throw new TypeError('Argument must be a number')
+  if (!isHex(value)) throw new TypeError('Argument must be a number')
   const strValue = getInteger(value)
   if (Number(strValue) <= 15) {
     if (strValue === '10') return 'A'

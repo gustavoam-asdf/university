@@ -21,3 +21,4 @@ export const isNumber = strNumber => {
 export const isInteger = strNumber => {
   return strNumber.search(/^[0-9]+$/) !== -1
 }
+
