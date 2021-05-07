@@ -59,7 +59,7 @@
   align-items: center;
   cursor: pointer;
   transition: 0.3s ease all;
-  box-shadow: 3px 5px 10px rgb(59, 59, 59);
+  box-shadow: 3px 5px 10px var(--overlay);
   z-index: var(--z-index-100);
 }
 
@@ -75,8 +75,10 @@
 
 .tasks__button-oc:focus,
 .tasks__button-oc:active,
+.tasks__button-oc:hover,
 .tasks__button-home:focus,
-.tasks__button-home:active {
+.tasks__button-home:active,
+.tasks__button-home:hover {
   background-color: var(--dark-blue);
 }
 

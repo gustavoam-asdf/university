@@ -36,8 +36,8 @@ tasksButtonOC.addEventListener('click', () => {
   showingTasks = tasksHandler(tasks, tasksButtonOC, showingTasks)
 })
 
-tasksButtonHome.addEventListener('click', () => {
-  if (location.hash) {
+tasks.addEventListener('click', evt => {
+  if (location.hash && evt.target.closest('#tasks__button-home')) {
     location.href = './'
     return
   }
@@ -57,7 +57,7 @@ tasks.addEventListener('click', async evt => {
   renderPage(currentPage, pagesContainer)
   setTimeout(() => {
     preloader.remove()
-  }, 1000)
+  }, 200)
   showingTasks = tasksHandler(tasks, tasksButtonOC, true)
 })
 

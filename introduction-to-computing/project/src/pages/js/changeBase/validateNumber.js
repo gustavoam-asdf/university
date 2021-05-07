@@ -6,7 +6,7 @@ import firstDigit from './firstDigit.js'
  */
 export const isHex = strNumber => {
   const temp = strNumber.toString()
-  return temp.search(/^[0-9A-Fa-f]+(\.[0-9A-Fa-f]+)?$/) !== -1 
+  return temp.search(/^-?[0-9A-F]+(\.[0-9A-F]+)?$/) !== -1
 }
 /*  strNumber = "AB"
     temp = true;
@@ -17,7 +17,7 @@ export const isHex = strNumber => {
  * @returns
  */
 export const isNumber = strNumber => {
-  return strNumber.search(/^[0-9]+(\.[0-9]+)?$/) !== -1
+  return strNumber.search(/^-?[0-9]+(\.[0-9]+)?$/) !== -1
 }
 /*  strNumber = ".510"
     return true;
@@ -28,7 +28,14 @@ export const isNumber = strNumber => {
  * @returns
  */
 export const isInteger = strNumber => {
-  return strNumber.search(/^[0-9]+$/) !== -1
+  return strNumber.search(/^-?[0-9]+$/) !== -1
+}
+
+export const existInBase = (strNumber, base) => {
+  const digit = firstDigit(strNumber)
+  if (strNumber.length === 1) return digit.asNumber < base
+  if (digit.asNumber >= base) return false
+  return existInBase(strNumber.slice(digit.length), base)
 }
 
 /*  strNumber = "10"

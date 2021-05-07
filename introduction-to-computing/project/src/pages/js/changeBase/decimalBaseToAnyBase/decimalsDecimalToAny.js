@@ -8,13 +8,13 @@ import encodeHexadecimal from '../encodeHexadecimal.js'
  * @param {Number} precision
  * @returns {String}
  */
-const decimalsDecimalToAny = (base, decimalPart, precision = 0) => {
-  if (precision === 100) return ''
+const decimalsDecimalToAny = (base, decimalPart, precision = 100) => {
+  if (precision === 0) return ''
   const numberXdecimals = decimalPart * base
-  if (numberXdecimals === 0) return 0
+  if (numberXdecimals === 0) return ''
   const digitToLeave = encodeHexadecimal(getInteger(numberXdecimals))
   const remainder = getDecimals(numberXdecimals.toString()) - getDecimals(digitToLeave)
-  return `${digitToLeave}${decimalsDecimalToAny(base, remainder, ++precision)}`
+  return `${digitToLeave}${decimalsDecimalToAny(base, remainder, --precision)}`
 }
 
 export default decimalsDecimalToAny

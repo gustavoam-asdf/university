@@ -1,4 +1,3 @@
-// <<<<<<< HEAD
 import createCSSLink from './functions/createCSSLink.js'
 
 class Preloader extends HTMLElement {
@@ -14,4 +13,3 @@ class Preloader extends HTMLElement {
 }
 
 customElements.define('pre-loader', Preloader)
-// =======

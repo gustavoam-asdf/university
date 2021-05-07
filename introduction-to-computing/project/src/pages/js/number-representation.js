@@ -8,6 +8,7 @@ import { existInBase, isHex, isInteger } from './changeBase/validateNumber.js'
 import decimalToAny from './changeBase/decimalBaseToAnyBase/decimalToAny.js'
 import anyToDecimal from './changeBase/anyBaseToDecimalBase/anyToDecimal.js'
 import applyEventsForm from '../../js/formHandler/applyEventsForm.js'
+import './numberRepresentations/numberRepresentation.js'
 
 const changeBaseForm = document.getElementById('change-base__form')
 

@@ -10,7 +10,7 @@ const getDecimals = number => {
   let decimalPart = 0
   const floatingPoint = strNumber.indexOf('.')
   if (floatingPoint !== -1) {
-    decimalPart = parseFloat(`0.${strNumber.slice(floatingPoint + 1)}`)
+    decimalPart = `0.${strNumber.slice(floatingPoint + 1)}`
   }
   return decimalPart.toString()
 }
