@@ -13,6 +13,7 @@ const completeWithZeros = ({ unsignedNumber }, bits = 0, position = 'left', cutM
   if (bits === 0) bits = findNearestLenght(unsignedNumber.length, 2)
   if (unsignedNumber.length > bits) {
     if (!cutMode) throw new Error('Ocurred a overflow')
+    // console.warn('Overflow may have occurred')
     return unsignedNumber.slice(0, bits)
   }
   if (position === 'left') {

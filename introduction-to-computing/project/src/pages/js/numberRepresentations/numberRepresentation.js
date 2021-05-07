@@ -1,32 +1,32 @@
 import decimalToAny from '../changeBase/decimalBaseToAnyBase/decimalToAny.js'
 import firstDigit from '../changeBase/firstDigit.js'
+import { isInteger } from '../changeBase/validateNumber.js'
 import completeWithZeros from './completeWithZeros.js'
 
 const decimalToBinary = (strNumber, precision = 100) => decimalToAny(2, strNumber, precision)
 
+const firstDigitIsZero = strNumber => firstDigit(strNumber).asNumber === 0
+
+const shiftPoint = strNumber => {
+  if (typeof strNumber !== 'string') throw new TypeError('Number must be a number type string')
+  if (isInteger(strNumber)) return { shifted: strNumber.length - 1, decimals: strNumber.slice(1) }
+  const pointPosition = strNumber.indexOf('.')
+
+  if (firstDigitIsZero(strNumber)) {
+    const firstOnePosition = strNumber.search(/1/)
+    return { shifted: 1 - firstOnePosition, decimals: strNumber.slice(firstOnePosition + 1) }
+  }
+
+  return { shifted: pointPosition - 1, decimals: strNumber.slice(pointPosition + 1) }
+}
+
 const normalize = ({ unsignedNumber }) => {
   if (typeof unsignedNumber !== 'string')
     throw new TypeError('Argument must be a number type string')
-  const pointPosition = unsignedNumber.indexOf('.')
-  let exponent = 0
-  if (pointPosition === -1) return { exponent, mantissa: unsignedNumber.slice(2) }
-
-  if (firstDigit(unsignedNumber).asNumber === 0) {
-    const firstOne = unsignedNumber.search(/1/)
-
-    exponent = (firstOne - 1) * -1
-    // console.log({ firstOne, unsignedNumber, mantissa: unsignedNumber.slice(firstOne + 1) })
-    return {
-      exponent,
-      mantissa: unsignedNumber.slice(firstOne + 1)
-    }
-  }
-
-  const tmpMantissa = [...unsignedNumber.replace('.', '')]
-  tmpMantissa.splice(1, 0, '.')
+  const { shifted, decimals } = shiftPoint(unsignedNumber)
   return {
-    exponent,
-    mantissa: tmpMantissa.join('').slice(2)
+    exponent: shifted,
+    mantissa: decimals
   }
 }
 
@@ -44,7 +44,6 @@ const excess = (shift, number) => {
   }
   const binaryNumber = decimalToBinary(number)
   const { exponent, mantissa } = normalize(binaryNumber)
-
   return {
     sign: binaryNumber.sign,
     exponent: completeWithZeros(decimalToBinary(exponent + shift), exponentLength),
@@ -55,6 +54,7 @@ const excess = (shift, number) => {
 console.log(excess(1023, 0.0025))
 console.log(excess(1023, -0.0025))
 console.log(excess(1023, 0.0625))
-// console.log(excess(1023, -0.0625))
-// console.log(excess(1023, 0.625))
+console.log(excess(1023, -0.0625))
+console.log(excess(1023, 0.625))
 console.log(excess(1023, -1.225))
+console.log(excess(1023, 25))
