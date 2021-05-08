@@ -14,3 +14,4 @@ const firstDigit = strNumber => {
 }
 
 export default firstDigit
+

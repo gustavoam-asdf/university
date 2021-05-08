@@ -54,7 +54,6 @@ numberRepresentation.addEventListener('submit', evt => {
   if (!existInBase(number, currentBase)) {
     showFormErrorMessage(errorMessage, 'El número que ingresó no existe en esa base', 3)
     clearForm(numberRepresentation)
-    return
   }
 
   let numberResult
