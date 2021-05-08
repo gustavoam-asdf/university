@@ -1,19 +1,18 @@
-.change-base {
-  padding-bottom: 8em;
+.number-representation {
   width: 80%;
-  max-width: 35em;
+  max-width: 50em;
 }
 
-.change-base .title {
+.number-representation .title {
   color: var(--dark-blue);
   margin-top: 0;
   text-align: center;
 }
 
-.change-base__form {
+.number-representation__form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.1em;
+  gap: 0.9em;
 }
 
 .form__label {
@@ -147,6 +146,77 @@
 
 .form__success-message-active {
   opacity: 1;
+}
+
+#group__excess__127,
+#group__excess__1023 {
+  grid-column: span 2;
+  display: grid;
+  gap: 0.4em;
+}
+
+#group__excess__127 .form__input,
+#group__excess__1023 .form__input {
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+
+#group__excess__127 {
+  grid-template-columns: repeat(32, 1fr);
+}
+
+#group__excess__127 .form__label {
+  grid-column: span 32;
+}
+
+#sign__127 {
+  grid-column: span 2;
+}
+
+#exponent__127 {
+  grid-column: span 6;
+}
+
+#mantissa__127 {
+  letter-spacing: 0.1em;
+  grid-column: span 24;
+}
+
+#group__decode__127 {
+  grid-column: span 2;
+}
+
+.result .form__label {
+  color: var(--gray);
+}
+
+.result .form__input {
+  background-color: var(--gray);
+}
+
+#group__excess__1023 {
+  grid-template-columns: repeat(64, 1fr);
+}
+
+#group__excess__1023 .form__label {
+  grid-column: span 64;
+}
+
+#sign__1023 {
+  grid-column: span 3;
+}
+
+#exponent__1023 {
+  grid-column: span 12;
+}
+
+#mantissa__1023 {
+  grid-column: span 49;
+}
+
+#group__decode__1023 {
+  grid-column: span 2;
 }
 
 /* ----- -----  Estilos para Validacion ----- ----- */

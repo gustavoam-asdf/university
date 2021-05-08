@@ -10,7 +10,7 @@ import anyToDecimal from './changeBase/anyBaseToDecimalBase/anyToDecimal.js'
 import applyEventsForm from '../../js/formHandler/applyEventsForm.js'
 import './numberRepresentations/numberRepresentation.js'
 
-const changeBaseForm = document.getElementById('change-base__form')
+const numberRepresentation = document.getElementById('number-representation__form')
 
 const verifier = {
   number: false,
@@ -35,9 +35,9 @@ const inputEventHandler = evt => {
   }
 }
 
-applyEventsForm(changeBaseForm, inputEventHandler)
+applyEventsForm(numberRepresentation, inputEventHandler)
 
-changeBaseForm.addEventListener('submit', evt => {
+numberRepresentation.addEventListener('submit', evt => {
   evt.preventDefault()
   const errorMessage = document.getElementById('form__message')
 
@@ -53,7 +53,7 @@ changeBaseForm.addEventListener('submit', evt => {
 
   if (!existInBase(number, currentBase)) {
     showFormErrorMessage(errorMessage, 'El número que ingresó no existe en esa base', 3)
-    clearForm(changeBaseForm)
+    clearForm(numberRepresentation)
     return
   }
 
@@ -67,5 +67,5 @@ changeBaseForm.addEventListener('submit', evt => {
   result.value = numberResult.number
 
   showFormSuccessMessage(document.getElementById('form__success-message'), 2)
-  clearForm(changeBaseForm)
+  clearForm(numberRepresentation)
 })
