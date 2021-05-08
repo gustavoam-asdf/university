@@ -1,5 +1,6 @@
 import encodeToExcess from './ieee754/encodeToExcess.js'
-
+import anyToDecimal from '../changeBase/anyBaseToDecimalBase/anyToDecimal.js'
+import firstDigit from '../changeBase/firstDigit.js'
 
 // console.log(encodeToExcess(127, 0.0025))
 // console.log(encodeToExcess(127, -0.0025))
