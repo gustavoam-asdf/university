@@ -1,5 +1,6 @@
 import encodeToExcess from './ieee754/encodeToExcess.js'
 
+
 // console.log(encodeToExcess(127, 0.0025))
 // console.log(encodeToExcess(127, -0.0025))
 // console.log(encodeToExcess(127, 0.0625))
