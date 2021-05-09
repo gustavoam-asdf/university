@@ -23,14 +23,7 @@ const inputEventHandler = evt => {
   if (!inputPressed) return
   const value = inputPressed.value
   if (inputPressed.name === 'number') {
-    let decimals
-    try {
-      decimals = getDecimals(value)
-    } catch (error) {
-      decimals = ''
-    }
-    const test = isNumber(value) && decimals.length <= 10
-    verifier.number = drawInputInfo(test, inputPressed)
+    verifier.number = drawInputInfo(isNumber(value), inputPressed)
   } else if (inputPressed.name === 'target-excess') {
     verifier.targetExcess = drawInputInfo(value === '127' || value === '1023', inputPressed)
   }
