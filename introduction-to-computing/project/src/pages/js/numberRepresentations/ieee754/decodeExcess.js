@@ -1,7 +1,7 @@
 import anyToDecimal from '../../changeBase/anyBaseToDecimalBase/anyToDecimal.js'
 import firstDigit from '../../changeBase/firstDigit.js'
 
-const Disestructure = (bias, number) => {
+const Deconstruct = (bias, number) => {
   const digit = firstDigit(number.toString())
   const sign = digit.asNumber == 1 ? '-' : ''
   const restonumber = number.slice(1)
@@ -17,29 +17,39 @@ const Disestructure = (bias, number) => {
   return { sign, shift, mantissa }
 }
 
-const ExcessToDecimal = (bias, number) => {
+const BuildNumber = (sign, mantissa, exp) => {
+  let completeform = `1.${mantissa}`
+  if (completeform.indexOf('.') !== -1) {
+    completeform = completeform.replace('.', '')
+  }
+  let part1 = completeform.slice(0, exp + 1)
+  let part2 = completeform.slice(exp + 1)
+
+  completeform = part1.concat('.', part2)
+
+  let Decimalnumber = anyToDecimal(2, completeform).number
+  Decimalnumber = sign.concat('', Decimalnumber)
+
+  return Decimalnumber
+}
+
+export const ExcessToDecimal = (bias, number) => {
   if (typeof bias !== 'number') throw new TypeError('Bias must be a number')
   if (bias !== 127 && bias !== 1023) throw new Error('Invalid, bias must be 127 or 1023')
+
   let exponent
+
   if (bias === 127) {
-    exponent = anyToDecimal(2, Disestructure(bias, number).shift).unsignedNumber // string
+    exponent = anyToDecimal(2, Deconstruct(bias, number).shift).integer
     exponent = exponent - bias
   } else {
-    exponent = anyToDecimal(2, Disestructure(bias, number).shift).unsignedNumber // string
+    exponent = anyToDecimal(2, Deconstruct(bias, number).shift).integer
     exponent = exponent - bias
   }
 
-  const sign = Disestructure(bias, number).sign // + o - en string
-  const mantissa = Disestructure(bias, number).mantissa //string
-
-  let res = `1.${mantissa}`
-  res = res.replace('.', '')
-  let res1 = res.slice(0, exponent + 1)
-  let res2 = res.slice(exponent + 1)
-  res = res1.concat('.', res2)
-
-  let numeroDecimal = anyToDecimal(2, res).number
-  numeroDecimal = sign.concat('', numeroDecimal)
+  const sign = Deconstruct(bias, number).sign
+  const mantissa = Deconstruct(bias, number).mantissa
+  const numeroDecimal = BuildNumber(sign, mantissa, exponent)
 
   return numeroDecimal
 }
