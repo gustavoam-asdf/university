@@ -4,18 +4,18 @@ import {
   showFormErrorMessage,
   showFormSuccessMessage
 } from '../../js/formHandler/drawInfo.js'
-import { existInBase, isHex, isInteger } from './changeBase/validateNumber.js'
-import decimalToAny from './changeBase/decimalBaseToAnyBase/decimalToAny.js'
-import anyToDecimal from './changeBase/anyBaseToDecimalBase/anyToDecimal.js'
 import applyEventsForm from '../../js/formHandler/applyEventsForm.js'
-import './numberRepresentations/numberRepresentation.js'
 
-const changeBaseForm = document.getElementById('change-base__form')
+import encodeToExcess from './numberRepresentations/ieee754/encodeToExcess.js'
+import { isNumber } from './changeBase/validateNumber.js'
+import getDecimals from './changeBase/getDecimals.js'
+import ExcessToDecimal from './numberRepresentations/ieee754/decodeExcess.js'
+
+const numberRepresentation = document.getElementById('number-representation__form')
 
 const verifier = {
   number: false,
-  currentBase: false,
-  targetBase: false
+  targetExcess: false
 }
 
 const inputEventHandler = evt => {
@@ -23,49 +23,48 @@ const inputEventHandler = evt => {
   if (!inputPressed) return
   const value = inputPressed.value
   if (inputPressed.name === 'number') {
-    verifier.number = drawInputInfo(isHex(value), inputPressed)
-  } else if (inputPressed.name === 'current-base') {
-    verifier.currentBase = drawInputInfo(isInteger(value) && parseInt(value) > 1, inputPressed)
-  } else if (inputPressed.name === 'target-base') {
-    const currentBase = document.getElementById('current-base')
-    verifier.targetBase = drawInputInfo(
-      isInteger(value) && value !== currentBase.value && parseInt(value) > 1,
-      inputPressed
-    )
+    let decimals
+    try {
+      decimals = getDecimals(value)
+    } catch (error) {
+      decimals = ''
+    }
+    const test = isNumber(value) && decimals.length <= 10
+    verifier.number = drawInputInfo(test, inputPressed)
+  } else if (inputPressed.name === 'target-excess') {
+    verifier.targetExcess = drawInputInfo(value === '127' || value === '1023', inputPressed)
   }
 }
 
-applyEventsForm(changeBaseForm, inputEventHandler)
+applyEventsForm(numberRepresentation, inputEventHandler)
 
-changeBaseForm.addEventListener('submit', evt => {
+numberRepresentation.addEventListener('submit', evt => {
   evt.preventDefault()
   const errorMessage = document.getElementById('form__message')
 
-  if (!(verifier.number && verifier.currentBase && verifier.targetBase)) {
-    showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 5)
+  if (!(verifier.number && verifier.targetExcess)) {
+    showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 4)
     return
   }
 
   const number = document.getElementById('number').value
-  const currentBase = Number(document.getElementById('current-base').value)
-  const targetBase = Number(document.getElementById('target-base').value)
-  const result = document.getElementById('result')
+  const targetExcess = Number(document.getElementById('target-excess').value)
+  const $sign = document.getElementById('sign')
+  const $exponent = document.getElementById('exponent')
+  const $mantissa = document.getElementById('mantissa')
+  const $decode = document.getElementById('decode')
 
-  if (!existInBase(number, currentBase)) {
-    showFormErrorMessage(errorMessage, 'El número que ingresó no existe en esa base', 3)
-    clearForm(changeBaseForm)
-    return
+  try {
+    const { sign, exponent, mantissa } = encodeToExcess(targetExcess, number)
+    $sign.value = sign
+    $exponent.value = exponent
+    $mantissa.value = mantissa
+    $decode.value = ExcessToDecimal(targetExcess, `${sign}${exponent}${mantissa}`)
+  } catch (error) {
+    console.log(error)
+    showFormErrorMessage(errorMessage, 'A ocurrido un error', 4)
   }
-
-  let numberResult
-  if (currentBase === 10) {
-    numberResult = decimalToAny(targetBase, number)
-  } else {
-    numberResult = anyToDecimal(currentBase, number)
-    numberResult = decimalToAny(targetBase, numberResult.number)
-  }
-  result.value = numberResult.number
 
   showFormSuccessMessage(document.getElementById('form__success-message'), 2)
-  clearForm(changeBaseForm)
+  clearForm(numberRepresentation)
 })

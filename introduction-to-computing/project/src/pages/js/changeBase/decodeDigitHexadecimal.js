@@ -16,3 +16,8 @@ const decodeDigitHexadecimal = strDigit => {
 }
 
 export default decodeDigitHexadecimal
+
+/*strDigit = 10.5 ()16
+  valor = "1"
+  digit = "1"
+  return = 1.00*/

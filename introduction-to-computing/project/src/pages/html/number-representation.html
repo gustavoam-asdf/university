@@ -1,6 +1,6 @@
-<section class="change-base">
-  <h2 class="title">Representación de números</h2>
-  <form class="change-base__form" id="change-base__form">
+<section class="number-representation">
+  <h2 class="title">Representar números en formato IEEE 754</h2>
+  <form class="number-representation__form" id="number-representation__form">
     <!-- Grupo: Number -->
     <div class="form__group" id="group__number">
       <label for="number" class="form__label">Numero</label>
@@ -18,44 +18,21 @@
       <p class="form__input-error">Número no válido</p>
     </div>
 
-    <!-- Grupo: Current Base -->
-    <div class="form__group" id="group__current-base">
-      <label for="current-base" class="form__label">Base actual</label>
+    <!-- Grupo: Target Excess -->
+    <div class="form__group" id="group__target-excess">
+      <label for="target-excess" class="form__label">Tipo de exceso</label>
       <div class="form__group-input">
         <input
           type="text"
           class="form__input"
-          name="current-base"
-          id="current-base"
-          placeholder="10"
+          name="target-excess"
+          id="target-excess"
+          placeholder="127"
           autocomplete="off"
         />
         <i class="form__check-state fas fa-times-circle"></i>
       </div>
-      <p class="form__input-error">
-        La base debe ser un número <br />
-        entero mayor que 1
-      </p>
-    </div>
-
-    <!-- Grupo: Target Base -->
-    <div class="form__group" id="group__target-base">
-      <label for="target-base" class="form__label">Base destino</label>
-      <div class="form__group-input">
-        <input
-          type="text"
-          class="form__input"
-          name="target-base"
-          id="target-base"
-          placeholder="2"
-          autocomplete="off"
-        />
-        <i class="form__check-state fas fa-times-circle"></i>
-      </div>
-      <p class="form__input-error">
-        Debe ser un número entero distinto <br />
-        a la base actual
-      </p>
+      <p class="form__input-error">Debe escribir 127 o 1023</p>
     </div>
 
     <div class="form__group form__group-btn-send">
@@ -72,16 +49,66 @@
       Por favor rellena el formulario correctamente
     </p>
 
-    <!-- Grupo: Result -->
-    <div class="form__group" id="group__result">
-      <label for="result" class="form__label">Resultado</label>
+    <div class="encode" id="group__encode">
+      <!-- Grupo: Signo -->
+      <div class="form__group" id="group__sign">
+        <label for="sign" class="form__label">Signo</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="sign"
+            id="sign"
+            placeholder="0"
+            readonly
+            disabled
+          />
+        </div>
+      </div>
+
+      <!-- Grupo: Exponent -->
+      <div class="form__group" id="group__exponent">
+        <label for="exponent" class="form__label">Exponente</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="exponent"
+            id="exponent"
+            placeholder="10000010"
+            readonly
+            disabled
+          />
+        </div>
+      </div>
+
+      <!-- Grupo: Mantissa -->
+      <div class="form__group" id="group__mantissa">
+        <label for="mantissa" class="form__label">Mantisa</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="mantissa"
+            id="mantissa"
+            placeholder="01000000000000000000000"
+            readonly
+            disabled
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Group: Decodificacion -->
+    <div class="form__group" id="group__decode">
+      <label for="decode" class="form__label">Numero decodificado</label>
       <div class="form__group-input">
         <input
           type="text"
           class="form__input"
-          name="result"
-          id="result"
-          placeholder="1010"
+          name="decode"
+          id="decode"
+          placeholder="10"
           readonly
           disabled
         />

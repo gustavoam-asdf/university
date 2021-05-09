@@ -27,7 +27,8 @@ export const isInteger = strNumber => {
 
 export const existInBase = (strNumber, base) => {
   const digit = firstDigit(strNumber)
-  if (strNumber.length === 1) return digit.asNumber < base
+  console.log(digit)
+  if (strNumber.length === 1) return digit.asNumber <= base
   if (digit.asNumber >= base) return false
   return existInBase(strNumber.slice(digit.length), base)
 }
