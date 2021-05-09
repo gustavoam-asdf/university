@@ -6,7 +6,7 @@ const decimalToBinary = (strNumber, precision = 100) => decimalToAny(2, strNumbe
 
 const encodeToExcess = (shift, number) => {
   if (typeof shift !== 'number') throw new TypeError('Shift must be a number')
-  if (shift !== 127 && shift !== 1023) throw new Error('Invalid, shift must be 123 or 1023')
+  if (shift !== 127 && shift !== 1023) throw new Error('Invalid, shift must be 127 or 1023')
   let exponentLength
   let mantissaLength
   if (shift === 127) {

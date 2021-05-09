@@ -21,9 +21,12 @@ const normalize = ({ unsignedNumber }) => {
     }
   }
 
+  const number = [...unsignedNumber.replace('.', '')]
+  number.splice(1, 0, '.')
+
   return {
     exponent: pointPosition - 1,
-    mantissa: unsignedNumber.slice(pointPosition + 1)
+    mantissa: number.slice(2).join('')
   }
 }
 
