@@ -18,6 +18,23 @@
       <p class="form__input-error">Número no válido</p>
     </div>
 
+    <!-- Grupo: Target Excess -->
+    <div class="form__group" id="group__target-excess">
+      <label for="target-excess" class="form__label">Tipo de exceso</label>
+      <div class="form__group-input">
+        <input
+          type="text"
+          class="form__input"
+          name="target-excess"
+          id="target-excess"
+          placeholder="127"
+          autocomplete="off"
+        />
+        <i class="form__check-state fas fa-times-circle"></i>
+      </div>
+      <p class="form__input-error">Debe escribir 127 o 1023</p>
+    </div>
+
     <div class="form__group form__group-btn-send">
       <button type="submit" class="form__btn">Convertir</button>
       <p class="form__success-message" id="form__success-message">
@@ -32,107 +49,65 @@
       Por favor rellena el formulario correctamente
     </p>
 
-    <!-- Grupo: Result 127 -->
-    <div class="form__group" id="group__excess__127">
-      <label class="form__label">Resultado en exceso 127</label>
-      <div class="form__group-input" id="sign__127">
-        <input
-          type="text"
-          class="form__input"
-          name="sign__127"
-          id="sign__127"
-          placeholder="0"
-          readonly
-          disabled
-        />
+    <div class="encode" id="group__encode">
+      <!-- Grupo: Signo -->
+      <div class="form__group" id="group__sign">
+        <label for="sign" class="form__label">Signo</label>
+        <div class="form__group-input" id="sign">
+          <input
+            type="text"
+            class="form__input"
+            name="sign"
+            id="sign"
+            placeholder="0"
+            readonly
+            disabled
+          />
+        </div>
       </div>
-      <div class="form__group-input" id="exponent__127">
-        <input
-          type="text"
-          class="form__input"
-          name="exponent__127"
-          id="exponent__127"
-          placeholder="10000010"
-          readonly
-          disabled
-        />
+
+      <!-- Grupo: Exponent -->
+      <div class="form__group" id="group__exponent">
+        <label for="exponent" class="form__label">Exponente</label>
+        <div class="form__group-input" id="exponent">
+          <input
+            type="text"
+            class="form__input"
+            name="exponent"
+            id="exponent"
+            placeholder="10000010"
+            readonly
+            disabled
+          />
+        </div>
       </div>
-      <div class="form__group-input" id="mantissa__127">
-        <input
-          type="text"
-          class="form__input"
-          name="mantissa__127"
-          id="mantissa__127"
-          placeholder="01000000000000000000000"
-          readonly
-          disabled
-        />
+
+      <!-- Grupo: Mantissa -->
+      <div class="form__group" id="group__mantissa">
+        <label for="mantissa" class="form__label">Mantisa</label>
+        <div class="form__group-input" id="mantissa">
+          <input
+            type="text"
+            class="form__input"
+            name="mantissa"
+            id="mantissa"
+            placeholder="01000000000000000000000"
+            readonly
+            disabled
+          />
+        </div>
       </div>
     </div>
 
-    <!-- Group: Decodificacion del 127 -->
-    <div class="form__group result" id="group__decode__127">
-      <label for="decode__127" class="form__label">Numero decodificado de exceso 127</label>
-      <div class="form__group-input" id="decode__127">
+    <!-- Group: Decodificacion -->
+    <div class="form__group" id="group__decode">
+      <label for="decode" class="form__label">Numero decodificado</label>
+      <div class="form__group-input" id="decode">
         <input
           type="text"
           class="form__input"
-          name="decode__127"
-          id="decode__127"
-          placeholder="10"
-          readonly
-          disabled
-        />
-      </div>
-    </div>
-
-    <!-- Grupo: Result 1023 -->
-    <div class="form__group" id="group__excess__1023">
-      <label class="form__label">Resultado en exceso 1023</label>
-      <div class="form__group-input" id="sign__1023">
-        <input
-          type="text"
-          class="form__input"
-          name="sign__1023"
-          id="sign__1023"
-          placeholder="0"
-          readonly
-          disabled
-        />
-      </div>
-      <div class="form__group-input" id="exponent__1023">
-        <input
-          type="text"
-          class="form__input"
-          name="exponent__1023"
-          id="exponent__1023"
-          placeholder="10000000010"
-          readonly
-          disabled
-        />
-      </div>
-      <div class="form__group-input" id="mantissa__1023">
-        <input
-          type="text"
-          class="form__input"
-          name="mantissa__1023"
-          id="mantissa__1023"
-          placeholder="0100000000000000000000000000000000000000000000000000"
-          readonly
-          disabled
-        />
-      </div>
-    </div>
-
-    <!-- Group: Decodificacion del 1023 -->
-    <div class="form__group result" id="group__decode__1023">
-      <label for="decode__1023" class="form__label">Numero decodificado de exceso 1023</label>
-      <div class="form__group-input" id="decode__1023">
-        <input
-          type="text"
-          class="form__input"
-          name="decode__1023"
-          id="decode__1023"
+          name="decode"
+          id="decode"
           placeholder="10"
           readonly
           disabled
