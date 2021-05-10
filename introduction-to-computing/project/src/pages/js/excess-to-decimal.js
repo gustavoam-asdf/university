@@ -6,7 +6,7 @@ import {
 } from '../../js/formHandler/drawInfo.js'
 import applyEventsForm from '../../js/formHandler/applyEventsForm.js'
 
-import { isNumber } from './changeBase/validateNumber.js'
+import { existInBase, isNumber } from './changeBase/validateNumber.js'
 import ExcessToDecimal from './numberRepresentations/ieee754/decodeExcess.js'
 
 const numberRepresentation = document.getElementById('number-representation__form')
@@ -22,7 +22,7 @@ const inputEventHandler = evt => {
   const value = inputPressed.value
   if (inputPressed.name === 'excess-number') {
     verifier.number = drawInputInfo(
-      isNumber(value) && (value.length === 32 || value.length === 64),
+      isNumber(value) && (value.length === 32 || value.length === 64) && existInBase(value, 2),
       inputPressed
     )
   } else if (inputPressed.name === 'current-excess') {
