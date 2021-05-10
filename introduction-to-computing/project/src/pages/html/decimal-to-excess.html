@@ -1,5 +1,5 @@
 <section class="number-representation">
-  <h2 class="title">Representar números en formato IEEE 754</h2>
+  <h2 class="title">Convertir número decimal a formato IEEE 754</h2>
   <form class="number-representation__form" id="number-representation__form">
     <!-- Grupo: Number -->
     <div class="form__group" id="group__number">
@@ -20,7 +20,7 @@
 
     <!-- Grupo: Target Excess -->
     <div class="form__group" id="group__target-excess">
-      <label for="target-excess" class="form__label">Tipo de exceso</label>
+      <label for="target-excess" class="form__label">Exceso</label>
       <div class="form__group-input">
         <input
           type="text"
@@ -50,6 +50,14 @@
     </p>
 
     <div class="encode" id="group__encode">
+      <div class="form__group form__group-btn-send button-copy">
+        <button type="button" class="form__btn" id="form__button-copy">Copiar resultado</button>
+        <p class="form__success-message button-copy__message">
+          <i class="fas fa-check"></i>
+          Copiado
+        </p>
+      </div>
+
       <!-- Grupo: Signo -->
       <div class="form__group" id="group__sign">
         <label for="sign" class="form__label">Signo</label>

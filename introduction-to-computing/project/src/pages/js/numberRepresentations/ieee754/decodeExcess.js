@@ -25,7 +25,7 @@ const BuildNumber = (sign, mantissa, exp) => {
   let completeform = `1.${mantissa}`
 
   if (exp > 0) {
-    if (completeform.indexOf(".") !== -1) {
+    if (completeform.indexOf('.') !== -1) {
       completeform = completeform.replace('.', '')
     }
     let part1 = completeform.slice(0, exp + 1)
@@ -33,14 +33,14 @@ const BuildNumber = (sign, mantissa, exp) => {
 
     completeform = part1.concat('.', part2)
   } else if (exp < 0) {
-    if (completeform.indexOf(".") !== -1) {
+    if (completeform.indexOf('.') !== -1) {
       completeform = completeform.replace('.', '')
     }
-    let part1 = "0"
+    let part1 = '0'
     let part2 = completeform
     let exptemp = exp * -1
-    
-    for (let index = 0; index < exptemp -1 ; index++) {
+
+    for (let index = 0; index < exptemp - 1; index++) {
       part2 = `0${part2}`
     }
     
@@ -77,14 +77,14 @@ const ExcessToDecimal = (bias, number) => {
 
   let exponent = 0
   if (bias === 127) {
-    if (number.split("").length == 32) {
+    if (number.split('').length == 32) {
       exponent = anyToDecimal(2, Deconstruct(bias, number).shift).unsignedNumber // string
       exponent = exponent - bias
     } else {
       throw new Error('Invalid, excess must have 32 digits')
     }
   } else if (bias === 1023) {
-    if (number.split("").length == 64) {
+    if (number.split('').length == 64) {
       exponent = anyToDecimal(2, Deconstruct(bias, number).shift).unsignedNumber // string
       exponent = exponent - bias
     } else {

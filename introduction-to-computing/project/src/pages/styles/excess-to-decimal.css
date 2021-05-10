@@ -14,19 +14,15 @@
 .number-representation__form {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 0.9em;
+  gap: 2em;
 }
 
-#group__number {
-  grid-column: span 6;
+#group__excess-number {
+  grid-column: span 12;
 }
 
-#group__target-excess {
-  grid-column: span 3;
-}
-
-#group__target-excess .form__input {
-  padding-right: 0.7em;
+#group__current-excess {
+  grid-column: span 4;
 }
 
 .form__label {
@@ -117,7 +113,7 @@
 }
 
 .form__group-btn-send {
-  grid-column: span 3;
+  grid-column: span 8;
   display: flex;
   align-items: flex-end;
 }
@@ -142,7 +138,7 @@
 
 .form__success-message {
   position: absolute;
-  top: 7.5em;
+  top: -4em;
   left: 0;
   width: 100%;
   text-align: center;

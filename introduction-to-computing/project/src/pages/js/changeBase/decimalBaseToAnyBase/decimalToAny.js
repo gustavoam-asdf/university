@@ -2,6 +2,7 @@ import getInteger from '../getInteger.js'
 import getDecimals from '../getDecimals.js'
 import integerDecimalToAny from './integerDecimalToAny.js'
 import decimalsDecimalToAny from './decimalsDecimalToAny.js'
+import firstDigit from '../firstDigit.js'
 
 // Convert a number in decimal base to another base
 /**
@@ -10,7 +11,7 @@ import decimalsDecimalToAny from './decimalsDecimalToAny.js'
  * @returns
  */
 const decimalToAny = (base, strNumber, precision = 100) => {
-  const sign = strNumber > 0 ? '' : '-'
+  const sign = strNumber[0] === '-' ? '-' : ''
   const integerPart = integerDecimalToAny(base, getInteger(strNumber))
   const decimalPart = decimalsDecimalToAny(base, getDecimals(strNumber), precision)
   return {
