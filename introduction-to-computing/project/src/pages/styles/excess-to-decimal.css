@@ -14,7 +14,7 @@
 .number-representation__form {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 0.9em;
+  gap: 2em;
 }
 
 #group__excess-number {
@@ -73,6 +73,7 @@
   font-size: 0.9em;
   margin-bottom: 0;
   display: none;
+  position: absolute;
 }
 
 .form__input-error-active {
@@ -96,7 +97,7 @@
 .form__message {
   color: var(--white);
   background: var(--red);
-  margin: 0;
+  margin: 2em 0 -2em 0;
   padding: 0.55em 0.95em;
   border-radius: 0.25em;
   text-align: center;

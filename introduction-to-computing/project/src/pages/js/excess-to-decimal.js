@@ -6,7 +6,6 @@ import {
 } from '../../js/formHandler/drawInfo.js'
 import applyEventsForm from '../../js/formHandler/applyEventsForm.js'
 
-import encodeToExcess from './numberRepresentations/ieee754/encodeToExcess.js'
 import { isNumber } from './changeBase/validateNumber.js'
 import ExcessToDecimal from './numberRepresentations/ieee754/decodeExcess.js'
 
@@ -38,13 +37,21 @@ numberRepresentation.addEventListener('submit', evt => {
   const errorMessage = document.getElementById('form__message')
 
   if (!(verifier.number && verifier.currentExcess)) {
-    showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 5)
+    showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 3)
     return
   }
 
   const number = document.getElementById('excess-number').value
   const currentExcess = Number(document.getElementById('current-excess').value)
   const $decode = document.getElementById('decode')
+
+  if (currentExcess === 127 && number.length !== 32) {
+    showFormErrorMessage(errorMessage, 'El numero debe ser de 32 bits', 5)
+    return
+  } else if (currentExcess === 1023 && number.length !== 64) {
+    showFormErrorMessage(errorMessage, 'El numero debe ser de 64 bits', 5)
+    return
+  }
 
   // console.log(
   //   ExcessToDecimal(1023, '0100000000100100000000000000000000000000000000000000000000000000')
