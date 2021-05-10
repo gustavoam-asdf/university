@@ -16,8 +16,15 @@ const encodeToExcess = (shift, number) => {
     exponentLength = 11
     mantissaLength = 52
   }
+  console.log({ number })
   const binaryNumber = decimalToBinary(number)
   const { exponent, mantissa } = normalize(binaryNumber)
+  if (Number(number) === 0)
+    return {
+      sign: binaryNumber.sign,
+      exponent: completeWithZeros({ unsignedNumber: '0' }, exponentLength),
+      mantissa: completeWithZeros({ unsignedNumber: '0' }, mantissaLength)
+    }
   return {
     sign: binaryNumber.sign,
     exponent: completeWithZeros(decimalToBinary(exponent + shift), exponentLength),
