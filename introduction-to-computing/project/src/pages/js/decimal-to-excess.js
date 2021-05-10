@@ -8,10 +8,13 @@ import applyEventsForm from '../../js/formHandler/applyEventsForm.js'
 
 import encodeToExcess from './numberRepresentations/ieee754/encodeToExcess.js'
 import { isNumber } from './changeBase/validateNumber.js'
-import getDecimals from './changeBase/getDecimals.js'
 import ExcessToDecimal from './numberRepresentations/ieee754/decodeExcess.js'
 
 const numberRepresentation = document.getElementById('number-representation__form')
+
+const $sign = document.getElementById('sign')
+const $exponent = document.getElementById('exponent')
+const $mantissa = document.getElementById('mantissa')
 
 const verifier = {
   number: false,
@@ -42,9 +45,6 @@ numberRepresentation.addEventListener('submit', evt => {
 
   const number = document.getElementById('number').value
   const targetExcess = Number(document.getElementById('target-excess').value)
-  const $sign = document.getElementById('sign')
-  const $exponent = document.getElementById('exponent')
-  const $mantissa = document.getElementById('mantissa')
   const $decode = document.getElementById('decode')
 
   try {
@@ -60,4 +60,15 @@ numberRepresentation.addEventListener('submit', evt => {
 
   showFormSuccessMessage(document.getElementById('form__success-message'), 2)
   clearForm(numberRepresentation)
+})
+
+document.getElementById('form__button-copy').addEventListener('click', function (evt) {
+  showFormSuccessMessage(this.nextElementSibling, 2)
+  const input = document.createElement('input')
+  document.body.append(input)
+  input.value = `${sign.value}${$exponent.value}${$mantissa.value}`
+  input.select()
+  document.execCommand('copy')
+  getSelection().empty()
+  input.remove()
 })
