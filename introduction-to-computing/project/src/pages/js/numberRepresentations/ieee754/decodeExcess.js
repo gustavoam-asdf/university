@@ -63,7 +63,7 @@ const BuildNumber = (sign, mantissa, exp) => {
 const ExcessToDecimal = (bias, number) => {
   if (typeof bias !== 'number') throw new TypeError('Bias must be a number')
   if (bias !== 127 && bias !== 1023) throw new Error('Invalid, bias must be 127 or 1023')
-  const length = number.split("")
+  const length = number.slice(1).split("")
   let cont = 0
   console.log(length)
 
@@ -73,7 +73,7 @@ const ExcessToDecimal = (bias, number) => {
     }
   })
 
-  if(cont == 32 || cont == 64) return 0
+  if(cont == 31 || cont == 63) return 0
 
   let exponent = 0
   if (bias === 127) {
