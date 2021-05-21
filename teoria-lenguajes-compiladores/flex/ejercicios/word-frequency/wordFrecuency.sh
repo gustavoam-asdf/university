@@ -2,10 +2,8 @@
 
 flex lexical.l
 
-gcc ./lex.yy.c -o compiled.out
+gcc ./lex.yy.c -o ../build/wordFrecuency.out
 
-./compiled.out $1
-
-rm compiled.out
+../build/wordFrecuency.out $1
 
 rm lex.yy.c
