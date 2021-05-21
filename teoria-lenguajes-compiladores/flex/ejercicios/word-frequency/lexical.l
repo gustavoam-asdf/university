@@ -2,10 +2,20 @@
   #include <stdio.h>
   #include <stdlib.h>
   FILE *yyin;
-  struct counter {
+  struct WordDetail {
     char* word;
     int repeat;
   };
+
+  struct node {
+    struct WordDetail wordDetail;
+    struct node *next;
+  };
+
+  void addNode(struct WordDetail wordDetail);
+  void addWord(char* palabra);
+  void showWords(void);
+
 %}
 
 /* Options */
@@ -13,14 +23,15 @@
 
 /* Tokens */
 letter          [a-zA-ZáéíóúÁÉÍÓÚñÑ]
-word            {letter}+
+noletter        [-_;:,"'»¡!\?\.\n\s\t]
 
+word            {letter}+
 /* Rules */
 %%
 {word}          {
-  printf("\n Palabra encontrada: (%s)", yytext);
-  
+  printf("\nPalabra: '%s'", yytext);
 }      
+{noletter}      {}
 
 %%
 int main(int argc, char *argv[]) {
@@ -33,7 +44,7 @@ int main(int argc, char *argv[]) {
 
   yylex();
   fclose(yyin);
-  printf ("\nProceso terminado\n");
+  printf ("\n\nProceso terminado...\n");
   exit(0);
 }
 
