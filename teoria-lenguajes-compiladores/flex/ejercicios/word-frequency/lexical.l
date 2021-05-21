@@ -62,7 +62,7 @@
     struct Node *newCursor = cursor;
     while (newCursor != NULL)
     { 
-      printf ("|%-20s|\t%-20d|\n", newCursor->wordDetail.word, newCursor->wordDetail.frequency);
+      printf ("|%-20s|%-20d|\n", newCursor->wordDetail.word, newCursor->wordDetail.frequency);
       newCursor = newCursor->next;
     }
     printf("+%s+%s+\n", separator, separator);
@@ -94,10 +94,8 @@ int main(int argc, char *argv[]) {
 
   yylex();
   fclose(yyin);
+  printf ("\n");
   showWords();
-  if (argv[2] != NULL) {
-
-  }
   printf ("\n\nProceso terminado...\n");
   exit(0);
 }
