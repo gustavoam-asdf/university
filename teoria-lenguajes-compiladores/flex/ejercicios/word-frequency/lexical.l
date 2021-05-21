@@ -1,20 +1,72 @@
 %{
   #include <stdio.h>
   #include <stdlib.h>
-  FILE *yyin;
+  #include <stdbool.h>
+
+  #define MAX_WORD_LENGTH 100
+
   struct WordDetail {
-    char* word;
-    int repeat;
+    char word[MAX_WORD_LENGTH];
+    int frequency;
   };
 
-  struct node {
+  struct Node {
     struct WordDetail wordDetail;
-    struct node *next;
+    struct Node *next;
   };
 
-  void addNode(struct WordDetail wordDetail);
-  void addWord(char* palabra);
-  void showWords(void);
+  FILE *yyin;
+  struct Node *cursor = NULL;
+
+  bool equealStrings (char firstWord[MAX_WORD_LENGTH], char secondWord[MAX_WORD_LENGTH]) {
+    return strcasecmp(firstWord, secondWord) == 0 ? true : false;
+  }
+
+  void addNode(struct WordDetail wordDetail) {
+    // El nodo que se agregará; reservamos memoria
+    struct Node *newNode = malloc(sizeof(struct Node));
+    // Le ponemos el dato
+    newNode->wordDetail = wordDetail;
+    /* 
+      El nodo siguiente (next) del nuevo nodo (new node) es el nodo cursor
+      y el nodo siguiente pasa a ser el cursor
+    */
+    newNode->next = cursor;
+    cursor = newNode;
+  }
+
+  void addWord(char word[MAX_WORD_LENGTH]) {
+    struct Node *newCursor = cursor;
+    while (newCursor != NULL) {
+      if (equealStrings(newCursor->wordDetail.word, word)) {
+        newCursor->wordDetail.frequency++;
+        return;
+      }
+      newCursor = newCursor->next;
+    }
+
+    // Si no encontramos nada, agregamos una nueva
+    struct WordDetail wordDetail;
+    strcpy(wordDetail.word, word);
+    wordDetail.frequency = 1; // La primera vez es 1
+    addNode(wordDetail);
+  }
+
+  void showWords() {
+    char separator[] = "--------------------";
+    printf("+%s+%s+\n", separator, separator);
+    printf("|%-20s|%-20s|\n", "PALABRA", "FRECUENCIA");
+    printf("+%s+%s+\n", separator, separator);
+
+    // A partir de aquí el código sí importa; simplemente recorremos la pila
+    struct Node *newCursor = cursor;
+    while (newCursor != NULL)
+    { 
+      printf ("|%-20s|\t%-20d|\n", newCursor->wordDetail.word, newCursor->wordDetail.frequency);
+      newCursor = newCursor->next;
+    }
+    printf("+%s+%s+\n", separator, separator);
+  }
 
 %}
 
@@ -28,9 +80,7 @@ noletter        [-_;:,"'»¡!\?\.\n\s\t]
 word            {letter}+
 /* Rules */
 %%
-{word}          {
-  printf("\nPalabra: '%s'", yytext);
-}      
+{word}          { addWord(yytext); }      
 {noletter}      {}
 
 %%
@@ -44,6 +94,10 @@ int main(int argc, char *argv[]) {
 
   yylex();
   fclose(yyin);
+  showWords();
+  if (argv[2] != NULL) {
+
+  }
   printf ("\n\nProceso terminado...\n");
   exit(0);
 }
