@@ -1,0 +1,10 @@
+clc;
+syms y x;
+y = sin(sqrt(x))-x;
+y1 = diff(y);
+y2 = diff(y1);
+disp('Primera derivada');
+disp(y1);
+disp('Segunda derivada');
+disp(y2);
+fplot(y1);
