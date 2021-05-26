@@ -1,0 +1,21 @@
+clc;
+% Dado: aproximación de la serie Taylor parax cos(x) = 1 - x^2/2! + x^4/4!…
+% Find: número de términos necesarios para representar cos (x) a % 8 cifras significativas en el punto donde
+x = 0.3 * pi;
+errorTolerado = 0.5e-08;
+%Aproximando
+serie = 0;
+iterador = 0;
+fprintf('j= %2.0f cos(x)= %0.10f\n', iterador,serie)
+
+while(1)
+  if rem(iterador, 2) == 0
+   serie = serie + (x ^ (iterador*2)) / factorial(iterador*2);
+  else 
+   serie = serie - (x ^ (iterador*2)) / factorial(iterador*2);
+  end
+  error = abs(cos(x) - serie)/cos(x);
+  fprintf('iteracion = %2.0f, serie = %0.10f, error = %0.1f\n',j,cosn,ea);
+  iterador = iterador + 1;
+  if error < errorTolerado, break,  end
+end
