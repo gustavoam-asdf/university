@@ -1,0 +1,91 @@
+<section class="number-representation">
+    <h2 class="title">Operador de numero binarios de complemento a 2 </h2>
+    
+    <form class="number-representation__form" id="number-representation__form">
+      <!-- Grupo: Number -->
+      <div class="form__group" id="group__number">
+        <label for="number" class="form__label">Numero 1</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="number"
+            id="number"
+            placeholder="10100010"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
+      </div>
+  
+      
+      <!-- Grupo: Target Excess -->
+      <div class="form__group" id="group__target-excess">
+        <label for="target-excess" class="form__label">Operador</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="target-excess"
+            id="target-excess"
+            placeholder="+"
+            autocomplete="off"
+            
+          />
+         
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Debe escribir 127 o 1023</p>
+      </div>
+      <form class="number-representation__form" id="number-representation__form">
+        <!-- Grupo: Number -->
+        <div class="form__group" id="group__number">
+          <label for="number" class="form__label">Numero 2</label>
+          <div class="form__group-input">
+            <input
+              type="text"
+              class="form__input"
+              name="number"
+              id="number"
+              placeholder="10000010"
+              autocomplete="off"
+            />
+            <i class="form__check-state fas fa-times-circle"></i>
+          </div>
+          <p class="form__input-error">Número no válido</p>
+        </div>
+
+ 
+      <div class="form__group form__group-btn-send">
+        <button type="submit" class="form__btn">Calcular</button>
+        <p class="form__success-message" id="form__success-message">
+          <i class="fas fa-check"></i>
+          Conversión exitosa!
+        </p>
+      </div>
+  
+      <p class="form__message" id="form__message">
+        <i class="fas fa-exclamation-triangle"></i>
+        <b>Error:</b>
+        Por favor rellena el formulario correctamente
+      </p>
+  
+      
+        <div class="form__group" id="group__result">
+            <label for="result" class="form__label">Resultado</label>
+            <div class="form__group-input">
+              <input
+                type="text"
+                class="form__input"
+                name="result"
+                id="result"
+                placeholder="1010001"
+                readonly
+                disabled
+              />
+            </div>
+          </div>
+        
+    </form>
+  </section>
