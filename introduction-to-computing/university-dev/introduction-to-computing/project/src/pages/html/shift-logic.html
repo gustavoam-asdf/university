@@ -1,0 +1,108 @@
+
+  <section class="number-representation">
+    <h2 class="title">OPERACIONES DE SHIFTS LOGICAS</h2>
+    <form class="number-representation__form" id="number-representation__form">
+      <!-- Grupo: Number -->
+      <div class="form__group" id="group__number">
+
+        <label for="number" class="form__label">Numero</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="number"
+            id="number"
+            placeholder="10000101"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
+      </div>
+      <div class="form__group" id="group__current-excess">
+        <label for="current-excess" class="form__label">Bits</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="current-excess"
+            id="current-excess"
+            placeholder="8"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Debe escribir 127 o 1023</p>
+      </div>
+      <!-- Grupo: Target Excess -->
+      <!-- 
+      <div class="form__group" id="group__target-excess">
+        <label for="target-excess" class="form__label">Exceso</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="target-excess"
+            id="target-excess"
+            placeholder="127"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Debe escribir 127 o 1023</p>
+      </div>
+      -->
+      <div class="form__group form__group-btn-send" id="group__target-excess1">
+        <button type="submit" class="form__btn">Izquierda</button>
+        <p class="form__success-message" id="form__success-message">
+            <i class="fas fa-check"></i>
+            Conversión exitosa!
+          </p>
+      </div>
+      
+      <div class="form__group form__group-btn-send" id="group__target-excess1">
+        <button type="submit" class="form__btn">Derecha</button>
+        <p class="form__success-message" id="form__success-message">
+            <i class="fas fa-check"></i>
+            Conversión exitosa!
+          </p>
+      </div>
+
+
+
+      
+  
+      <p class="form__message" id="form__message">
+        <i class="fas fa-exclamation-triangle"></i>
+        <b>Error:</b>
+        Por favor rellena el formulario correctamente
+      </p>
+  
+  
+        <!-- Grupo: Signo -->
+        <div class="form__group" id="group__sign">
+        
+          <label for="sign" class="form__label">Resultado</label>
+          <p class="form__success-message" id="form__success-message">
+            <i class="fas fa-check"></i>
+             Se ocurrio un overflow o no :c 
+          </p>
+          <div class="form__group-input">
+            <input
+              type="text"
+              class="form__input"
+              name="sign"
+              id="sign"
+              placeholder="0"
+              readonly
+              disabled
+            />
+          </div>
+        </div>
+  
+        
+  
+      
+      
+    </form>
+  </section>
