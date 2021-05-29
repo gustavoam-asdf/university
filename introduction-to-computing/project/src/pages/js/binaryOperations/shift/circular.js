@@ -7,9 +7,7 @@ export const shiftCircleRight = (strNumber, repeat = 1) => {
   const lastBit = strNumber.slice(-1)
   const restBits = strNumber.slice(0, -1)
   const result = `${lastBit}${restBits}`
-
   if (repeat === 1) return result
-
   return shiftCircleRight(result, --repeat)
 }
 
@@ -20,8 +18,6 @@ export const shiftCircleLeft = (strNumber, repeat = 1) => {
   const firstDigit = strNumber.slice(0, 1)
   const restBits = strNumber.slice(1)
   const result = `${restBits}${firstDigit}`
-
   if (repeat === 1) return result
-
   return shiftCircleLeft(result, --repeat)
 }
