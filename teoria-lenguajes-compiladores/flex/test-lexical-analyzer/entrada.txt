@@ -1,0 +1,39 @@
+DECVAR
+contador, calculaCuadrado: INTEGER;
+promedio: FLOAT;
+actual, suma: FLOAT;
+ENDDEC
+  write "Hola mundo!";
+  actual: 999;
+  suma: 02 - 1;
+  contador: contador+1;
+
+  while (contador <= 92) {
+    contador: contador+1;
+    actual: (contador/0.342) + (contador*contador);
+    suma: suma + actual;
+  }
+
+  cuadrado_suma = suma * suma;
+  dif_resta = cuadrado_suma - actual;
+  write "La suma es: ";
+  write suma;
+  if (actual > 2) {
+    write "2 > 3";
+  }
+  if (actual < 3) {
+    if (actual >= 3) {
+      write "uno";
+    }
+    if (actual <= 3) {
+      write "dos";
+    }
+    if (actual != 3) {
+      write "tres"
+    } 
+    if (actual == 3) {
+      write "cuatro"
+    }
+  } else {
+    actual: 333.3333;
+  }
