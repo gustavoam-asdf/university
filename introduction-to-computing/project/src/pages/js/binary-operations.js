@@ -1,3 +1,4 @@
+import addBits from './binaryOperations/aritmetic/integers/addBits.js'
 import { complementToOne, complementToTwo } from './binaryOperations/complement/encodeComplement.js'
 import { shiftAritmeticRight, shiftAritmeticLeft } from './binaryOperations/shift/aritmetic.js'
 import { shiftCircleLeft, shiftCircleRight } from './binaryOperations/shift/circular.js'
@@ -41,7 +42,12 @@ console.log(`Inicio   : ${number}`)
 // console.log(`Salida3-1: ${shiftCircleLeft(shiftCircleLeft(shiftCircleLeft(number)))}`)
 // console.log(`Salida3-2: ${shiftCircleLeft(number, 3)}\n`)
 
-console.log('Complemento a 1')
-console.log(complementToOne({ number }))
-console.log('Complemento a 2')
-console.log(complementToTwo({ number }))
+// console.log('Complemento a 1')
+// console.log(complementToOne({ number }))
+// console.log('Complemento a 2')
+// console.log(complementToTwo({ number }))
+
+const number2 = '1010001'
+
+console.log(`2do num  :  ${number2}`)
+console.log(`Resultado: ${addBits(number, number2)}`)

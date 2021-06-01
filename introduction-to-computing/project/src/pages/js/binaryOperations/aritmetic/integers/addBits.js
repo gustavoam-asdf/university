@@ -1,4 +1,4 @@
-import completeWithZeros from '../../numberRepresentations/completeWithZeros.js'
+import completeWithZeros from '../../../numberRepresentations/completeWithZeros.js'
 
 const addBits = (firstNumber, secondNumber, carry = 0) => {
   if (secondNumber.length > firstNumber.length) throw new Error('Error')
