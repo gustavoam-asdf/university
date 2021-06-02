@@ -67,35 +67,26 @@ numberComplementForm.addEventListener('submit', evt => {
   const hasSignBit = document.getElementById('has-sign-bit').value.toLowerCase()
   const result = document.getElementById('nc__result')
 
-  let value = number
-
   if (!existInBase(number, numberBase)) {
     showFormErrorMessage(errorMessage, 'El número no existe en esa base', 5)
     clearForm(numberComplementForm)
     return
   }
 
-  if (numberBase !== '2') {
-    value = anyToDecimal(numberBase, number).unsignedNumber
-    value = decimalToAny(2, value).unsignedNumber
-  }
-
   if (targetComplement === 'c1') {
     result.value = complementToOne({
-      number: value,
+      number,
+      base: Number(numberBase),
       includeSignBit: hasSignBit === 'si' ? true : false
     }).number
   } else if (targetComplement === 'c2') {
     result.value = complementToTwo({
-      number: value,
+      number,
+      base: Number(numberBase),
       includeSignBit: hasSignBit === 'si' ? true : false
     }).number
   }
 })
-
-const number = '10011000'
-
-console.log(`Inicio   : ${number}`)
 
 // console.log('Shift aritmetica derecha')
 // console.log(`Salida1-1: ${shiftAritmeticRight(number)}`)
@@ -135,8 +126,3 @@ console.log(`Inicio   : ${number}`)
 // console.log(complementToOne({ number }))
 // console.log('Complemento a 2')
 // console.log(complementToTwo({ number }))
-
-const number2 = '1010001'
-
-console.log(`2do num  :  ${number2}`)
-console.log(`Resultado: ${addBits(number, number2)}`)
