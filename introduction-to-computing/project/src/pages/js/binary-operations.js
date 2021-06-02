@@ -1,3 +1,6 @@
+import applyEventsForm from '../../js/formHandler/applyEventsForm.js'
+import { clearForm, drawInputInfo, showFormErrorMessage } from '../../js/formHandler/drawInfo.js'
+import addBits from './binaryOperations/aritmetic/integers/addBits.js'
 import { complementToOne, complementToTwo } from './binaryOperations/complement/encodeComplement.js'
 import { shiftAritmeticRight, shiftAritmeticLeft } from './binaryOperations/shift/aritmetic.js'
 import { shiftCircleLeft, shiftCircleRight } from './binaryOperations/shift/circular.js'
@@ -57,3 +60,8 @@ console.log(`Respuesta: ${res}`)
 // console.log(complementToOne({ number }))
 // console.log('Complemento a 2')
 // console.log(complementToTwo({ number }))
+
+const number2 = '1010001'
+
+console.log(`2do num  :  ${number2}`)
+console.log(`Resultado: ${addBits(number, number2)}`)

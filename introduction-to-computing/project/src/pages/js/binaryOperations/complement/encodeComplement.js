@@ -1,5 +1,5 @@
 import { existInBase } from '../../changeBase/validateNumber.js'
-import addBits from '../aritmetic/addBits.js'
+import addBits from '../aritmetic/integers/addBits.js'
 
 export const complementToOne = ({ number: strNumber, includeSignBit = false }) => {
   if (typeof strNumber !== 'string') throw new TypeError('Number must be a number type string')

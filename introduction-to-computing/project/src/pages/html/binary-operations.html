@@ -1,0 +1,345 @@
+<div class="section__container">
+  <section class="number-complement section">
+    <h2 class="title">Convertir un número a complemento</h2>
+    <form class="section__form" id="nc__form">
+      <!-- Grupo: Number -->
+      <div class="form__group group__number" id="nc__group__number">
+        <label for="nc__number" class="form__label">Número</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="nc__number"
+            id="nc__number"
+            placeholder="10101010"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
+      </div>
+
+      <!-- Grupo: Number base -->
+      <div class="form__group" id="group__number-base">
+        <label for="nc__number-base" class="form__label">Base</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="nc__number-base"
+            id="nc__number-base"
+            value="2"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Base incorrecta</p>
+      </div>
+
+      <!-- Grupo: Target Complement-->
+      <div class="form__group" id="group__target-complement">
+        <label for="target-complement" class="form__label">Complemento</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="target-complement"
+            id="target-complement"
+            placeholder="c2"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Debe ingresar: c1 o c2</p>
+      </div>
+
+      <!-- Grupo: Has sign bit -->
+      <div class="form__group" id="group__has-sign-bit">
+        <label for="has-sign-bit" class="form__label">¿Tiene bit signo?</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="has-sign-bit"
+            id="has-sign-bit"
+            value="Si"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Debe ingresar: Si o No</p>
+      </div>
+
+      <div class="form__group form__group-btn-send">
+        <button type="submit" class="form__btn">Convertir</button>
+        <p class="form__success-message" id="nc__form__success-message">
+          <i class="fas fa-check"></i>
+          Conversión exitosa!
+        </p>
+      </div>
+
+      <p class="form__message" id="nc__form__message">
+        <i class="fas fa-exclamation-triangle"></i>
+        <b>Error:</b>
+        Por favor rellena el formulario correctamente
+      </p>
+
+      <!-- Grupo: Result -->
+      <div class="form__group group__result" id="nc__group__result">
+        <label for="nc__result" class="form__label">Resultado</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="nc__result"
+            id="nc__result"
+            placeholder="11010101"
+            readonly
+            disabled
+          />
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <section class="shift section">
+    <h2 class="title">Dezplazamiento de bits</h2>
+    <form class="section__form" id="shift__form">
+      <!-- Grupo: Number -->
+      <div class="form__group group__number" id="shift__group__number">
+        <label for="shift__number" class="form__label">Número</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="shift__number"
+            id="shift__number"
+            placeholder="10101010"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
+      </div>
+
+      <!-- Grupo: Number base -->
+      <div class="form__group" id="group__number-base">
+        <label for="shift__number-base" class="form__label">Base</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="shift__number-base"
+            id="shift__number-base"
+            value="2"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Base incorrecta</p>
+      </div>
+
+      <!-- Grupo: Dezplazamiento -->
+      <div class="form__group" id="group__shift-type">
+        <label for="shift-type" class="form__label">Dezplazamiento</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="shift-type"
+            id="shift-type"
+            placeholder="logico"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Puede ingresar: logico, <br />aritmetico o circular</p>
+      </div>
+
+      <!-- Grupo: Direction -->
+      <div class="form__group" id="group__direction">
+        <label for="direction" class="form__label">Dirección</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="direction"
+            id="direction"
+            placeholder="izquierda"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Debe ingresar: izquierda o derecha</p>
+      </div>
+
+      <div class="form__group form__group-btn-send">
+        <button type="submit" class="form__btn">Convertir</button>
+        <p class="form__success-message" id="shift__form__success-message">
+          <i class="fas fa-check"></i>
+          Conversión exitosa!
+        </p>
+      </div>
+
+      <p class="form__message" id="shift__form__message">
+        <i class="fas fa-exclamation-triangle"></i>
+        <b>Error:</b>
+        Por favor rellena el formulario correctamente
+      </p>
+
+      <!-- Grupo: Result -->
+      <div class="form__group group__result" id="shift__group__result">
+        <label for="shift__result" class="form__label">Resultado</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="shift__result"
+            id="shift__result"
+            placeholder="11010101"
+            readonly
+            disabled
+          />
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <section class="add-integer section">
+    <h2 class="title">Suma de bits en complemento a 2</h2>
+    <form class="section__form" id="ai__form">
+      <!-- Grupo: Number one -->
+      <div class="form__group group__number" id="ai__group__number__one">
+        <label for="ai__number__one" class="form__label">Número uno</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="ai__number__one"
+            id="ai__number__one"
+            placeholder="10101010"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
+      </div>
+
+      <!-- Grupo: Number one -->
+      <div class="form__group group__number" id="ai__group__number__two">
+        <label for="ai__number__two" class="form__label">Número dos</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="ai__number__two"
+            id="ai__number__two"
+            placeholder="10101010"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
+      </div>
+
+      <div class="form__group form__group-btn-send">
+        <button type="submit" class="form__btn">Convertir</button>
+        <p class="form__success-message" id="ai__form__success-message">
+          <i class="fas fa-check"></i>
+          Conversión exitosa!
+        </p>
+      </div>
+
+      <p class="form__message" id="ai__form__message">
+        <i class="fas fa-exclamation-triangle"></i>
+        <b>Error:</b>
+        Por favor rellena el formulario correctamente
+      </p>
+
+      <!-- Grupo: Result -->
+      <div class="form__group group__result" id="ai__group__result">
+        <label for="result" class="form__label">Resultado</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="ai__result"
+            id="ai__result"
+            placeholder="11010101"
+            readonly
+            disabled
+          />
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <section class="subst-integer section">
+    <h2 class="title">Resta de bits en complemento a 2</h2>
+    <form class="section__form" id="si__form">
+      <!-- Grupo: Number one -->
+      <div class="form__group group__number" id="si__group__number__one">
+        <label for="si__number__one" class="form__label">Número uno</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="si__number__one"
+            id="si__number__one"
+            placeholder="10101010"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
+      </div>
+
+      <!-- Grupo: Number one -->
+      <div class="form__group group__number" id="si__group__number__two">
+        <label for="si__number__two" class="form__label">Número dos</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="si__number__two"
+            id="si__number__two"
+            placeholder="10101010"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
+      </div>
+
+      <div class="form__group form__group-btn-send">
+        <button type="submit" class="form__btn">Convertir</button>
+        <p class="form__success-message" id="si__form__success-message">
+          <i class="fas fa-check"></i>
+          Conversión exitosa!
+        </p>
+      </div>
+
+      <p class="form__message" id="si__form__message">
+        <i class="fas fa-exclamation-triangle"></i>
+        <b>Error:</b>
+        Por favor rellena el formulario correctamente
+      </p>
+
+      <!-- Grupo: Result -->
+      <div class="form__group group__result" id="si__group__result">
+        <label for="result" class="form__label">Resultado</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="si__result"
+            id="si__result"
+            placeholder="11010101"
+            readonly
+            disabled
+          />
+        </div>
+      </div>
+    </form>
+  </section>
+</div>
