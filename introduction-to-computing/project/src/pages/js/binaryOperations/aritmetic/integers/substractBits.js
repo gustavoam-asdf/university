@@ -25,13 +25,10 @@ const RestofBits = (firstnumber, secondnumber, operation) => {
       error = 'En este ejercicio surgió un overflow'
     }
   } else if (operation == '-') {
-    res = addBits(
-      firstnumber,
-      complementToTwo({ number: secondnumber, base: 2, includeSignBit: true }).number
-    )
+    res = addBits(firstnumber, complementToTwo({ number: secondnumber, base: 2 }).number)
     const validation = validateResult(
       firstnumber,
-      complementToTwo({ number: secondnumber, base: 2, includeSignBit: true }).number,
+      complementToTwo({ number: secondnumber, base: 2 }).number,
       res,
       operation
     )
