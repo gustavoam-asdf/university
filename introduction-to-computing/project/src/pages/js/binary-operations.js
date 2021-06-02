@@ -6,6 +6,7 @@ import {
   showFormSuccessMessage
 } from '../../js/formHandler/drawInfo.js'
 import addBits from './binaryOperations/aritmetic/integers/addBits.js'
+import { RestofBits } from './binaryOperations/aritmetic/integers/substractBits.js'
 import { complementToOne, complementToTwo } from './binaryOperations/complement/encodeComplement.js'
 import { shiftAritmeticRight, shiftAritmeticLeft } from './binaryOperations/shift/aritmetic.js'
 import { shiftCircleLeft, shiftCircleRight } from './binaryOperations/shift/circular.js'
@@ -25,8 +26,18 @@ const formVerifier = {
     base: true,
     type: false,
     direction: false
+  },
+  add: {
+    firstNumber: false,
+    secondNumber: false
+  },
+  substract: {
+    firstNumber: false,
+    secondNumber: false
   }
 }
+
+/*************************************************************************************************/
 
 const complementInputEventHandler = evt => {
   const inputPressed = evt.target.closest('input')
@@ -92,6 +103,8 @@ numberComplementForm.addEventListener('submit', evt => {
   showFormSuccessMessage(document.getElementById('nc__form__success-message'), 2)
   clearForm(numberComplementForm)
 })
+
+/*************************************************************************************************/
 
 const shiftForm = document.getElementById('shift__form')
 
@@ -159,7 +172,7 @@ shiftForm.addEventListener('submit', evt => {
     } else if (direction === 'derecha') {
       result.value = shiftLogicRight(value)
     } else {
-      throw new Error('Invalid direction')
+      showFormErrorMessage(errorMessage, 'A ocurrido un error', 4)
     }
   } else if (shiftType === 'aritmetico') {
     if (direction === 'izquierda') {
@@ -167,7 +180,7 @@ shiftForm.addEventListener('submit', evt => {
     } else if (direction === 'derecha') {
       result.value = shiftAritmeticRight(value)
     } else {
-      throw new Error('Invalid direction')
+      showFormErrorMessage(errorMessage, 'A ocurrido un error', 4)
     }
   } else if (shiftType === 'circular') {
     if (direction === 'izquierda') {
@@ -175,7 +188,7 @@ shiftForm.addEventListener('submit', evt => {
     } else if (direction === 'derecha') {
       result.value = shiftCircleRight(value)
     } else {
-      throw new Error('Invalid direction')
+      showFormErrorMessage(errorMessage, 'A ocurrido un error', 4)
     }
   } else {
     throw new Error('Invalid shift type')
@@ -183,36 +196,77 @@ shiftForm.addEventListener('submit', evt => {
   showFormSuccessMessage(document.getElementById('shift__form__success-message'), 2)
   clearForm(shiftForm)
 })
-// console.log('Shift aritmetica derecha')
-// console.log(`Salida1-1: ${shiftAritmeticRight(number)}`)
-// console.log(`Salida2-1: ${shiftAritmeticRight(shiftAritmeticRight(number))}`)
-// console.log(`Salida2-2: ${shiftAritmeticRight(number, 2)}\n`)
 
-// console.log('Shift aritmetica izquierda')
-// console.log(`Salida1-1: ${shiftAritmeticLeft(number)}`)
-// console.log(`Salida2-1: ${shiftAritmeticLeft(shiftAritmeticLeft(number))}`)
-// console.log(`Salida2-2: ${shiftAritmeticLeft(number, 2)}\n`)
+/*************************************************************************************************/
 
-// console.log('Shift logical derecho')
-// console.log(`Salida1-1: ${shiftLogicRight(number)}`)
-// console.log(`Salida2-1: ${shiftLogicRight(shiftLogicRight(number))}`)
-// console.log(`Salida2-2: ${shiftLogicRight(number, 2)}\n`)
+const addIntegerForm = document.getElementById('ai__form')
 
-// console.log('Shift logical izquierdo')
-// console.log(`Salida1-1: ${shiftLogicLeft(number)}`)
-// console.log(`Salida2-1: ${shiftLogicLeft(shiftLogicLeft(number))}`)
-// console.log(`Salida2-2: ${shiftLogicLeft(number, 2)}\n`)
+const addIntegerInputEventHandler = evt => {
+  const inputPressed = evt.target.closest('input')
+  if (!inputPressed) return
+  const value = inputPressed.value
+  if (inputPressed.name === 'ai__number__one') {
+    formVerifier.add.firstNumber = drawInputInfo(existInBase(value, 2), inputPressed)
+  } else if (inputPressed.name === 'ai__number__two') {
+    formVerifier.add.secondNumber = drawInputInfo(existInBase(value, 2), inputPressed)
+  }
+}
 
-// console.log('Shift circular derecho')
-// console.log(`Salida1-1: ${shiftCircleRight(number)}`)
-// console.log(`Salida2-1: ${shiftCircleRight(shiftCircleRight(number))}`)
-// console.log(`Salida2-2: ${shiftCircleRight(number, 2)}`)
-// console.log(`Salida3-1: ${shiftCircleRight(shiftCircleRight(shiftCircleRight(number)))}`)
-// console.log(`Salida3-2: ${shiftCircleRight(number, 3)}\n`)
+applyEventsForm(addIntegerForm, addIntegerInputEventHandler)
 
-// console.log('Shift circular izquierdo')
-// console.log(`Salida1-1: ${shiftCircleLeft(number)}`)
-// console.log(`Salida2-1: ${shiftCircleLeft(shiftCircleLeft(number))}`)
-// console.log(`Salida2-2: ${shiftCircleLeft(number, 2)}`)
-// console.log(`Salida3-1: ${shiftCircleLeft(shiftCircleLeft(shiftCircleLeft(number)))}`)
-// console.log(`Salida3-2: ${shiftCircleLeft(number, 3)}\n`)
+addIntegerForm.addEventListener('submit', evt => {
+  evt.preventDefault()
+  const errorMessage = document.getElementById('ai__form__message')
+
+  if (!(formVerifier.add.firstNumber && formVerifier.add.secondNumber)) {
+    showFormErrorMessage(errorMessage, 'Uno de los números es incorrecto', 5)
+    return
+  }
+
+  const firstNumber = document.getElementById('ai__number__one').value
+  const secondNumber = document.getElementById('ai__number__two').value
+  const result = document.getElementById('ai__result')
+
+  result.value = addBits(firstNumber, secondNumber)
+
+  showFormSuccessMessage(document.getElementById('ai__form__success-message'), 2)
+  clearForm(shiftForm)
+})
+
+/*************************************************************************************************/
+
+const substIntegerForm = document.getElementById('si__form')
+
+const substIntegerInputEventHandler = evt => {
+  const inputPressed = evt.target.closest('input')
+  if (!inputPressed) return
+  const value = inputPressed.value
+  if (inputPressed.name === 'si__number__one') {
+    formVerifier.substract.firstNumber = drawInputInfo(existInBase(value, 2), inputPressed)
+  } else if (inputPressed.name === 'si__number__two') {
+    formVerifier.substract.secondNumber = drawInputInfo(existInBase(value, 2), inputPressed)
+  }
+}
+
+applyEventsForm(substIntegerForm, substIntegerInputEventHandler)
+
+substIntegerForm.addEventListener('submit', evt => {
+  evt.preventDefault()
+  const errorMessage = document.getElementById('si__form__message')
+
+  if (!(formVerifier.substract.firstNumber && formVerifier.substract.secondNumber)) {
+    showFormErrorMessage(errorMessage, 'Uno de los números es incorrecto', 5)
+    return
+  }
+
+  const firstNumber = document.getElementById('si__number__one').value
+  const secondNumber = document.getElementById('si__number__two').value
+  const result = document.getElementById('si__result')
+
+  result.value = RestofBits(firstNumber, secondNumber, '-')
+
+  showFormSuccessMessage(document.getElementById('si__form__success-message'), 2)
+  clearForm(shiftForm)
+})
+
+RestofBits
