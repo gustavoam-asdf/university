@@ -1,8 +1,97 @@
+import applyEventsForm from '../../js/formHandler/applyEventsForm.js'
+import { clearForm, drawInputInfo, showFormErrorMessage } from '../../js/formHandler/drawInfo.js'
 import addBits from './binaryOperations/aritmetic/integers/addBits.js'
 import { complementToOne, complementToTwo } from './binaryOperations/complement/encodeComplement.js'
 import { shiftAritmeticRight, shiftAritmeticLeft } from './binaryOperations/shift/aritmetic.js'
 import { shiftCircleLeft, shiftCircleRight } from './binaryOperations/shift/circular.js'
 import { shiftLogicLeft, shiftLogicRight } from './binaryOperations/shift/logic.js'
+import anyToDecimal from './changeBase/anyBaseToDecimalBase/anyToDecimal.js'
+import decimalToAny from './changeBase/decimalBaseToAnyBase/decimalToAny.js'
+import { existInBase, isInteger, isNumber } from './changeBase/validateNumber.js'
+
+const numberComplementForm = document.getElementById('nc__form')
+const formVerifier = {
+  complement: {
+    number: false,
+    base: true,
+    complement: false,
+    hasBitSign: true
+  }
+}
+
+const complementInputEventHandler = evt => {
+  const inputPressed = evt.target.closest('input')
+  if (!inputPressed) return
+  const value = inputPressed.value
+  if (inputPressed.name === 'nc__number') {
+    formVerifier.complement.number = drawInputInfo(isNumber(value), inputPressed)
+  } else if (inputPressed.name === 'nc__number-base') {
+    formVerifier.complement.base = drawInputInfo(
+      isInteger(value) && parseInt(value) > 1,
+      inputPressed
+    )
+  } else if (inputPressed.name === 'target-complement') {
+    formVerifier.complement.complement = drawInputInfo(
+      value.toLowerCase() === 'c1' || value.toLowerCase() === 'c2',
+      inputPressed
+    )
+  } else if (inputPressed.name === 'has-sign-bit') {
+    formVerifier.complement.hasBitSign = drawInputInfo(
+      value.toLowerCase() === 'si' || value.toLowerCase() === 'no',
+      inputPressed
+    )
+  }
+}
+
+applyEventsForm(numberComplementForm, complementInputEventHandler)
+
+numberComplementForm.addEventListener('submit', evt => {
+  evt.preventDefault()
+  const errorMessage = document.getElementById('nc__form__message')
+
+  if (
+    !(
+      formVerifier.complement.number &&
+      formVerifier.complement.base &&
+      formVerifier.complement.complement &&
+      formVerifier.complement.hasBitSign
+    )
+  ) {
+    showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 5)
+    return
+  }
+
+  const number = document.getElementById('nc__number').value
+  const numberBase = document.getElementById('nc__number-base').value
+  const targetComplement = document.getElementById('target-complement').value.toLowerCase()
+  const hasSignBit = document.getElementById('has-sign-bit').value.toLowerCase()
+  const result = document.getElementById('nc__result')
+
+  let value = number
+
+  if (!existInBase(number, numberBase)) {
+    showFormErrorMessage(errorMessage, 'El número no existe en esa base', 5)
+    clearForm(numberComplementForm)
+    return
+  }
+
+  if (numberBase !== '2') {
+    value = anyToDecimal(numberBase, number).unsignedNumber
+    value = decimalToAny(2, value).unsignedNumber
+  }
+
+  if (targetComplement === 'c1') {
+    result.value = complementToOne({
+      number: value,
+      includeSignBit: hasSignBit === 'si' ? true : false
+    }).number
+  } else if (targetComplement === 'c2') {
+    result.value = complementToTwo({
+      number: value,
+      includeSignBit: hasSignBit === 'si' ? true : false
+    }).number
+  }
+})
 
 const number = '10011000'
 
