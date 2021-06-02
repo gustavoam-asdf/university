@@ -5,6 +5,8 @@ import firstDigit from '../../../changeBase/firstDigit.js'
 
 const RestofBits = (firstnumber, secondnumber, operation) => {
     let res = 0
+    let overflow = false
+    let error = '';
 
     firstnumber = firstnumber.toString()
     secondnumber = secondnumber.toString()
@@ -12,15 +14,32 @@ const RestofBits = (firstnumber, secondnumber, operation) => {
     if (operation == '+') {
 
         res = addBits(firstnumber, secondnumber)
-        console.log(validateResult(firstnumber, secondnumber, res, operation))
+        const validation = validateResult(firstnumber, secondnumber, res, operation)
 
+        overflow = (Number(validation.PrimerNumero) + Number(validation.SegundoNumero) == Number(validation.Resultado)) ? false : true
+
+        if (overflow) {
+            error = 'En este ejercicio surgió un overflow'
+        }
+        
     } else if (operation == '-') {
 
-        res = addBits(firstnumber, complementToTwo({ number: secondnumber , base: 2}).number)
+        res = addBits(firstnumber, complementToTwo({ number: secondnumber, base: 2 }).number)
+        const validation = validateResult(firstnumber, complementToTwo({ number: secondnumber, base: 2 }).number, res, operation)
+
+        overflow = (Number(validation.PrimerNumero) + Number(validation.SegundoNumero) == Number(validation.Resultado)) ? false : true
+
+        if (overflow) {
+            error = 'En este ejercicio surgió un overflow'
+        }
 
     }
 
-    return res
+    return {
+        ResultadoReal: res,
+        Overflow: overflow,
+        Error: error
+    }
 }
 
 const validateResult = (firstnumber, secondnumber, res, operation) => {
@@ -34,25 +53,19 @@ const validateResult = (firstnumber, secondnumber, res, operation) => {
     const DecimalFN = anyToDecimal(2, firstnumber.slice(1)).number
     const DecimalSN = anyToDecimal(2, secondnumber.slice(1)).number
     const DecimalRes = anyToDecimal(2, res.slice(1)).number
-    const overflow = (DecimalFN + DecimalSN == DecimalRes) ? false : true
     
     return {
         PrimerNumero: `${singFN}${DecimalFN}`,
         SegundoNumero: `${singSN}${DecimalSN}`,
-        Resultado: `${singRes}${DecimalRes}`,
-        Overflow: overflow,
+        Resultado: `${singRes}${DecimalRes}`
     }
 }
 
 const ValidateComplement2 = (strNumber) => {
-    const digit = firstDigit(strNumber)
     let complement
-    
-    if (digit.asText == '0') {
-        complement = complementToTwo({ number: strNumber , base: 2, includeSignBit: true}).number
-    } else {
-        complement = complementToTwo({ number: strNumber, base: 2, includeSignBit: true }).number
-    }
+
+    complement = complementToTwo({ number: strNumber , base: 2, includeSignBit: true}).number
+
     return complement
 }
 

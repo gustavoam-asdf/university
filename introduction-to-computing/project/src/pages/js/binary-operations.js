@@ -6,7 +6,7 @@ import {
   showFormSuccessMessage
 } from '../../js/formHandler/drawInfo.js'
 import addBits from './binaryOperations/aritmetic/integers/addBits.js'
-import { RestofBits } from './binaryOperations/aritmetic/integers/substractBits.js'
+import RestofBits from './binaryOperations/aritmetic/integers/substractBits.js'
 import { complementToOne, complementToTwo } from './binaryOperations/complement/encodeComplement.js'
 import { shiftAritmeticRight, shiftAritmeticLeft } from './binaryOperations/shift/aritmetic.js'
 import { shiftCircleLeft, shiftCircleRight } from './binaryOperations/shift/circular.js'
@@ -270,17 +270,3 @@ substIntegerForm.addEventListener('submit', evt => {
   clearForm(shiftForm)
 })
 
-const num1 = '00011000'
-const num2 = '11101111'
-const operation = '+'
-
-console.log(`Primer Número : ${num1}`)
-console.log(`Operación : ${operation}`)
-console.log(`Segundo Número : ${num2}`)
-
-console.log('Resultado: ')
-console.log(RestofBits(num1, num2, operation))
-
-console.log('==================================')
-console.log('numero 1 c2: ')
-console.log(complementToTwo({ number: num1 , base: 2, includeSignBit: true}))
