@@ -5,7 +5,6 @@ import {
   showFormErrorMessage,
   showFormSuccessMessage
 } from '../../js/formHandler/drawInfo.js'
-import addBits from './binaryOperations/aritmetic/integers/addBits.js'
 import RestofBits from './binaryOperations/aritmetic/integers/substractBits.js'
 import { complementToOne, complementToTwo } from './binaryOperations/complement/encodeComplement.js'
 import { shiftAritmeticRight, shiftAritmeticLeft } from './binaryOperations/shift/aritmetic.js'
@@ -93,6 +92,12 @@ numberComplementForm.addEventListener('submit', evt => {
     return
   }
 
+  if (number.slice(0, 1) === '-' && numberBase === 2) {
+    showFormErrorMessage(errorMessage, 'Este número no debe tener signo', 5)
+    clearForm(numberComplementForm)
+    return
+  }
+
   const data = { number, base: numberBase, includeSignBit: hasSignBit === 'si' ? true : false }
 
   if (targetComplement === 'c1') {
@@ -161,6 +166,12 @@ shiftForm.addEventListener('submit', evt => {
     return
   }
 
+  if (number.slice(0, 1) === '-' && numberBase === 2) {
+    showFormErrorMessage(errorMessage, 'Este número no debe tener signo', 5)
+    clearForm(numberComplementForm)
+    return
+  }
+
   let value = number
   if (numberBase !== 2) {
     value = complementToTwo({ number, base: numberBase }).number
@@ -206,9 +217,15 @@ const addIntegerInputEventHandler = evt => {
   if (!inputPressed) return
   const value = inputPressed.value
   if (inputPressed.name === 'ai__number__one') {
-    formVerifier.add.firstNumber = drawInputInfo(existInBase(value, 2), inputPressed)
+    formVerifier.add.firstNumber = drawInputInfo(
+      existInBase(value, 2) && value.slice(0, 1) !== '-',
+      inputPressed
+    )
   } else if (inputPressed.name === 'ai__number__two') {
-    formVerifier.add.secondNumber = drawInputInfo(existInBase(value, 2), inputPressed)
+    formVerifier.add.secondNumber = drawInputInfo(
+      existInBase(value, 2) && value.slice(0, 1) !== '-',
+      inputPressed
+    )
   }
 }
 
@@ -248,9 +265,15 @@ const substIntegerInputEventHandler = evt => {
   if (!inputPressed) return
   const value = inputPressed.value
   if (inputPressed.name === 'si__number__one') {
-    formVerifier.substract.firstNumber = drawInputInfo(existInBase(value, 2), inputPressed)
+    formVerifier.substract.firstNumber = drawInputInfo(
+      existInBase(value, 2) && value.slice(0, 1) !== '-',
+      inputPressed
+    )
   } else if (inputPressed.name === 'si__number__two') {
-    formVerifier.substract.secondNumber = drawInputInfo(existInBase(value, 2), inputPressed)
+    formVerifier.substract.secondNumber = drawInputInfo(
+      existInBase(value, 2) && value.slice(0, 1) !== '-',
+      inputPressed
+    )
   }
 }
 
