@@ -1,6 +1,6 @@
 import anyToDecimal from '../../changeBase/anyBaseToDecimalBase/anyToDecimal.js'
 import decimalToAny from '../../changeBase/decimalBaseToAnyBase/decimalToAny.js'
-import { isNumber } from '../../changeBase/validateNumber.js'
+import { isHex } from '../../changeBase/validateNumber.js'
 import completeWithZeros from '../../numberRepresentations/completeWithZeros.js'
 import findNearestLenght from '../../numberRepresentations/findNearestLenght.js'
 import addBits from '../aritmetic/integers/addBits.js'
@@ -8,7 +8,7 @@ import addBits from '../aritmetic/integers/addBits.js'
 export const complementToOne = ({ number: strNumber, base, includeSignBit = false }) => {
   if (typeof strNumber !== 'string') throw new TypeError('Number must be a number type string')
   if (typeof base !== 'number') throw new TypeError('Base must be a number')
-  if (!isNumber(strNumber)) throw new Error('Number does not exist')
+  if (!isHex(strNumber)) throw new Error('Number does not exist')
 
   if (base !== 2) {
     const decimalNumber = anyToDecimal(base, strNumber)
@@ -36,7 +36,7 @@ export const complementToOne = ({ number: strNumber, base, includeSignBit = fals
 export const complementToTwo = ({ number: strNumber, base, includeSignBit = false }) => {
   if (typeof strNumber !== 'string') throw new TypeError('Number must be a number type string')
   if (typeof base !== 'number') throw new TypeError('Base must be a number')
-  if (!isNumber(strNumber)) throw new Error('Number does not exist')
+  if (!isHex(strNumber)) throw new Error('Number does not exist')
 
   const numberInC1 = complementToOne({ number: strNumber, base, includeSignBit })
   if (numberInC1.sign === '0') {
