@@ -227,7 +227,7 @@ addIntegerForm.addEventListener('submit', evt => {
   const secondNumber = document.getElementById('ai__number__two').value
   const result = document.getElementById('ai__result')
 
-  result.value = addBits(firstNumber, secondNumber)
+  result.value = addBits(firstNumber, secondNumber, true)
 
   showFormSuccessMessage(document.getElementById('ai__form__success-message'), 2)
   clearForm(shiftForm)
@@ -263,9 +263,13 @@ substIntegerForm.addEventListener('submit', evt => {
   const secondNumber = document.getElementById('si__number__two').value
   const result = document.getElementById('si__result')
 
-  result.value = RestofBits(firstNumber, secondNumber, '-')
+  const response = RestofBits(firstNumber, secondNumber, '-')
+  result.value = response.ResultadoReal
+
+  if (response.Overflow) {
+    showFormErrorMessage(errorMessage, response.Error, 15)
+  }
 
   showFormSuccessMessage(document.getElementById('si__form__success-message'), 2)
   clearForm(shiftForm)
 })
-

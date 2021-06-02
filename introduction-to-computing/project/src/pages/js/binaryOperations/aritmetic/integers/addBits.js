@@ -1,33 +1,35 @@
 import completeWithZeros from '../../../numberRepresentations/completeWithZeros.js'
 
-const addBits = (firstNumber, secondNumber, carry = 0) => {
-  if (secondNumber.length > firstNumber.length) throw new Error('Error')
-
-  const numbers = {
-    first: firstNumber,
-    second: completeWithZeros({ unsignedNumber: secondNumber }, firstNumber.length)
+const addBits = (firstNumber, secondNumber, expand = false) => {
+  const numbers = { first: firstNumber, second: secondNumber }
+  if (firstNumber.length >= secondNumber.length) {
+    numbers.second = completeWithZeros({ unsignedNumber: secondNumber }, firstNumber.length)
+  } else {
+    numbers.first = completeWithZeros({ unsignedNumber: firstNumber }, secondNumber.length)
   }
 
-  const lastBit = {
-    first: [...numbers.first].reverse()[0],
-    second: [...numbers.second].reverse()[0]
-  }
+  let carry = 0
 
-  const newCarry =
-    (lastBit.first === '1' && lastBit.second === '1') ||
-    (carry === 1 && (lastBit.first === '1' || lastBit.second === '1'))
-      ? 1
-      : 0
+  const result = [...numbers.first]
+    .map((bit, i, self) => {
+      const lastBit = {
+        first: self[self.length - i - 1],
+        second: [...numbers.second][self.length - i - 1]
+      }
+      const xor = lastBit.first ^ lastBit.second ^ carry
+      carry =
+        (lastBit.first === '1' && lastBit.second === '1') ||
+        (carry === 1 && (lastBit.first === '1' || lastBit.second === '1'))
+          ? 1
+          : 0
 
-  const outputBit = lastBit.first ^ lastBit.second ^ carry
+      return xor
+    })
+    .reverse()
+    .join('')
 
-  if (firstNumber.length === 1) {
-    return `${outputBit}`
-  }
-  const nextAddFN = numbers.first.slice(0, -1)
-  const nextAddSN = numbers.second.slice(0, -1)
-
-  return `${addBits(nextAddFN, nextAddSN, newCarry)}${outputBit}`
+  if (expand) return carry === 0 ? result : `1${result}`
+  return result
 }
 
 export default addBits
