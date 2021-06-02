@@ -11,8 +11,7 @@ import { complementToOne, complementToTwo } from './binaryOperations/complement/
 import { shiftAritmeticRight, shiftAritmeticLeft } from './binaryOperations/shift/aritmetic.js'
 import { shiftCircleLeft, shiftCircleRight } from './binaryOperations/shift/circular.js'
 import { shiftLogicLeft, shiftLogicRight } from './binaryOperations/shift/logic.js'
-import { existInBase, isInteger, isNumber } from './changeBase/validateNumber.js'
-import firstDigit from './changeBase/firstDigit.js'
+import { existInBase, isHex, isInteger } from './changeBase/validateNumber.js'
 
 const numberComplementForm = document.getElementById('nc__form')
 const formVerifier = {
@@ -45,7 +44,7 @@ const complementInputEventHandler = evt => {
   if (!inputPressed) return
   const value = inputPressed.value
   if (inputPressed.name === 'nc__number') {
-    formVerifier.complement.number = drawInputInfo(isNumber(value), inputPressed)
+    formVerifier.complement.number = drawInputInfo(isHex(value), inputPressed)
   } else if (inputPressed.name === 'nc__number-base') {
     formVerifier.complement.base = drawInputInfo(
       isInteger(value) && parseInt(value) > 1,
@@ -114,7 +113,7 @@ const shiftInputEventHandler = evt => {
   if (!inputPressed) return
   const value = inputPressed.value
   if (inputPressed.name === 'shift__number') {
-    formVerifier.shift.number = drawInputInfo(isNumber(value), inputPressed)
+    formVerifier.shift.number = drawInputInfo(isHex(value), inputPressed)
   } else if (inputPressed.name === 'shift__number-base') {
     formVerifier.shift.base = drawInputInfo(isInteger(value) && parseInt(value) > 1, inputPressed)
   } else if (inputPressed.name === 'shift-type') {

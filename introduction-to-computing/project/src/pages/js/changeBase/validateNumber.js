@@ -26,7 +26,7 @@ export const isInteger = strNumber => {
 }
 
 export const existInBase = (strNumber, base) => {
-  if (!isNumber(strNumber)) return false
+  if (!isHex(strNumber)) return false
   const digit = firstDigit(strNumber)
   if (strNumber.length === 1) return digit.asNumber < base
   if (digit.asNumber >= base) return false
