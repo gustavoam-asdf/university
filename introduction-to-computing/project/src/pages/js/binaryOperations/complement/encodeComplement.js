@@ -13,7 +13,6 @@ export const complementToOne = ({ number: strNumber, base, includeSignBit = fals
   if (base !== 2) {
     const decimalNumber = anyToDecimal(base, strNumber)
     const binaryNumber = decimalToAny(2, decimalNumber.unsignedNumber)
-    console.log(binaryNumber.unsignedNumber)
     const bits = findNearestLenght(binaryNumber.unsignedNumber.length + 1, 2)
     const completeNumber = completeWithZeros(binaryNumber, bits)
     if (decimalNumber.sign === '0') {
@@ -27,9 +26,9 @@ export const complementToOne = ({ number: strNumber, base, includeSignBit = fals
   const firstBit = strNumber.slice(0, 1)
   if (includeSignBit) {
     if (firstBit === '0') {
-      return { type: 'c1', number: strNumber }
+      return { type: 'c1', number: strNumber, sign: '0' }
     }
-    return { type: 'c1', number: `${firstBit}${invertedBits.slice(1)}` }
+    return { type: 'c1', number: `${firstBit}${invertedBits.slice(1)}`, sign: '1' }
   }
   return { type: 'c1', number: invertedBits }
 }
