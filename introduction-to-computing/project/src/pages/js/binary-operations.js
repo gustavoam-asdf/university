@@ -2,10 +2,22 @@ import { complementToOne, complementToTwo } from './binaryOperations/complement/
 import { shiftAritmeticRight, shiftAritmeticLeft } from './binaryOperations/shift/aritmetic.js'
 import { shiftCircleLeft, shiftCircleRight } from './binaryOperations/shift/circular.js'
 import { shiftLogicLeft, shiftLogicRight } from './binaryOperations/shift/logic.js'
+import { RestofBits } from './binaryOperations/aritmetic/RestofBits.js'
 
-const number = '10011000'
+// const number = '10011000'
+const number1 = '00011000'
+const number2 = '11101111'
+const operation = '-'
 
-console.log(`Inicio   : ${number}`)
+// console.log(`Inicio   : ${number}`)
+
+console.log(`Primer número : ${number1}`)
+console.log(`Operación : ${operation}`)
+console.log(`Segundo número : ${number2}`)
+    
+const res = RestofBits(number1, number2, operation)
+
+console.log(`Respuesta: ${res}`)
 
 // console.log('Shift aritmetica derecha')
 // console.log(`Salida1-1: ${shiftAritmeticRight(number)}`)
@@ -41,7 +53,7 @@ console.log(`Inicio   : ${number}`)
 // console.log(`Salida3-1: ${shiftCircleLeft(shiftCircleLeft(shiftCircleLeft(number)))}`)
 // console.log(`Salida3-2: ${shiftCircleLeft(number, 3)}\n`)
 
-console.log('Complemento a 1')
-console.log(complementToOne({ number }))
-console.log('Complemento a 2')
-console.log(complementToTwo({ number }))
+// console.log('Complemento a 1')
+// console.log(complementToOne({ number }))
+// console.log('Complemento a 2')
+// console.log(complementToTwo({ number }))
