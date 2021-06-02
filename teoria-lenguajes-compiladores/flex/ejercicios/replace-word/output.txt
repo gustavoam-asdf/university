@@ -1,0 +1,3 @@
+gato gato perro gato
+perro perro gato gato
+gato gato perro gato

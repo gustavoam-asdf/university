@@ -6,6 +6,7 @@ const preloader = document.createElement('pre-loader')
 
 let showingTasks = false
 const tasksButtonOC = document.getElementById('tasks__button-oc')
+const tasksButtonHome = document.getElementById('tasks__button-home')
 const tasks = document.getElementById('tasks')
 const pagesContainer = document.getElementById('main')
 

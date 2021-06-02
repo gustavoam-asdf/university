@@ -2,7 +2,6 @@ import getInteger from '../getInteger.js'
 import getDecimals from '../getDecimals.js'
 import integerDecimalToAny from './integerDecimalToAny.js'
 import decimalsDecimalToAny from './decimalsDecimalToAny.js'
-import firstDigit from '../firstDigit.js'
 
 // Convert a number in decimal base to another base
 /**

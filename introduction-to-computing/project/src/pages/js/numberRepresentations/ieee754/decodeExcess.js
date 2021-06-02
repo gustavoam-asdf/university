@@ -43,6 +43,7 @@ const BuildNumber = (sign, mantissa, exp) => {
     for (let index = 0; index < exptemp - 1; index++) {
       part2 = `0${part2}`
     }
+
     completeform = part1.concat('.', part2)
   } else if (exp == 0) {
     completeform = completeform
@@ -62,6 +63,17 @@ const BuildNumber = (sign, mantissa, exp) => {
 const ExcessToDecimal = (bias, number) => {
   if (typeof bias !== 'number') throw new TypeError('Bias must be a number')
   if (bias !== 127 && bias !== 1023) throw new Error('Invalid, bias must be 127 or 1023')
+  const length = number.slice(1).split('')
+  let cont = 0
+
+  length.forEach(element => {
+    if (element == '0') {
+      cont++
+    }
+  })
+
+  if (cont == 31 || cont == 63) return 0
+
   let exponent = 0
   if (bias === 127) {
     if (number.split('').length == 32) {
@@ -82,6 +94,7 @@ const ExcessToDecimal = (bias, number) => {
   const sign = Deconstruct(bias, number).sign
   const mantissa = Deconstruct(bias, number).mantissa
   const numeroDecimal = BuildNumber(sign, mantissa, exponent)
+
   return numeroDecimal
 }
 
