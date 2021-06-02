@@ -5,20 +5,43 @@ import { complementToOne, complementToTwo } from './binaryOperations/complement/
 import { shiftAritmeticRight, shiftAritmeticLeft } from './binaryOperations/shift/aritmetic.js'
 import { shiftCircleLeft, shiftCircleRight } from './binaryOperations/shift/circular.js'
 import { shiftLogicLeft, shiftLogicRight } from './binaryOperations/shift/logic.js'
-import { RestofBits } from './binaryOperations/aritmetic/RestofBits.js'
+import { existInBase, isInteger, isNumber } from './changeBase/validateNumber.js'
 
-// const number = '10011000'
-const number1 = '00011000'
-const number2 = '11101111'
-const operation = '-'
+const numberComplementForm = document.getElementById('nc__form')
+const formVerifier = {
+  complement: {
+    number: false,
+    base: true,
+    complement: false,
+    hasBitSign: true
+  }
+}
 
-// console.log(`Inicio   : ${number}`)
+const complementInputEventHandler = evt => {
+  const inputPressed = evt.target.closest('input')
+  if (!inputPressed) return
+  const value = inputPressed.value
+  if (inputPressed.name === 'nc__number') {
+    formVerifier.complement.number = drawInputInfo(isNumber(value), inputPressed)
+  } else if (inputPressed.name === 'nc__number-base') {
+    formVerifier.complement.base = drawInputInfo(
+      isInteger(value) && parseInt(value) > 1,
+      inputPressed
+    )
+  } else if (inputPressed.name === 'target-complement') {
+    formVerifier.complement.complement = drawInputInfo(
+      value.toLowerCase() === 'c1' || value.toLowerCase() === 'c2',
+      inputPressed
+    )
+  } else if (inputPressed.name === 'has-sign-bit') {
+    formVerifier.complement.hasBitSign = drawInputInfo(
+      value.toLowerCase() === 'si' || value.toLowerCase() === 'no',
+      inputPressed
+    )
+  }
+}
 
-console.log(`Primer número : ${number1}`)
-console.log(`Operación : ${operation}`)
-console.log(`Segundo número : ${number2}`)
-
-const res = RestofBits(number1, number2, operation)
+applyEventsForm(numberComplementForm, complementInputEventHandler)
 
 numberComplementForm.addEventListener('submit', evt => {
   evt.preventDefault()
