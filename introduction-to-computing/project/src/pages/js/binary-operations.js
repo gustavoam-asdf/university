@@ -5,19 +5,86 @@ import { complementToOne, complementToTwo } from './binaryOperations/complement/
 import { shiftAritmeticRight, shiftAritmeticLeft } from './binaryOperations/shift/aritmetic.js'
 import { shiftCircleLeft, shiftCircleRight } from './binaryOperations/shift/circular.js'
 import { shiftLogicLeft, shiftLogicRight } from './binaryOperations/shift/logic.js'
-import { RestofBits } from './binaryOperations/aritmetic/integers/substractBits.js'
+import { existInBase, isInteger, isNumber } from './changeBase/validateNumber.js'
 
-const num1 = '00011000'
-const num2 = '11101111'
-const operation = '+'
+const numberComplementForm = document.getElementById('nc__form')
+const formVerifier = {
+  complement: {
+    number: false,
+    base: true,
+    complement: false,
+    hasBitSign: true
+  }
+}
 
-console.log(`Primer número : ${num1}`)
-console.log(`Operación : ${operation}`)
-console.log(`Segundo número : ${num2}`)
-    
-const res = RestofBits(num1, num2, operation)
+const complementInputEventHandler = evt => {
+  const inputPressed = evt.target.closest('input')
+  if (!inputPressed) return
+  const value = inputPressed.value
+  if (inputPressed.name === 'nc__number') {
+    formVerifier.complement.number = drawInputInfo(isNumber(value), inputPressed)
+  } else if (inputPressed.name === 'nc__number-base') {
+    formVerifier.complement.base = drawInputInfo(
+      isInteger(value) && parseInt(value) > 1,
+      inputPressed
+    )
+  } else if (inputPressed.name === 'target-complement') {
+    formVerifier.complement.complement = drawInputInfo(
+      value.toLowerCase() === 'c1' || value.toLowerCase() === 'c2',
+      inputPressed
+    )
+  } else if (inputPressed.name === 'has-sign-bit') {
+    formVerifier.complement.hasBitSign = drawInputInfo(
+      value.toLowerCase() === 'si' || value.toLowerCase() === 'no',
+      inputPressed
+    )
+  }
+}
 
-console.log(`Respuesta: ${res}`)
+applyEventsForm(numberComplementForm, complementInputEventHandler)
+
+numberComplementForm.addEventListener('submit', evt => {
+  evt.preventDefault()
+  const errorMessage = document.getElementById('nc__form__message')
+
+  if (
+    !(
+      formVerifier.complement.number &&
+      formVerifier.complement.base &&
+      formVerifier.complement.complement &&
+      formVerifier.complement.hasBitSign
+    )
+  ) {
+    showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 5)
+    return
+  }
+
+  const number = document.getElementById('nc__number').value
+  const numberBase = document.getElementById('nc__number-base').value
+  const targetComplement = document.getElementById('target-complement').value.toLowerCase()
+  const hasSignBit = document.getElementById('has-sign-bit').value.toLowerCase()
+  const result = document.getElementById('nc__result')
+
+  if (!existInBase(number, numberBase)) {
+    showFormErrorMessage(errorMessage, 'El número no existe en esa base', 5)
+    clearForm(numberComplementForm)
+    return
+  }
+
+  if (targetComplement === 'c1') {
+    result.value = complementToOne({
+      number,
+      base: Number(numberBase),
+      includeSignBit: hasSignBit === 'si' ? true : false
+    }).number
+  } else if (targetComplement === 'c2') {
+    result.value = complementToTwo({
+      number,
+      base: Number(numberBase),
+      includeSignBit: hasSignBit === 'si' ? true : false
+    }).number
+  }
+})
 
 // console.log('Shift aritmetica derecha')
 // console.log(`Salida1-1: ${shiftAritmeticRight(number)}`)
@@ -57,11 +124,3 @@ console.log(`Respuesta: ${res}`)
 // console.log(complementToOne({ number }))
 // console.log('Complemento a 2')
 // console.log(complementToTwo({ number }))
-
-const number = '10011000'
-const number2 = '1010001'
-
-// console.log(`Inicio   : ${number}`)
-
-console.log(`2do num  :  ${number2}`)
-console.log(`Resultado: ${addBits(number, number2)}`)
