@@ -27,7 +27,7 @@ export const complementToOne = ({ number: strNumber, base, includeSignBit = fals
   const firstBit = strNumber.slice(0, 1)
   if (includeSignBit) {
     if (firstBit === '0') {
-      return { type: 'c1', number: strNumber }
+      return { type: 'c1', number: strNumber, sign: '0' }
     }
     return { type: 'c1', number: `${firstBit}${invertedBits.slice(1)}` }
   }
