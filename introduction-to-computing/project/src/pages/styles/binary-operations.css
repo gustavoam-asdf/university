@@ -23,6 +23,11 @@
   grid-column: span 2;
 }
 
+#nc__group__number-base,
+#group__target-complement {
+  grid-column: span 3;
+}
+
 .form__label {
   color: var(--dark-blue);
   display: block;

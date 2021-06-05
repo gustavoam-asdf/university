@@ -17,8 +17,7 @@ const formVerifier = {
   complement: {
     number: false,
     base: true,
-    complement: false,
-    hasBitSign: true
+    complement: false
   },
   shift: {
     number: false,
@@ -54,11 +53,6 @@ const complementInputEventHandler = evt => {
       value.toLowerCase() === 'c1' || value.toLowerCase() === 'c2',
       inputPressed
     )
-  } else if (inputPressed.name === 'has-sign-bit') {
-    formVerifier.complement.hasBitSign = drawInputInfo(
-      value.toLowerCase() === 'si' || value.toLowerCase() === 'no',
-      inputPressed
-    )
   }
 }
 
@@ -72,8 +66,7 @@ numberComplementForm.addEventListener('submit', evt => {
     !(
       formVerifier.complement.number &&
       formVerifier.complement.base &&
-      formVerifier.complement.complement &&
-      formVerifier.complement.hasBitSign
+      formVerifier.complement.complement
     )
   ) {
     showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 5)
@@ -83,7 +76,6 @@ numberComplementForm.addEventListener('submit', evt => {
   const number = document.getElementById('nc__number').value
   const numberBase = Number(document.getElementById('nc__number-base').value)
   const targetComplement = document.getElementById('target-complement').value.toLowerCase()
-  const hasSignBit = document.getElementById('has-sign-bit').value.toLowerCase()
   const result = document.getElementById('nc__result')
 
   if (!existInBase(number, numberBase)) {
@@ -92,13 +84,7 @@ numberComplementForm.addEventListener('submit', evt => {
     return
   }
 
-  if (number.slice(0, 1) === '-' && numberBase === 2) {
-    showFormErrorMessage(errorMessage, 'Este número no debe tener signo', 5)
-    clearForm(numberComplementForm)
-    return
-  }
-
-  const data = { number, base: numberBase, includeSignBit: hasSignBit === 'si' ? true : false }
+  const data = { number, base: numberBase }
 
   if (targetComplement === 'c1') {
     result.value = complementToOne(data).number
@@ -162,12 +148,6 @@ shiftForm.addEventListener('submit', evt => {
 
   if (!existInBase(number, numberBase)) {
     showFormErrorMessage(errorMessage, 'El número no existe en esa base', 5)
-    clearForm(numberComplementForm)
-    return
-  }
-
-  if (number.slice(0, 1) === '-' && numberBase === 2) {
-    showFormErrorMessage(errorMessage, 'Este número no debe tener signo', 5)
     clearForm(numberComplementForm)
     return
   }
