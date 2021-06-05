@@ -36,23 +36,6 @@
         <p class="form__input-error">Base incorrecta</p>
       </div>
 
-      <!-- Grupo: Target Complement-->
-      <div class="form__group" id="group__target-complement">
-        <label for="target-complement" class="form__label">Complemento</label>
-        <div class="form__group-input">
-          <input
-            type="text"
-            class="form__input"
-            name="target-complement"
-            id="target-complement"
-            placeholder="c2"
-            autocomplete="off"
-          />
-          <i class="form__check-state fas fa-times-circle"></i>
-        </div>
-        <p class="form__input-error">Debe ingresar: c1 o c2</p>
-      </div>
-
       <div class="form__group form__group-btn-send">
         <button type="submit" class="form__btn">Convertir</button>
         <p class="form__success-message" id="nc__form__success-message">
@@ -67,15 +50,31 @@
         Por favor rellena el formulario correctamente
       </p>
 
-      <!-- Grupo: Result -->
-      <div class="form__group group__result" id="nc__group__result">
-        <label for="nc__result" class="form__label">Resultado</label>
+      <!-- Grupo: Complement to 1 -->
+      <div class="form__group group__result" id="nc__group__result-one">
+        <label for="nc__result-one" class="form__label">Complemento a uno</label>
         <div class="form__group-input">
           <input
             type="text"
             class="form__input"
-            name="nc__result"
-            id="nc__result"
+            name="nc__result-one"
+            id="nc__result-one"
+            placeholder="00001010"
+            readonly
+            disabled
+          />
+        </div>
+      </div>
+
+      <!-- Grupo: Complement to 2 -->
+      <div class="form__group group__result" id="nc__group__result-two">
+        <label for="nc__result-two" class="form__label">Complemento a dos</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="nc__result-two"
+            id="nc__result-two"
             placeholder="00001010"
             readonly
             disabled

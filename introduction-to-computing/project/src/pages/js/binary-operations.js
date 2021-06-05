@@ -16,8 +16,7 @@ const numberComplementForm = document.getElementById('nc__form')
 const formVerifier = {
   complement: {
     number: false,
-    base: true,
-    complement: false
+    base: true
   },
   shift: {
     number: false,
@@ -48,11 +47,6 @@ const complementInputEventHandler = evt => {
       isInteger(value) && parseInt(value) > 1,
       inputPressed
     )
-  } else if (inputPressed.name === 'target-complement') {
-    formVerifier.complement.complement = drawInputInfo(
-      value.toLowerCase() === 'c1' || value.toLowerCase() === 'c2',
-      inputPressed
-    )
   }
 }
 
@@ -62,21 +56,15 @@ numberComplementForm.addEventListener('submit', evt => {
   evt.preventDefault()
   const errorMessage = document.getElementById('nc__form__message')
 
-  if (
-    !(
-      formVerifier.complement.number &&
-      formVerifier.complement.base &&
-      formVerifier.complement.complement
-    )
-  ) {
+  if (!(formVerifier.complement.number && formVerifier.complement.base)) {
     showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 5)
     return
   }
 
   const number = document.getElementById('nc__number').value
   const numberBase = Number(document.getElementById('nc__number-base').value)
-  const targetComplement = document.getElementById('target-complement').value.toLowerCase()
-  const result = document.getElementById('nc__result')
+  const resultOne = document.getElementById('nc__result-one')
+  const resultTwo = document.getElementById('nc__result-two')
 
   if (!existInBase(number, numberBase)) {
     showFormErrorMessage(errorMessage, 'El número no existe en esa base', 5)
@@ -86,11 +74,9 @@ numberComplementForm.addEventListener('submit', evt => {
 
   const data = { number, base: numberBase }
 
-  if (targetComplement === 'c1') {
-    result.value = complementToOne(data).number
-  } else if (targetComplement === 'c2') {
-    result.value = complementToTwo(data).number
-  }
+  resultOne.value = complementToOne(data).number
+  resultTwo.value = complementToTwo(data).number
+
   showFormSuccessMessage(document.getElementById('nc__form__success-message'), 2)
   clearForm(numberComplementForm)
 })
