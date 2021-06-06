@@ -23,6 +23,14 @@
   grid-column: span 2;
 }
 
+#nc__group__number {
+  grid-column: span 4;
+}
+
+#nc__group__number-base {
+  grid-column: span 2;
+}
+
 .form__label {
   color: var(--dark-blue);
   display: block;
