@@ -1,20 +1,23 @@
-import completeWithZeros from '../../../numberRepresentations/completeWithZeros.js'
+import { existInBase } from '../../../changeBase/validateNumber.js'
+import matchLengths from '../../matchLengths.js'
 
-const addBits = (firstNumber, secondNumber, expand = false) => {
-  const numbers = { first: firstNumber, second: secondNumber }
-  if (firstNumber.length >= secondNumber.length) {
-    numbers.second = completeWithZeros({ unsignedNumber: secondNumber }, firstNumber.length)
-  } else {
-    numbers.first = completeWithZeros({ unsignedNumber: firstNumber }, secondNumber.length)
-  }
+const addBits = ({ firstNumber, secondNumber, expand = false }) => {
+  if (typeof firstNumber !== 'string')
+    throw new TypeError('First number must be a number type string')
+  if (typeof secondNumber !== 'string')
+    throw new TypeError('Second number must be a number type string')
+  if (!existInBase(firstNumber, 2)) throw new Error('First number does not exist in base 2')
+  if (!existInBase(secondNumber, 2)) throw new Error('Second number does not exist in base 2')
+
+  const numbers = matchLengths({ firstNumber, secondNumber })
 
   let carry = 0
 
-  const result = [...numbers.first]
+  const result = [...numbers.firstNumber]
     .map((bit, i, self) => {
       const lastBit = {
         first: self[self.length - i - 1],
-        second: [...numbers.second][self.length - i - 1]
+        second: [...numbers.secondNumber][self.length - i - 1]
       }
       const xor = lastBit.first ^ lastBit.second ^ carry
       carry =
