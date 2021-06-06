@@ -6,6 +6,7 @@ import {
   showFormSuccessMessage
 } from '../../js/formHandler/drawInfo.js'
 import addBits from './binaryOperations/aritmetic/integers/addBits.js'
+import hasOverflow from './binaryOperations/aritmetic/integers/hasOverflow.js'
 import substractBits from './binaryOperations/aritmetic/integers/substractBits.js'
 import {
   complementOneToDecimal,
@@ -215,7 +216,14 @@ addIntegerForm.addEventListener('submit', evt => {
   const secondNumber = document.getElementById('ai__number__two').value
   const result = document.getElementById('ai__result')
 
-  result.value = addBits({ firstNumber, secondNumber })
+  const operation = addBits({ firstNumber, secondNumber })
+  const overflow = hasOverflow({ firstNumber, secondNumber, result: operation, operator: '+' })
+
+  result.value = operation
+  if (overflow) {
+    showFormErrorMessage(errorMessage, 'Ocurrio un overflow', 15)
+    return
+  }
 
   showFormSuccessMessage(document.getElementById('ai__form__success-message'), 2)
   clearForm(shiftForm)
@@ -257,8 +265,70 @@ substIntegerForm.addEventListener('submit', evt => {
   const secondNumber = document.getElementById('si__number__two').value
   const result = document.getElementById('si__result')
 
-  result.value = substractBits({ firstNumber, secondNumber })
+  const operation = substractBits({ firstNumber, secondNumber })
+  const overflow = hasOverflow({ firstNumber, secondNumber, result: operation, operator: '-' })
+
+  result.value = operation
+  if (overflow) {
+    showFormErrorMessage(errorMessage, 'Ocurrio un overflow', 15)
+    return
+  }
 
   showFormSuccessMessage(document.getElementById('si__form__success-message'), 2)
   clearForm(shiftForm)
 })
+
+// Examples
+const op1 = {
+  firstNumber: '00010001',
+  operator: '+',
+  secondNumber: '00010110'
+}
+
+op1.result = addBits(op1)
+console.log(op1)
+console.log(hasOverflow(op1))
+
+const op2 = {
+  firstNumber: '00011000',
+  operator: '+',
+  secondNumber: '11101111'
+}
+
+op2.result = addBits(op2)
+
+console.log(op2)
+console.log(hasOverflow(op2))
+
+const op3 = {
+  firstNumber: '00011000',
+  operator: '-',
+  secondNumber: '11101111'
+}
+
+op3.result = substractBits(op3)
+
+console.log(op3)
+console.log(hasOverflow(op3))
+
+const op4 = {
+  firstNumber: '11011101',
+  operator: '-',
+  secondNumber: '00010100'
+}
+
+op4.result = substractBits(op4)
+
+console.log(op4)
+console.log(hasOverflow(op4))
+
+const op5 = {
+  firstNumber: '01111111',
+  operator: '+',
+  secondNumber: '00000011'
+}
+
+op5.result = addBits(op5)
+
+console.log(op5)
+console.log(hasOverflow(op5))
