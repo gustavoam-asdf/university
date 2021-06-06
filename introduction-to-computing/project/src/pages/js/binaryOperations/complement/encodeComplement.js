@@ -7,6 +7,7 @@ import addBits from '../aritmetic/integers/addBits.js'
 
 export const complementToOne = ({ number: strNumber, base, force = false }) => {
   if (typeof strNumber !== 'string') throw new TypeError('Number must be a number type string')
+  if (typeof base !== 'number') throw new TypeError('Base must be a number')
   if (!isHex(strNumber)) throw new Error('Number does not exist')
 
   let isPositive = strNumber.slice(0, 1) !== '-'
@@ -23,22 +24,22 @@ export const complementToOne = ({ number: strNumber, base, force = false }) => {
   const completeNumber = completeWithZeros({ unsignedNumber: number }, recomendedBits)
   const invertedBits = [...completeNumber].map(bit => (bit === '1' ? '0' : '1')).join('')
 
-  if (force) return { type: 'c1', number: invertedBits }
+  if (force) return { number: invertedBits }
+  if (isPositive) return { number: completeNumber, sign: '0' }
 
-  if (isPositive) return { type: 'c1', number: completeNumber, sign: '0' }
-
-  return { type: 'c1', number: `1${invertedBits.slice(1)}`, sign: '1' }
+  return { number: `1${invertedBits.slice(1)}`, sign: '1' }
 }
 
-export const complementToTwo = ({ number: strNumber, base, bits = 0, force = false }) => {
+export const complementToTwo = ({ number: strNumber, base, force = false }) => {
   if (typeof strNumber !== 'string') throw new TypeError('Number must be a number type string')
   if (typeof base !== 'number') throw new TypeError('Base must be a number')
   if (!isHex(strNumber)) throw new Error('Number does not exist')
 
-  const numberInC1 = complementToOne({ number: strNumber, base, bits, force })
-  if (numberInC1.sign === '0') {
-    return { type: 'c2', number: numberInC1.number, sign: '0' }
-  }
+  const numberInC1 = complementToOne({ number: strNumber, base, force })
+  if (numberInC1.sign === '0') return { number: numberInC1.number, sign: '0' }
 
-  return { type: 'c2', number: addBits(numberInC1.number, '1') }
+  return {
+    number: addBits({ firstNumber: numberInC1.number, secondNumber: '1' }),
+    sign: '1'
+  }
 }

@@ -5,7 +5,12 @@ import {
   showFormErrorMessage,
   showFormSuccessMessage
 } from '../../js/formHandler/drawInfo.js'
-import RestofBits from './binaryOperations/aritmetic/integers/substractBits.js'
+import addBits from './binaryOperations/aritmetic/integers/addBits.js'
+import substractBits from './binaryOperations/aritmetic/integers/substractBits.js'
+import {
+  complementOneToDecimal,
+  complementTwoToDecimal
+} from './binaryOperations/complement/decodeComplement.js'
 import { complementToOne, complementToTwo } from './binaryOperations/complement/encodeComplement.js'
 import { shiftAritmeticRight, shiftAritmeticLeft } from './binaryOperations/shift/aritmetic.js'
 import { shiftCircleLeft, shiftCircleRight } from './binaryOperations/shift/circular.js'
@@ -210,13 +215,7 @@ addIntegerForm.addEventListener('submit', evt => {
   const secondNumber = document.getElementById('ai__number__two').value
   const result = document.getElementById('ai__result')
 
-  const response = RestofBits(firstNumber, secondNumber, '+')
-
-  result.value = response.ResultadoReal
-
-  if (response.Overflow) {
-    showFormErrorMessage(errorMessage, response.Error, 15)
-  }
+  result.value = addBits({ firstNumber, secondNumber })
 
   showFormSuccessMessage(document.getElementById('ai__form__success-message'), 2)
   clearForm(shiftForm)
@@ -258,12 +257,7 @@ substIntegerForm.addEventListener('submit', evt => {
   const secondNumber = document.getElementById('si__number__two').value
   const result = document.getElementById('si__result')
 
-  const response = RestofBits(firstNumber, secondNumber, '-')
-  result.value = response.ResultadoReal
-
-  if (response.Overflow) {
-    showFormErrorMessage(errorMessage, response.Error, 15)
-  }
+  result.value = substractBits({ firstNumber, secondNumber })
 
   showFormSuccessMessage(document.getElementById('si__form__success-message'), 2)
   clearForm(shiftForm)
