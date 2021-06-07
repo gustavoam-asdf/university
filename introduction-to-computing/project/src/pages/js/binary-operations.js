@@ -6,7 +6,12 @@ import {
   showFormSuccessMessage
 } from '../../js/formHandler/drawInfo.js'
 import addBits from './binaryOperations/aritmetic/integers/addBits.js'
-import RestofBits from './binaryOperations/aritmetic/integers/substractBits.js'
+import hasOverflow from './binaryOperations/aritmetic/integers/hasOverflow.js'
+import substractBits from './binaryOperations/aritmetic/integers/substractBits.js'
+import {
+  complementOneToDecimal,
+  complementTwoToDecimal
+} from './binaryOperations/complement/decodeComplement.js'
 import { complementToOne, complementToTwo } from './binaryOperations/complement/encodeComplement.js'
 import { shiftAritmeticRight, shiftAritmeticLeft } from './binaryOperations/shift/aritmetic.js'
 import { shiftCircleLeft, shiftCircleRight } from './binaryOperations/shift/circular.js'
@@ -17,9 +22,7 @@ const numberComplementForm = document.getElementById('nc__form')
 const formVerifier = {
   complement: {
     number: false,
-    base: true,
-    complement: false,
-    hasBitSign: true
+    base: true
   },
   shift: {
     number: false,
@@ -50,16 +53,6 @@ const complementInputEventHandler = evt => {
       isInteger(value) && parseInt(value) > 1,
       inputPressed
     )
-  } else if (inputPressed.name === 'target-complement') {
-    formVerifier.complement.complement = drawInputInfo(
-      value.toLowerCase() === 'c1' || value.toLowerCase() === 'c2',
-      inputPressed
-    )
-  } else if (inputPressed.name === 'has-sign-bit') {
-    formVerifier.complement.hasBitSign = drawInputInfo(
-      value.toLowerCase() === 'si' || value.toLowerCase() === 'no',
-      inputPressed
-    )
   }
 }
 
@@ -69,23 +62,15 @@ numberComplementForm.addEventListener('submit', evt => {
   evt.preventDefault()
   const errorMessage = document.getElementById('nc__form__message')
 
-  if (
-    !(
-      formVerifier.complement.number &&
-      formVerifier.complement.base &&
-      formVerifier.complement.complement &&
-      formVerifier.complement.hasBitSign
-    )
-  ) {
+  if (!(formVerifier.complement.number && formVerifier.complement.base)) {
     showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 5)
     return
   }
 
   const number = document.getElementById('nc__number').value
   const numberBase = Number(document.getElementById('nc__number-base').value)
-  const targetComplement = document.getElementById('target-complement').value.toLowerCase()
-  const hasSignBit = document.getElementById('has-sign-bit').value.toLowerCase()
-  const result = document.getElementById('nc__result')
+  const resultOne = document.getElementById('nc__result-one')
+  const resultTwo = document.getElementById('nc__result-two')
 
   if (!existInBase(number, numberBase)) {
     showFormErrorMessage(errorMessage, 'El número no existe en esa base', 5)
@@ -93,13 +78,11 @@ numberComplementForm.addEventListener('submit', evt => {
     return
   }
 
-  const data = { number, base: numberBase, includeSignBit: hasSignBit === 'si' ? true : false }
+  const data = { number, base: numberBase }
 
-  if (targetComplement === 'c1') {
-    result.value = complementToOne(data).number
-  } else if (targetComplement === 'c2') {
-    result.value = complementToTwo(data).number
-  }
+  resultOne.value = complementToOne(data).number
+  resultTwo.value = complementToTwo(data).number
+
   showFormSuccessMessage(document.getElementById('nc__form__success-message'), 2)
   clearForm(numberComplementForm)
 })
@@ -206,9 +189,15 @@ const addIntegerInputEventHandler = evt => {
   if (!inputPressed) return
   const value = inputPressed.value
   if (inputPressed.name === 'ai__number__one') {
-    formVerifier.add.firstNumber = drawInputInfo(existInBase(value, 2), inputPressed)
+    formVerifier.add.firstNumber = drawInputInfo(
+      existInBase(value, 2) && value.slice(0, 1) !== '-',
+      inputPressed
+    )
   } else if (inputPressed.name === 'ai__number__two') {
-    formVerifier.add.secondNumber = drawInputInfo(existInBase(value, 2), inputPressed)
+    formVerifier.add.secondNumber = drawInputInfo(
+      existInBase(value, 2) && value.slice(0, 1) !== '-',
+      inputPressed
+    )
   }
 }
 
@@ -227,12 +216,13 @@ addIntegerForm.addEventListener('submit', evt => {
   const secondNumber = document.getElementById('ai__number__two').value
   const result = document.getElementById('ai__result')
 
-  const response = RestofBits(firstNumber, secondNumber, '+')
+  const operation = addBits({ firstNumber, secondNumber })
+  const overflow = hasOverflow({ firstNumber, secondNumber, result: operation, operator: '+' })
 
-  result.value = response.ResultadoReal
-
-  if (response.Overflow) {
-    showFormErrorMessage(errorMessage, response.Error, 15)
+  result.value = operation
+  if (overflow) {
+    showFormErrorMessage(errorMessage, 'Ocurrio un overflow', 15)
+    return
   }
 
   showFormSuccessMessage(document.getElementById('ai__form__success-message'), 2)
@@ -248,9 +238,15 @@ const substIntegerInputEventHandler = evt => {
   if (!inputPressed) return
   const value = inputPressed.value
   if (inputPressed.name === 'si__number__one') {
-    formVerifier.substract.firstNumber = drawInputInfo(existInBase(value, 2), inputPressed)
+    formVerifier.substract.firstNumber = drawInputInfo(
+      existInBase(value, 2) && value.slice(0, 1) !== '-',
+      inputPressed
+    )
   } else if (inputPressed.name === 'si__number__two') {
-    formVerifier.substract.secondNumber = drawInputInfo(existInBase(value, 2), inputPressed)
+    formVerifier.substract.secondNumber = drawInputInfo(
+      existInBase(value, 2) && value.slice(0, 1) !== '-',
+      inputPressed
+    )
   }
 }
 
@@ -269,13 +265,70 @@ substIntegerForm.addEventListener('submit', evt => {
   const secondNumber = document.getElementById('si__number__two').value
   const result = document.getElementById('si__result')
 
-  const response = RestofBits(firstNumber, secondNumber, '-')
-  result.value = response.ResultadoReal
+  const operation = substractBits({ firstNumber, secondNumber })
+  const overflow = hasOverflow({ firstNumber, secondNumber, result: operation, operator: '-' })
 
-  if (response.Overflow) {
-    showFormErrorMessage(errorMessage, response.Error, 15)
+  result.value = operation
+  if (overflow) {
+    showFormErrorMessage(errorMessage, 'Ocurrio un overflow', 15)
+    return
   }
 
   showFormSuccessMessage(document.getElementById('si__form__success-message'), 2)
   clearForm(shiftForm)
 })
+
+// Examples
+const op1 = {
+  firstNumber: '00010001',
+  operator: '+',
+  secondNumber: '00010110'
+}
+
+op1.result = addBits(op1)
+console.log(op1)
+console.log(hasOverflow(op1))
+
+const op2 = {
+  firstNumber: '00011000',
+  operator: '+',
+  secondNumber: '11101111'
+}
+
+op2.result = addBits(op2)
+
+console.log(op2)
+console.log(hasOverflow(op2))
+
+const op3 = {
+  firstNumber: '00011000',
+  operator: '-',
+  secondNumber: '11101111'
+}
+
+op3.result = substractBits(op3)
+
+console.log(op3)
+console.log(hasOverflow(op3))
+
+const op4 = {
+  firstNumber: '11011101',
+  operator: '-',
+  secondNumber: '00010100'
+}
+
+op4.result = substractBits(op4)
+
+console.log(op4)
+console.log(hasOverflow(op4))
+
+const op5 = {
+  firstNumber: '01111111',
+  operator: '+',
+  secondNumber: '00000011'
+}
+
+op5.result = addBits(op5)
+
+console.log(op5)
+console.log(hasOverflow(op5))
