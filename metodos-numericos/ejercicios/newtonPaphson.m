@@ -4,8 +4,8 @@ syms x
 disp(' M E T O D O D E N E W T O N - R A P H S O N');
 disp('-----------------------------------------------------------');
 disp('Datos de entrada');
-f = input('Función :','s');
-ezplot(f,[-2,2]);
+f = input('Función :');
+fplot(f);
 x0 = input('Aproximación inicial :');
 tol= input('Tolerancia :');
 disp('Datos de salida')

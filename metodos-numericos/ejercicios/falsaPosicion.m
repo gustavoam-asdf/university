@@ -1,39 +1,44 @@
 clc;
+close all;
 syms x;
 f=input('Ingrese la Funcion: ');
-ezplot(f,[-5,5]);
-limInf=input('Ingrese limite inferior: ');
-limSup=input('Ingrese limite superior: ');
+fplot(f);
+xi=input('Ingrese limite inferior: ');
+xf=input('Ingrese limite superior: ');
 errTol=input('Ingrese el porcentaje de Error: ');
-fXinf = subs(f,x,limInf);
-fXsup = subs(f,x,limSup);
+fxi = subs(f,x,xi);
+fxf = subs(f,x,xf);
 
-iter=1;
+i=1;
 errAbs(1)=100;
-if fXinf*fXsup < 0
-  xInf(1)=limInf;
-  fXinf=subs(f,x,xInf(1));
-  xSup(1)=limSup;
-  fXsup=subs(f,x,xSup(1));
-  xr(1)=xInf(1)-fXinf*(xSup(1)-xInf(1))/(fXsup-fXinf);
+if fxi*fxf < 0
+  xi(1)=xi;
+  fxi=subs(f,x,xi(1));
+  
+  xf(1)=xf;
+  fxf=subs(f,x,xf(1));
+  
+  xr(1)=xi(1)-fxi*(xf(1)-xi(1))/(fxf-fxi);
   fXr=subs(f,x,xr(1));
+  
   fprintf('%3s\t\t%-7s\t\t%-7s\t\t%-7s\t\t%-8s\n', 'It.', 'Xa', 'Xr', 'Xb', 'Error A.');
-  fprintf('%3d\t\t%7.4f\t\t%7.4f\t\t%7.4f\n',iter,xInf(iter),xr(iter),xSup(iter));
-  while abs(errAbs(iter))>=errTol,
-   if fXinf*fXr < 0
-     xInf(iter+1)=xInf(iter);
-     fXinf=subs(f,x,xInf(iter+1));
-     xSup(iter+1)=xr(iter);
-     fXsup=subs(f,x,xSup(iter+1));
+  fprintf('%3d\t\t%7.4f\t\t%7.4f\t\t%7.4f\n',i,xi(i),xr(i),xf(i));
+  while (abs(errAbs(i))>=errTol)
+   if fxi*fXr < 0
+     xi(i+1)=xi(i);
+     fxi=subs(f,x,xi(i+1));
+  
+     xf(i+1)=xr(i);
+     fxf=subs(f,x,xf(i+1));
    end
-   if fXinf*fXr> 0
-     xInf(1)=xr(iter);
-     xSup(1)=xSup(iter);
+   if fxi*fXr> 0
+     xi(i+1)=xr(i);
+     xf(i+1)=xf(i);
    end
-   xr(iter+1)=xInf(iter+1)-fXinf*(xSup(iter+1)-xInf(iter+1))/(fXsup-fXinf);
-   errAbs(iter+1)=abs((xr(iter+1)-xr(iter))/(xr(iter+1)))*100;
-   fprintf('%3d\t\t%7.4f\t\t%7.4f\t\t%7.4f\t\t%7.3f\n',iter+1,xInf(iter+1),xr(iter+1),xSup(iter+1),errAbs(iter+1));
-   iter=iter+1;
+   xr(i+1)=xi(i+1)-fxi*(xf(i+1)-xi(i+1))/(fxf-fxi);
+   errAbs(i+1)=abs((xr(i+1)-xr(i))/(xr(i+1)))*100;
+   fprintf('%3d\t\t%7.4f\t\t%7.4f\t\t%7.4f\t\t%7.3f\n',i+1,xi(i+1),xr(i+1),xf(i+1),errAbs(i+1));
+   i=i+1;
   end
 else
  fprintf('No existe una raíz en ese intervalo');
