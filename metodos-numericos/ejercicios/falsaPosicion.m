@@ -27,15 +27,14 @@ if fxi*fxf < 0
   while (abs(errAbs(i))>=errTol)
    if fxi*fXr < 0
      xi(i+1)=xi(i);
-     fxi=subs(f,x,xi(i+1));
-  
      xf(i+1)=xr(i);
-     fxf=subs(f,x,xf(i+1));
    end
-   if fxi*fXr> 0
+   if fxi*fXr > 0
      xi(i+1)=xr(i);
      xf(i+1)=xf(i);
    end
+   fxi=subs(f,x,xi(i+1));
+   fxf=subs(f,x,xf(i+1));
    xr(i+1)=xi(i+1)-fxi*(xf(i+1)-xi(i+1))/(fxf-fxi);
    errAbs(i+1)=abs((xr(i+1)-xr(i))/xr(i+1));
    fprintf('%3d\t\t%7.4f\t\t%7.4f\t\t%7.4f\t\t%7.3f\n',i+1,xi(i+1),xr(i+1),xf(i+1),errAbs(i+1));

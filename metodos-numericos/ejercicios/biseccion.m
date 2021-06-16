@@ -27,18 +27,15 @@ if fxi*fxf < 0
  while (abs(ea(i)) >= errTol)
    if fxi*fxr<0
      xi(i+1)=xi(i);
-     fxi=subs(f,x,xi(i+1));
-     
      xf(i+1)=xr(i);
-     fxf=subs(f,x,xf(i+1));
    end
    if fxi*fxr> 0
-     xi(i+1)=xr(i);
-     fxi=subs(f,x,xi(i+1));
-     
+     xi(i+1)=xr(i);     
      xf(i+1)=xf(i);
-     fxf=subs(f,x,xf(i+1));
-   end 
+   end
+   fxi=subs(f,x,xi(i+1));
+   fxf=subs(f,x,xf(i+1));
+   
    xr(i+1)=(xi(i+1)+xf(i+1))/2; 
    fxr=subs(f,x,xr(i+1));
    
