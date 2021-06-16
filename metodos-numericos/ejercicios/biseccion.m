@@ -1,10 +1,13 @@
 clc;
+close all;
+clear;
+
 syms x;
 f=input('Ingrese la funciòn: ');
 ezplot(f,[-5,5]);
 xi=input('Ingrese el intervalo inferior: ');
 xf=input('Ingrese el intervalo superior: ');
-errTol=input('Ingrese el porcentaje de error: ');
+errTol=input('Error tolerado: ');
 i=1;
 fxi=subs(f,x,xi);
 fxf=subs(f,x,xf);
@@ -19,7 +22,7 @@ if fxi*fxf < 0
  xr(i)=(xi(i)+xf(i))/2; 
  fxr=subs(f,x,xr(i));
  
- fprintf('It. Xa Xr Xb Error aprox \n');
+ fprintf('%3s\t\t%-11s\t\t%-11s\t\t%-11s\t\t%-11s\n', 'It.', 'Xi', 'Xr', 'Xf', 'Error A.');
  fprintf('%2d \t %11.7f \t %11.7f \t %11.7f\n',i,xi(i),xr(i),xf(i));
  while (abs(ea(i)) >= errTol)
    if fxi*fxr<0
@@ -39,8 +42,8 @@ if fxi*fxf < 0
    xr(i+1)=(xi(i+1)+xf(i+1))/2; 
    fxr=subs(f,x,xr(i+1));
    
-   ea(i+1)=abs((xr(i+1)-xr(i))/(xr(i+1))*100);
-   fprintf('%2d \t %11.7f \t %11.7f \t %11.7f \t %7.7f\n',i+1,xi(i+1),xr(i+1),xf(i+1),ea(i+1));
+   ea(i+1)=abs((xr(i+1)-xr(i))/(xr(i+1)));
+   fprintf('%2d \t %11.7f \t %11.7f \t %11.7f \t %11.7f\n',i+1,xi(i+1),xr(i+1),xf(i+1),ea(i+1));
    i=i+1;
  end
 else
