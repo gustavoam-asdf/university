@@ -1,25 +1,30 @@
 %METODO DE NEWTON RAPHSON
+clear;
+close all;
 clc;
+
 syms x
-disp(' M E T O D O D E N E W T O N - R A P H S O N');
-disp('-----------------------------------------------------------');
-disp('Datos de entrada');
-f = input('Función :');
+
+f = input('Ingrese la función: ');
+xi(1) = input('Aproximación inicial: ');
+errTol= input('Error tolerado: ');
+
+fprintf("Iteraciones: \n");
+
+df = diff(f);
 fplot(f);
-x0 = input('Aproximación inicial :');
-tol= input('Tolerancia :');
-disp('Datos de salida')
-df = diff(sym(f));
-f = inline(char(f));
-df = inline(df);
-x = x0;
-e = abs(f(x));
-i = 0;
-fprintf('%s\t\t\t%s\t%s\n','it.','x','f(x)');
-while (e>=tol)
- fprintf('%d\t%7.11f\t%7.11f\n',i,x,f(x))
- nwr = x - (f(x)/df(x));
- e = abs(f(x));
- x = nwr;
+hold on;
+fplot(df);
+
+err = 100;
+i = 1;
+fprintf('%3s   %-9s %-9s %-9s %-9s\n','it.','xi','f(x)', 'xi+1', 'Error');
+while (errTol < err)
+ fxi = subs(f, x, xi(i));
+ dfxi = subs(df, x, xi(i));
+ xi(i+1) = xi(i) - (fxi/dfxi);
+ err = abs((xi(i+1)-xi(i)) / xi(i+1));
+ fprintf('%3d %9.5f %9.5f %9.5f %9.5f\n',i,xi(i),fxi, xi(i+1), err);
+ 
  i = i+1;
 end
