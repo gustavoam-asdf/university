@@ -5,3 +5,13 @@ int b;
 if (a<10) {a++;cadena="Menor";printf(cadena);}
 
 String valida = "Hola a todos";
+
+variable1 = variable2;
+
+if (a<10) a++; else a--;
+
+if (a==10) {a++;} else a--;
+
+while (a < 10) a++;
+
+while (a < 10) {a++;a--;}

@@ -22,3 +22,5 @@ Ingresar una expresión del lenguaje C.
   una expresión inválida el programa terminará
 - Las lineas aceptadas que han sido probadas se encuentras en el
   archivo linesAccepted.txt
+
+Nota: Probado solo en Linux, Ubuntu 20.04
