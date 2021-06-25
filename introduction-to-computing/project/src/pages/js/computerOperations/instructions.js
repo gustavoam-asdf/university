@@ -1,113 +1,244 @@
-import { existInBase } from "../changeBase/validateNumber.js";
+import anyToDecimal from '../changeBase/anyBaseToDecimalBase/anyToDecimal.js'
+import decimalToAny from '../changeBase/decimalBaseToAnyBase/decimalToAny.js'
+import { existInBase } from '../changeBase/validateNumber.js'
+import completeWithZeros from '../numberRepresentations/completeWithZeros.js'
 
-class Opcode {
-  constructor(instruction) {
-    this.verify(instruction)
-    this.code = instruction.slice(0,1);
+const hexToBin = strNumber => decimalToAny(2, anyToDecimal(16, strNumber).number).number
+const binToHex = strNumber => decimalToAny(16, anyToDecimal(2, strNumber).number).number
+export class Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    const verifier = this.verifyByteBuffer(byteBuffer)
+    if (!verifier.ok) throw verifier.error
+    this.code = byteBuffer.slice(0, 4)
+    this.d2 = byteBuffer.slice(4, 8)
+    this.d3 = byteBuffer.slice(8, 12)
+    this.d4 = byteBuffer.slice(12)
   }
 
-  verify (instruction) {
-    if (typeof instruction !== 'string') throw new TypeError('Instruction must be type string')
-    if (!existInBase(instruction, 16)) throw new Error('Instruction must be a binary number')
-    if (instruction.length !== 4) throw new Error('Length of the instruction must be 4 bits')
+  get binByteBuffer() {
+    return `${this.code}${this.d2}${this.d3}${this.d4}`
   }
 
-}
-
-class HALT extends Opcode {
-  constructor(instruction) {
-    super(instruction)
+  get hexByteBuffer() {
+    return Instruction.binByteToHex(this.binByteBuffer)
   }
-}
 
-class LOAD extends Opcode {
-  constructor(Rd, Ms) {
-    super(1);
-    this.Rd = Rd
-    this.Ms = Ms
+  verifyByteBuffer(byteBuffer) {
+    if (typeof byteBuffer !== 'string')
+      return { ok: false, error: new TypeError('Byte buffer must be type string') }
+    if (!existInBase(byteBuffer, 2))
+      return { ok: false, error: new Error('Byte buffer must be a binary number') }
+    if (byteBuffer.length !== 16)
+      return { ok: false, error: new Error('Length of the Byte buffer must be 16 bits') }
+
+    return { ok: true, error: undefined }
   }
-}
 
-class STORE extends Opcode {
-  constructor(Md, Rs) {
-    super(2);
-    this.Md = Md
-    this.Rs = Rs
+  static hexByteToBin(byteBuffer) {
+    if (typeof byteBuffer !== 'string') throw new TypeError('Byte buffer must be type string')
+    if (!existInBase(byteBuffer, 16)) throw new Error('Byte buffer must be a hexadecimal number')
+
+    return [...byteBuffer].reduce((acc, byte) => {
+      return (acc += completeWithZeros({ unsignedNumber: hexToBin(byte) }, 4))
+    }, '')
   }
-}
 
-const instruction = {
-  HALT: {
-    code: 0
-  },
-  LOAD: {
-    code: 1,
-    Rd: null,
-    Ms: null,
-  },
-  STORE: {
-    code: 2,
-    Md: null,
-    Rs: null
-  },
-  ADDI: {
-    code: 3,
-    Rd: null,
-    Rs1: null,
-    Rs2: null
-  },
-  ADDF: {
-    code: 4,
-    Rd: null,
-    Rs1: null,
-    Rs2: null
-  },
-  MOVE: {
-    code: 5,
-    Rd: null,
-    Rs: null
-  },
-  NOT: {
-    code: 6,
-    Rd: null,
-    Rs: null
-  },
-  AND: {
-    code: 7,
-    Rd: null,
-    Rs1: null,
-    Rs2: null
-  },
-  OR: {
-    code: 8,
-    Rd: null,
-    Rs1: null,
-    Rs2: null
-  },
-  XOR: {
-    code: 9,
-    Rd: null,
-    Rs1: null,
-    Rs2: null
-  },
-  INC: {
-    code: 0xA,
-    R: null
-  },
-  DEC: {
-    code: 0xB,
-    R: null
-  },
-  ROTATE: {
-    code: 0xC,
-    R: null,
-    bit: null
-  },
-  JUMP: {
-    code: 0xD,
-    R: null,
-    n: null
+  static binByteToHex(byteBuffer) {
+    if (typeof byteBuffer !== 'string') throw new TypeError('Byte buffer must be type string')
+    if (!existInBase(byteBuffer, 2)) throw new Error('Byte buffer must be a binary number')
+    if (byteBuffer.length % 4 !== 0)
+      throw new Error('Length of byte buffer must be a multiple of 4')
+
+    const bytes = byteBuffer.replace(/([01]{4})(\B)/g, '$1 ').split(' ')
+
+    return bytes.reduce((acc, byte) => {
+      return (acc += binToHex(byte))
+    }, '')
   }
 }
 
-export default instruction
+export class HALT extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`0000${byteBuffer}`)
+    this.operand = undefined
+  }
+}
+
+export class LOAD extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`0001${byteBuffer}`)
+    this.operand = {
+      Rd: this.d2,
+      Ms: `${this.d3}${this.d4}`
+    }
+  }
+}
+
+export class STORE extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`0010${byteBuffer}`)
+    this.operand = {
+      Md: `${this.d2}${this.d3}`,
+      Rs: this.d4
+    }
+  }
+}
+
+export class ADDI extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`0011${byteBuffer}`)
+    this.operand = {
+      Rd: this.d2,
+      Rs1: this.d3,
+      Rs2: this.d4
+    }
+  }
+}
+
+export class ADDF extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`0100${byteBuffer}`)
+    this.operand = {
+      Rd: this.d2,
+      Rs1: this.d3,
+      Rs2: this.d4
+    }
+  }
+}
+
+export class MOVE extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`0101${byteBuffer}`)
+    this.operand = {
+      Rd: this.d2,
+      Rs: this.d3
+    }
+  }
+}
+
+export class NOT extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`0110${byteBuffer}`)
+    this.operand = {
+      Rd: this.d2,
+      Rs: this.d3
+    }
+  }
+}
+
+export class AND extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`0111${byteBuffer}`)
+    this.operand = {
+      Rd: this.d2,
+      Rs1: this.d3,
+      Rs2: this.d4
+    }
+  }
+}
+
+export class OR extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`1000${byteBuffer}`)
+    this.operand = {
+      Rd: this.d2,
+      Rs1: this.d3,
+      Rs2: this.d4
+    }
+  }
+}
+
+export class XOR extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`1001${byteBuffer}`)
+    this.operand = {
+      Rd: this.d2,
+      Rs1: this.d3,
+      Rs2: this.d4
+    }
+  }
+}
+
+export class INC extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`1010${byteBuffer}`)
+    this.operand = {
+      Rd: this.d2
+    }
+  }
+}
+
+export class DEC extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`1011${byteBuffer}`)
+    this.operand = {
+      Rd: this.d2
+    }
+  }
+}
+
+export class ROTATE extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`1100${byteBuffer}`)
+    this.operand = {
+      Rd: this.d2,
+      n: this.d3,
+      zeroOrOne: this.d4
+    }
+  }
+}
+
+export class JUMP extends Instruction {
+  /**
+   * @param {String} byteBuffer
+   */
+  constructor(byteBuffer) {
+    super(`1101${byteBuffer}`)
+    this.operand = {
+      Rd: this.d2,
+      n: `${this.d3}${this.d4}`
+    }
+  }
+}

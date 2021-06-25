@@ -1,6 +1,6 @@
-import addBits from "./binaryOperations/aritmetic/integers/addBits.js";
-import instruction from "./computerOperations/instructions.js";
-import process from "./computerOperations/process.js";
+import addBits from './binaryOperations/aritmetic/integers/addBits.js'
+import { HALT, Instruction, LOAD } from './computerOperations/instructions.js'
+import process from './computerOperations/process.js'
 
 // 10 & 25
 // 0b00001010
@@ -34,12 +34,6 @@ import process from "./computerOperations/process.js";
 
 // numberD
 
-const {ADDI: firstOperation} = instruction
+const instructions = [new LOAD('000001000000'), new LOAD(Instruction.hexByteToBin(`040`))]
 
-firstOperation.Rs1 = '00010101'
-firstOperation.Rs2 = '01011111'
-
-firstOperation.Rd = addBits({ firstNumber: firstOperation.Rs1, secondNumber: firstOperation.Rs1})
-
-
-process(firstOperation)
+console.log(instructions)
