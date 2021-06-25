@@ -1,6 +1,5 @@
-import addBits from './binaryOperations/aritmetic/integers/addBits.js'
 import { hexByteToBin } from './computerOperations/byteFuffer.js'
-import { ADDI, HALT, Instruction, LOAD, STORE } from './computerOperations/instructions.js'
+import { ADDI, AND, HALT, Instruction, LOAD, STORE } from './computerOperations/instructions.js'
 import { binToDec, hexToDec } from './computerOperations/simpleChangeBase.js'
 
 const instructions = [
@@ -18,27 +17,13 @@ const registers = []
 for (const procedure of memory) {
   if (!procedure) break
   if (procedure instanceof Instruction) {
-    if (procedure instanceof LOAD) {
-      const { dec: operand } = procedure.operand
-      console.log('LOAD')
-      registers[operand.Rd] = memory[operand.Ms]
-    } else if (procedure instanceof ADDI) {
-      const { dec: operand } = procedure.operand
-      registers[operand.Rd] = addBits({
-        firstNumber: registers[operand.Rs1],
-        secondNumber: registers[operand.Rs2]
-      })
-      console.log('ADDI')
-    } else if (procedure instanceof STORE) {
-      const { dec: operand } = procedure.operand
-      memory[operand.Md] = registers[operand.Rs]
-      console.log('STORE')
-    }
+    procedure.action({ memory, registers })
+    console.log(procedure)
   } else if (procedure) {
     console.log(procedure)
   }
-  debugger
 }
 
+console.log('')
 console.log(registers)
 console.log(memory)

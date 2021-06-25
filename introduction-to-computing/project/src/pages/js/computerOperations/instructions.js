@@ -1,5 +1,8 @@
 import { binByteToHex, hexByteToBin, verifyByteBuffer } from './byteFuffer.js'
 import { binToDec } from './simpleChangeBase.js'
+import addBits from '../binaryOperations/aritmetic/integers/addBits.js'
+import matchLengths from '../binaryOperations/matchLengths.js'
+import substractBits from '../binaryOperations/aritmetic/integers/substractBits.js'
 export class Instruction {
   /**
    * @param {String} byteBuffer
@@ -30,6 +33,8 @@ export class HALT extends Instruction {
     super(hexByteToBin(`0${byteBuffer}`))
     this.operand = undefined
   }
+
+  action() {}
 }
 
 export class LOAD extends Instruction {
@@ -49,6 +54,11 @@ export class LOAD extends Instruction {
       }
     }
   }
+
+  action({ memory, registers }) {
+    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    registers[this.operand.dec.Rd] = memory[this.operand.dec.Ms]
+  }
 }
 
 export class STORE extends Instruction {
@@ -67,6 +77,11 @@ export class STORE extends Instruction {
         Rs: Number(binToDec(this.d4))
       }
     }
+  }
+
+  action({ memory, registers }) {
+    if (memory[this.operand.dec.Md]) throw new ReferenceError('Space in memory is occupied')
+    memory[this.operand.dec.Md] = registers[this.operand.dec.Rs]
   }
 }
 
@@ -89,6 +104,17 @@ export class ADDI extends Instruction {
       }
     }
   }
+
+  /**
+   * @param {Array} registers
+   */
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    registers[this.operand.dec.Rd] = addBits({
+      firstNumber: registers[this.operand.dec.Rs1],
+      secondNumber: registers[this.operand.dec.Rs2]
+    })
+  }
 }
 
 export class ADDF extends Instruction {
@@ -110,6 +136,14 @@ export class ADDF extends Instruction {
       }
     }
   }
+
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    registers[this.operand.dec.Rd] = addBits({
+      firstNumber: registers[this.operand.dec.Rs1],
+      secondNumber: registers[this.operand.dec.Rs2]
+    })
+  }
 }
 
 export class MOVE extends Instruction {
@@ -129,6 +163,11 @@ export class MOVE extends Instruction {
       }
     }
   }
+
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    registers[this.operand.dec.Rd] = registers[this.operand.dec.Rs]
+  }
 }
 
 export class NOT extends Instruction {
@@ -147,6 +186,13 @@ export class NOT extends Instruction {
         Rs: Number(binToDec(this.d3))
       }
     }
+  }
+
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    registers[this.operand.dec.Rd] = [...registers[this.operand.dec.Rs]].map(bit =>
+      bit === '1' ? '0' : '1'
+    )
   }
 }
 
@@ -169,6 +215,17 @@ export class AND extends Instruction {
       }
     }
   }
+
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    const numbers = matchLengths({
+      firstNumber: registers[this.operand.dec.Rs1],
+      secondNumber: registers[this.operand.dec.Rs2]
+    })
+    registers[this.operand.dec.Rd] = [...numbers.firstNumber]
+      .map((bit, i) => bit & [...numbers.secondNumber][i])
+      .join('')
+  }
 }
 
 export class OR extends Instruction {
@@ -189,6 +246,17 @@ export class OR extends Instruction {
         Rs2: Number(binToDec(this.d4))
       }
     }
+  }
+
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    const numbers = matchLengths({
+      firstNumber: registers[this.operand.dec.Rs1],
+      secondNumber: registers[this.operand.dec.Rs2]
+    })
+    registers[this.operand.dec.Rd] = [...numbers.firstNumber]
+      .map((bit, i) => bit | [...numbers.secondNumber][i])
+      .join('')
   }
 }
 
@@ -211,6 +279,17 @@ export class XOR extends Instruction {
       }
     }
   }
+
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    const numbers = matchLengths({
+      firstNumber: registers[this.operand.dec.Rs1],
+      secondNumber: registers[this.operand.dec.Rs2]
+    })
+    registers[this.operand.dec.Rd] = [...numbers.firstNumber]
+      .map((bit, i) => bit ^ [...numbers.secondNumber][i])
+      .join('')
+  }
 }
 
 export class INC extends Instruction {
@@ -228,6 +307,15 @@ export class INC extends Instruction {
       }
     }
   }
+
+  action({ registers }) {
+    if (!registers[this.operand.dec.Rd])
+      throw new ReferenceError('Does not exist a value in register')
+    registers[this.operand.dec.Rd] = addBits({
+      firstNumber: registers[this.operand.dec.Rd],
+      secondNumber: '1'
+    })
+  }
 }
 
 export class DEC extends Instruction {
@@ -244,6 +332,15 @@ export class DEC extends Instruction {
         Rd: Number(binToDec(this.d2))
       }
     }
+  }
+
+  action({ registers }) {
+    if (!registers[this.operand.dec.Rd])
+      throw new ReferenceError('Does not exist a value in register')
+    registers[this.operand.dec.Rd] = substractBits({
+      firstNumber: registers[this.operand.dec.Rd],
+      secondNumber: '1'
+    })
   }
 }
 
