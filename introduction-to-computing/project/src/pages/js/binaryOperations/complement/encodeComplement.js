@@ -4,6 +4,7 @@ import { isHex } from '../../changeBase/validateNumber.js'
 import completeWithZeros from '../../numberRepresentations/completeWithZeros.js'
 import findNearestLenght from '../../numberRepresentations/findNearestLenght.js'
 import addBits from '../aritmetic/integers/addBits.js'
+//10010010-->01101101
 
 export const complementToOne = ({ number: strNumber,base, includeSignBit = false }) => {
   if (typeof strNumber !== 'string') throw new TypeError('Number must be a number type string')
@@ -27,6 +28,7 @@ export const complementToOne = ({ number: strNumber,base, includeSignBit = false
     return { type: 'c1', number: invertedBits, sign: '1' }
   }
 
+<<<<<<< Updated upstream
   const completeNumber = completeWithZeros({ unsignedNumber: number }, recomendedBits)
   const invertedBits = [...completeNumber].map(bit => (bit === '1' ? '0' : '1')).join('')
 
@@ -35,6 +37,21 @@ export const complementToOne = ({ number: strNumber,base, includeSignBit = false
 
   return { number: `1${invertedBits.slice(1)}`, sign: '1' }
 }
+=======
+  const invertedBits = [...strNumber].map(bit => (bit === '1' ? '0' : '1')).join('')
+  
+  const firstBit = strNumber.slice(0, 1)
+
+  if (includeSignBit) {
+    if (firstBit === '0'){
+      return { type: 'c1', number: strNumber, sign: '0' }
+    }
+    return { type: 'c1', number: `${firstBit}${invertedBits.slice(1)}`, sign: '1' }
+  }
+  return { type: 'c1', number: invertedBits }
+} 
+
+>>>>>>> Stashed changes
 
 export const complementToTwo = ({ number: strNumber, base, force = false }) => {
   if (typeof strNumber !== 'string') throw new TypeError('Number must be a number type string')
