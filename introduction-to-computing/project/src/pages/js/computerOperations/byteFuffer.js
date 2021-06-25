@@ -1,10 +1,6 @@
-import anyToDecimal from '../changeBase/anyBaseToDecimalBase/anyToDecimal.js'
-import decimalToAny from '../changeBase/decimalBaseToAnyBase/decimalToAny.js'
 import completeWithZeros from '../numberRepresentations/completeWithZeros.js'
 import { existInBase } from '../changeBase/validateNumber.js'
-
-const hexToBin = strNumber => decimalToAny(2, anyToDecimal(16, strNumber).number).number
-const binToHex = strNumber => decimalToAny(16, anyToDecimal(2, strNumber).number).number
+import { binToHex, hexToBin } from './simpleChangeBase.js'
 
 const verifyByteBuffer = ({ byteBuffer, base, testLength }) => {
   if (typeof byteBuffer !== 'string')

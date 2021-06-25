@@ -1,8 +1,6 @@
-import anyToDecimal from '../changeBase/anyBaseToDecimalBase/anyToDecimal.js'
 import { binByteToHex, hexByteToBin, verifyByteBuffer } from './byteFuffer.js'
-
-const binToDec = strNumber => anyToDecimal(2, strNumber).number
-class Instruction {
+import { binToDec } from './simpleChangeBase.js'
+export class Instruction {
   /**
    * @param {String} byteBuffer
    */
@@ -220,7 +218,7 @@ export class INC extends Instruction {
    * @param {String} byteBuffer
    */
   constructor(byteBuffer) {
-    super(hexByteToBin(`10${byteBuffer}`))
+    super(hexByteToBin(`A${byteBuffer}`))
     this.operand = {
       bin: {
         Rd: this.d2
@@ -237,7 +235,7 @@ export class DEC extends Instruction {
    * @param {String} byteBuffer
    */
   constructor(byteBuffer) {
-    super(hexByteToBin(`11${byteBuffer}`))
+    super(hexByteToBin(`B${byteBuffer}`))
     this.operand = {
       bin: {
         Rd: this.d2
@@ -254,7 +252,7 @@ export class ROTATE extends Instruction {
    * @param {String} byteBuffer
    */
   constructor(byteBuffer) {
-    super(hexByteToBin(`12${byteBuffer}`))
+    super(hexByteToBin(`C${byteBuffer}`))
     this.operand = {
       bin: {
         Rd: this.d2,
@@ -275,7 +273,7 @@ export class JUMP extends Instruction {
    * @param {String} byteBuffer
    */
   constructor(byteBuffer) {
-    super(hexByteToBin(`13${byteBuffer}`))
+    super(hexByteToBin(`D${byteBuffer}`))
     this.operand = {
       bin: {
         Rd: this.d2,
