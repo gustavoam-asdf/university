@@ -1,64 +1,142 @@
 <section class="computer-operations">
-  <div class="cpu">
-    <div class="alu">
-      <div class="alu__data">
-        <div class="number-one">00A1</div>
-        <div class="operator">AND</div>
-        <div class="number-two">00FE</div>
+  <h1 class="title">Operaciones del computador</h2>
+  <form class="computer-operations__form" id="computer-operations__form">
+    
+    <div class="data">
+      <!-- Grup: Number One -->
+      <div class="form__group" id="group__number-one">
+        <label for="number-one" class="form__label">Primer numero</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="number-one"
+            id="number-one"
+            placeholder="10"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
       </div>
-      <picture class="alu__img">
-        <img src="./images/ALU.svg" alt="ALU" />
-      </picture>
-    </div>
-    <div class="registers">
-      <h2 class="name">Registers</h2>
-      <div class="registers__row">
-        <div class="address">R0</div>
-        <div class="contents">1040</div>
-      </div>
-      <div class="registers__row">
-        <div class="address">R1</div>
-        <div class="contents">1040</div>
-      </div>
-      <div class="registers__row">
-        <div class="address">R2</div>
-        <div class="contents">1040</div>
-      </div>
-      <div class="registers__row">
-        <div class="address">R3</div>
-        <div class="contents">1040</div>
-      </div>
-    </div>
-    <div class="control-unit">
-      <h2 class="name">Control Unit</h2>
-      <div class="pc">
-        <div class="name">PC</div>
-        <div class="value">00</div>
-      </div>
-      <div class="ir">
-        <div class="name">IR</div>
-        <div class="value">1040</div>
-      </div>
-    </div>
-  </div>
 
-  <div class="memory">
-    <h2 class="name">Memory</h2>
-    <div class="memory__row">
-      <div class="contents">1040</div>
-      <div class="address">00</div>
-    </div>
-    <div class="memory__row">
-      <div class="contents">1141</div>
-      <div class="address">01</div>
-    </div>
-    <div class="memory__row">
-      <div class="contents">3201</div>
-      <div class="address">02</div>
-    </div>
-  </div>
+      <!-- Grup: Operator -->
+      <div class="group__operations">
+        <label for="operations" class="form__label">Operación</label>
+        <select class="operations-list" title="Operaciones" id="operations">
+          <option class="operation" value="ADDI">ADDI</option>
+          <option class="operation" value="AND">AND</option>
+          <option class="operation" value="XOR">XOR</option>
+        </select>
+      </div>
 
-  <div class="result">
-    <input type="text" name="" id="" />
-  </div>
+      <!-- Grup: Number Two -->
+      <div class="form__group" id="group__number-two">
+        <label for="number-two" class="form__label">Segundo numero</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="number-two"
+            id="number-two"
+            placeholder="10"
+            autocomplete="off"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
+      </div>
+    </div>
+    
+    <div class="graph">
+      <div class="cpu">
+        <div class="alu">
+          <div class="alu__data">
+            <div class="number-one">00A1</div>
+            <div class="operator">AND</div>
+            <div class="number-two">00FE</div>
+          </div>
+          <picture class="alu__img">
+            <img src="./images/ALU.svg" alt="ALU" />
+          </picture>
+        </div>
+        <div class="registers">
+          <h2 class="name">Registers</h2>
+          <div class="registers__row">
+            <div class="address">R0</div>
+            <div class="contents">1040</div>
+          </div>
+          <div class="registers__row">
+            <div class="address">R1</div>
+            <div class="contents">1040</div>
+          </div>
+          <div class="registers__row">
+            <div class="address">R2</div>
+            <div class="contents">1040</div>
+          </div>
+          <div class="registers__row">
+            <div class="address">R3</div>
+            <div class="contents">1040</div>
+          </div>
+        </div>
+        <div class="control-unit">
+          <h2 class="name">Control Unit</h2>
+          <div class="pc">
+            <div class="name">PC</div>
+            <div class="value">00</div>
+          </div>
+          <div class="ir">
+            <div class="name">IR</div>
+            <div class="value">1040</div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="memory">
+        <h2 class="name">Memory</h2>
+        <div class="memory__row">
+          <div class="contents">1040</div>
+          <div class="address">00</div>
+        </div>
+        <div class="memory__row">
+          <div class="contents">1141</div>
+          <div class="address">01</div>
+        </div>
+        <div class="memory__row">
+          <div class="contents">3201</div>
+          <div class="address">02</div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="form__group form__group-btn-send">
+      <button type="submit" class="form__btn">Convertir</button>
+      <p class="form__success-message" id="form__success-message">
+        <i class="fas fa-check"></i>
+        Conversión exitosa!
+      </p>
+    </div>
+
+    <p class="form__message" id="form__message">
+      <i class="fas fa-exclamation-triangle"></i>
+      <b>Error:</b>
+      Por favor rellena el formulario correctamente
+    </p>
+
+    <!-- Grupo: Result -->
+    <div class="form__group" id="group__result">
+      <label for="result" class="form__label">Resultado</label>
+      <div class="form__group-input">
+        <input
+          type="text"
+          class="form__input"
+          name="result"
+          id="result"
+          placeholder="1010"
+          readonly
+          disabled
+        />
+      </div>
+    </div>
+  </form>
 </section>
