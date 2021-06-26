@@ -56,7 +56,10 @@ export class LOAD extends Instruction {
   }
 
   action({ memory, registers }) {
-    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!memory[this.operand.dec.Ms])
+      throw new ReferenceError(`Memory [${this.operand.dec.Ms}]: there is no value`)
     registers[this.operand.dec.Rd] = memory[this.operand.dec.Ms]
   }
 }
@@ -80,7 +83,10 @@ export class STORE extends Instruction {
   }
 
   action({ memory, registers }) {
-    if (memory[this.operand.dec.Md]) throw new ReferenceError('Space in memory is occupied')
+    if (memory[this.operand.dec.Md])
+      throw new ReferenceError(`Memory [${this.operand.dec.Md}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs}]: there is no value`)
     memory[this.operand.dec.Md] = registers[this.operand.dec.Rs]
   }
 }
@@ -109,7 +115,12 @@ export class ADDI extends Instruction {
    * @param {Array} registers
    */
   action({ registers }) {
-    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs1])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs1}]: there is no value`)
+    if (!registers[this.operand.dec.Rs2])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs2}]: there is no value`)
     registers[this.operand.dec.Rd] = addBits({
       firstNumber: registers[this.operand.dec.Rs1],
       secondNumber: registers[this.operand.dec.Rs2]
@@ -138,7 +149,12 @@ export class ADDF extends Instruction {
   }
 
   action({ registers }) {
-    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs1])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs1}]: there is no value`)
+    if (!registers[this.operand.dec.Rs2])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs2}]: there is no value`)
     registers[this.operand.dec.Rd] = addBits({
       firstNumber: registers[this.operand.dec.Rs1],
       secondNumber: registers[this.operand.dec.Rs2]
@@ -165,7 +181,10 @@ export class MOVE extends Instruction {
   }
 
   action({ registers }) {
-    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs}]: there is no value`)
     registers[this.operand.dec.Rd] = registers[this.operand.dec.Rs]
   }
 }
@@ -189,7 +208,10 @@ export class NOT extends Instruction {
   }
 
   action({ registers }) {
-    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs}]: there is no value`)
     registers[this.operand.dec.Rd] = [...registers[this.operand.dec.Rs]].map(bit =>
       bit === '1' ? '0' : '1'
     )
@@ -217,7 +239,12 @@ export class AND extends Instruction {
   }
 
   action({ registers }) {
-    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs1])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs1}]: there is no value`)
+    if (!registers[this.operand.dec.Rs2])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs2}]: there is no value`)
     const numbers = matchLengths({
       firstNumber: registers[this.operand.dec.Rs1],
       secondNumber: registers[this.operand.dec.Rs2]
@@ -249,7 +276,12 @@ export class OR extends Instruction {
   }
 
   action({ registers }) {
-    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs1])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs1}]: there is no value`)
+    if (!registers[this.operand.dec.Rs2])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs2}]: there is no value`)
     const numbers = matchLengths({
       firstNumber: registers[this.operand.dec.Rs1],
       secondNumber: registers[this.operand.dec.Rs2]
@@ -281,7 +313,12 @@ export class XOR extends Instruction {
   }
 
   action({ registers }) {
-    if (registers[this.operand.dec.Rd]) throw new ReferenceError('Space in registers is occupied')
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs1])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs1}]: there is no value`)
+    if (!registers[this.operand.dec.Rs2])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs2}]: there is no value`)
     const numbers = matchLengths({
       firstNumber: registers[this.operand.dec.Rs1],
       secondNumber: registers[this.operand.dec.Rs2]
