@@ -24,8 +24,11 @@
       <div class="group__operations">
         <label for="operations" class="form__label">Operación</label>
         <select class="operations-list" title="Operaciones" id="operations">
+          <option class="operation" value="">Operador</option>
           <option class="operation" value="ADDI">ADDI</option>
+          <option class="operation" value="NOT">NOT</option>
           <option class="operation" value="AND">AND</option>
+          <option class="operation" value="OR">OR</option>
           <option class="operation" value="XOR">XOR</option>
         </select>
       </div>
@@ -60,7 +63,7 @@
             <img src="./images/ALU.svg" alt="ALU" />
           </picture>
         </div>
-        <div class="registers">
+        <div class="registers" id="registers">
           <h2 class="name">Registers</h2>
           <div class="registers__row">
             <div class="address">R0</div>
@@ -92,7 +95,7 @@
         </div>
       </div>
     
-      <div class="memory">
+      <div class="memory" id="memory">
         <h2 class="name">Memory</h2>
         <div class="memory__row">
           <div class="contents">1040</div>
@@ -132,7 +135,7 @@
           class="form__input"
           name="result"
           id="result"
-          placeholder="1010"
+          placeholder="20"
           readonly
           disabled
         />

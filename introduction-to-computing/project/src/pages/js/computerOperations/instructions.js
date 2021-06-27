@@ -34,7 +34,9 @@ export class HALT extends Instruction {
     this.operand = undefined
   }
 
-  action() {}
+  action() {
+    debugger
+  }
 }
 
 export class LOAD extends Instruction {
