@@ -7,6 +7,7 @@ import {
 } from '../../js/formHandler/drawInfo.js'
 import { isNumber } from './changeBase/validateNumber.js'
 import { hexByteToBin } from './computerOperations/byteFuffer.js'
+import drawInMemory from './computerOperations/gui/drawInMemory.js'
 import {
   ADDI,
   AND,
@@ -18,7 +19,7 @@ import {
   STORE,
   XOR
 } from './computerOperations/instructions.js'
-import { binToDec, decToHex, hexToDec } from './computerOperations/simpleChangeBase.js'
+import { binToDec, binToHex, decToHex, hexToDec } from './computerOperations/simpleChangeBase.js'
 import completeWithZeros from './numberRepresentations/completeWithZeros.js'
 
 const $form = document.getElementById('computer-operations__form')
@@ -29,30 +30,6 @@ const $memory = document.getElementById('memory')
 const $registers = document.getElementById('registers')
 const memory = []
 const registers = []
-
-const insertMemoryRow = ($memory, contents, address) => {
-  $memory.insertAdjacentHTML(
-    'beforeend',
-    `
-    <div class="memory__row">
-      <div class="contents">${contents}</div>
-      <div class="address">${address}</div>
-    </div>
-  `
-  )
-}
-
-const insertRegisterRow = ($registers, contents, address) => {
-  $registers.insertAdjacentHTML(
-    'beforeend',
-    `
-    <div class="registers__row">
-      <div class="address">R${address}</div>
-      <div class="contents">${contents}</div>
-    </div>
-  `
-  )
-}
 
 const createInstruction = (strInstruction, value) => {
   if (strInstruction === 'ADDI') return new ADDI(value)
@@ -134,24 +111,22 @@ const blockOfInstructions = (strInstruction, { firstNumber, secondNumber }) => {
       }
     }
     const hexNumber = {
-      first: decToHex(firstNumber),
-      second: decToHex(secondNumber)
+      first: `${'0'.repeat(4 - decToHex(firstNumber).length)}${decToHex(firstNumber)}`,
+      second: `${'0'.repeat(4 - decToHex(secondNumber).length)}${decToHex(secondNumber)}`
     }
-    console.log(hexNumber)
-    memory[iDec.m.first] = hexByteToBin(
-      `${'0'.repeat(4 - hexNumber.first.length)}${hexNumber.first}`
+
+    const draw = (position, instruction) => drawInMemory($memory, memory, position, instruction)
+
+    draw(iDec.m.first, hexByteToBin(hexNumber.first))
+    draw(iDec.m.second, hexByteToBin(hexNumber.second))
+    draw(iInstructions + iI++, new LOAD(`${iHex.r.first}${iHex.m.first}`))
+    draw(iInstructions + iI++, new LOAD(`${iHex.r.second}${iHex.m.second}`))
+    draw(
+      iInstructions + iI++,
+      createInstruction(strInstruction, `${iHex.r.result}${iHex.r.first}${iHex.r.second}`)
     )
-    memory[iDec.m.second] = hexByteToBin(
-      `${'0'.repeat(4 - hexNumber.second.length)}${hexNumber.second}`
-    )
-    memory[iInstructions + iI++] = new LOAD(`${iHex.r.first}${iHex.m.first}`)
-    memory[iInstructions + iI++] = new LOAD(`${iHex.r.second}${iHex.m.second}`)
-    memory[iInstructions + iI++] = createInstruction(
-      strInstruction,
-      `${iHex.r.result}${iHex.r.first}${iHex.r.second}`
-    )
-    memory[iInstructions + iI++] = new STORE(`${decToHex(`${iData + iD++}`)}${iHex.r.result}`)
-    memory[iInstructions + iI++] = new HALT(`000`)
+    draw(iInstructions + iI++, new STORE(`${decToHex(`${iData + iD++}`)}${iHex.r.result}`))
+    draw(iInstructions + iI++, new HALT(`000`))
   }
 }
 

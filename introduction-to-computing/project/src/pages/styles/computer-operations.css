@@ -228,6 +228,7 @@ h2.name {
   border: 0.25em solid var(--black);
   background-color: var(--rat);
   border-radius: 0.5em;
+  height: min-content;
   display: grid;
   gap: 1.5em;
   grid-template-areas:

@@ -35,7 +35,7 @@ export class HALT extends Instruction {
   }
 
   action() {
-    debugger
+    // debugger
   }
 }
 
