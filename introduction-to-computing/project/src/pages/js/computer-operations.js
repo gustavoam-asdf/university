@@ -60,9 +60,6 @@ const createInstruction = (strInstruction, value) => {
   else if (strInstruction === 'AND') return new AND(value)
   else if (strInstruction === 'OR') return new OR(value)
   else if (strInstruction === 'XOR') return new XOR(value)
-  else if (strInstruction === 'LOAD') return new LOAD(value)
-  else if (strInstruction === 'STORE') return new STORE(value)
-  else if (strInstruction === 'HALT') return new HALT(value)
   else {
     throw new Error('Invalid instruction')
   }
@@ -113,33 +110,33 @@ let iD = 0,
   iR = 0
 
 const blockOfInstructions = (strInstruction, { firstNumber, secondNumber }) => {
-  const iDec = {
-    m: {
-      first: iData + iD++,
-      second: iData + iD++
-    },
-    r: {
-      first: iRegister + iR++,
-      second: iRegister + iR++,
-      result: iRegister + iR++
+  if (strInstruction !== 'NOT') {
+    const iDec = {
+      m: {
+        first: iData + iD++,
+        second: iData + iD++
+      },
+      r: {
+        first: iRegister + iR++,
+        second: iRegister + iR++,
+        result: iRegister + iR++
+      }
     }
-  }
-  const iHex = {
-    m: {
-      first: decToHex(`${iDec.m.first}`),
-      second: decToHex(`${iDec.m.second}`)
-    },
-    r: {
-      first: decToHex(`${iDec.r.first}`),
-      second: decToHex(`${iDec.r.second}`),
-      result: decToHex(`${iDec.r.result}`)
+    const iHex = {
+      m: {
+        first: decToHex(`${iDec.m.first}`),
+        second: decToHex(`${iDec.m.second}`)
+      },
+      r: {
+        first: decToHex(`${iDec.r.first}`),
+        second: decToHex(`${iDec.r.second}`),
+        result: decToHex(`${iDec.r.result}`)
+      }
     }
-  }
-  const hexNumber = {
-    first: decToHex(firstNumber),
-    second: decToHex(secondNumber)
-  }
-  if (strInstruction === 'ADDI') {
+    const hexNumber = {
+      first: decToHex(firstNumber),
+      second: decToHex(secondNumber)
+    }
     console.log(hexNumber)
     memory[iDec.m.first] = hexByteToBin(
       `${'0'.repeat(4 - hexNumber.first.length)}${hexNumber.first}`
@@ -149,7 +146,10 @@ const blockOfInstructions = (strInstruction, { firstNumber, secondNumber }) => {
     )
     memory[iInstructions + iI++] = new LOAD(`${iHex.r.first}${iHex.m.first}`)
     memory[iInstructions + iI++] = new LOAD(`${iHex.r.second}${iHex.m.second}`)
-    memory[iInstructions + iI++] = new ADDI(`${iHex.r.result}${iHex.r.first}${iHex.r.second}`)
+    memory[iInstructions + iI++] = createInstruction(
+      strInstruction,
+      `${iHex.r.result}${iHex.r.first}${iHex.r.second}`
+    )
     memory[iInstructions + iI++] = new STORE(`${decToHex(`${iData + iD++}`)}${iHex.r.result}`)
     memory[iInstructions + iI++] = new HALT(`000`)
   }
@@ -165,11 +165,6 @@ $form.addEventListener('submit', evt => {
   }
 
   try {
-    const instruction = createInstruction('STORE', ``)
-    $sign.value = sign
-    $exponent.value = exponent
-    $mantissa.value = mantissa
-    $decode.value = ExcessToDecimal(targetExcess, `${sign}${exponent}${mantissa}`)
   } catch (error) {
     console.log(error)
     showFormErrorMessage(errorMessage, 'A ocurrido un error', 4)
@@ -179,16 +174,10 @@ $form.addEventListener('submit', evt => {
   clearForm($form)
 })
 
-// memory[0] = createInstruction('LOAD', `040`)
-// memory[1] = createInstruction('LOAD', `141`)
-// memory[2] = createInstruction('OR', `201`)
-// memory[3] = createInstruction('STORE', `422`)
-// memory[4] = createInstruction('HALT', `000`)
-
-// memory[hexToDec('40')] = hexByteToBin('00A1')
-// memory[hexToDec('41')] = hexByteToBin('00FE')
-
 blockOfInstructions('ADDI', { firstNumber: '161', secondNumber: '254' })
+blockOfInstructions('OR', { firstNumber: '161', secondNumber: '254' })
+blockOfInstructions('AND', { firstNumber: '161', secondNumber: '254' })
+blockOfInstructions('XOR', { firstNumber: '161', secondNumber: '254' })
 
 for (const procedure of memory) {
   if (!procedure) break
@@ -201,5 +190,5 @@ for (const procedure of memory) {
 }
 
 console.log('')
-console.log(registers)
+console.log(registers.map(register => binToDec(register)))
 console.log(memory)
