@@ -1,5 +1,6 @@
 import { Instruction } from '../instructions.js'
 import { binToHex, decToHex } from '../simpleChangeBase.js'
+import zerosLeftTo from '../zerosLeftTo.js'
 import { insertMemoryRow } from './insertRow.js'
 
 /**
@@ -7,17 +8,13 @@ import { insertMemoryRow } from './insertRow.js'
  * @param {Number} position
  * @param {Instruction} instruction
  */
-const drawInMemory = ($memory, memory, position, instruction) => {
+const chargeInMemory = ($memory, memory, position, instruction) => {
   memory[position] = instruction
   if (instruction instanceof Instruction) {
     insertMemoryRow($memory, instruction.hexByteBuffer, position)
   } else {
-    insertMemoryRow(
-      $memory,
-      `${'0'.repeat(4 - binToHex(instruction).length)}${binToHex(instruction)}`,
-      position
-    )
+    insertMemoryRow($memory, zerosLeftTo(4, binToHex(instruction)), position)
   }
 }
 
-export default drawInMemory
+export default chargeInMemory

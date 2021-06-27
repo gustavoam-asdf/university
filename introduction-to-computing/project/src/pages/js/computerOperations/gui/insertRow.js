@@ -1,20 +1,17 @@
 import { decToHex } from '../simpleChangeBase.js'
-
+import zerosLeftTo from '../zerosLeftTo.js'
 /**
  * @param {Element} $memory
  * @param {String} contents
  * @param {String} address
  */
 export const insertMemoryRow = ($memory, contents, address) => {
-  console.log({ contents, address })
   $memory.insertAdjacentHTML(
     'beforeend',
     `
     <div class="memory__row">
       <div class="contents">${contents}</div>
-      <div class="address">${`${'0'.repeat(2 - decToHex(`${address}`).length)}${decToHex(
-        `${address}`
-      )}`}</div>
+      <div class="address">${zerosLeftTo(2, decToHex(`${address}`))}</div>
     </div>
   `
   )
@@ -30,9 +27,7 @@ export const insertRegisterRow = ($registers, contents, address) => {
     'beforeend',
     `
     <div class="registers__row">
-      <div class="address">R${`${'0'.repeat(2 - decToHex(`${address}`).length)}${decToHex(
-        `${address}`
-      )}`}</div>
+      <div class="address">R${zerosLeftTo(2, decToHex(`${address}`))}</div>
       <div class="contents">${contents}</div>
     </div>
   `

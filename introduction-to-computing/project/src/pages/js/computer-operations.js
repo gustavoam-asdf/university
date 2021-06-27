@@ -6,8 +6,9 @@ import {
   showFormSuccessMessage
 } from '../../js/formHandler/drawInfo.js'
 import { isNumber } from './changeBase/validateNumber.js'
-import { hexByteToBin } from './computerOperations/byteFuffer.js'
-import drawInMemory from './computerOperations/gui/drawInMemory.js'
+import { binByteToHex, hexByteToBin } from './computerOperations/byteFuffer.js'
+import chargeInMemory from './computerOperations/gui/drawInMemory.js'
+import { insertMemoryRow, insertRegisterRow } from './computerOperations/gui/insertRow.js'
 import {
   ADDI,
   AND,
@@ -20,6 +21,7 @@ import {
   XOR
 } from './computerOperations/instructions.js'
 import { binToDec, binToHex, decToHex, hexToDec } from './computerOperations/simpleChangeBase.js'
+import zerosLeftTo from './computerOperations/zerosLeftTo.js'
 import completeWithZeros from './numberRepresentations/completeWithZeros.js'
 
 const $form = document.getElementById('computer-operations__form')
@@ -28,6 +30,8 @@ const $numberTwo = document.getElementById('number-two')
 const $operation = document.getElementById('operations')
 const $memory = document.getElementById('memory')
 const $registers = document.getElementById('registers')
+const $pc = document.getElementById('pc')
+const $ir = document.getElementById('ir')
 const memory = []
 const registers = []
 
@@ -111,22 +115,23 @@ const blockOfInstructions = (strInstruction, { firstNumber, secondNumber }) => {
       }
     }
     const hexNumber = {
-      first: `${'0'.repeat(4 - decToHex(firstNumber).length)}${decToHex(firstNumber)}`,
-      second: `${'0'.repeat(4 - decToHex(secondNumber).length)}${decToHex(secondNumber)}`
+      first: zerosLeftTo(4, decToHex(firstNumber)),
+      second: zerosLeftTo(4, decToHex(secondNumber))
     }
 
-    const draw = (position, instruction) => drawInMemory($memory, memory, position, instruction)
+    const drawInMemory = (position, instruction) =>
+      chargeInMemory($memory, memory, position, instruction)
 
-    draw(iDec.m.first, hexByteToBin(hexNumber.first))
-    draw(iDec.m.second, hexByteToBin(hexNumber.second))
-    draw(iInstructions + iI++, new LOAD(`${iHex.r.first}${iHex.m.first}`))
-    draw(iInstructions + iI++, new LOAD(`${iHex.r.second}${iHex.m.second}`))
-    draw(
+    drawInMemory(iDec.m.first, hexByteToBin(hexNumber.first))
+    drawInMemory(iDec.m.second, hexByteToBin(hexNumber.second))
+    drawInMemory(iInstructions + iI++, new LOAD(`${iHex.r.first}${iHex.m.first}`))
+    drawInMemory(iInstructions + iI++, new LOAD(`${iHex.r.second}${iHex.m.second}`))
+    drawInMemory(
       iInstructions + iI++,
       createInstruction(strInstruction, `${iHex.r.result}${iHex.r.first}${iHex.r.second}`)
     )
-    draw(iInstructions + iI++, new STORE(`${decToHex(`${iData + iD++}`)}${iHex.r.result}`))
-    draw(iInstructions + iI++, new HALT(`000`))
+    drawInMemory(iInstructions + iI++, new STORE(`${decToHex(`${iData + iD++}`)}${iHex.r.result}`))
+    drawInMemory(iInstructions + iI++, new HALT(`000`))
   }
 }
 
@@ -140,6 +145,23 @@ $form.addEventListener('submit', evt => {
   }
 
   try {
+    blockOfInstructions('ADDI', { firstNumber: '161', secondNumber: '254' })
+    // blockOfInstructions('OR', { firstNumber: '161', secondNumber: '254' })
+    // blockOfInstructions('AND', { firstNumber: '161', secondNumber: '254' })
+    // blockOfInstructions('XOR', { firstNumber: '161', secondNumber: '254' })
+
+    for (const procedure of memory) {
+      if (!procedure) break
+      if (procedure instanceof Instruction) {
+        const op = procedure.action({ memory, registers })
+        if (op?.Rd) {
+          insertRegisterRow($registers, binByteToHex(registers[op.Rd]), op.Rd)
+        }
+        if (op?.Md) {
+          insertMemoryRow($memory, binByteToHex(memory[op.Md]), op.Md)
+        }
+      }
+    }
   } catch (error) {
     console.log(error)
     showFormErrorMessage(errorMessage, 'A ocurrido un error', 4)
@@ -148,22 +170,3 @@ $form.addEventListener('submit', evt => {
   showFormSuccessMessage(document.getElementById('form__success-message'), 2)
   clearForm($form)
 })
-
-blockOfInstructions('ADDI', { firstNumber: '161', secondNumber: '254' })
-blockOfInstructions('OR', { firstNumber: '161', secondNumber: '254' })
-blockOfInstructions('AND', { firstNumber: '161', secondNumber: '254' })
-blockOfInstructions('XOR', { firstNumber: '161', secondNumber: '254' })
-
-for (const procedure of memory) {
-  if (!procedure) break
-  if (procedure instanceof Instruction) {
-    procedure.action({ memory, registers })
-    console.log(procedure)
-  } else if (procedure) {
-    console.log(procedure)
-  }
-}
-
-console.log('')
-console.log(registers.map(register => binToDec(register)))
-console.log(memory)
