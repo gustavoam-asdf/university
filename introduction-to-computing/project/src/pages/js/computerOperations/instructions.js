@@ -1,5 +1,8 @@
 import { binByteToHex, hexByteToBin, verifyByteBuffer } from './byteFuffer.js'
-import { binToDec } from './simpleChangeBase.js'
+import { binToDec, binToHex, decToHex } from './simpleChangeBase.js'
+import addBits from '../binaryOperations/aritmetic/integers/addBits.js'
+import matchLengths from '../binaryOperations/matchLengths.js'
+import substractBits from '../binaryOperations/aritmetic/integers/substractBits.js'
 export class Instruction {
   /**
    * @param {String} byteBuffer
@@ -11,6 +14,7 @@ export class Instruction {
     this.d2 = byteBuffer.slice(4, 8)
     this.d3 = byteBuffer.slice(8, 12)
     this.d4 = byteBuffer.slice(12)
+    this.used = false
   }
 
   get binByteBuffer() {
@@ -29,6 +33,12 @@ export class HALT extends Instruction {
   constructor(byteBuffer) {
     super(hexByteToBin(`0${byteBuffer}`))
     this.operand = undefined
+    this.used = false
+  }
+
+  action() {
+    this.used = true
+    debugger
   }
 }
 
@@ -49,6 +59,19 @@ export class LOAD extends Instruction {
       }
     }
   }
+
+  action({ memory, registers }) {
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!memory[this.operand.dec.Ms])
+      throw new ReferenceError(`Memory [${this.operand.dec.Ms}]: there is no value`)
+    registers[this.operand.dec.Rd] = memory[this.operand.dec.Ms]
+    this.used = true
+    return {
+      Rd: `${binToDec(this.operand.bin.Rd)}`,
+      Ms: `${binToDec(this.operand.bin.Ms)}`
+    }
+  }
 }
 
 export class STORE extends Instruction {
@@ -66,6 +89,19 @@ export class STORE extends Instruction {
         Md: Number(binToDec(`${this.d2}${this.d3}`)),
         Rs: Number(binToDec(this.d4))
       }
+    }
+  }
+
+  action({ memory, registers }) {
+    if (memory[this.operand.dec.Md])
+      throw new ReferenceError(`Memory [${this.operand.dec.Md}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs}]: there is no value`)
+    memory[this.operand.dec.Md] = registers[this.operand.dec.Rs]
+    this.used = true
+    return {
+      Md: `${binToDec(this.operand.bin.Md)}`,
+      Rs: `${binToDec(this.operand.bin.Rs)}`
     }
   }
 }
@@ -89,6 +125,29 @@ export class ADDI extends Instruction {
       }
     }
   }
+
+  /**
+   * @param {Array} registers
+   */
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs1])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs1}]: there is no value`)
+    if (!registers[this.operand.dec.Rs2])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs2}]: there is no value`)
+    registers[this.operand.dec.Rd] = addBits({
+      firstNumber: registers[this.operand.dec.Rs1],
+      secondNumber: registers[this.operand.dec.Rs2]
+    })
+
+    this.used = true
+    return {
+      Rd: `${binToDec(this.operand.bin.Rd)}`,
+      Rs1: `${binToDec(this.operand.bin.Rs1)}`,
+      Rs2: `${binToDec(this.operand.bin.Rs2)}`
+    }
+  }
 }
 
 export class ADDF extends Instruction {
@@ -110,6 +169,25 @@ export class ADDF extends Instruction {
       }
     }
   }
+
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs1])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs1}]: there is no value`)
+    if (!registers[this.operand.dec.Rs2])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs2}]: there is no value`)
+    registers[this.operand.dec.Rd] = addBits({
+      firstNumber: registers[this.operand.dec.Rs1],
+      secondNumber: registers[this.operand.dec.Rs2]
+    })
+    this.used = true
+    return {
+      Rd: `${binToDec(this.operand.bin.Rd)}`,
+      Rs1: `${binToDec(this.operand.bin.Rs1)}`,
+      Rs2: `${binToDec(this.operand.bin.Rs2)}`
+    }
+  }
 }
 
 export class MOVE extends Instruction {
@@ -129,6 +207,20 @@ export class MOVE extends Instruction {
       }
     }
   }
+
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs}]: there is no value`)
+    registers[this.operand.dec.Rd] = registers[this.operand.dec.Rs]
+
+    this.used = true
+    return {
+      Rd: `${binToDec(this.operand.bin.Rd)}`,
+      Rs: `${binToDec(this.operand.bin.Rs)}`
+    }
+  }
 }
 
 export class NOT extends Instruction {
@@ -146,6 +238,21 @@ export class NOT extends Instruction {
         Rd: Number(binToDec(this.d2)),
         Rs: Number(binToDec(this.d3))
       }
+    }
+  }
+
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs}]: there is no value`)
+    registers[this.operand.dec.Rd] = [...registers[this.operand.dec.Rs]].map(bit =>
+      bit === '1' ? '0' : '1'
+    )
+    this.used = true
+    return {
+      Rd: `${binToDec(this.operand.bin.Rd)}`,
+      Rs: `${binToDec(this.operand.bin.Rs)}`
     }
   }
 }
@@ -169,6 +276,28 @@ export class AND extends Instruction {
       }
     }
   }
+
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs1])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs1}]: there is no value`)
+    if (!registers[this.operand.dec.Rs2])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs2}]: there is no value`)
+    const numbers = matchLengths({
+      firstNumber: registers[this.operand.dec.Rs1],
+      secondNumber: registers[this.operand.dec.Rs2]
+    })
+    registers[this.operand.dec.Rd] = [...numbers.firstNumber]
+      .map((bit, i) => bit & [...numbers.secondNumber][i])
+      .join('')
+    this.used = true
+    return {
+      Rd: `${binToDec(this.operand.bin.Rd)}`,
+      Rs1: `${binToDec(this.operand.bin.Rs1)}`,
+      Rs2: `${binToDec(this.operand.bin.Rs2)}`
+    }
+  }
 }
 
 export class OR extends Instruction {
@@ -188,6 +317,28 @@ export class OR extends Instruction {
         Rs1: Number(binToDec(this.d3)),
         Rs2: Number(binToDec(this.d4))
       }
+    }
+  }
+
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs1])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs1}]: there is no value`)
+    if (!registers[this.operand.dec.Rs2])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs2}]: there is no value`)
+    const numbers = matchLengths({
+      firstNumber: registers[this.operand.dec.Rs1],
+      secondNumber: registers[this.operand.dec.Rs2]
+    })
+    registers[this.operand.dec.Rd] = [...numbers.firstNumber]
+      .map((bit, i) => bit | [...numbers.secondNumber][i])
+      .join('')
+    this.used = true
+    return {
+      Rd: `${binToDec(this.operand.bin.Rd)}`,
+      Rs1: `${binToDec(this.operand.bin.Rs1)}`,
+      Rs2: `${binToDec(this.operand.bin.Rs2)}`
     }
   }
 }
@@ -211,6 +362,28 @@ export class XOR extends Instruction {
       }
     }
   }
+
+  action({ registers }) {
+    if (registers[this.operand.dec.Rd])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rd}]: there is occupied`)
+    if (!registers[this.operand.dec.Rs1])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs1}]: there is no value`)
+    if (!registers[this.operand.dec.Rs2])
+      throw new ReferenceError(`Registers [${this.operand.dec.Rs2}]: there is no value`)
+    const numbers = matchLengths({
+      firstNumber: registers[this.operand.dec.Rs1],
+      secondNumber: registers[this.operand.dec.Rs2]
+    })
+    registers[this.operand.dec.Rd] = [...numbers.firstNumber]
+      .map((bit, i) => bit ^ [...numbers.secondNumber][i])
+      .join('')
+    this.used = true
+    return {
+      Rd: `${binToDec(this.operand.bin.Rd)}`,
+      Rs1: `${binToDec(this.operand.bin.Rs1)}`,
+      Rs2: `${binToDec(this.operand.bin.Rs2)}`
+    }
+  }
 }
 
 export class INC extends Instruction {
@@ -228,6 +401,16 @@ export class INC extends Instruction {
       }
     }
   }
+
+  action({ registers }) {
+    if (!registers[this.operand.dec.Rd])
+      throw new ReferenceError('Does not exist a value in register')
+    registers[this.operand.dec.Rd] = addBits({
+      firstNumber: registers[this.operand.dec.Rd],
+      secondNumber: '1'
+    })
+    this.used = true
+  }
 }
 
 export class DEC extends Instruction {
@@ -244,6 +427,16 @@ export class DEC extends Instruction {
         Rd: Number(binToDec(this.d2))
       }
     }
+  }
+
+  action({ registers }) {
+    if (!registers[this.operand.dec.Rd])
+      throw new ReferenceError('Does not exist a value in register')
+    registers[this.operand.dec.Rd] = substractBits({
+      firstNumber: registers[this.operand.dec.Rd],
+      secondNumber: '1'
+    })
+    this.used = true
   }
 }
 
