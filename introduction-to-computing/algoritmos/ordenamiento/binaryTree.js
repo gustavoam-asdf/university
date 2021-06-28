@@ -6,8 +6,9 @@ class Nodo {
   }
 }
 
-class BinaryTree {
+ export class BinaryTree {
   constructor() {
+    this.array =Array()
     this.root = null
   }
 
@@ -45,21 +46,19 @@ class BinaryTree {
       }
     }
   }
-
   print(node = this.root) {
     if (node === null) {
       return
     }
     this.print(node.left)
-    console.log(node.value)
+    this.array.push(node.value);
     this.print(node.right)
+
   }
-}
 
-let tree = new BinaryTree()
-let arr = [5, 2, 3, -4, 12, 9, 21, 19, 25]
+  getnode()
+  {
+   return this.array;
 
-for (let i = 0; i < arr.length; i++) {
-  tree.add(arr[i])
+  } 
 }
-tree.print()

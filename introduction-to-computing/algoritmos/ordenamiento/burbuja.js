@@ -1,4 +1,6 @@
-const OrdenamientoBurbuja = (array, tam) => {
+export const OrdenamientoBurbuja = (array, tam) => {
+  tam=array.length;
+  let temp=0
   for (let i = 1; i < tam; i++) {
     for (let j = 0; j < tam - 1; j++) {
       if (array[j] > array[j + 1]) {
@@ -12,8 +14,4 @@ const OrdenamientoBurbuja = (array, tam) => {
   return array
 }
 
-const inputArray = [4, 3, 5, 2, 1]
 
-const OutArray1 = OrdenamientoBurbuja(inputArray, inputArray.length)
-
-console.log(OutArray1)
