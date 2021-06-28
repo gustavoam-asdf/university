@@ -122,17 +122,14 @@ btnagregarbinary.addEventListener('click', evt =>
   evt.preventDefault()
   const result=document.getElementById('result_ordinance_binary')
   
- 
   let tree = new BinaryTree()
-  let arr = [5, 2, 3, -4, 12, 9, 21, 19, 25]
-  
-  for (let i = 0; i < arr.length; i++) {
-    tree.add(arr[i])
+
+  for (let i = 0; i < datos3.length; i++) {
+    tree.add(datos3[i])
   }
   tree.print()
-
+  
   result.value= tree.getnode()
-
 } );
 
 
