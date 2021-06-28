@@ -1,0 +1,40 @@
+main()
+{
+	integer a;
+	bool c;
+	text l;
+	decimal j
+
+	text letra = "a";
+
+	decimal suma := 5 + 5;
+
+	si (c == d)
+	{
+		bool f := false;
+	}
+
+	otracondi ( c <> e)
+	{
+		bool f := true;
+	}
+
+	sino 
+	{
+		bool f := true;
+	}
+
+
+	para (	integer a := 0 ; a < 10 ; a++)
+	{
+		para(integer b := 10; b >= 0; b--)
+		{
+			text variable := "local";
+		}
+
+		mientras(c > 10)
+		{
+			text compilador;
+		}
+	}
+}
