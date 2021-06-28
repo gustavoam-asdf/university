@@ -14,6 +14,7 @@ export class Instruction {
     this.d2 = byteBuffer.slice(4, 8)
     this.d3 = byteBuffer.slice(8, 12)
     this.d4 = byteBuffer.slice(12)
+    this.used = false
   }
 
   get binByteBuffer() {
@@ -63,6 +64,7 @@ export class LOAD extends Instruction {
     if (!memory[this.operand.dec.Ms])
       throw new ReferenceError(`Memory [${this.operand.dec.Ms}]: there is no value`)
     registers[this.operand.dec.Rd] = memory[this.operand.dec.Ms]
+    this.used = true
     return {
       Rd: `${binToDec(this.operand.bin.Rd)}`,
       Ms: `${binToDec(this.operand.bin.Ms)}`
@@ -94,6 +96,7 @@ export class STORE extends Instruction {
     if (!registers[this.operand.dec.Rs])
       throw new ReferenceError(`Registers [${this.operand.dec.Rs}]: there is no value`)
     memory[this.operand.dec.Md] = registers[this.operand.dec.Rs]
+    this.used = true
     return {
       Md: `${binToDec(this.operand.bin.Md)}`,
       Rs: `${binToDec(this.operand.bin.Rs)}`
@@ -136,6 +139,7 @@ export class ADDI extends Instruction {
       secondNumber: registers[this.operand.dec.Rs2]
     })
 
+    this.used = true
     return {
       Rd: `${binToDec(this.operand.bin.Rd)}`,
       Rs1: `${binToDec(this.operand.bin.Rs1)}`,
@@ -175,6 +179,7 @@ export class ADDF extends Instruction {
       firstNumber: registers[this.operand.dec.Rs1],
       secondNumber: registers[this.operand.dec.Rs2]
     })
+    this.used = true
     return {
       Rd: `${binToDec(this.operand.bin.Rd)}`,
       Rs1: `${binToDec(this.operand.bin.Rs1)}`,
@@ -208,6 +213,7 @@ export class MOVE extends Instruction {
       throw new ReferenceError(`Registers [${this.operand.dec.Rs}]: there is no value`)
     registers[this.operand.dec.Rd] = registers[this.operand.dec.Rs]
 
+    this.used = true
     return {
       Rd: `${binToDec(this.operand.bin.Rd)}`,
       Rs: `${binToDec(this.operand.bin.Rs)}`
@@ -241,6 +247,7 @@ export class NOT extends Instruction {
     registers[this.operand.dec.Rd] = [...registers[this.operand.dec.Rs]].map(bit =>
       bit === '1' ? '0' : '1'
     )
+    this.used = true
     return {
       Rd: `${binToDec(this.operand.bin.Rd)}`,
       Rs: `${binToDec(this.operand.bin.Rs)}`
@@ -282,6 +289,7 @@ export class AND extends Instruction {
     registers[this.operand.dec.Rd] = [...numbers.firstNumber]
       .map((bit, i) => bit & [...numbers.secondNumber][i])
       .join('')
+    this.used = true
     return {
       Rd: `${binToDec(this.operand.bin.Rd)}`,
       Rs1: `${binToDec(this.operand.bin.Rs1)}`,
@@ -324,6 +332,7 @@ export class OR extends Instruction {
     registers[this.operand.dec.Rd] = [...numbers.firstNumber]
       .map((bit, i) => bit | [...numbers.secondNumber][i])
       .join('')
+    this.used = true
     return {
       Rd: `${binToDec(this.operand.bin.Rd)}`,
       Rs1: `${binToDec(this.operand.bin.Rs1)}`,
@@ -366,6 +375,7 @@ export class XOR extends Instruction {
     registers[this.operand.dec.Rd] = [...numbers.firstNumber]
       .map((bit, i) => bit ^ [...numbers.secondNumber][i])
       .join('')
+    this.used = true
     return {
       Rd: `${binToDec(this.operand.bin.Rd)}`,
       Rs1: `${binToDec(this.operand.bin.Rs1)}`,
@@ -397,6 +407,7 @@ export class INC extends Instruction {
       firstNumber: registers[this.operand.dec.Rd],
       secondNumber: '1'
     })
+    this.used = true
   }
 }
 
@@ -423,6 +434,7 @@ export class DEC extends Instruction {
       firstNumber: registers[this.operand.dec.Rd],
       secondNumber: '1'
     })
+    this.used = true
   }
 }
 

@@ -20,9 +20,8 @@ import {
   STORE,
   XOR
 } from './computerOperations/instructions.js'
-import { binToDec, binToHex, decToHex, hexToDec } from './computerOperations/simpleChangeBase.js'
+import { binToDec, decToHex } from './computerOperations/simpleChangeBase.js'
 import zerosLeftTo from './computerOperations/zerosLeftTo.js'
-import completeWithZeros from './numberRepresentations/completeWithZeros.js'
 
 const $form = document.getElementById('computer-operations__form')
 const $numberOne = document.getElementById('number-one')
@@ -30,6 +29,7 @@ const $numberTwo = document.getElementById('number-two')
 const $operation = document.getElementById('operations')
 const $memory = document.getElementById('memory')
 const $registers = document.getElementById('registers')
+const $result = document.getElementById('result')
 const $pc = document.getElementById('pc')
 const $ir = document.getElementById('ir')
 const memory = []
@@ -46,9 +46,16 @@ const createInstruction = (strInstruction, value) => {
   }
 }
 
-$operation.addEventListener('focus', () => $operation.firstElementChild.remove(), {
-  once: true
-})
+$operation.addEventListener(
+  'focus',
+  () => {
+    $operation.firstElementChild.remove()
+    verifier.operator = true
+  },
+  {
+    once: true
+  }
+)
 
 $operation.addEventListener('change', () => {
   if ($operation.value !== 'NOT') {
@@ -65,7 +72,8 @@ $operation.addEventListener('change', () => {
 
 const verifier = {
   numberOne: false,
-  numberTwo: false
+  numberTwo: false,
+  operator: false
 }
 
 const inputEventHandler = evt => {
@@ -132,6 +140,7 @@ const blockOfInstructions = (strInstruction, { firstNumber, secondNumber }) => {
     )
     drawInMemory(iInstructions + iI++, new STORE(`${decToHex(`${iData + iD++}`)}${iHex.r.result}`))
     drawInMemory(iInstructions + iI++, new HALT(`000`))
+    return iDec.r.result
   }
 }
 
@@ -139,20 +148,21 @@ $form.addEventListener('submit', evt => {
   evt.preventDefault()
   const errorMessage = document.getElementById('form__message')
 
-  if (!(verifier.numberOne && verifier.numberTwo)) {
+  if (!(verifier.numberOne && verifier.numberTwo && verifier.operator)) {
     showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 4)
     return
   }
 
   try {
-    blockOfInstructions('ADDI', { firstNumber: '161', secondNumber: '254' })
-    // blockOfInstructions('OR', { firstNumber: '161', secondNumber: '254' })
-    // blockOfInstructions('AND', { firstNumber: '161', secondNumber: '254' })
-    // blockOfInstructions('XOR', { firstNumber: '161', secondNumber: '254' })
+    const posResult = blockOfInstructions($operation.value, {
+      firstNumber: $numberOne.value,
+      secondNumber: $numberTwo.value
+    })
 
     for (const procedure of memory) {
-      if (!procedure) break
+      if (!procedure) continue
       if (procedure instanceof Instruction) {
+        if (procedure.used) continue
         const op = procedure.action({ memory, registers })
         if (op?.Rd) {
           insertRegisterRow($registers, binByteToHex(registers[op.Rd]), op.Rd)
@@ -162,6 +172,7 @@ $form.addEventListener('submit', evt => {
         }
       }
     }
+    $result.value = binToDec(registers[posResult])
   } catch (error) {
     console.log(error)
     showFormErrorMessage(errorMessage, 'A ocurrido un error', 4)
