@@ -33,10 +33,12 @@ export class HALT extends Instruction {
   constructor(byteBuffer) {
     super(hexByteToBin(`0${byteBuffer}`))
     this.operand = undefined
+    this.used = false
   }
 
   action() {
-    // debugger
+    this.used = true
+    debugger
   }
 }
 

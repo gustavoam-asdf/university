@@ -159,17 +159,20 @@ $form.addEventListener('submit', evt => {
       secondNumber: $numberTwo.value
     })
 
-    for (const procedure of memory) {
+    for (let i = 0; i < memory.length; i++) {
+      const procedure = memory[i]
       if (!procedure) continue
-      if (procedure instanceof Instruction) {
-        if (procedure.used) continue
-        const op = procedure.action({ memory, registers })
-        if (op?.Rd) {
-          insertRegisterRow($registers, binByteToHex(registers[op.Rd]), op.Rd)
-        }
-        if (op?.Md) {
-          insertMemoryRow($memory, binByteToHex(memory[op.Md]), op.Md)
-        }
+      if (!(procedure instanceof Instruction)) continue
+      if (procedure.used) continue
+      debugger
+      $pc.innerText = zerosLeftTo(2, decToHex(`${i}`))
+      $ir.innerText = procedure.hexByteBuffer
+      const op = procedure.action({ memory, registers })
+      if (op?.Rd) {
+        insertRegisterRow($registers, binByteToHex(registers[op.Rd]), op.Rd)
+      }
+      if (op?.Md) {
+        insertMemoryRow($memory, binByteToHex(memory[op.Md]), op.Md)
       }
     }
     $result.value = binToDec(registers[posResult])
