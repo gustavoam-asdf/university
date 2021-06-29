@@ -1,4 +1,4 @@
-const hash = alumn => {
+export const hash = alumn => {
   const lastDigits = Number(alumn.matricula.slice(-2))
   return Math.floor(lastDigits / 2)
 }
@@ -30,4 +30,3 @@ for (let i = 0; i < alumns.length; i++) {
 
 console.log(table)
 
-debugger

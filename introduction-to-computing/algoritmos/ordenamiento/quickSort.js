@@ -27,7 +27,7 @@ function partition(items, left, right) {
   return i
 }
 
-function quickSort(items, left, right) {
+ export function quickSort(items, left, right) {
   var index
   if (items.length > 1) {
     index = partition(items, left, right)

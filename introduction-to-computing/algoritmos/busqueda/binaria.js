@@ -1,4 +1,4 @@
-function busquedaBinaria(arr, busqueda) {
+ export function busquedaBinaria(arr, busqueda) {
   const puntoMedio = Math.floor(arr.length / 2)
 
   if (arr[puntoMedio] === busqueda) {

@@ -7,7 +7,7 @@ import {
 import applyEventsForm from '../../js/formHandler/applyEventsForm.js'
 import { OrdenamientoBurbuja } from '../../../../algoritmos/ordenamiento/burbuja.js'
 import { BinaryTree } from '../../../../algoritmos/ordenamiento/binaryTree.js'
-
+import { quickSort } from '../../../../algoritmos/ordenamiento/quickSort.js'
 const metodoburbuja = document.getElementById('metodo_burbuja_form')
 const metodoquicksort=document.getElementById('metodo_quicksort_form')
 const metodomergezort=document.getElementById('metodo_mergezort_form')
@@ -43,10 +43,16 @@ btnagregarquicksort.addEventListener('click', evt =>
 
   metodoquicksort.addEventListener('submit', evt => {
   evt.preventDefault()
+
   const result=document.getElementById('result_ordinance_quicksort')
 
-  result.value = datos1.sort((x,y) =>x-y );
+  result.value = datos1.sort((x,y) =>x-y);
+  //Funciona las 2 //
+  
+  /*let l = quickSort(datos1, 0, datos1.length - 1)
+  result.value =l;*/
 
+  
 } )
 
 const formverifier = {
@@ -59,6 +65,7 @@ const formverifier = {
 }
 
 //METODO DE BURBUJA//
+
 btnagregarburbuja.addEventListener('click', evt =>
 {
    evt.preventDefault()
@@ -116,7 +123,6 @@ btnagregarbinary.addEventListener('click', evt =>
 
 })
 
-
  metodobinarytree.addEventListener('submit', evt => {
 
   evt.preventDefault()
@@ -128,7 +134,7 @@ btnagregarbinary.addEventListener('click', evt =>
     tree.add(datos3[i])
   }
   tree.print()
-  
+
   result.value= tree.getnode()
 } );
 
