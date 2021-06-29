@@ -90,7 +90,7 @@ const inputEventHandler = evt => {
 
 applyEventsForm($form, inputEventHandler)
 
-const iData = 64,
+const iData = 100,
   iInstructions = 0,
   iRegister = 0
 
@@ -99,49 +99,48 @@ let iD = 0,
   iR = 0
 
 const blockOfInstructions = (strInstruction, { firstNumber, secondNumber }) => {
-  if (strInstruction !== 'NOT') {
-    const iDec = {
-      m: {
-        first: iData + iD++,
-        second: iData + iD++
-      },
-      r: {
-        first: iRegister + iR++,
-        second: iRegister + iR++,
-        result: iRegister + iR++
-      }
+  if (strInstruction === 'NOT') return
+  const iDec = {
+    m: {
+      first: iData + iD++,
+      second: iData + iD++
+    },
+    r: {
+      first: iRegister + iR++,
+      second: iRegister + iR++,
+      result: iRegister + iR++
     }
-    const iHex = {
-      m: {
-        first: decToHex(`${iDec.m.first}`),
-        second: decToHex(`${iDec.m.second}`)
-      },
-      r: {
-        first: decToHex(`${iDec.r.first}`),
-        second: decToHex(`${iDec.r.second}`),
-        result: decToHex(`${iDec.r.result}`)
-      }
-    }
-    const hexNumber = {
-      first: zerosLeftTo(4, decToHex(firstNumber)),
-      second: zerosLeftTo(4, decToHex(secondNumber))
-    }
-
-    const drawInMemory = (position, instruction) =>
-      chargeInMemory($memory, memory, position, instruction)
-
-    drawInMemory(iDec.m.first, hexByteToBin(hexNumber.first))
-    drawInMemory(iDec.m.second, hexByteToBin(hexNumber.second))
-    drawInMemory(iInstructions + iI++, new LOAD(`${iHex.r.first}${iHex.m.first}`))
-    drawInMemory(iInstructions + iI++, new LOAD(`${iHex.r.second}${iHex.m.second}`))
-    drawInMemory(
-      iInstructions + iI++,
-      createInstruction(strInstruction, `${iHex.r.result}${iHex.r.first}${iHex.r.second}`)
-    )
-    drawInMemory(iInstructions + iI++, new STORE(`${decToHex(`${iData + iD++}`)}${iHex.r.result}`))
-    drawInMemory(iInstructions + iI++, new HALT(`000`))
-    return iDec.r.result
   }
+  const iHex = {
+    m: {
+      first: decToHex(`${iDec.m.first}`),
+      second: decToHex(`${iDec.m.second}`)
+    },
+    r: {
+      first: decToHex(`${iDec.r.first}`),
+      second: decToHex(`${iDec.r.second}`),
+      result: decToHex(`${iDec.r.result}`)
+    }
+  }
+  const hexNumber = {
+    first: zerosLeftTo(4, decToHex(firstNumber)),
+    second: zerosLeftTo(4, decToHex(secondNumber))
+  }
+
+  const drawInMemory = (position, instruction) =>
+    chargeInMemory($memory, memory, position, instruction)
+
+  drawInMemory(iDec.m.first, hexByteToBin(hexNumber.first))
+  drawInMemory(iDec.m.second, hexByteToBin(hexNumber.second))
+  drawInMemory(iInstructions + iI++, new LOAD(`${iHex.r.first}${iHex.m.first}`))
+  drawInMemory(iInstructions + iI++, new LOAD(`${iHex.r.second}${iHex.m.second}`))
+  drawInMemory(
+    iInstructions + iI++,
+    createInstruction(strInstruction, `${iHex.r.result}${iHex.r.first}${iHex.r.second}`)
+  )
+  drawInMemory(iInstructions + iI++, new STORE(`${decToHex(`${iData + iD++}`)}${iHex.r.result}`))
+  drawInMemory(iInstructions + iI++, new HALT(`000`))
+  return iDec.r.result
 }
 
 $form.addEventListener('submit', evt => {
@@ -159,12 +158,13 @@ $form.addEventListener('submit', evt => {
       secondNumber: $numberTwo.value
     })
 
-    for (let i = 0; i < memory.length; i++) {
-      const procedure = memory[i]
-      if (!procedure) continue
-      if (!(procedure instanceof Instruction)) continue
-      if (procedure.used) continue
-      debugger
+    const instructions = memory.filter(
+      procedure => procedure instanceof Instruction && !procedure.used
+    )
+    let i = -1
+    let interval = setInterval(() => {
+      i++
+      const procedure = instructions[i]
       $pc.innerText = zerosLeftTo(2, decToHex(`${i}`))
       $ir.innerText = procedure.hexByteBuffer
       const op = procedure.action({ memory, registers })
@@ -174,8 +174,12 @@ $form.addEventListener('submit', evt => {
       if (op?.Md) {
         insertMemoryRow($memory, binByteToHex(memory[op.Md]), op.Md)
       }
-    }
-    $result.value = binToDec(registers[posResult])
+      if (i === instructions.length - 1) {
+        clearInterval(interval)
+        $result.value = binToDec(registers[posResult])
+        i = 0
+      }
+    }, 1000)
   } catch (error) {
     console.log(error)
     showFormErrorMessage(errorMessage, 'A ocurrido un error', 4)

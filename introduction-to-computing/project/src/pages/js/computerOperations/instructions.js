@@ -38,7 +38,7 @@ export class HALT extends Instruction {
 
   action() {
     this.used = true
-    debugger
+    // debugger
   }
 }
 
