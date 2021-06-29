@@ -32,6 +32,20 @@ const $registers = document.getElementById('registers')
 const $result = document.getElementById('result')
 const $pc = document.getElementById('pc')
 const $ir = document.getElementById('ir')
+const $alu = {
+  self: document.getElementById('alu'),
+  draw(numberOne, operator, numberTwo) {
+    this.self.innerHTML = `
+      <div class="number-one">${numberOne}</div>
+      <div class="operator">${operator}</div>
+      <div class="number-two">${numberTwo}</div>
+    `
+  },
+
+  clear() {
+    this.self.innerHTML = ''
+  }
+}
 const memory = []
 const registers = []
 
@@ -82,15 +96,15 @@ const inputEventHandler = evt => {
   if (inputPressed.disabled) return
   const value = inputPressed.value
   if (inputPressed.name === 'number-one') {
-    verifier.numberOne = drawInputInfo(isNumber(value), inputPressed)
+    verifier.numberOne = drawInputInfo(isNumber(value) && Number(value) >= 0, inputPressed)
   } else if (inputPressed.name === 'number-two') {
-    verifier.numberTwo = drawInputInfo(isNumber(value), inputPressed)
+    verifier.numberTwo = drawInputInfo(isNumber(value) && Number(value) >= 0, inputPressed)
   }
 }
 
 applyEventsForm($form, inputEventHandler)
 
-const iData = 100,
+const iData = 64,
   iInstructions = 0,
   iRegister = 0
 
@@ -100,6 +114,7 @@ let iD = 0,
 
 const blockOfInstructions = (strInstruction, { firstNumber, secondNumber }) => {
   if (strInstruction === 'NOT') return
+  $result.value = ''
   const iDec = {
     m: {
       first: iData + iD++,
@@ -130,8 +145,6 @@ const blockOfInstructions = (strInstruction, { firstNumber, secondNumber }) => {
   const drawInMemory = (position, instruction) =>
     chargeInMemory($memory, memory, position, instruction)
 
-  drawInMemory(iDec.m.first, hexByteToBin(hexNumber.first))
-  drawInMemory(iDec.m.second, hexByteToBin(hexNumber.second))
   drawInMemory(iInstructions + iI++, new LOAD(`${iHex.r.first}${iHex.m.first}`))
   drawInMemory(iInstructions + iI++, new LOAD(`${iHex.r.second}${iHex.m.second}`))
   drawInMemory(
@@ -140,20 +153,26 @@ const blockOfInstructions = (strInstruction, { firstNumber, secondNumber }) => {
   )
   drawInMemory(iInstructions + iI++, new STORE(`${decToHex(`${iData + iD++}`)}${iHex.r.result}`))
   drawInMemory(iInstructions + iI++, new HALT(`000`))
-  return iDec.r.result
+  drawInMemory(iDec.m.first, hexByteToBin(hexNumber.first))
+  drawInMemory(iDec.m.second, hexByteToBin(hexNumber.second))
+  return {
+    position: iDec.r.result,
+    ...hexNumber
+  }
 }
 
+let g = -1
 $form.addEventListener('submit', evt => {
   evt.preventDefault()
   const errorMessage = document.getElementById('form__message')
-
+  $alu.clear()
   if (!(verifier.numberOne && verifier.numberTwo && verifier.operator)) {
     showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 4)
     return
   }
 
   try {
-    const posResult = blockOfInstructions($operation.value, {
+    const result = blockOfInstructions($operation.value, {
       firstNumber: $numberOne.value,
       secondNumber: $numberTwo.value
     })
@@ -164,9 +183,13 @@ $form.addEventListener('submit', evt => {
     let i = -1
     let interval = setInterval(() => {
       i++
+      g++
       const procedure = instructions[i]
-      $pc.innerText = zerosLeftTo(2, decToHex(`${i}`))
+      $pc.innerText = zerosLeftTo(2, decToHex(`${g}`))
       $ir.innerText = procedure.hexByteBuffer
+      if (['ADDI', 'OR', 'AND', 'XOR'].includes(procedure.constructor.name)) {
+        $alu.draw(result.first, procedure.constructor.name, result.second)
+      }
       const op = procedure.action({ memory, registers })
       if (op?.Rd) {
         insertRegisterRow($registers, binByteToHex(registers[op.Rd]), op.Rd)
@@ -176,13 +199,13 @@ $form.addEventListener('submit', evt => {
       }
       if (i === instructions.length - 1) {
         clearInterval(interval)
-        $result.value = binToDec(registers[posResult])
-        i = 0
+        $result.value = binToDec(registers[result.position])
       }
     }, 1000)
   } catch (error) {
     console.log(error)
     showFormErrorMessage(errorMessage, 'A ocurrido un error', 4)
+    return
   }
 
   showFormSuccessMessage(document.getElementById('form__success-message'), 2)
