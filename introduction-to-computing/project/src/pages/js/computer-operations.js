@@ -48,7 +48,8 @@ const $alu = {
 }
 const memory = []
 const registers = []
-
+const timeInterval = 2000
+let isOccuped = false
 const createInstruction = (strInstruction, value) => {
   if (strInstruction === 'ADDI') return new ADDI(value)
   else if (strInstruction === 'NOT') return new NOT(value)
@@ -165,13 +166,20 @@ let g = -1
 $form.addEventListener('submit', evt => {
   evt.preventDefault()
   const errorMessage = document.getElementById('form__message')
-  $alu.clear()
+  const successMessage = document.getElementById('form__success-message')
   if (!(verifier.numberOne && verifier.numberTwo && verifier.operator)) {
+    successMessage.classList.remove('form__message-active')
     showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 4)
     return
   }
 
+  $alu.clear()
   try {
+    if (isOccuped) {
+      successMessage.classList.remove('form__message-active')
+      showFormErrorMessage(errorMessage, 'Se está ejecutando otra operación por favor espere', 4)
+      return
+    }
     const result = blockOfInstructions($operation.value, {
       firstNumber: $numberOne.value,
       secondNumber: $numberTwo.value
@@ -184,6 +192,7 @@ $form.addEventListener('submit', evt => {
     let interval = setInterval(() => {
       i++
       g++
+      isOccuped = true
       const procedure = instructions[i]
       $pc.innerText = zerosLeftTo(2, decToHex(`${g}`))
       $ir.innerText = procedure.hexByteBuffer
@@ -200,14 +209,16 @@ $form.addEventListener('submit', evt => {
       if (i === instructions.length - 1) {
         clearInterval(interval)
         $result.value = binToDec(registers[result.position])
+        isOccuped = false
       }
-    }, 1000)
+    }, timeInterval)
   } catch (error) {
     console.log(error)
+    successMessage.classList.remove('form__message-active')
     showFormErrorMessage(errorMessage, 'A ocurrido un error', 4)
     return
   }
 
-  showFormSuccessMessage(document.getElementById('form__success-message'), 2)
+  showFormSuccessMessage(successMessage, 2)
   clearForm($form)
 })
