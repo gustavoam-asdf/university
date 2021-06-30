@@ -72,19 +72,6 @@ $operation.addEventListener(
   }
 )
 
-$operation.addEventListener('change', () => {
-  if ($operation.value !== 'NOT') {
-    $numberTwo.removeAttribute('disabled')
-    verifier.numberTwo = false
-    return
-  }
-  verifier.numberTwo = drawInputInfo(true, $numberTwo)
-  $numberTwo.parentElement.parentElement.classList.remove('form__group-correct')
-  $numberTwo.setAttribute('disabled', '')
-  $numberTwo.value = ''
-  return
-})
-
 const verifier = {
   numberOne: false,
   numberTwo: false,
