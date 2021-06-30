@@ -92,4 +92,5 @@ int main (void) {
 
 void yyerror (char *s) {
   printf("Instrucción inválida para el lenguaje\n");
+  printf("Saliendo...\n");
 }

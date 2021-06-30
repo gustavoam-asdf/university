@@ -6,7 +6,7 @@ import findNearestLenght from '../../numberRepresentations/findNearestLenght.js'
 import addBits from '../aritmetic/integers/addBits.js'
 //10010010-->01101101
 
-export const complementToOne = ({ number: strNumber,base, includeSignBit = false }) => {
+export const complementToOne = ({ number: strNumber, base, includeSignBit = false }) => {
   if (typeof strNumber !== 'string') throw new TypeError('Number must be a number type string')
   if (typeof base !== 'number') throw new TypeError('Base must be a number')
   if (!isHex(strNumber)) throw new Error('Number does not exist')
@@ -20,7 +20,7 @@ export const complementToOne = ({ number: strNumber,base, includeSignBit = false
     const binaryNumber = decimalToAny(2, decimalNumber.unsignedNumber)
     const bits = findNearestLenght(binaryNumber.unsignedNumber.length + 1, 2)
     const completeNumber = completeWithZeros(binaryNumber, bits)
-    
+
     if (decimalNumber.sign === '0') {
       return { type: 'c1', number: completeNumber, sign: '0' }
     }
