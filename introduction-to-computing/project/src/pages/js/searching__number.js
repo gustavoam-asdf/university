@@ -60,54 +60,59 @@ btnagregarsequence.addEventListener('click', evt => {
   mostrararreglosequence.value = arreglo1
 })
 
-busquedasequence.addEventListener('submit', evt => {
-  evt.preventDefault()
-
-  let buscarvalor = document.getElementById('valor_buscar1').value
-  const result = document.getElementById('result_ordinance_sequence')
-
-  let valor = busquedaSecuencial(arreglo1, buscarvalor)
-
-  result.value = JSON.stringify(valor)
-})
-
-//Busqueda HashTable//
-
-btnagregarhashtable.addEventListener('click', evt => {
-  evt.preventDefault()
-
-  let dato = document.getElementById('digit_Array_hashtable').value
-  arreglo2.push(dato)
-
-  mostrararreglohashtable.value = arreglo2
-})
-
-busquedahashtable.addEventListener('submit', evt => {
-  evt.preventDefault()
-  const result = document.getElementById('result_ordinance_hashtable')
-  const table = {}
-
-  const alumns = [
+    busquedasequence.addEventListener('submit', evt =>
     {
-      nombre: 'Pedro',
-      matricula: '2017020230'
-    },
-    {
-      nombre: 'Luis',
-      matricula: '2020145621'
-    },
-    {
-      nombre: 'Juan',
-      matricula: '2021256275'
-    },
-    {
-      nombre: 'Andres',
-      matricula: '2021256245'
-    }
-  ]
+      evt.preventDefault();
+  
+     let buscarvalor=document.getElementById('valor_buscar1').value;
+     const result=document.getElementById('result_ordinance_sequence')
 
-  for (let i = 0; i < alumns.length; i++) {
-    table[hash(alumns[i])] = alumns[i]
+     let valor=busquedaSecuencial(arreglo1,buscarvalor);
+    
+     result.value=JSON.stringify(valor);
+  
+    })
+
+    //Busqueda HashTable//
+    btnagregarhashtable.addEventListener ('click',evt => {
+      
+      evt.preventDefault();
+      let dato=document.getElementById('digit_Array_hashtable').value;
+  
+     arreglo1.push(dato);
+
+     mostrararreglohashtable.value=arreglo1;
+      })
+      
+      busquedahashtable.addEventListener('submit', evt =>{
+        evt.preventDefault();
+        var arreglointroducido = '['+ document.getElementById('digit_Array_hashtable').value + ']';
+        var matriz = JSON.parse(arreglointroducido);
+        const result=document.getElementById('result_ordinance_hashtable')
+        const table={}
+        for (let i = 0; i < matriz.length; i++) {
+            table[hash(matriz[i])] = matriz[i];
+             }
+      
+       result.value=JSON.stringify(table);
+          })
+      /* 
+      //ingrese esos datos//
+  
+{
+    "nombre": "Pedro",
+    "matricula": "2017020230"
+  },
+  {
+    "nombre": "Luis",
+    "matricula": "2020145621"
+  },                              
+  {
+    "nombre": "Juan",
+    "matricula": "2021256275"
+  },
+  {
+    "nombre": "Andres",
+    "matricula": "2021256245"
   }
-  result.value = JSON.stringify(table)
-})
+ */

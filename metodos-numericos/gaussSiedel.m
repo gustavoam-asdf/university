@@ -1,26 +1,24 @@
-% Gauss-Seidel method
+% Gauss-Seidel
 clear;
 close all;
 clc;
 
-n=input('Enter number of equations, n:  ');
-A = zeros(n,n+1);
-x1 = zeros(n);
-tol = input('Enter the tolerance, tol: ');
-m = input('Enter maximum number of iterations, m:  ');
+ecua=[3 -0.1 -0.2 7.85; 0.1 7 -0.3 -19.3; 0.3 -0.2 10 71.4];
 
-A=[3 -0.1 -0.2 7.85; 0.1 7 -0.3 -19.3; 0.3 -0.2 10 71.4];
-x1=[0 0 0];
+nroEcua = 3;
+x1 = zeros(nroEcua);
+tol = 0.0001;
+iterMax = 100;
 
 k = 1;
-while  k <= m
+while  k <= iterMax
   err = 0;
-  for i = 1 : n
+  for i = 1 : nroEcua
      s = 0;
-     for j = 1 : n
-        s = s-A(i,j)*x1(j);
+     for j = 1 : nroEcua
+        s = s-ecua(i,j)*x1(j);
      end
-     s = (s+A(i,n+1))/A(i,i);
+     s = (s+ecua(i,nroEcua+1))/ecua(i,i);
      if abs(s) > err
        err  = abs(s);
      end
@@ -34,10 +32,7 @@ while  k <= m
   end
 end
 
-fprintf('Solution vector after %d iterations is :\n', k-1);
-for i = 1 : n
- fprintf(' %11.8f \n', x1(i));
+fprintf('Las soluciones despues de %d iteraciones con un error de %f son:\n', k-1, err);
+for i = 1 : nroEcua
+ fprintf('\t%11.8f \n', x1(i));
 end
-%Gauss_Seidel.m
-
-%Displaying Gauss_Seidel.m.
