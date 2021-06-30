@@ -65,7 +65,7 @@ function agregar(){
   {
     "nombre": "Luis",
     "matricula": "2020145621"
-  },                               
+  },                              
   {
     "nombre": "Juan",
     "matricula": "2021256275"
@@ -81,6 +81,8 @@ const hash = (array) => {
     return Math.floor(lastDigits / 2)
   }
 //--------------------------------S E C U E N C I A L---------------------------------------------//
+
+
 
 function buscar(){
     var arreglointroducido = document.getElementById('numero').value;

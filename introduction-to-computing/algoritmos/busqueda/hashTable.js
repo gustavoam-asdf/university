@@ -24,8 +24,8 @@ const alumns = [
 
 const table = {}
 
-for (let i = 0; i < alumns.length; i++) {
-  table[hash(alumns[i])] = alumns[i]
+for (let i = 0; i <alumns.length; i++) {
+  table[hash(alumns[i])] = alumns[i] 
 }
 
 console.log(table)
