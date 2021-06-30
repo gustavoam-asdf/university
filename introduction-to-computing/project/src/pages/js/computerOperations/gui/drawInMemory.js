@@ -8,13 +8,15 @@ import { insertMemoryRow } from './insertRow.js'
  * @param {Number} position
  * @param {Instruction} instruction
  */
-const chargeInMemory = ($memory, memory, position, instruction) => {
+const chargeInMemory = ($memory, memory, position, instruction, time) => {
   memory[position] = instruction
-  if (instruction instanceof Instruction) {
-    insertMemoryRow($memory, instruction.hexByteBuffer, position)
-  } else {
-    insertMemoryRow($memory, zerosLeftTo(4, binToHex(instruction)), position)
-  }
+  setTimeout(() => {
+    if (instruction instanceof Instruction) {
+      insertMemoryRow($memory, instruction.hexByteBuffer, position)
+    } else {
+      insertMemoryRow($memory, zerosLeftTo(4, binToHex(instruction)), position)
+    }
+  }, time)
 }
 
 export default chargeInMemory
