@@ -1,5 +1,5 @@
 import { binByteToHex, hexByteToBin, verifyByteBuffer } from './byteFuffer.js'
-import { binToDec, binToHex, decToHex } from './simpleChangeBase.js'
+import { binToDec } from './simpleChangeBase.js'
 import addBits from '../binaryOperations/aritmetic/integers/addBits.js'
 import matchLengths from '../binaryOperations/matchLengths.js'
 import substractBits from '../binaryOperations/aritmetic/integers/substractBits.js'
@@ -38,7 +38,7 @@ export class HALT extends Instruction {
 
   action() {
     this.used = true
-    debugger
+    // debugger
   }
 }
 

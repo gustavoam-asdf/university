@@ -4,8 +4,9 @@ import { isHex } from '../../changeBase/validateNumber.js'
 import completeWithZeros from '../../numberRepresentations/completeWithZeros.js'
 import findNearestLenght from '../../numberRepresentations/findNearestLenght.js'
 import addBits from '../aritmetic/integers/addBits.js'
+//10010010-->01101101
 
-export const complementToOne = ({ number: strNumber, base, force = false }) => {
+export const complementToOne = ({ number: strNumber, base, includeSignBit = false }) => {
   if (typeof strNumber !== 'string') throw new TypeError('Number must be a number type string')
   if (typeof base !== 'number') throw new TypeError('Base must be a number')
   if (!isHex(strNumber)) throw new Error('Number does not exist')
@@ -17,8 +18,14 @@ export const complementToOne = ({ number: strNumber, base, force = false }) => {
   if (base !== 2) {
     const decimalNumber = anyToDecimal(base, number)
     const binaryNumber = decimalToAny(2, decimalNumber.unsignedNumber)
-    recomendedBits = findNearestLenght(binaryNumber.unsignedNumber.length + 1, 2)
-    number = binaryNumber.unsignedNumber
+    const bits = findNearestLenght(binaryNumber.unsignedNumber.length + 1, 2)
+    const completeNumber = completeWithZeros(binaryNumber, bits)
+
+    if (decimalNumber.sign === '0') {
+      return { type: 'c1', number: completeNumber, sign: '0' }
+    }
+    const invertedBits = [...completeNumber].map(bit => (bit === '1' ? '0' : '1')).join('')
+    return { type: 'c1', number: invertedBits, sign: '1' }
   }
 
   const completeNumber = completeWithZeros({ unsignedNumber: number }, recomendedBits)

@@ -1,0 +1,355 @@
+<div class="section__container">
+  <section class="number-complement section">
+  
+    <h2 class="title">METODO DE QUICKSORT</h2>
+    <form class="section__form" id="metodo_quicksort_form">
+      <!-- Grupo: Number -->
+      <div class="form__group group__number" id="nc__group__number">
+        <label for="nc__number" class="form__label">Número</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="nc__number"
+            id="digit_Array_quicksort"
+            
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
+      </div>
+
+      <!-- Grupo: Number base -->
+      <div class="form__group" id="nc__group__number-base">
+        <label for="nc__number-base" class="form__label"> Evento</label>
+        <div class="form__group-input">
+          <input
+            type="button"
+            class="form__input1"
+            id="add_digit_quicksort" 
+            value="Agregar"   
+          />
+          
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Base incorrecta</p>
+      </div>
+
+
+
+      <div class="form__group group__result" id="nc__group__result-one">
+        <label for="nc__result-one" class="form__label">Arreglo</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="nc__result-one"
+            id="show__array_resultquicksort"
+            placeholder="00001010"
+            readonly
+            disabled
+          />
+        </div>
+        
+      <div class="form__group form__group-btn-send">
+        <button type="submit" class="form__btn">Convertir</button>
+        <p class="form__success-message" id="nc__form__success-message">
+          <i class="fas fa-check"></i>
+          Conversión exitosa!
+        </p>
+      </div>
+
+      <p class="form__message" id="nc__form__message">
+        <i class="fas fa-exclamation-triangle"></i>
+        <b>Error:</b>
+        Por favor rellena el formulario correctamente
+      </p>
+
+     
+
+      <!-- Grupo: Complement to 2 -->
+      <div class="form__group group__result" id="nc__group__result-two">
+        <label for="nc__result-two" class="form__label">Ordenamiento quicksort</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="nc__result-two"
+            id="result_ordinance_quicksort"
+            placeholder="00001010"
+            readonly
+            disabled
+          />
+        </div>
+      </div>
+    </form>
+  </section>
+
+
+  <section class="shift method section">
+
+   <h2 class="title">METODO DE LA BURBUJA</h2>
+
+    <form class="section__form" id="metodo_burbuja_form">
+      <!-- Grupo: Number -->
+
+      <div class="form__group group__number" id="nc__group__number">
+        <label for="nc__number" class="form__label">Número</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="digit_Array_burbuja"
+
+            id="digit_Array_burbuja"
+            
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
+      </div>
+
+      <!-- Grupo: Number base -->
+  
+
+      <!-- Grupo: Dezplazamiento -->
+      <div class="form__group" id="nc__group__number-base">
+        <label for="nc__number-base" class="form__label">Eventos</label>
+        <div class="form__group-input">
+          <input
+            type="button"
+            class="form__input1"
+            id="add_digit_burbuja" 
+            value="Agregar"
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Base incorrecta</p>
+      </div>
+
+
+      <div class="form__group group__result" id="nc__group__result-one">
+        <label for="nc__result-one" class="form__label">Arreglo</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="nc__result-one"
+            id="show__array_resultbubble"
+            placeholder="00001010"
+            readonly
+            disabled
+          />
+        </div>
+
+      <div class="form__group form__group-btn-send">
+        <button type="submit" class="form__btn">Convertir</button>
+        <p class="form__success-message" id="shift__form__success-message">
+          <i class="fas fa-check"></i>
+          Conversión exitosa!
+        </p>
+      </div>
+
+      <p class="form__message" id="nc__form__message">
+        <i class="fas fa-exclamation-triangle"></i>
+        <b>Error:</b>
+        Por favor rellena el formulario correctamente
+      </p>
+
+      <!-- Grupo: Result -->
+      <div class="form__group group__result" id="shift__group__result">
+        <label for="shift__result" class="form__label">Resultado</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="shift__result"
+            id="result_ordinance_bubble"
+            placeholder="0101010"
+            readonly
+            disabled
+          />
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <section class="add-integer section">
+    <h2 class="title">METODO MEGAZORT</h2>
+    <form class="section__form" id="metodo_mergezort_form">
+      <!-- Grupo: Number one -->
+      <div class="form__group group__number1" id="">
+        <label for="nc__number" class="form__label">Número</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="nc__number"
+            id="digit_Array_mergezort"
+            
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
+      </div>
+
+      <!-- Grupo: Number base -->
+  
+
+      <!-- Grupo: Dezplazamiento -->
+      <div class="form__group "  id="nc__group__number-base">
+        <label for="nc__number-base" class="form__label"> EVENTOS</label>
+        <div class="form__group-input">
+          <input
+            type="button"
+            class="form__input"
+            id="add_digit_mergezort" 
+            value="Agregar"   
+            
+          />
+         
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Base incorrecta</p>
+      </div>
+
+
+
+      <div class="form__group group__result" id="nc__group__result-one">
+        <label for="nc__result-one" class="form__label">Arreglo</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="nc__result-one"
+            id="show__array_resultmergezort"
+            placeholder="00001010"
+            readonly
+            disabled
+          />
+        </div>
+    
+      <div class="form__group form__group-btn-send">
+        <button type="submit" class="form__btn">Convertir</button>
+        <p class="form__success-message" id="ai__form__success-message">
+          <i class="fas fa-check"></i>
+          Conversión exitosa!
+        </p>
+      </div>
+
+      <p class="form__message" id="ai__form__message">
+        <i class="fas fa-exclamation-triangle"></i>
+        <b>Error:</b>
+        Por favor rellena el formulario correctamente
+      </p>
+
+      <!-- Grupo: Result -->
+      <div class="form__group group__result" id="ai__group__result">
+        <label for="result" class="form__label">Resultado</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="ai__result"
+            id="result_ordinance_mergezort"
+            placeholder="11010101"
+            readonly
+            disabled
+          />
+        </div>
+      </div>
+    </form>
+  </section>
+
+  
+  <!-- BINARY-->
+  <section class="add-integer section">
+    <h2 class="title">BINARY TREE</h2>
+    <form class="section__form" id="metodo_binary_form">
+      <!-- Grupo: Number one -->
+      <div class="form__group group__number1" id="">
+        <label for="nc__number" class="form__label">Número</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="nc__number"
+            id="digit_Array_binary"
+            
+          />
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Número no válido</p>
+      </div>
+
+      <!-- Grupo: Number base -->
+  
+
+      <!-- Grupo: Dezplazamiento -->
+      <div class="form__group "  id="nc__group__number-base">
+        <label for="nc__number-base" class="form__label"> EVENTOS</label>
+        <div class="form__group-input">
+          <input
+            type="button"
+            class="form__input"
+            id="add_digit_binary" 
+            value="Agregar"      
+          />
+
+          <i class="form__check-state fas fa-times-circle"></i>
+        </div>
+        <p class="form__input-error">Base incorrecta</p>
+      </div>
+      <div class="form__group group__result" id="nc__group__result-one">
+        <label for="nc__result-one" class="form__label">Arreglo</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="nc__result-one"
+            id="show__array_resultbinarytree"
+            placeholder="00001010"
+            readonly
+            disabled
+          />
+        </div>
+      <div class="form__group form__group-btn-send">
+        <button type="submit" class="form__btn">Convertir</button>
+        <p class="form__success-message" id="ai__form__success-message">
+          <i class="fas fa-check"></i>
+          Conversión exitosa!
+        </p>
+      </div>
+
+      <p class="form__message" id="ai__form__message">
+        <i class="fas fa-exclamation-triangle"></i>
+        <b>Error:</b>
+        Por favor rellena el formulario correctamente
+      </p>
+
+      <!-- Grupo: Result -->
+      <div class="form__group group__result" id="ai__group__result">
+        <label for="result" class="form__label">Resultado</label>
+        <div class="form__group-input">
+          <input
+            type="text"
+            class="form__input"
+            name="ai__result"
+            id="result_ordinance_binary"
+            placeholder="11010101"
+            readonly
+            disabled
+          />
+        </div>
+      </div>
+    </form>
+  </section>
+  
+        </div>
+      </div>
+    </form>
+  </section>
+</div>
+
+</script>
+
