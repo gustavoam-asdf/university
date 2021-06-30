@@ -172,14 +172,16 @@ $form.addEventListener('submit', evt => {
     showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 4)
     return
   }
+  if (isOccuped) {
+    console.log(successMessage)
+    successMessage.classList.remove('form__message-active')
+    showFormErrorMessage(errorMessage, 'Se está ejecutando otra operación por favor espere', 4)
+    return
+  }
+  isOccuped = true
 
   $alu.clear()
   try {
-    if (isOccuped) {
-      successMessage.classList.remove('form__message-active')
-      showFormErrorMessage(errorMessage, 'Se está ejecutando otra operación por favor espere', 4)
-      return
-    }
     const result = blockOfInstructions($operation.value, {
       firstNumber: $numberOne.value,
       secondNumber: $numberTwo.value
@@ -192,7 +194,6 @@ $form.addEventListener('submit', evt => {
     let interval = setInterval(() => {
       i++
       g++
-      isOccuped = true
       const procedure = instructions[i]
       $pc.innerText = zerosLeftTo(2, decToHex(`${g}`))
       $ir.innerText = procedure.hexByteBuffer
