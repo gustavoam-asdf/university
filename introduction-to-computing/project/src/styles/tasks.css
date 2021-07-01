@@ -10,13 +10,14 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+  padding: 4em;
 }
 
 .tasks .title {
   text-align: center;
   font-size: 1.7em;
   width: 60%;
-  margin: 5em auto 0;
+  margin: auto;
   padding-bottom: 0.7em;
   color: var(--white);
   border-bottom: 5px solid var(--white);
@@ -33,18 +34,20 @@
 
 .tasks__list a {
   display: block;
-  padding: 1.2em;
+  padding: 0.9em;
   text-decoration: none;
   color: var(--white);
   font-size: 1.2em;
 }
 
 .tasks__list li {
-  transition: 0.3s ease all;
+  transition: 0.1s ease all;
+  border: 2px solid transparent;
 }
 
 .tasks__list li:hover {
   background-color: var(--dark-blue);
+  border-color: var(--white);
 }
 
 .tasks__button-oc,
