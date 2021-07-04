@@ -1,4 +1,11 @@
+.change-base {
+  padding-bottom: 8em;
+  width: 80%;
+  max-width: 35em;
+}
+
 .change-base .title {
+  color: var(--dark-blue);
   margin-top: 0;
   text-align: center;
 }
@@ -10,6 +17,7 @@
 }
 
 .form__label {
+  color: var(--dark-blue);
   display: block;
   font-weight: 700;
   padding: 0.7em;
@@ -28,6 +36,7 @@
 
 .form__input {
   width: 100%;
+  color: var(--black);
   background: var(--white);
   border: 0.25em solid transparent;
   border-radius: 0.25em;
@@ -53,7 +62,7 @@
 .form__input:focus {
   border: 0.25em solid var(--turquoise);
   outline: none;
-  box-shadow: 0.25em 0 0.25em #a3a3a366;
+  box-shadow: 0.25em 0 0.25em var(--overlay);
 }
 
 .form__input-error {
@@ -71,8 +80,9 @@
   right: 0.8em;
   bottom: calc((2.5em - 1.1em) / 2);
   font-size: 1.1em;
-  z-index: 100;
+  z-index: var(--z-index-10);
   opacity: 0;
+  transition: 0.3s ease all;
 }
 
 .form__message,
@@ -83,7 +93,8 @@
 .form__message {
   color: var(--white);
   background: var(--red);
-  padding: 0.5em 0.95em;
+  margin: 0;
+  padding: 0.55em 0.95em;
   border-radius: 0.25em;
   text-align: center;
   display: none;
@@ -130,11 +141,12 @@
   margin: 1em 0 0;
   padding: 0.5em 1em;
   color: var(--white);
-  display: none;
+  opacity: 0;
+  transition: 0.3s ease all;
 }
 
 .form__success-message-active {
-  display: block;
+  opacity: 1;
 }
 
 /* ----- -----  Estilos para Validacion ----- ----- */

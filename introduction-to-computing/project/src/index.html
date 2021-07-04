@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="day">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -12,6 +11,7 @@
     />
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Project</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
   </head>
   <body class="container">
     <header class="main__header"></header>
@@ -25,11 +25,27 @@
       <h2 class="title">Proyectos realizados</h2>
       <nav>
         <ul class="tasks__list">
-          <li><a class="task" href="#cover">Inicio</a></li>
           <li><a class="task" href="#change-base">Cambiar la base de un número</a></li>
+          <li>
+            <a class="task" href="#decimal-to-excess">Numero decimal a formato IEEE 754</a>
+          </li>
+          <li>
+            <a class="task" href="#excess-to-decimal">Numero en formato IEEE 754 a decimal</a>
+          </li>
+          <li>
+            <a class="task" href="#binary-operations">Operaciones sobre binarios</a>
+          </li>
+          <li><a class="task" href="#computer-operations">Operaciones del computador</a></li>
+          <li>
+            <a class="task" href="#ordinances_number">Ordenamientos</a>
+          </li>
+          <li><a class="task" href="#searching__number">Busquedas</a></li>
           <li><a class="task" href="#another-task">Próximo proyecto</a></li>
         </ul>
       </nav>
+      <aside class="tasks__button-home" id="tasks__button-home">
+        <i class="fa fa-3x fa-home"></i>
+      </aside>
     </div>
     <script type="module" src="./js/index.js"></script>
   </body>

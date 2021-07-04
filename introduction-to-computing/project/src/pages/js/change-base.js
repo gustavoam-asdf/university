@@ -1,6 +1,13 @@
-import { isHex, isInteger } from './changeBase/validateNumber.js'
+import {
+  clearForm,
+  drawInputInfo,
+  showFormErrorMessage,
+  showFormSuccessMessage
+} from '../../js/formHandler/drawInfo.js'
+import { existInBase, isHex, isInteger } from './changeBase/validateNumber.js'
 import decimalToAny from './changeBase/decimalBaseToAnyBase/decimalToAny.js'
 import anyToDecimal from './changeBase/anyBaseToDecimalBase/anyToDecimal.js'
+import applyEventsForm from '../../js/formHandler/applyEventsForm.js'
 
 const changeBaseForm = document.getElementById('change-base__form')
 
@@ -10,81 +17,54 @@ const verifier = {
   targetBase: false
 }
 
-/**
- * Show information about whether the target input value
- * @param {Boolean} test check the text of target
- * @param {Element} targetInput element to draw its info
- */
-const drawInfo = (test, targetInput) => {
-  const groupInput = targetInput.parentElement.parentElement
-  if (test) {
-    groupInput.classList.remove('form__group-incorrect')
-    groupInput.classList.add('form__group-correct')
-    groupInput.querySelector('i').classList.remove('fa-times-circle')
-    groupInput.querySelector('i').classList.add('fa-check-circle')
-  } else {
-    groupInput.classList.remove('form__group-correct')
-    groupInput.classList.add('form__group-incorrect')
-    document.querySelector('i').classList.remove('fa-check-circle')
-    document.querySelector('i').classList.add('fa-times-circle')
-  }
-  return test
-}
-
-const inputHandler = targetInput => {
-  const value = targetInput.value
-  if (targetInput.name === 'number') {
-    verifier.number = drawInfo(isHex(value), targetInput)
-  } else if (targetInput.name === 'current-base') {
-    verifier.currentBase = drawInfo(isInteger(value) && parseInt(value) > 1, targetInput)
-  } else if (targetInput.name === 'target-base') {
+const inputEventHandler = evt => {
+  const inputPressed = evt.target.closest('input')
+  if (!inputPressed) return
+  const value = inputPressed.value
+  if (inputPressed.name === 'number') {
+    verifier.number = drawInputInfo(isHex(value), inputPressed)
+  } else if (inputPressed.name === 'current-base') {
+    verifier.currentBase = drawInputInfo(isInteger(value) && parseInt(value) > 1, inputPressed)
+  } else if (inputPressed.name === 'target-base') {
     const currentBase = document.getElementById('current-base')
-    verifier.targetBase = drawInfo(
+    verifier.targetBase = drawInputInfo(
       isInteger(value) && value !== currentBase.value && parseInt(value) > 1,
-      targetInput
+      inputPressed
     )
   }
 }
 
-changeBaseForm.addEventListener('keyup', evt => {
-  const inputPressed = evt.target.closest('input')
-  if (!inputPressed) return
-  inputHandler(inputPressed)
-})
-
-changeBaseForm.addEventListener('blur', evt => {
-  const inputPressed = evt.target.closest('input')
-  if (!inputPressed) return
-  inputHandler(inputPressed)
-})
+applyEventsForm(changeBaseForm, inputEventHandler)
 
 changeBaseForm.addEventListener('submit', evt => {
   evt.preventDefault()
-  if (verifier.number && verifier.currentBase && verifier.targetBase) {
-    document.getElementById('form__message').classList.remove('form__message-active')
-    document.getElementById('form__success-message').classList.add('form__success-message-active')
-    setTimeout(() => {
-      document
-        .getElementById('form__success-message')
-        .classList.remove('form__success-message-active')
-    }, 2000)
-    document
-      .querySelectorAll('.form__group')
-      .forEach(group => group.classList.remove('form__group-correct'))
+  const errorMessage = document.getElementById('form__message')
 
-    const number = document.getElementById('number').value
-    const currentBase = Number(document.getElementById('current-base').value)
-    const targetBase = Number(document.getElementById('target-base').value)
-    const result = document.getElementById('result')
-    let numberResult
-    if (currentBase === 10) {
-      numberResult = decimalToAny(targetBase, number)
-    } else {
-      numberResult = anyToDecimal(currentBase, number)
-      numberResult = decimalToAny(targetBase, numberResult.number)
-    }
-    result.value = numberResult.number
-  } else {
-    document.getElementById('form__message').classList.add('form__message-active')
+  if (!(verifier.number && verifier.currentBase && verifier.targetBase)) {
+    showFormErrorMessage(errorMessage, 'Por favor rellena el formulario correctamente', 5)
+    return
   }
+
+  const number = document.getElementById('number').value
+  const currentBase = Number(document.getElementById('current-base').value)
+  const targetBase = Number(document.getElementById('target-base').value)
+  const result = document.getElementById('result')
+
+  if (!existInBase(number, currentBase)) {
+    showFormErrorMessage(errorMessage, 'El número que ingresó no existe en esa base', 3)
+    clearForm(changeBaseForm)
+    return
+  }
+
+  let numberResult
+  if (currentBase === 10) {
+    numberResult = decimalToAny(targetBase, number)
+  } else {
+    numberResult = anyToDecimal(currentBase, number)
+    numberResult = decimalToAny(targetBase, numberResult.number)
+  }
+  result.value = numberResult.number
+
+  showFormSuccessMessage(document.getElementById('form__success-message'), 2)
+  clearForm(changeBaseForm)
 })

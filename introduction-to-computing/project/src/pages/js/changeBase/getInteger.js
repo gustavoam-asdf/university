@@ -2,14 +2,14 @@
 import { isHex } from './validateNumber.js'
 
 /**
- * @param {String} number
+ * @param {Number} number
  * @returns {String}
  */
 const getInteger = number => {
   const strNumber = number.toString()
   if (!isHex(strNumber)) throw new TypeError('Argument most be a number')
   const floatingPoint = strNumber.indexOf('.')
-  if (floatingPoint === -1) return number
+  if (floatingPoint === -1) return strNumber
   return strNumber.slice(0, floatingPoint)
 }
 

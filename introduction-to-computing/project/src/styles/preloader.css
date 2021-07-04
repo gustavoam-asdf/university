@@ -1,0 +1,31 @@
+.preloader__overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--overlay);
+}
+
+.preloader {
+  width: 4.5em;
+  height: 4.5em;
+  border: 0.7em solid var(--white);
+  border-top: 0.7em solid var(--blue);
+  border-radius: 50%;
+  animation-name: girar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
