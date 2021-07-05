@@ -32,3 +32,4 @@ export const existInBase = (strNumber, base) => {
   if (digit.asNumber >= base) return false
   return existInBase(strNumber.slice(digit.length), base)
 }
+
