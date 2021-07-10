@@ -35,6 +35,3 @@ for j = 1:maxIter
 end
 
 fprintf('Máximo x: %7.4f, Máximo y: %7.4f, Fmax: %7.4f\n', maxX, maxY, maxF);
-
-
-
