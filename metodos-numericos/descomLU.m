@@ -5,10 +5,10 @@ clc;
 format short;
 matriz = input('Ingrese la matriz: ');
 
-[n, n] = size(matriz);
+n = length(matriz);
 
-L=eye(n);
-U=eye(n);
+L=zeros(n);
+U=zeros(n);
 
 for k=1:n
   L(k,k)=1;

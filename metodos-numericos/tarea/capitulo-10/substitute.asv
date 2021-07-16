@@ -1,0 +1,20 @@
+function [a, b, x] = substitute(a, b)
+
+n = length(a);
+
+% Sustitucion hacia adelante
+for i = 2 : n
+  sum = b(i);
+  for j = 1: i -1
+    sum = sum - a(i,j) * b(j);
+  end
+  b(i) = sum;
+end
+% Sustitucion hacia adelante
+for i = 2 : n
+  sum = b(i);
+  for j = 1: i -1
+    sum = sum - a(i,j) * b(j);
+  end
+  b(i) = sum;
+end

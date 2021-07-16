@@ -29,7 +29,7 @@ fprintf('Gradiente: ');
 disp(grad);
 fprintf('Magnitud del gradiente: %f\n\n', magGrad);
 
-[a, b] = meshgrid(vdx: vdy);
+[a, b] = meshgrid(vdx: 0.5 : vdy);
 quiver(a,b,b,a);
 % Verificar
 teta = atan(vdy/vdx);
