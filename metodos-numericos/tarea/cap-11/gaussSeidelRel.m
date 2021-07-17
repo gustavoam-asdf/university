@@ -1,7 +1,7 @@
-function [x] = gaussSeidelRel (matriz, results, imax, err, rejalacion)
+function [X] = gaussSeidelRel (matriz, results, X, maxIter, errTol, relajacion)
 n = length(matriz);
-results = results';
-x = zeros(n, 1);
+X = X';
+X = zeros(n, 1);
 
 for i = 1:n
   dummy = matriz(i,i);
@@ -15,27 +15,27 @@ for i = 1 : n
   sum = results(i);
   for j = 1 : n
     if i ~= j 
-      sum = sum - matriz(i,j) * x(j);
+      sum = sum - matriz(i,j) * X(j);
     end
   end
-  x(i) = sum;
+  X(i) = sum;
 end
 iter = 1;
-while iter < imax
+while iter < maxIter
   centinela = 1;
   for i = 1 : n
-    old = x(i);
+    old = X(i);
     sum = results(i);
     for j = 1 : n
       if i ~= j 
-        sum = sum - matriz(i,j)*x(j);
+        sum = sum - matriz(i,j)*X(j);
       end
     end
-    x(i) = rejalacion * sum + (1 - rejalacion) * old;
+    X(i) = relajacion * sum + (1 - relajacion) * old;
     
-    if centinela = 1 && xi ~= 0
-      ea = abs( (x(i) - old) / x(i)) * 100.;
-      if ea > err 
+    if centinela == 1 && X(i) ~= 0
+      ea = abs( (X(i) - old) / X(i)) * 100.;
+      if ea > errTol 
         centinela = 0;
       end
     end
