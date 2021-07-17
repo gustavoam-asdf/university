@@ -72,3 +72,5 @@ addEventListener('DOMContentLoaded', async evt => {
   )
   task ? task.click() : (location.href = './')
 })
+
+addEventListener('hashchange', () => location.reload())
