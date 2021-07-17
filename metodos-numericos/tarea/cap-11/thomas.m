@@ -1,4 +1,4 @@
-function [T] = thomas(matriz, results)
+function [X] = thomas(matriz, results)
 
 results = results';
 
@@ -26,8 +26,8 @@ for k=2:n
 end
 
 %sustitución trasera
-T(n) = results(n)/diagPri(n);
+X(n) = results(n)/diagPri(n);
 
 for k=n-1:-1:1
-    T(k)  =   (results(k)-diagSup(k)*T(k+1))/diagPri(k);
+    X(k)  =   (results(k)-diagSup(k)*X(k+1))/diagPri(k);
 end
