@@ -12,7 +12,7 @@ results = [41 25 105];
 
 errTol = 0.05;
 X = [0 0 0]';
-maxIter = 100;
+maxIter = 20;
 
 % a)
 [X] = gaussSeidel(matriz, results, X, errTol, maxIter);
