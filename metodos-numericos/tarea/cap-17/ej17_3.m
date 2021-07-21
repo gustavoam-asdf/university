@@ -7,18 +7,18 @@ data = [ 28.65 26.55 26.65 27.65 27.35 28.35 26.85 28.65 29.65 27.85 27.05 28.25
 amount = length(data);
 fprintf('Data amount: %d\n', amount);
 
-% a)
-media = 0;
+% a) Arithmetic Average
+average = 0;
 for d = data
-  media = media + d;
+  average = average + d;
 end
-media = media / amount;
-fprintf('Media: %f\n', media);
+average = average / amount;
+fprintf('Average: %f\n', average);
 
 % b) Standard desviation
 sumDiffSqua = 0;
 for d = data
-  sumDiffSqua = sumDiffSqua + (d - media) ^ 2;
+  sumDiffSqua = sumDiffSqua + (d - average) ^ 2;
 end
 stanDesv = sqrt(sumDiffSqua / (amount - 1));
 fprintf('Standard desviation: %f\n', stanDesv);
@@ -27,36 +27,35 @@ fprintf('Standard desviation: %f\n', stanDesv);
 variance = stanDesv ^ 2;
 fprintf('Variance: %f\n', variance);
 
-% d) Coeficiente de variacion
-coeffVar = stanDesv * 100 / media;
+% d) Coefficient of variation.
+coeffVar = stanDesv * 100 / average;
 fprintf('Coefficient of variation: %f\n', coeffVar);
 
-% e) Intervalo de confianza del 95% para la media
+% e) 90% confidence interval for the arithmetic average.
 percent = 0.90;
 alfa = (1 - percent) / 2;
 
 t = tinv(percent + alfa, amount - 1);
 
-intInf = media - stanDesv * t/sqrt(amount);
-intSup = media + stanDesv * t/sqrt(amount);
+lowerInt = average - stanDesv * t/sqrt(amount);
+upperInt = average + stanDesv * t/sqrt(amount);
 
-fprintf('Intervalo: %f <= u <= %f \n', intInf, intSup);
+fprintf('Interval: %f <= u <= %f \n', lowerInt, upperInt);
 
 % f) Histogram. Use a range of 26 to 32 with increments of 0.5
-ranInf = 26;
-ranSup = 32;
+lowerRange = 26;
+upperRange = 32;
 inc    = 0.5;
-interv = ranInf : inc : ranSup;
+interv = lowerRange : inc : upperRange;
 histogram(data,interv);
 
-% g) Suponga normal y desviación estándar válida
+% g) Assume normal and valid standard deviation for 68 %
 percent   = 0.68;
-newAmout  = amount * percent;
 alfa = (1 - percent) / 2;
 
 t = tinv(percent + alfa, amount - 1);
 
-intInf = media - stanDesv * t/sqrt(amount);
-intSup = media + stanDesv * t/sqrt(amount);
+lowerInt = average - stanDesv * t/sqrt(amount);
+upperInt = average + stanDesv * t/sqrt(amount);
 
-fprintf('New interval: %f <= u <= %f \n', intInf, intSup);
+fprintf('New interval: %f <= u <= %f \n', lowerInt, upperInt);
