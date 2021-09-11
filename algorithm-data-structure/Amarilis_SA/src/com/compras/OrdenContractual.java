@@ -35,10 +35,18 @@ public class OrdenContractual {
     this.items = items;
   }
 
-  public double montoTotal () {
+  public double montoTotalSolicitado () {
     double total = 0;
     for (Solicitud s: this.solicitudes) {
       total += s.montoTotal();
+    }
+    return total;
+  }
+
+  public double montoTotalDespachado () {
+    double total = 0;
+    for (ItemOrden i: this.items) {
+      total += i.precioTotalDespachado();
     }
     return total;
   }

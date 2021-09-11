@@ -12,7 +12,7 @@ public class Ej_2 {
 			return;
 		}
 
-		System.out.println("Los divisores de n son:");
+		System.out.printf("Los divisores de %d son:\n", n);
 		for (int i = 1; i <= n; i++) {
 			if (n % i == 0) {
 				System.out.println(i);

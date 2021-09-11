@@ -6,9 +6,9 @@ public class Ej_1 {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.print("Ingrese las unidades de producción: ");
+    System.out.print("Ingrese las unidades de producción de la semana: ");
     int production = sc.nextInt();
-    String result = (production >= 100) ?  "mayor al promedio, recibe incentivos" : "menor al promedio, no recibe incentivos";
-    System.out.printf("El trabajador obtuvo una producción %s", result);
+    String result = (production >= 100) ?  "mayor al promedio, recibe" : "menor al promedio, no recibe ";
+    System.out.printf("El trabajador obtuvo una producción %s incentivos", result);
   }
 }
