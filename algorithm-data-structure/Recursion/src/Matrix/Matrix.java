@@ -10,9 +10,9 @@ public class Matrix {
     };
 
     double[][] matrix2 = {
-        {2, -3, -4},
-        {0, 5, 2},
-        {-1, -2, 3}
+      {2, -3, -4},
+      {0, 5, 2},
+      {-1, -2, 3}
     };
 
     System.out.printf("""
