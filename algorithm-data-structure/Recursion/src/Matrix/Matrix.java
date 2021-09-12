@@ -60,12 +60,6 @@ public class Matrix {
       return  matrix[0][0];
     }
 
-    if (length == 2) {
-      double mainDiag = matrix[0][0] * matrix[1][1];
-      double secondaryDiag = matrix[0][1] * matrix[1][0];
-      return mainDiag - secondaryDiag;
-    }
-
     double[] firstLine = matrix[0];
     int coorX = 0;
 
