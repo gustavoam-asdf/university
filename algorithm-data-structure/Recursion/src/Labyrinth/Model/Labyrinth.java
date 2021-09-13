@@ -1,5 +1,7 @@
 package Labyrinth.Model;
 
+import Labyrinth.Lib.ClearScreen;
+
 public class Labyrinth {
 
   public int length;
@@ -17,9 +19,14 @@ public class Labyrinth {
     LabyrinthCell targetCell = this.cellMatrix[targetPosition.x][targetPosition.y];
     if (targetCell == null) return false;
     if (targetCell.getType() == LabyrinthCell.TYPE_WALL) return false;
-    this.cellMatrix[currentPosition.x][currentPosition.y].setType(LabyrinthCell.TYPE_WAY);
+    if (currentPosition.x == 0 && currentPosition.y == 0) {
+      this.cellMatrix[currentPosition.x][currentPosition.y].setType(LabyrinthCell.TYPE_START);
+    } else {
+      this.cellMatrix[currentPosition.x][currentPosition.y].setType(LabyrinthCell.TYPE_WAY);
+    }
     targetCell.setType(LabyrinthCell.TYPE_PLAYER);
     this.player.setPosition(targetPosition.x, targetPosition.y);
+    ClearScreen.run();
     this.show();
     return true;
   }
@@ -68,18 +75,18 @@ public class Labyrinth {
     return true;
   }
 
-  public void generateCellMatrix (int length) {
+  public void generateCellMatrix(int length) {
     this.cellMatrix = new LabyrinthCell[length][length];
     PlayerPosition position = this.player.getPosition();
     this.cellMatrix[position.x][position.y] = new LabyrinthCell(LabyrinthCell.TYPE_PLAYER);
-//    for (Ceil[] cells : this.cellMatrix) {
-//      for (Ceil cell : cells) {
-//
-//        System.out.print(cell.getSimbol());
-//      }
-//      System.out.println();
-//    }
-//    this.cellMatrix[0][0] = new LabyrinthCell(LabyrinthCell.TYPE_WAY);
+    // for (Ceil[] cells : this.cellMatrix) {
+    // for (Ceil cell : cells) {
+    //
+    // System.out.print(cell.getSimbol());
+    // }
+    // System.out.println();
+    // }
+    // this.cellMatrix[0][0] = new LabyrinthCell(LabyrinthCell.TYPE_WAY);
     this.cellMatrix[0][1] = new LabyrinthCell(LabyrinthCell.TYPE_WAY);
     this.cellMatrix[0][2] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
     this.cellMatrix[0][3] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
@@ -103,7 +110,6 @@ public class Labyrinth {
     this.cellMatrix[3][3] = new LabyrinthCell(LabyrinthCell.TYPE_WAY);
     this.cellMatrix[3][4] = new LabyrinthCell(LabyrinthCell.TYPE_WAY);
 
-
     this.cellMatrix[4][0] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
     this.cellMatrix[4][1] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
     this.cellMatrix[4][2] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
@@ -112,14 +118,13 @@ public class Labyrinth {
 
   }
 
-  public void show () {
-    for (LabyrinthCell[] cells: this.cellMatrix) {
+  public void show() {
+    for (LabyrinthCell[] cells : this.cellMatrix) {
       for (LabyrinthCell cell : cells) {
         System.out.print(cell.getSymbol());
       }
       System.out.println();
     }
-    System.out.println();
   }
 
 }

@@ -3,26 +3,18 @@ package Labyrinth;
 import Labyrinth.Model.Labyrinth;
 import Labyrinth.Model.Player;
 
+import java.util.Scanner;
+
 public class Main {
 
   public static void main(String[] args) {
-//    Ceil[] ceils = new Ceil[3];
-//    for (int i = 0; i < ceils.length; i++) {
-//      ceils[i] = new Ceil(Ceil.TYPE_WALL);
-//    }
-//
-//    for (Ceil c: ceils) {
-//      System.out.print(c.getSimbol());
-//    }
-//    System.out.println();
-//    for (Ceil c: ceils) {
-//      System.out.print(c.getSimbol());
-//    }
-
+    Scanner sc = new Scanner(System.in);
     Player p = new Player();
     Labyrinth l = new Labyrinth(5, p);
     l.show();
     boolean result = l.movePlayerToRight();
+    System.out.println(result);
+    result = l.movePlayerToLeft();
     System.out.println(result);
   }
 
