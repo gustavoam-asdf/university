@@ -22,6 +22,8 @@ public class Main {
     Player p = new Player();
     Labyrinth l = new Labyrinth(5, p);
     l.show();
+    boolean result = l.movePlayerToRight();
+    System.out.println(result);
   }
 
 }

@@ -12,22 +12,60 @@ public class Labyrinth {
     this.generateCellMatrix(this.length);
   }
 
-  public boolean movePlayerToLeft() {
-    PlayerPosition playerPosition = this.player.getPosition();
-    LabyrinthCell leftCeil = this.cellMatrix[playerPosition.x - 1][playerPosition.y];
-    if (leftCeil == null) {
-      return false;
-    }
-
-    if (leftCeil.getType() == LabyrinthCell.TYPE_WALL) {
-      return false;
-    }
-
-    leftCeil.setType(LabyrinthCell.TYPE_PLAYER);
-    this.player.setPosition(playerPosition.x -1, playerPosition.y);
+  private boolean movePlayer(PlayerPosition targetPosition) {
+    PlayerPosition currentPosition = this.player.getPosition();
+    LabyrinthCell targetCell = this.cellMatrix[targetPosition.x][targetPosition.y];
+    if (targetCell == null) return false;
+    if (targetCell.getType() == LabyrinthCell.TYPE_WALL) return false;
+    this.cellMatrix[currentPosition.x][currentPosition.y].setType(LabyrinthCell.TYPE_WAY);
+    targetCell.setType(LabyrinthCell.TYPE_PLAYER);
+    this.player.setPosition(targetPosition.x, targetPosition.y);
     this.show();
     return true;
+  }
 
+  public boolean movePlayerToLeft() {
+    PlayerPosition currentPosition = this.player.getPosition();
+    PlayerPosition targetPosition = new PlayerPosition(currentPosition.x, currentPosition.y - 1);
+    boolean canMove = movePlayer(targetPosition);
+    if (!canMove) {
+      System.out.println("No puedes moverte hacia la izquierda");
+      return false;
+    }
+    return true;
+  }
+
+  public boolean movePlayerToRight() {
+    PlayerPosition currentPosition = this.player.getPosition();
+    PlayerPosition targetPosition = new PlayerPosition(currentPosition.x, currentPosition.y + 1);
+    boolean canMove = movePlayer(targetPosition);
+    if (!canMove) {
+      System.out.println("No puedes moverte hacia la derecha");
+      return false;
+    }
+    return true;
+  }
+
+  public boolean movePlayerToUp() {
+    PlayerPosition currentPosition = this.player.getPosition();
+    PlayerPosition targetPosition = new PlayerPosition(currentPosition.x + 1, currentPosition.y);
+    boolean canMove = movePlayer(targetPosition);
+    if (!canMove) {
+      System.out.println("No puedes moverte hacia arriba");
+      return false;
+    }
+    return true;
+  }
+
+  public boolean movePlayerToBottom() {
+    PlayerPosition currentPosition = this.player.getPosition();
+    PlayerPosition targetPosition = new PlayerPosition(currentPosition.x - 1, currentPosition.y);
+    boolean canMove = movePlayer(targetPosition);
+    if (!canMove) {
+      System.out.println("No puedes moverte hacia abajo");
+      return false;
+    }
+    return true;
   }
 
   public void generateCellMatrix (int length) {
@@ -81,6 +119,7 @@ public class Labyrinth {
       }
       System.out.println();
     }
+    System.out.println();
   }
 
 }

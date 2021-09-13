@@ -10,4 +10,8 @@ public class PlayerPosition {
     this.y = positionY;
   }
 
+  public String get () {
+    return "x: " + this.x + ", y: " + this.y;
+  }
+
 }
