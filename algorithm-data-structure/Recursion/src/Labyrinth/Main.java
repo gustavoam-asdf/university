@@ -12,10 +12,29 @@ public class Main {
     Player p = new Player();
     Labyrinth l = new Labyrinth(5, p);
     l.show();
-    boolean result = l.movePlayerToRight();
-    System.out.println(result);
-    result = l.movePlayerToLeft();
-    System.out.println(result);
+    boolean exit = false;
+
+    while (!exit) {
+      System.out.print("""
+        A dónde quiere moverse:
+          (W)     Arriba
+          (A)     Izquierda
+          (S)     Abajo
+          (D)     Derecha
+          (Otro)  Salir
+        ->""");
+
+      char response = sc.next().toLowerCase().charAt(0);
+
+      switch (response) {
+        case 'w' -> l.movePlayerToUp();
+        case 'a' -> l.movePlayerToLeft();
+        case 's' -> l.movePlayerToBottom();
+        case 'd' -> l.movePlayerToRight();
+        default -> exit = true;
+      }
+    }
+
   }
 
 }
