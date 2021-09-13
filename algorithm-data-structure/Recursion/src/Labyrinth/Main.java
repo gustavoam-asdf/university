@@ -34,7 +34,7 @@ public class Main {
         default -> exit = true;
       }
     }
-
+    sc.close();
   }
 
 }
