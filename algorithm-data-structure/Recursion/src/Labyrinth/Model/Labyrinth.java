@@ -7,10 +7,12 @@ public class Labyrinth {
   public int length;
   private LabyrinthCell[][] cellMatrix;
   public Player player;
+  public boolean finished;
 
   public Labyrinth(int length, Player player) {
     this.length = length;
     this.player = player;
+    this.finished = false;
     this.generateCellMatrix(this.length);
   }
 
@@ -24,6 +26,9 @@ public class Labyrinth {
       this.cellMatrix[currentPosition.x][currentPosition.y].setType(LabyrinthCell.TYPE_START);
     } else {
       this.cellMatrix[currentPosition.x][currentPosition.y].setType(LabyrinthCell.TYPE_WAY);
+    }
+    if (targetCell.getType() == LabyrinthCell.TYPE_END) {
+      this.finished = true;
     }
     targetCell.setType(LabyrinthCell.TYPE_PLAYER);
     this.player.setPosition(targetPosition.x, targetPosition.y);
@@ -98,7 +103,7 @@ public class Labyrinth {
   }
 
   public void show() {
-//    ClearScreen.run();
+    ClearScreen.run();
     for (LabyrinthCell[] cells : this.cellMatrix) {
       for (LabyrinthCell cell : cells) {
         if (cell == null) continue;

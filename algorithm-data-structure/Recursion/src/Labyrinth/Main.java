@@ -33,6 +33,14 @@ public class Main {
         case 'd' -> l.movePlayerToRight();
         default -> exit = true;
       }
+
+      if (l.finished) {
+        System.out.println("""
+          ¡Felicidades, has completado el laberinto!
+          """);
+        exit = true;
+      }
+
     }
     sc.close();
   }
