@@ -2,10 +2,12 @@ package Labyrinth.Model;
 
 public class Player {
 
+  public static final PlayerPosition positionInitial = new PlayerPosition(0,0);
+
   private PlayerPosition position;
 
   public Player () {
-    this.position = new PlayerPosition(0, 0);
+    this.position = positionInitial;
   }
 
   public PlayerPosition getPosition () {

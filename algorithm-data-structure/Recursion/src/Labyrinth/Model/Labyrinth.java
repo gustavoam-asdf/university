@@ -20,14 +20,13 @@ public class Labyrinth {
     PlayerPosition currentPosition = this.player.getPosition();
     LabyrinthCell targetCell = this.cellMatrix[targetPosition.x][targetPosition.y];
     if (targetCell.getType() == LabyrinthCell.TYPE_WALL) return false;
-    if (currentPosition.x == 0 && currentPosition.y == 0) {
+    if (currentPosition.x == Player.positionInitial.x && currentPosition.y == Player.positionInitial.y) {
       this.cellMatrix[currentPosition.x][currentPosition.y].setType(LabyrinthCell.TYPE_START);
     } else {
       this.cellMatrix[currentPosition.x][currentPosition.y].setType(LabyrinthCell.TYPE_WAY);
     }
     targetCell.setType(LabyrinthCell.TYPE_PLAYER);
     this.player.setPosition(targetPosition.x, targetPosition.y);
-    ClearScreen.run();
     this.show();
     return true;
   }
@@ -75,49 +74,34 @@ public class Labyrinth {
   public void generateCellMatrix(int length) {
     this.cellMatrix = new LabyrinthCell[length][length];
     PlayerPosition position = this.player.getPosition();
+    int[][] typesMatrix = {
+      {1, 2, 2, 2, 2, 2, 2, 2, 2, 2},
+      {1, 2, 1, 1, 1, 1, 1, 2, 1, 2},
+      {1, 2, 2, 1, 2, 2, 1, 1, 1, 2},
+      {1, 2, 2, 1, 1, 2, 2, 2, 1, 2},
+      {1, 2, 1, 1, 1, 1, 1, 2, 1, 2},
+      {1, 2, 2, 2, 2, 2, 1, 2, 1, 2},
+      {1, 2, 1, 1, 1, 1, 1, 2, 1, 2},
+      {1, 2, 1, 2, 2, 1, 2, 2, 1, 2},
+      {1, 1, 1, 2, 1, 1, 2, 1, 1, 1},
+      {2, 2, 2, 2, 2, 2, 2, 2, 2, 1}
+    };
+
+    for (int i = 0; i < length; i++) {
+     for (int j = 0; j < length; j++) {
+       this.cellMatrix[i][j] = new LabyrinthCell(typesMatrix[i][j]);
+     }
+    }
+
     this.cellMatrix[position.x][position.y] = new LabyrinthCell(LabyrinthCell.TYPE_PLAYER);
-    // for (Ceil[] cells : this.cellMatrix) {
-    // for (Ceil cell : cells) {
-    //
-    // System.out.print(cell.getSimbol());
-    // }
-    // System.out.println();
-    // }
-    // this.cellMatrix[0][0] = new LabyrinthCell(LabyrinthCell.TYPE_WAY);
-    this.cellMatrix[0][1] = new LabyrinthCell(LabyrinthCell.TYPE_WAY);
-    this.cellMatrix[0][2] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-    this.cellMatrix[0][3] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-    this.cellMatrix[0][4] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-
-    this.cellMatrix[1][0] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-    this.cellMatrix[1][1] = new LabyrinthCell(LabyrinthCell.TYPE_WAY);
-    this.cellMatrix[1][2] = new LabyrinthCell(LabyrinthCell.TYPE_WAY);
-    this.cellMatrix[1][3] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-    this.cellMatrix[1][4] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-
-    this.cellMatrix[2][0] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-    this.cellMatrix[2][1] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-    this.cellMatrix[2][2] = new LabyrinthCell(LabyrinthCell.TYPE_WAY);
-    this.cellMatrix[2][3] = new LabyrinthCell(LabyrinthCell.TYPE_WAY);
-    this.cellMatrix[2][4] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-
-    this.cellMatrix[3][0] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-    this.cellMatrix[3][1] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-    this.cellMatrix[3][2] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-    this.cellMatrix[3][3] = new LabyrinthCell(LabyrinthCell.TYPE_WAY);
-    this.cellMatrix[3][4] = new LabyrinthCell(LabyrinthCell.TYPE_WAY);
-
-    this.cellMatrix[4][0] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-    this.cellMatrix[4][1] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-    this.cellMatrix[4][2] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-    this.cellMatrix[4][3] = new LabyrinthCell(LabyrinthCell.TYPE_WALL);
-    this.cellMatrix[4][4] = new LabyrinthCell(LabyrinthCell.TYPE_END);
-
+    this.cellMatrix[length - 1][length - 1] = new LabyrinthCell(LabyrinthCell.TYPE_END);
   }
 
   public void show() {
+//    ClearScreen.run();
     for (LabyrinthCell[] cells : this.cellMatrix) {
       for (LabyrinthCell cell : cells) {
+        if (cell == null) continue;
         System.out.print(cell.getSymbol());
       }
       System.out.println();
