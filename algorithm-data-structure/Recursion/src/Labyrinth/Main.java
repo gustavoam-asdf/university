@@ -12,6 +12,7 @@ public class Main {
     Player p = new Player();
     Labyrinth l = new Labyrinth(10, p);
     l.move(true, sc);
+    sc.close();
   }
 
 }
