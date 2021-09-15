@@ -16,13 +16,13 @@ public class Main {
 
     while (!exit) {
       System.out.print("""
-        A dónde quiere moverse:
+        A donde quiere moverse:
              (W) Arriba
              (A) Izquierda
              (S) Abajo
              (D) Derecha
           (Otro) Salir
-        ->""");
+        -> """);
 
       char response = sc.next().toLowerCase().charAt(0);
 
@@ -36,7 +36,7 @@ public class Main {
 
       if (l.finished) {
         System.out.println("""
-          ¡Felicidades, has completado el laberinto!
+          Felicidades!!!, has completado el laberinto!!!
           """);
         exit = true;
       }

@@ -22,15 +22,15 @@ public class LabyrinthCell {
       throw new Error("Unrecognized type");
     this.type = type;
     if (type == TYPE_WAY) {
-      this.symbol = '\u3000';
+      this.symbol = ' ';
     } else if (type == TYPE_START) {
-      this.symbol = 'ﱿ';
+      this.symbol = '-';
     } else if (type == TYPE_WALL) {
-      this.symbol = '▮';
+      this.symbol = '#';
     } else if (type == TYPE_PLAYER) {
-      this.symbol = '\uE213';
+      this.symbol = '*';
     } else {
-      this.symbol = '\uF426';
+      this.symbol = '?';
     }
   }
 

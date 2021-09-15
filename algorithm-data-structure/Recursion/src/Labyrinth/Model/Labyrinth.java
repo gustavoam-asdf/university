@@ -41,8 +41,8 @@ public class Labyrinth {
     PlayerPosition targetPosition = new PlayerPosition(currentPosition.x, currentPosition.y - 1);
     boolean canMove = movePlayer(targetPosition);
     if (!canMove) {
-      System.out.println("No puedes moverte hacia la izquierda");
       this.show();
+      System.out.println("No puedes moverte hacia la izquierda");
     }
   }
 
@@ -51,8 +51,8 @@ public class Labyrinth {
     PlayerPosition targetPosition = new PlayerPosition(currentPosition.x, currentPosition.y + 1);
     boolean canMove = movePlayer(targetPosition);
     if (!canMove) {
-      System.out.println("No puedes moverte hacia la derecha");
       this.show();
+      System.out.println("No puedes moverte hacia la derecha");
     }
   }
 
@@ -61,8 +61,8 @@ public class Labyrinth {
     PlayerPosition targetPosition = new PlayerPosition(currentPosition.x - 1, currentPosition.y);
     boolean canMove = movePlayer(targetPosition);
     if (!canMove) {
-      System.out.println("No puedes moverte hacia arriba");
       this.show();
+      System.out.println("No puedes moverte hacia arriba");
     }
   }
 
@@ -71,8 +71,8 @@ public class Labyrinth {
     PlayerPosition targetPosition = new PlayerPosition(currentPosition.x + 1, currentPosition.y);
     boolean canMove = movePlayer(targetPosition);
     if (!canMove) {
-      System.out.println("No puedes moverte hacia abajo");
       this.show();
+      System.out.println("No puedes moverte hacia abajo");
     }
   }
 
