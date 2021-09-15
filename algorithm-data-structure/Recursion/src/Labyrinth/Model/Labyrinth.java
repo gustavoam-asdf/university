@@ -2,6 +2,8 @@ package Labyrinth.Model;
 
 import Labyrinth.Lib.ClearScreen;
 
+import java.util.Scanner;
+
 public class Labyrinth {
 
   public int length;
@@ -36,7 +38,7 @@ public class Labyrinth {
     return true;
   }
 
-  public void movePlayerToLeft() {
+  private void movePlayerToLeft() {
     PlayerPosition currentPosition = this.player.getPosition();
     PlayerPosition targetPosition = new PlayerPosition(currentPosition.x, currentPosition.y - 1);
     boolean canMove = movePlayer(targetPosition);
@@ -46,7 +48,7 @@ public class Labyrinth {
     }
   }
 
-  public void movePlayerToRight() {
+  private void movePlayerToRight() {
     PlayerPosition currentPosition = this.player.getPosition();
     PlayerPosition targetPosition = new PlayerPosition(currentPosition.x, currentPosition.y + 1);
     boolean canMove = movePlayer(targetPosition);
@@ -56,7 +58,7 @@ public class Labyrinth {
     }
   }
 
-  public void movePlayerToUp() {
+  private void movePlayerToUp() {
     PlayerPosition currentPosition = this.player.getPosition();
     PlayerPosition targetPosition = new PlayerPosition(currentPosition.x - 1, currentPosition.y);
     boolean canMove = movePlayer(targetPosition);
@@ -66,7 +68,7 @@ public class Labyrinth {
     }
   }
 
-  public void movePlayerToBottom() {
+  private void movePlayerToBottom() {
     PlayerPosition currentPosition = this.player.getPosition();
     PlayerPosition targetPosition = new PlayerPosition(currentPosition.x + 1, currentPosition.y);
     boolean canMove = movePlayer(targetPosition);
@@ -74,6 +76,39 @@ public class Labyrinth {
       this.show();
       System.out.println("No puedes moverte hacia abajo");
     }
+  }
+
+  public void move (boolean keepMove, Scanner sc) {
+    if (!keepMove) sc.close();
+
+    this.show();
+    System.out.print("""
+        A donde quiere moverse:
+             (W) Arriba
+             (A) Izquierda
+             (S) Abajo
+             (D) Derecha
+          (Otro) Salir
+        ->""");
+
+    char response = sc.next().toLowerCase().charAt(0);
+
+    switch (response) {
+      case 'w' -> this.movePlayerToUp();
+      case 'a' -> this.movePlayerToLeft();
+      case 's' -> this.movePlayerToBottom();
+      case 'd' -> this.movePlayerToRight();
+      default -> keepMove = false;
+    }
+
+    if (this.finished) {
+      System.out.println("""
+          Felicidades!!!, has completado el laberinto!!!
+          """);
+      keepMove = false;
+    }
+
+    this.move(keepMove, sc);
   }
 
   public void generateCellMatrix(int length) {
