@@ -1,6 +1,8 @@
 package company;
 
+import company.inventarios.Inventario;
 import company.listas.Lista;
+import company.productos.ItemAlmacen;
 
 import java.util.Scanner;
 
@@ -19,22 +21,18 @@ public class Main {
 //      option = sc.nextInt();
 //    } while (!(option >= 1 && option <= 3));
 
-    Lista l = new Lista();
-    l.add(1);
-    l.add(2);
-    l.add("valor");
-    l.add(3);
-    l.add(4);
-    l.add("hola");
-    l.add(5);
-    l.add(6);
-    l.add("otro valor");
-    l.add(7);
-    l.add(8);
+    int codigoProducto = 0;
+    Lista items = new Lista();
 
-    System.out.println(l.get(11).valor);
-//    l.mostrar();
+    items.add(new ItemAlmacen(codigoProducto++, "papeles", 8.50, "millar", 100));
+    items.add(new ItemAlmacen(codigoProducto++, "impresoras", 150, "unidad", 10));
+    items.add(new ItemAlmacen(codigoProducto++, "computadora", 1400, "unidad", 10));
+    items.add(new ItemAlmacen(codigoProducto++, "lapiz", 0.50, "unidad", 1000));
+    items.add(new ItemAlmacen(codigoProducto, "escritorios", 200, "unidad", 15));
 
+    Inventario inventario = new Inventario(items);
+
+    System.out.println(((ItemAlmacen) items.get(4).valor).cantidad);
 
   }
 

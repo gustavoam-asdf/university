@@ -1,9 +1,9 @@
 package company.almacen;
 
+import company.listas.Lista;
 import company.productos.ItemAlmacen;
 import company.compras.OrdenContractual;
 
-import java.util.ArrayList;
 import java.util.Date;
 
 public class Entrada {
@@ -13,7 +13,7 @@ public class Entrada {
   public int nroFactura;
   public String proveedor;
   public OrdenContractual orden;
-  public ArrayList<ItemAlmacen> items;
+  public Lista items;
 
   public Entrada (
     int nroEntrada,
@@ -21,7 +21,7 @@ public class Entrada {
     int nroFactura,
     String proveedor,
     OrdenContractual orden,
-    ArrayList<ItemAlmacen> items
+    Lista items
   ) {
     this.nroEntrada = nroEntrada;
     this.fecha = fecha;
@@ -32,15 +32,15 @@ public class Entrada {
   }
 
   public double totalBienes () {
-    return this.items.size();
+    return this.items.size;
   }
 
   public double montoTotal() {
     double total = 0;
-    for (ItemAlmacen i: this.items) {
-      total += i.valorTotal();
+    for (int i = 0; i < this.items.size; i++) {
+      ItemAlmacen item = (ItemAlmacen) this.items.get(i).valor;
+      total += item.valorTotal();
     }
-    items.add(new ItemAlmacen(1, "manzanas", 4.50, "kg", 2));
     return total;
   }
 

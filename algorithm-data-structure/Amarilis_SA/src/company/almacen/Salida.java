@@ -1,10 +1,9 @@
 package company.almacen;
 
 import company.inventarios.AutorizacionSalida;
+import company.listas.Lista;
 import company.personal.Personal;
-import company.productos.ItemAlmacen;
 
-import java.util.ArrayList;
 import java.util.Date;
 
 public class Salida {
@@ -15,14 +14,14 @@ public class Salida {
   public Date fechaEntrega;
   public AutorizacionSalida autorizacion;
   public boolean estaAutorizado;
-  public ArrayList<ItemAlmacen> items;
+  public Lista items;
 
   public Salida (
     int nroSalida,
     Personal responsable,
     Date fechaSalida,
     Date fechaEntrega,
-    ArrayList<ItemAlmacen> items
+    Lista items
   ) {
     this.nroSalida = nroSalida;
     this.responsable = responsable;
