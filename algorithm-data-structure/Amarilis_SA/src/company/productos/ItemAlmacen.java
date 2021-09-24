@@ -4,7 +4,7 @@ public class ItemAlmacen extends Item{
 
   public double cantidad;
 
-  ItemAlmacen(
+  public ItemAlmacen(
     int codigo,
     String nombreProducto,
     double precioUnitario,

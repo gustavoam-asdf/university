@@ -40,6 +40,7 @@ public class Entrada {
     for (ItemAlmacen i: this.items) {
       total += i.valorTotal();
     }
+    items.add(new ItemAlmacen(1, "manzanas", 4.50, "kg", 2));
     return total;
   }
 
