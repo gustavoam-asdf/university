@@ -11,7 +11,7 @@ public class AutorizacionSalida {
   public Date fechaEntrega;
   public String ubicacion;
 
-  AutorizacionSalida (
+  public AutorizacionSalida (
     int codigo,
     Personal responsable,
     Date fechaEntrega,

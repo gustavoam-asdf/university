@@ -6,7 +6,7 @@ public class Personal {
   public String nombre;
   public String apellido;
 
-  Personal (int cedula, String nombre, String apellido) {
+  public Personal (int cedula, String nombre, String apellido) {
     this.cedula = cedula;
     this.nombre = nombre;
     this.apellido = apellido;
