@@ -8,14 +8,14 @@ import java.util.Date;
 
 public class Entrada {
 
-  int nroEntrada;
-  Date fecha;
-  int nroFactura;
-  String proveedor;
-  OrdenContractual orden;
-  ArrayList<ItemAlmacen> items;
+  public int nroEntrada;
+  public Date fecha;
+  public int nroFactura;
+  public String proveedor;
+  public OrdenContractual orden;
+  public ArrayList<ItemAlmacen> items;
 
-  Entrada (
+  public Entrada (
     int nroEntrada,
     Date fecha,
     int nroFactura,

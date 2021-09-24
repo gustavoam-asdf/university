@@ -2,7 +2,7 @@ package company.productos;
 
 public class ItemAlmacen extends Item{
 
-  double cantidad;
+  public double cantidad;
 
   ItemAlmacen(
     int codigo,
