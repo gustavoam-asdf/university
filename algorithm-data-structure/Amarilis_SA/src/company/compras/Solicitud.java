@@ -1,9 +1,9 @@
 package company.compras;
 
+import company.listas.Lista;
 import company.personal.Personal;
 import company.productos.ItemSolicitud;
 
-import java.util.ArrayList;
 import java.util.Date;
 
 public class Solicitud {
@@ -13,7 +13,7 @@ public class Solicitud {
   public Personal responsable;
   public AutorizacionSolicitud autorizacion;
   public double rubroPresupuestal;
-  public ArrayList<ItemSolicitud> items ;
+  public Lista items ;
 
   Solicitud (
     int nroSolicitud,
@@ -21,7 +21,7 @@ public class Solicitud {
     Personal responsable,
     AutorizacionSolicitud autorizacion,
     int rubroPresupuestal,
-    ArrayList<ItemSolicitud> items
+    Lista items
   ) {
     this.nroSolicitud = nroSolicitud;
     this.fecha = fecha;
@@ -33,8 +33,9 @@ public class Solicitud {
 
   public double montoTotal() {
     double total = 0;
-    for (ItemSolicitud i : this.items) {
-      total += i.precioTotalSolicitado();
+    for (int i = 0; i < this.items.size; i++) {
+      ItemSolicitud item = (ItemSolicitud) this.items.get(i).valor;
+      total += item.precioTotalSolicitado();
     }
     return total;
   }
