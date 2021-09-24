@@ -11,10 +11,17 @@ public class Solicitud {
   public Date fecha;
   public Personal responsable;
   public AutorizacionSolicitud autorizacion;
-  public String rubroPresupuestal;
+  public double rubroPresupuestal;
   public ArrayList<ItemSolicitud> items ;
 
-  Solicitud (int nroSolicitud, Date fecha, Personal responsable, AutorizacionSolicitud autorizacion, String rubroPresupuestal, ArrayList<ItemSolicitud> items) {
+  Solicitud (
+    int nroSolicitud,
+    Date fecha,
+    Personal responsable,
+    AutorizacionSolicitud autorizacion,
+    int rubroPresupuestal,
+    ArrayList<ItemSolicitud> items
+  ) {
     this.nroSolicitud = nroSolicitud;
     this.fecha = fecha;
     this.responsable = responsable;

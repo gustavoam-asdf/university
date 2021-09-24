@@ -37,15 +37,12 @@ public class Matrix {
 
     for (int i = 0; i < length; i++) {
       for (int j = 0; j < length; j++) {
-
-        if (i != coorX && j != coorY) {
-          cofactor[cofactorCoorX][cofactorCoorY++] = matrix[i][j];
-          if (cofactorCoorY == cofactor.length) {
-            cofactorCoorX++;
-            cofactorCoorY = 0;
-          }
+        if (i == coorX || j == coorY) continue;
+        cofactor[cofactorCoorX][cofactorCoorY++] = matrix[i][j];
+        if (cofactorCoorY == cofactor.length) {
+          cofactorCoorX++;
+          cofactorCoorY = 0;
         }
-        
       }
     }
 

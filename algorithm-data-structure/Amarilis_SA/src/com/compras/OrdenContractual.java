@@ -1,6 +1,5 @@
 package com.compras;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -33,6 +32,10 @@ public class OrdenContractual {
     this.fechaEntrega = fechaEntrega;
     this.solicitudes = solicitudes;
     this.items = items;
+  }
+
+  public int totalBienes () {
+    return this.items.size();
   }
 
   public double montoTotalSolicitado () {
