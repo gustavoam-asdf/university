@@ -1,6 +1,6 @@
-package com.compras;
+package company.compras;
 
-import com.personal.Personal;
+import company.personal.Personal;
 
 import java.util.ArrayList;
 import java.util.Date;

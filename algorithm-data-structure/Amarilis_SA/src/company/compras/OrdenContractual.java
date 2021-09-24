@@ -1,4 +1,4 @@
-package com.compras;
+package company.compras;
 
 import java.util.ArrayList;
 import java.util.Date;

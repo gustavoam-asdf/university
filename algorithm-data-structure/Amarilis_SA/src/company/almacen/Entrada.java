@@ -1,7 +1,7 @@
-package com.almacen;
+package company.almacen;
 
-import com.compras.ItemOrden;
-import com.compras.OrdenContractual;
+import company.compras.ItemOrden;
+import company.compras.OrdenContractual;
 
 import java.util.ArrayList;
 import java.util.Date;
