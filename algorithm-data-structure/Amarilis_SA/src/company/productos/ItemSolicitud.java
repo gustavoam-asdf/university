@@ -1,4 +1,4 @@
-package company.compras;
+package company.productos;
 
 public class ItemSolicitud extends Item{
 

@@ -1,7 +1,6 @@
-package company.compras;
+package company.productos;
 
-
-public class Item {
+class Item {
 
   public int codigo;
   public String nombreProducto;

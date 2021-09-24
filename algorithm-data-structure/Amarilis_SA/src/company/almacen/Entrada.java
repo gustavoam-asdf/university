@@ -1,6 +1,6 @@
 package company.almacen;
 
-import company.compras.ItemOrden;
+import company.productos.ItemAlmacen;
 import company.compras.OrdenContractual;
 
 import java.util.ArrayList;
@@ -13,7 +13,7 @@ public class Entrada {
   int nroFactura;
   String proveedor;
   OrdenContractual orden;
-  ArrayList<ItemOrden> items;
+  ArrayList<ItemAlmacen> items;
 
   Entrada (
     int nroEntrada,
@@ -21,7 +21,7 @@ public class Entrada {
     int nroFactura,
     String proveedor,
     OrdenContractual orden,
-    ArrayList<ItemOrden> items
+    ArrayList<ItemAlmacen> items
   ) {
     this.nroEntrada = nroEntrada;
     this.fecha = fecha;
@@ -35,10 +35,10 @@ public class Entrada {
     return this.items.size();
   }
 
-  public double valorTotal () {
+  public double montoTotal() {
     double total = 0;
-    for (ItemOrden i: this.items) {
-      total += i.precioTotalDespachado();
+    for (ItemAlmacen i: this.items) {
+      total += i.valorTotal();
     }
     return total;
   }
@@ -47,8 +47,8 @@ public class Entrada {
     return this.totalBienes() == this.orden.totalBienes();
   }
 
-  public boolean valorTotalCorrecto () {
-    return this.valorTotal() == this.orden.montoTotalDespachado();
+  public boolean montoTotalCorrecto () {
+    return this.montoTotal() == this.orden.montoTotalDespachado();
   }
 
 }

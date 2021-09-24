@@ -1,6 +1,7 @@
 package company.compras;
 
 import company.personal.Personal;
+import company.productos.ItemSolicitud;
 
 import java.util.ArrayList;
 import java.util.Date;

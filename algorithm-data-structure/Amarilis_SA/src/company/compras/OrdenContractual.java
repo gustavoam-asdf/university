@@ -1,5 +1,7 @@
 package company.compras;
 
+import company.productos.ItemOrden;
+
 import java.util.ArrayList;
 import java.util.Date;
 
