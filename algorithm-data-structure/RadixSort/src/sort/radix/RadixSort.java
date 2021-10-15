@@ -1,21 +1,15 @@
 package sort.radix;
 
-import sort.Main;
-
 public class RadixSort {
 
-  public static final int UNKNOWN_NUMBER = Integer.MIN_VALUE;
-
-//  public RadixSort (int[] numbers, int radix) {
-//    int digitPos = 1;
-//    int[][] numbersByLSD = assignByLSD(numbers, digitPos, radix);
-//    int[] reorderNumbers = numbersByLSD.flat(1)
-//    while (!reorderNumbers.every((n: number) => LSD(n, digitPos) === 0)) {
-//      numbersByLSD = assignByLSD(reorderNumbers, ++digitPos)
-//      reorderNumbers = numbersByLSD.flat(1)
-//    }
-//    return reorderNumbers
-//  }
+  public static int[] run (int[] numbers, int radix) {
+    int digitPos = 1;
+    int[] reorderNumbers = assignByLSD(numbers, digitPos, radix);
+    while (!allLSDAreZero(reorderNumbers, digitPos, radix)) {
+      reorderNumbers = assignByLSD(reorderNumbers, ++digitPos, radix);
+    }
+    return reorderNumbers;
+  }
 
   public static int lessSignificantDigit (int number, int digitPos, int radix) {
     if (digitPos <= 0)
@@ -23,14 +17,28 @@ public class RadixSort {
     return (int) (Math.floor(number / Math.pow(radix , (digitPos - 1))) % 10);
   }
 
-  public static IntegerMatrix assignByLSD(int[] numbers, int digitPos, int radix) {
+  public static int[] assignByLSD(int[] numbers, int digitPos, int radix) {
     IntegerMatrix positions = new IntegerMatrix(10, numbers.length);
     int[] counters = {0,0,0,0,0,0,0,0,0,0};
     for (int number : numbers) {
       int LSD = lessSignificantDigit(number, digitPos, radix);
       positions.set(LSD, counters[LSD]++, number);
     }
-    return positions;
+    positions.print();
+    return positions.flat(numbers.length);
+  }
+
+  public static boolean allLSDAreZero (int[] row, int digitPos, int radix) {
+    boolean areZero = true;
+
+    for (int number : row) {
+      if (lessSignificantDigit(number, digitPos, radix) != 0) {
+        areZero = false;
+        break;
+      }
+    }
+
+    return areZero;
   }
 
 }

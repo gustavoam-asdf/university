@@ -41,8 +41,6 @@ public class IntegerMatrix {
   }
 
   public int[] flat(int length) {
-    if (this.rowsLength() > length)
-      throw new IllegalArgumentException("Length of array flatted must be greater than matrix length");
     int[] array = new int[length];
     for (int i = 0; i < array.length; i++) {
       array[i] = UNKNOWN_NUMBER;
@@ -67,12 +65,19 @@ public class IntegerMatrix {
   }
 
   public void print () {
+    System.out.println("[");
     for (int i = 0; i < this.rowsLength(); i++ ) {
+      System.out.print("  [");
       for (int j = 0; j < this.columnsLength(); j++) {
-        System.out.print(this.get(i, j) + ", ");
+        String union = j == this.columnsLength() - 1 ? "" : ", ";
+        if (this.get(i, j) == UNKNOWN_NUMBER) {
+          System.out.print(j == 0 ? " " + union : union);
+          continue;
+        }
+        System.out.print(this.get(i, j) + union);
       }
-      System.out.println();
+      System.out.println("]");
     }
+    System.out.println("]");
   }
-
 }
