@@ -16,7 +16,6 @@ public class RadixSort {
     if (digitPos <= 0)
       throw new Error("Digit position must be an integer positive");
     return (int) (number / Math.pow(radix , (digitPos - 1)) % radix);
-
   }
 
   public static int[] assignByLSD(int[] numbers, int digitPos, int radix, int baseToCompare) {
