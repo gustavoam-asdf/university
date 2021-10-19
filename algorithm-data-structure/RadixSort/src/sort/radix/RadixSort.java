@@ -15,7 +15,8 @@ public class RadixSort {
   public static int lessSignificantDigit (int number, int digitPos, int radix) {
     if (digitPos <= 0)
       throw new Error("Digit position must be an integer positive");
-    return (int) (Math.floor(number / Math.pow(radix , (digitPos - 1))) % radix);
+    return (int) (number / Math.pow(radix , (digitPos - 1)) % radix);
+
   }
 
   public static int[] assignByLSD(int[] numbers, int digitPos, int radix, int baseToCompare) {
@@ -25,7 +26,6 @@ public class RadixSort {
       int LSD = lessSignificantDigit(number - baseToCompare, digitPos, radix);
       positions.set(LSD, counters[LSD]++, number);
     }
-    positions.print();
     return positions.flat(numbers.length);
   }
 
