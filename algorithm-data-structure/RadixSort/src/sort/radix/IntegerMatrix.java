@@ -84,19 +84,23 @@ public class IntegerMatrix {
     return this.matrixValues;
   }
 
+  public static void printRow(int[] row) {
+    System.out.print("  [");
+    for (int i = 0; i < row.length; i++) {
+      String union = i == row.length - 1 ? "" : ", ";
+      if (row[i] == UNKNOWN_NUMBER) {
+        System.out.print(i == 0 ? " " + union : union);
+        continue;
+      }
+      System.out.print(row[i] + union);
+    }
+    System.out.println("]");
+  }
+
   public void print () {
     System.out.println("[");
     for (int i = 0; i < this.rowsLength(); i++ ) {
-      System.out.print("  [");
-      for (int j = 0; j < this.columnsLength(); j++) {
-        String union = j == this.columnsLength() - 1 ? "" : ", ";
-        if (this.get(i, j) == UNKNOWN_NUMBER) {
-          System.out.print(j == 0 ? " " + union : union);
-          continue;
-        }
-        System.out.print(this.get(i, j) + union);
-      }
-      System.out.println("]");
+      IntegerMatrix.printRow(this.get(i));
     }
     System.out.println("]");
   }
