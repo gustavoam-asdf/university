@@ -42,6 +42,7 @@ public class IntegerMatrix {
 
   public int[] flat(int length) {
     int[] array = new int[length];
+    fillRow(array, UNKNOWN_NUMBER);
     for (int i = 0; i < array.length; i++) {
       array[i] = UNKNOWN_NUMBER;
     }
@@ -55,11 +56,30 @@ public class IntegerMatrix {
     return array;
   }
 
-  public int[][] fill (int value) {
-    for (int i = 0; i < this.rowsLength(); i++ ) {
-      for (int j = 0; j < this.columnsLength(); j++) {
-        this.set(i, j, value);
+  public static int minValueRow(int[] row) {
+    int minValue = row[0];
+    for (int i = 1; i < row.length; i++) {
+      if (row[i] < minValue) {
+        minValue = row[i];
       }
+    }
+    return minValue;
+  }
+
+  public static int[] fillRow(int[] row, int value) {
+    for (int i = 0; i < row.length; i++) {
+      row[i] = value;
+    }
+    return row;
+  }
+
+  public int[] fillRow(int i, int value) {
+    return IntegerMatrix.fillRow(this.get(i), value);
+  }
+
+  public int[][] fill (int value) {
+    for (int i = 0; i < this.rowsLength(); i++) {
+      this.fillRow(i, value);
     }
     return this.matrixValues;
   }

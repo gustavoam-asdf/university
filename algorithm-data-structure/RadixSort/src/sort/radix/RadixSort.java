@@ -4,9 +4,10 @@ public class RadixSort {
 
   public static int[] run (int[] numbers, int radix) {
     int digitPos = 1;
-    int[] reorderNumbers = assignByLSD(numbers, digitPos, radix);
-    while (!allLSDAreZero(reorderNumbers, digitPos, radix)) {
-      reorderNumbers = assignByLSD(reorderNumbers, ++digitPos, radix);
+    int baseToCompare = IntegerMatrix.minValueRow(numbers);
+    int[] reorderNumbers = assignByLSD(numbers, digitPos, radix, baseToCompare);
+    while (!allLSDAreZero(reorderNumbers, digitPos, radix, baseToCompare)) {
+      reorderNumbers = assignByLSD(reorderNumbers, ++digitPos, radix,baseToCompare);
     }
     return reorderNumbers;
   }
@@ -17,27 +18,27 @@ public class RadixSort {
     return (int) (Math.floor(number / Math.pow(radix , (digitPos - 1))) % 10);
   }
 
-  public static int[] assignByLSD(int[] numbers, int digitPos, int radix) {
-    IntegerMatrix positions = new IntegerMatrix(10, numbers.length);
-    int[] counters = {0,0,0,0,0,0,0,0,0,0};
+  public static int[] assignByLSD(int[] numbers, int digitPos, int radix, int baseToCompare) {
+    IntegerMatrix positions = new IntegerMatrix(radix, numbers.length);
+    int[] counters = IntegerMatrix.fillRow(new int[radix], 0);
     for (int number : numbers) {
-      int LSD = lessSignificantDigit(number, digitPos, radix);
+      int LSD = lessSignificantDigit(number - baseToCompare, digitPos, radix);
       positions.set(LSD, counters[LSD]++, number);
     }
     positions.print();
     return positions.flat(numbers.length);
   }
 
-  public static boolean allLSDAreZero (int[] row, int digitPos, int radix) {
+  public static boolean allLSDAreZero (int[] row, int digitPos, int radix, int baseToCompare) {
     boolean areZero = true;
 
     for (int number : row) {
-      if (lessSignificantDigit(number, digitPos, radix) != 0) {
+      if (lessSignificantDigit(number - baseToCompare, digitPos, radix) != 0) {
         areZero = false;
         break;
       }
     }
-
+    System.out.println(areZero);
     return areZero;
   }
 
