@@ -4,17 +4,12 @@ public class IntegerMatrix {
 
   public static final int UNKNOWN_NUMBER = Integer.MIN_VALUE;
 
-  private int[][] matrixValues;
+  private final int[][] matrixValues;
 
   public IntegerMatrix(int rows, int cols) {
     this.matrixValues = new int[rows][cols];
     this.fill(UNKNOWN_NUMBER);
   }
-
-  public IntegerMatrix(int[][] matrixValues) {
-    this.matrixValues = matrixValues;
-  }
-
 
   public int get(int i, int j) {
     return this.matrixValues[i][j];
@@ -43,9 +38,6 @@ public class IntegerMatrix {
   public int[] flat(int length) {
     int[] array = new int[length];
     fillRow(array, UNKNOWN_NUMBER);
-    for (int i = 0; i < array.length; i++) {
-      array[i] = UNKNOWN_NUMBER;
-    }
     int counter = 0;
     for (int i = 0; i < this.rowsLength(); i++) {
       for (int j = 0; j < this.columnsLength(); j++) {
@@ -67,9 +59,7 @@ public class IntegerMatrix {
   }
 
   public static int[] fillRow(int[] row, int value) {
-    for (int i = 0; i < row.length; i++) {
-      row[i] = value;
-    }
+    for (int i = 0; i < row.length; i++) row[i] = value;
     return row;
   }
 
@@ -99,9 +89,7 @@ public class IntegerMatrix {
 
   public void print () {
     System.out.println("[");
-    for (int i = 0; i < this.rowsLength(); i++ ) {
-      IntegerMatrix.printRow(this.get(i));
-    }
+    for (int i = 0; i < this.rowsLength(); i++ ) IntegerMatrix.printRow(this.get(i));
     System.out.println("]");
   }
 }
