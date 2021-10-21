@@ -1,27 +1,20 @@
 package utils.sort;
 
-public class Bubble {
-  private static void ordenar(int[] array, boolean ascendentemente) {
-    for (int i = 0; i < array.length; i++) {
-      for (int j = 0; j < array.length - 1; j++) {
-        int itemActual = array[j];
-        int itemSiguiente = array[j + 1];
-        if (ascendentemente ? itemActual > itemSiguiente : itemActual < itemSiguiente) {
-          array[j] = itemSiguiente;
-          array[j + 1] = itemActual;
-        }
-      }
-    }
-  }
+import company.inventarios.Inventario;
+import company.listas.Nodo;
+import company.productos.ItemAlmacen;
 
-  private static void ordenar(String[] array, boolean ascendentemente) {
-    for (int i = 0; i < array.length; i++) {
-      for (int j = 0; j < array.length - 1; j++) {
-        String itemActual = array[j];
-        String itemSiguiente = array[j + 1];
+public class Bubble {
+  public static void ordenar(Inventario inventario, boolean ascendentemente) {
+    for (int i = 0; i < inventario.items.size; i++) {
+      for (int j = 0; j < inventario.items.size - 1; j++) {
+        Nodo nodoActual = inventario.items.get(j);
+        String itemActual = ((ItemAlmacen) nodoActual.valor).nombreProducto;
+        String itemSiguiente = ((ItemAlmacen) nodoActual.siguiente.valor).nombreProducto;
         if (ascendentemente ? itemActual.compareTo(itemSiguiente) > 0 : itemActual.compareTo(itemSiguiente) < 0) {
-          array[j] = itemSiguiente;
-          array[j + 1] = itemActual;
+          ItemAlmacen value = (ItemAlmacen) nodoActual.valor;
+          nodoActual.valor = nodoActual.siguiente.valor;
+          nodoActual.siguiente.valor = value;
         }
       }
     }
