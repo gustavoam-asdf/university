@@ -7,26 +7,24 @@ public class Main {
   public static void main(String[] args) {
     Integer[] numbers = {2, 3, 1, 43, 45, -23, 3, -2, -12, 0, 4, 6, 10};
 
-    System.out.println("=================Números antes=================");
+    System.out.println("===================Números antes===================");
     printRow(numbers);
 
     RadixSort.sortLSD(numbers);
 
-    System.out.println("================Números después================");
+    System.out.println("==================Números después==================");
     printRow(numbers);
 
-    // Input String
-    String[] strings = { "midnight", "badge", "bag", "worker", "banner", "wander" };
+    String[] strings = { "puente", "puerta", "pelota", "palmera", "pesado", "posicion", "peine", "pan" };
 
-
-    System.out.print("Unsorted array : ");
+    System.out.println("===================Palabras antes===================");
     printRow(strings);
 
     RadixSort.sortMSD(strings);
 
-    System.out.print("Sorted array : ");
-    printRow(strings);
+    System.out.println("==================Palabras después==================");
 
+    printRow(strings);
 
   }
 

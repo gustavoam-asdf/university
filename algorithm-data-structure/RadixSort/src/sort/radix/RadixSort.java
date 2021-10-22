@@ -74,6 +74,10 @@ public class RadixSort {
 
   public static void sortMSD(String[] strings, int lower, int higher, int digitPosition) {
     if (higher <= lower) return;
+    System.out.println();
+    System.out.println("Lower:    " + lower);
+    System.out.println("Higher:   " + higher);
+    System.out.println("Caracter: " + digitPosition);
 
     int index;
     int[] countArray = new int[256 + 1];
@@ -90,16 +94,19 @@ public class RadixSort {
       countArray[r + 1] += countArray[r];
     }
 
-    System.out.println();
     for (int i = lower; i <= higher; i++) {
       index = charAt(strings[i], digitPosition);
-      System.out.println(strings[i]);
       temp.put(--countArray[index], strings[i]);
     }
+
+    System.out.print("Entrada:    ");
+    Main.printRow(strings);
 
     for (int i = lower; i <= higher; i++) {
       strings[i] = temp.get(i - lower);
     }
+    System.out.print("Salida:     ");
+    Main.printRow(strings);
 
     for (int r = 0; r < 256; r++) {
       sortMSD(strings, lower + countArray[r], lower + countArray[r + 1] - 1, digitPosition + 1);
