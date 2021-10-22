@@ -8,6 +8,7 @@ import company.listas.Lista;
 import company.personal.Personal;
 import company.productos.ItemAlmacen;
 import utils.sort.Bubble;
+import utils.sort.QuickSort;
 
 import java.util.Date;
 import java.util.Scanner;
@@ -95,7 +96,10 @@ public class Main {
     System.out.println("====================Proveedores antes===================");
     mostrarProveedores(proveedores);
 
+    proveedores = QuickSort.ordenar(proveedores);
 
+    System.out.println("===================Proveedores después==================");
+    mostrarProveedores(proveedores);
 
   }
 
