@@ -1,4 +1,6 @@
-import radixSort.RadixSort;
+package sort;
+
+import sort.radix.RadixSort;
 
 public class Main {
 
@@ -13,6 +15,17 @@ public class Main {
     System.out.println("================Números después================");
     printRow(numbers);
 
+    // Input String
+    String[] strings = { "midnight", "badge", "bag", "worker", "banner", "wander" };
+
+
+    System.out.print("Unsorted array : ");
+    printRow(strings);
+
+    RadixSort.sortMSD(strings);
+
+    System.out.print("Sorted array : ");
+    printRow(strings);
 
 
   }
