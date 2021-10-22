@@ -2,9 +2,6 @@ package sort.radix;
 
 import sort.Main;
 
-import java.util.Arrays;
-import java.util.HashMap;
-
 public class RadixSort {
 
   // LSD
@@ -75,15 +72,14 @@ public class RadixSort {
   public static void sortMSD(String[] strings, int lower, int higher, int digitPosition) {
     if (higher <= lower) return;
     System.out.println();
-    System.out.println("Lower:    " + lower);
-    System.out.println("Higher:   " + higher);
-    System.out.println("Caracter: " + digitPosition);
+    System.out.println("Lower:      " + lower);
+    System.out.println("Higher:     " + higher);
+    System.out.println("Caracter:   " + digitPosition);
 
     int index;
     int[] countArray = new int[256 + 1];
 
-    // Almacena los string parcialmente ordenados
-    HashMap<Integer, String> temp = new HashMap<>();
+    String[] output = new String[strings.length];
 
     for (int i = lower; i <= higher; i++) {
       index = charAt(strings[i], digitPosition);
@@ -96,14 +92,14 @@ public class RadixSort {
 
     for (int i = lower; i <= higher; i++) {
       index = charAt(strings[i], digitPosition);
-      temp.put(--countArray[index], strings[i]);
+      output[--countArray[index]] = strings[i];
     }
 
     System.out.print("Entrada:    ");
     Main.printRow(strings);
 
     for (int i = lower; i <= higher; i++) {
-      strings[i] = temp.get(i - lower);
+      strings[i] = output[i - lower];
     }
     System.out.print("Salida:     ");
     Main.printRow(strings);
