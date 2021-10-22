@@ -9,7 +9,7 @@ public class OrdenContractual {
 
   int nroOrden;
   String nit;
-  String nombreProveedor;
+  Lista proveedores;
   Date fechaOrden;
   Date fechaRealizacion;
   Date fechaEntrega;
@@ -19,7 +19,7 @@ public class OrdenContractual {
   OrdenContractual (
       int nroOrden,
       String nit,
-      String nombreProveedor,
+      Lista proveedores,
       Date fechaOrden,
       Date fechaRealizacion,
       Date fechaEntrega,
@@ -28,7 +28,7 @@ public class OrdenContractual {
   ) {
     this.nroOrden = nroOrden;
     this.nit = nit;
-    this.nombreProveedor = nombreProveedor;
+    this.proveedores = proveedores;
     this.fechaOrden = fechaOrden;
     this.fechaRealizacion = fechaRealizacion;
     this.fechaEntrega = fechaEntrega;

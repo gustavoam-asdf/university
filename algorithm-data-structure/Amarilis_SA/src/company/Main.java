@@ -1,6 +1,7 @@
 package company;
 
 import company.almacen.Salida;
+import company.compras.OrdenContractual;
 import company.inventarios.AutorizacionSalida;
 import company.inventarios.Inventario;
 import company.listas.Lista;
@@ -80,6 +81,21 @@ public class Main {
 
     mostrarItemsInvetario(inventario);
 
+    Lista proveedores = new Lista();
+    proveedores.add("LCP Construcciones");
+    proveedores.add("Inversiones Olmo Peru");
+    proveedores.add("Candamo");
+    proveedores.add("Layer Company");
+    proveedores.add("RV Bienes y Servicios");
+    proveedores.add("Papeles & Computo S.A.C");
+
+
+    System.out.println();
+    System.out.println();
+    System.out.println("====================Proveedores antes===================");
+    mostrarProveedores(proveedores);
+
+
 
   }
 
@@ -92,6 +108,14 @@ public class Main {
       System.out.println("Precio unitario:  " + item.precioUnitario);
       System.out.println("Unidad medida:    " + item.unidadMedida );
       System.out.println("Cantidad:         " + item.cantidad);
+    }
+  }
+
+  public static void mostrarProveedores (Lista proveedores) {
+    for (int i = 0; i < proveedores.size; i++) {
+      System.out.println("==============================================");
+      String proveedor = (String) proveedores.get(i).valor;
+      System.out.println("Proveedor:           " + proveedor);
     }
   }
 

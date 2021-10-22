@@ -30,6 +30,7 @@ public class Lista {
     this.size++;
   }
 
+  // Mala práctica, demasiadas iteraciones
   public Nodo get (int index) {
     if (index >= this.size) {
       throw new IllegalArgumentException("List does not have that many items");
