@@ -1,0 +1,4 @@
+Alumno: Atencio Mauricio, Gustavo
+1. Agregar la libreria "jxl.jar" al proyecto de NetBeans
+2. Cambiar la variable UBICACION_ARCHIVO_EXCEL en el fichero Main del programa 
+   a la ubicación del fichero "DATOS_PERSONA.xls"
