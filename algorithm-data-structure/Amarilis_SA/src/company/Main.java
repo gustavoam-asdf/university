@@ -78,7 +78,7 @@ public class Main {
     System.out.println();
     System.out.println("====================Productos despues====================");
 
-    Bubble.ordenar(inventario, true);
+    Bubble.ordenar(inventario, false);
 
     mostrarItemsInvetario(inventario);
 
