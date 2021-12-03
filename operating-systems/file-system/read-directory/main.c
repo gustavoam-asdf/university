@@ -57,25 +57,26 @@ void error(const char *s)
   exit(EXIT_FAILURE);
 }
 
-void procesoArchivo(char *archivo)
+void procesoArchivo(char *fileName)
 {
   /* Para "procesar", o al menos, hacer algo con el archivo, vamos a decir su tamaño en bytes */
   /* para ello haremos lo que vemos aquí: https://poesiabinaria.net/2010/04/tamano-de-un-fichero-en-c/ */
-  FILE *fich;
-  long ftam;
+  FILE *file;
+  long fileLength;
 
-  char filePath[strlen(path) + strlen(archivo)];
+  char filePath[strlen(path) + strlen(fileName)];
   strcpy(filePath, path);
-  strcat(filePath, archivo);
+  strcat(filePath, fileName);
 
-  fich = fopen(filePath, "r");
-  if (fich == NULL)
+  file = fopen(filePath, "r");
+  if (!file)
     /* Si ha pasado algo, sólo decimos el nombre */
-    printf("%30s (No info.)\n", archivo);
+    printf("%50s (No info.)\n", fileName);
 
-  fseek(fich, 0L, SEEK_END);
-  ftam = ftell(fich);
-  fclose(fich);
+  // Leemos el archivo de inicio a fin
+  fseek(file, SEEK_SET, SEEK_END);
+  fileLength = ftell(file);
+  fclose(file);
   /* Si todo va bien, decimos el tamaño */
-  printf("%30s (%ld bytes)\n", archivo, ftam);
+  printf("%50s (%ld bytes)\n", fileName, fileLength);
 }
