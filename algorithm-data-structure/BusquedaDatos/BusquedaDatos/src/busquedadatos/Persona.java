@@ -34,12 +34,17 @@ public class Persona {
   }
   
   public String valueByCampo (String campo) {
-    if (campo.equals(Persona.CAMPO_APELLIDOS)) {
-      return this.apellidoPaterno + " " + this.apellidoMaterno;
-    } else if (campo.equals(Persona.CAMPO_NOMBRES)) {
-      return this.nombres;
-    } else if (campo.equals(Persona.CAMPO_DNI)) {
-      return this.DNI;
+    switch (campo) {
+      case Persona.CAMPO_APELLIDOS -> {
+        return this.apellidoPaterno + " " + this.apellidoMaterno;
+      }
+      case Persona.CAMPO_NOMBRES -> {
+        return this.nombres;
+      }
+      case Persona.CAMPO_DNI -> {
+        return this.DNI;
+      }
+      default -> {}
     }
     return "";
   }

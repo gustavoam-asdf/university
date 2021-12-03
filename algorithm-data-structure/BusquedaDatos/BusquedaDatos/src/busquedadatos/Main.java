@@ -5,7 +5,7 @@ import jxl.read.biff.BiffException;
 
 public class Main {
 
-  private static final String UBICACION_ARCHIVO_EXCEL = "C:/Users/GUSTAVO/Downloads/DATOS_PERSONA.xls"; //Fichero de datos (Solo lee ficheros en .xls)
+  private static final String UBICACION_ARCHIVO_EXCEL = "C:/Users/GUSTAVO/Desktop/all/github.com/university/algorithm-data-structure/BusquedaDatos/DATOS_PERSONA.xls"; //Fichero de datos (Solo lee ficheros en .xls)
   
   public static void main(String[] args) throws IOException, BiffException {
     

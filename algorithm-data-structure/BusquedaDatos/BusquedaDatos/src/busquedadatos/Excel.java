@@ -17,7 +17,7 @@ public class Excel {
     String[][] datos = new String[sheet.getRows()][sheet.getColumns()];
     for (int fila = 1; fila < sheet.getRows(); fila++) {                    //recorremos las filas
       for (int columna = 0; columna < sheet.getColumns(); columna++) {      //recorremos las columnas
-        datos[fila][columna] = sheet.getCell(columna, fila).getContents();  //setear la celda leida a nombre
+        datos[fila][columna] = sheet.getCell(columna, fila).getContents();  //setear la celda leida a los datos correspondientes
       }
     }
     
