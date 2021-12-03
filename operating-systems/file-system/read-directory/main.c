@@ -7,16 +7,14 @@
 /* Función para devolver un error en caso de que ocurra */
 void error(const char *s);
 /* Función que hace algo con un archivo */
-void procesoArchivo(char *archivo);
-
-char *path;
+void procesoArchivo(char *path, char *archivo);
 
 int main(int argc, char *argv[])
 {
   /* Con un puntero a DIR abriremos el directorio */
   DIR *dir;
 
-  path = argv[1];
+  char *path = argv[1];
 
   if (path == NULL)
     error("Debe ingresar una ubicacion correcta");
@@ -42,7 +40,7 @@ int main(int argc, char *argv[])
     if ((strcmp(ent->d_name, ".") != 0) && (strcmp(ent->d_name, "..") != 0))
     {
       /* Una vez tenemos el archivo, lo pasamos a una función para procesarlo. */
-      procesoArchivo(ent->d_name);
+      procesoArchivo(path, ent->d_name);
     }
   }
   closedir(dir);
@@ -57,7 +55,7 @@ void error(const char *s)
   exit(EXIT_FAILURE);
 }
 
-void procesoArchivo(char *fileName)
+void procesoArchivo(char *path, char *fileName)
 {
   /* Para "procesar", o al menos, hacer algo con el archivo, vamos a decir su tamaño en bytes */
   /* para ello haremos lo que vemos aquí: https://poesiabinaria.net/2010/04/tamano-de-un-fichero-en-c/ */
