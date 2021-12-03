@@ -64,24 +64,18 @@ void procesoArchivo(char *archivo)
   FILE *fich;
   long ftam;
 
-  char myPath[strlen(path) + strlen(archivo)];
-  strcpy(myPath, path);
-  strcat(myPath, archivo);
-
-  char *filePath = strcat(myPath, archivo);
-
-  printf("Ubicación archivo: %s\n\n\n", filePath);
+  char filePath[strlen(path) + strlen(archivo)];
+  strcpy(filePath, path);
+  strcat(filePath, archivo);
 
   fich = fopen(filePath, "r");
-  if (fich)
-  {
-    fseek(fich, 0L, SEEK_END);
-    ftam = ftell(fich);
-    fclose(fich);
-    /* Si todo va bien, decimos el tamaño */
-    //printf ("%30s (%ld bytes)\n", archivo, ftam);
-  }
-  //  else
-  /* Si ha pasado algo, sólo decimos el nombre */
-  //printf ("%30s (No info.)\n", archivo);
+  if (fich == NULL)
+    /* Si ha pasado algo, sólo decimos el nombre */
+    printf("%30s (No info.)\n", archivo);
+
+  fseek(fich, 0L, SEEK_END);
+  ftam = ftell(fich);
+  fclose(fich);
+  /* Si todo va bien, decimos el tamaño */
+  printf("%30s (%ld bytes)\n", archivo, ftam);
 }
