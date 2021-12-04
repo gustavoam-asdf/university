@@ -1,8 +1,0 @@
-{
-  "files.associations": {
-    "*.json": "jsonc",
-    "*.rasi": "rasi",
-    "dirent.h": "c",
-    "time.h": "c"
-  }
-}
