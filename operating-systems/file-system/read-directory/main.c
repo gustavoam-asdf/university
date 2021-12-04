@@ -105,7 +105,7 @@ void printFileProperties(struct stat stats)
   // convert seconds to date and time format
   dt = *(gmtime(&stats.st_ctime));
   char creationTime[35];
-  sprintf(creationTime, "%d/%d/%d %2d:%2d:%2d", dt.tm_mday, dt.tm_mon, dt.tm_year + 1900,
+  sprintf(creationTime, "%d/%d/%d %d:%d:%d", dt.tm_mday, dt.tm_mon, dt.tm_year + 1900,
           dt.tm_hour, dt.tm_min, dt.tm_sec);
   printf("Created on: %35s\n", creationTime);
   printf("%s\n", subline);
@@ -113,7 +113,7 @@ void printFileProperties(struct stat stats)
   // File modification time
   dt = *(gmtime(&stats.st_mtime));
   char modificationTime[34];
-  sprintf(modificationTime, "%d/%d/%d %2d:%2d:%2d", dt.tm_mday, dt.tm_mon, dt.tm_year + 1900,
+  sprintf(modificationTime, "%d/%d/%d %d:%d:%d", dt.tm_mday, dt.tm_mon, dt.tm_year + 1900,
           dt.tm_hour, dt.tm_min, dt.tm_sec);
   printf("Modified on: %34s\n", creationTime);
 }
