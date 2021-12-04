@@ -4,8 +4,10 @@
 #include <unistd.h>
 #include <time.h>
 #include <dirent.h>
-
 #include <string.h>
+
+const char line[] = "===============================================";
+const char subline[] = "-----------------------------------------------";
 
 /* Función para devolver un error en caso de que ocurra */
 void error(const char *s);
@@ -13,7 +15,7 @@ void error(const char *s);
 void printFileProperties(struct stat stats);
 
 /* Función que hace algo con un archivo */
-void fileProcess(char *path, char *archivo);
+void readFile(char *path, char *archivo);
 
 int main(int argc, char *argv[])
 {
@@ -40,14 +42,16 @@ int main(int argc, char *argv[])
 
   /* Una vez nos aseguramos de que no hay error, ¡vamos a jugar! */
   /* Leyendo uno a uno todos los archivos que hay */
-  printf("Folder: %s\n\n", path);
+  printf("%s\n", line);
+  printf("Folder: %39s\n", path);
+  printf("%s\n", line);
   while ((ent = readdir(dir)) != NULL)
   {
     /* Nos devolverá el directorio actual (.) y el anterior (..), como hace ls */
     if ((strcmp(ent->d_name, ".") != 0) && (strcmp(ent->d_name, "..") != 0))
     {
       /* Una vez tenemos el archivo, lo pasamos a una función para procesarlo. */
-      fileProcess(path, ent->d_name);
+      readFile(path, ent->d_name);
     }
   }
   closedir(dir);
@@ -62,7 +66,7 @@ void error(const char *s)
   exit(EXIT_FAILURE);
 }
 
-void fileProcess(char *path, char *fileName)
+void readFile(char *path, char *fileName)
 {
   struct stat stats;
 
@@ -73,8 +77,10 @@ void fileProcess(char *path, char *fileName)
   if (stat(filePath, &stats) == -1)
     printf("Unable to get file properties for %s\n", filePath);
 
-  printf("\nFile: %s", fileName);
+  printf("\n%s\n", line);
+  printf("File: %41s\n", fileName);
   printFileProperties(stats);
+  printf("%s\n", line);
 }
 
 void printFileProperties(struct stat stats)
@@ -82,27 +88,32 @@ void printFileProperties(struct stat stats)
   struct tm dt;
 
   // File permissions
-  printf("\nFile access: ");
-  if (stats.st_mode & R_OK)
-    printf("read ");
-  if (stats.st_mode & W_OK)
-    printf("write ");
-  if (stats.st_mode & X_OK)
-    printf("execute");
+  printf("%s", subline);
+  printf("\nFile permissions:");
+  char permissions[30] = "";
+  sprintf(permissions, "%s %s %s", R_OK ? "read" : "", W_OK ? "write" : "", X_OK ? "execute" : "");
+  printf("%30s", permissions);
+  printf("\n%s\n", subline);
 
   // File size
-  printf("\nFile size: %ld bytes", stats.st_size);
+  char size[36];
+  sprintf(size, "%ld bytes", stats.st_size);
+  printf("File size: %36s\n", size);
+  printf("%s\n", subline);
 
   // Get file creation time in seconds and
   // convert seconds to date and time format
   dt = *(gmtime(&stats.st_ctime));
-  printf("\nCreated on: %d-%d-%d %d:%d:%d", dt.tm_mday, dt.tm_mon, dt.tm_year + 1900,
-         dt.tm_hour, dt.tm_min, dt.tm_sec);
+  char creationTime[35];
+  sprintf(creationTime, "%d/%d/%d %2d:%2d:%2d", dt.tm_mday, dt.tm_mon, dt.tm_year + 1900,
+          dt.tm_hour, dt.tm_min, dt.tm_sec);
+  printf("Created on: %35s\n", creationTime);
+  printf("%s\n", subline);
 
   // File modification time
   dt = *(gmtime(&stats.st_mtime));
-  printf("\nModified on: %d-%d-%d %d:%d:%d", dt.tm_mday, dt.tm_mon, dt.tm_year + 1900,
-         dt.tm_hour, dt.tm_min, dt.tm_sec);
-
-  printf("\n\n");
+  char modificationTime[34];
+  sprintf(modificationTime, "%d/%d/%d %2d:%2d:%2d", dt.tm_mday, dt.tm_mon, dt.tm_year + 1900,
+          dt.tm_hour, dt.tm_min, dt.tm_sec);
+  printf("Modified on: %34s\n", creationTime);
 }
