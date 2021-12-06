@@ -87,7 +87,7 @@ void printFileProperties(struct stat stats)
 {
   struct tm dt;
 
-  // File permissions
+  // Permisos del archivo
   printf("%s", subline);
   printf("\nFile permissions:");
   char permissions[30] = "";
@@ -98,14 +98,13 @@ void printFileProperties(struct stat stats)
   printf("%30s", permissions);
   printf("\n%s\n", subline);
 
-  // File size
+  // Tamaño del archivo
   char size[36];
   sprintf(size, "%ld bytes", stats.st_size);
   printf("File size: %36s\n", size);
   printf("%s\n", subline);
 
-  // Get file creation time in seconds and
-  // convert seconds to date and time format
+  // Obtenemos el tiempo de creación del archivo y lo formateamos
   dt = *(gmtime(&stats.st_ctime));
   char creationTime[35];
   sprintf(creationTime, "%d/%d/%d %d:%d:%d", dt.tm_mday, dt.tm_mon, dt.tm_year + 1900,
@@ -113,7 +112,7 @@ void printFileProperties(struct stat stats)
   printf("Created on: %35s\n", creationTime);
   printf("%s\n", subline);
 
-  // File modification time
+  // Tiempo de modificación
   dt = *(gmtime(&stats.st_mtime));
   char modificationTime[34];
   sprintf(modificationTime, "%d/%d/%d %d:%d:%d", dt.tm_mday, dt.tm_mon, dt.tm_year + 1900,
