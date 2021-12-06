@@ -91,7 +91,10 @@ void printFileProperties(struct stat stats)
   printf("%s", subline);
   printf("\nFile permissions:");
   char permissions[30] = "";
-  sprintf(permissions, "%s %s %s", R_OK ? "read" : "", W_OK ? "write" : "", X_OK ? "execute" : "");
+  sprintf(permissions, "%s %s %s",
+          (stats.st_mode & R_OK) ? "read" : "",
+          (stats.st_mode & W_OK) ? "write" : "",
+          (stats.st_mode & X_OK) ? "execute" : "");
   printf("%30s", permissions);
   printf("\n%s\n", subline);
 
