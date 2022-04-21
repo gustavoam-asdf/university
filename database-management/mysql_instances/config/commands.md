@@ -13,7 +13,7 @@
 	```
 	This return a tmp password for root user, we need it to connect at first time.
 3. Install service
-   ```powershell
+   ```sh
 	 	mysqld --install mysqld1
 	 ```
 4. Start service
