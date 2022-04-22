@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 4000,
     "height": 4000,
-    "scrollTop": -1635.203125,
-    "scrollLeft": -1256,
-    "zoomLevel": 0.9,
+    "scrollTop": -1524.0697916666684,
+    "scrollLeft": -1291.721354166669,
+    "zoomLevel": 0.8,
     "show": {
       "tableComment": false,
       "columnComment": false,
@@ -120,9 +120,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1822.809028595899,
-          "top": 2610.8593252461797,
-          "zIndex": 1257,
+          "left": 2623.0165695176324,
+          "top": 1397.7906207710757,
+          "zIndex": 76,
           "widthName": 60,
           "widthComment": 60,
           "color": "#7185FF"
@@ -229,9 +229,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 2144.623843677586,
-          "top": 2885.4868138327183,
-          "zIndex": 1306,
+          "left": 2275.0892210311767,
+          "top": 2235.0968817914645,
+          "zIndex": 15,
           "widthName": 60,
           "widthComment": 60,
           "color": "#7185FF"
@@ -315,9 +315,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1747.831880414081,
-          "top": 3028.807169472001,
-          "zIndex": 1210,
+          "left": 2320.567235350282,
+          "top": 2668.750070309567,
+          "zIndex": 1,
           "widthName": 60,
           "widthComment": 60,
           "color": "#7185FF"
@@ -424,9 +424,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1399.8024795491094,
-          "top": 2740.5801596379683,
-          "zIndex": 1246,
+          "left": 2668.38989636644,
+          "top": 2417.280369609087,
+          "zIndex": 77,
           "widthName": 78.51789855957031,
           "widthComment": 60,
           "color": "#7185FF"
@@ -602,9 +602,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1536.4462892279569,
-          "top": 2157.2175250761097,
-          "zIndex": 1265,
+          "left": 1898.043533380257,
+          "top": 916.2068718520602,
+          "zIndex": 104,
           "widthName": 60,
           "widthComment": 60
         },
@@ -612,7 +612,7 @@
         "id": "c5851639-21f7-4476-bfc0-b33e7a8e2e4e"
       },
       {
-        "name": "DocumentoAutorizacion",
+        "name": "Documento_Autorizacion",
         "comment": "",
         "columns": [
           {
@@ -664,17 +664,17 @@
         ],
         "ui": {
           "active": false,
-          "left": 1187.0615994612074,
-          "top": 1971.24825572721,
-          "zIndex": 1245,
-          "widthName": 150.225830078125,
+          "left": 2962.073730289029,
+          "top": 2104.0365841755934,
+          "zIndex": 82,
+          "widthName": 155.99781799316406,
           "widthComment": 60
         },
-        "visible": true,
+        "visible": false,
         "id": "00b48009-f20d-4aab-b0f8-2a3e2ddf8715"
       },
       {
-        "name": "OrdenCompra",
+        "name": "Orden_Compra",
         "comment": "",
         "columns": [
           {
@@ -818,10 +818,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 1345.4123801671412,
-          "top": 1169.4599626069469,
-          "zIndex": 1256,
-          "widthName": 89.25593566894531,
+          "left": 2519.613162538754,
+          "top": 1819.0776771868448,
+          "zIndex": 10,
+          "widthName": 95.02792358398438,
           "widthComment": 60
         },
         "visible": true,
@@ -880,9 +880,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1097.0764406920575,
-          "top": 1569.863388552496,
-          "zIndex": 1231,
+          "left": 2971.2534502077515,
+          "top": 1646.0443328193264,
+          "zIndex": 73,
           "widthName": 73.70793151855469,
           "widthComment": 60
         },
@@ -890,7 +890,7 @@
         "id": "69ed5d1c-15d5-45b1-8a42-93ed7a164757"
       },
       {
-        "name": "RubroPresupuestal",
+        "name": "Rubro_Presupuestal",
         "comment": "",
         "columns": [
           {
@@ -965,17 +965,17 @@
         ],
         "ui": {
           "active": false,
-          "left": 1126.555235956803,
-          "top": 2383.427489154851,
-          "zIndex": 1230,
-          "widthName": 118.58387756347656,
+          "left": 2416.2444802680407,
+          "top": 983.5806015286803,
+          "zIndex": 3,
+          "widthName": 124.35586547851562,
           "widthComment": 60
         },
         "visible": true,
         "id": "8c4aa66b-85ad-473e-9734-36fb7e7bb7d6"
       },
       {
-        "name": "SolicitudDetalle",
+        "name": "Solicitud_Detalle",
         "comment": "",
         "columns": [
           {
@@ -1096,10 +1096,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 1939.0698250174364,
-          "top": 1849.656287770893,
-          "zIndex": 1327,
-          "widthName": 96.87385559082031,
+          "left": 1229.0187131330933,
+          "top": 1441.7963424247569,
+          "zIndex": 17,
+          "widthName": 102.64584350585938,
           "widthComment": 60
         },
         "visible": true,
@@ -1204,9 +1204,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 2414.4949838915136,
-          "top": 1990.0708131411802,
-          "zIndex": 1325,
+          "left": 1075.3253390712232,
+          "top": 2050.5455210149644,
+          "zIndex": 16,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1214,7 +1214,7 @@
         "id": "368a7434-dc48-4edc-8810-0c5e1dfc333b"
       },
       {
-        "name": "TipoItem",
+        "name": "Tipo_Item",
         "comment": "",
         "columns": [
           {
@@ -1266,10 +1266,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 2736.669492030328,
-          "top": 1701.236653508054,
-          "zIndex": 1239,
-          "widthName": 60,
+          "left": 867.6896896575048,
+          "top": 1695.840346106772,
+          "zIndex": 103,
+          "widthName": 62.800933837890625,
           "widthComment": 60
         },
         "visible": true,
@@ -1328,9 +1328,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 2210.788017928671,
-          "top": 1067.600936444493,
-          "zIndex": 1249,
+          "left": 1493.6421986269208,
+          "top": 1083.8438951054197,
+          "zIndex": 9,
           "widthName": 65.07591247558594,
           "widthComment": 60
         },
@@ -1436,9 +1436,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 2601.712711326612,
-          "top": 1203.1170497555406,
-          "zIndex": 1240,
+          "left": 1719.0755204061213,
+          "top": 1427.5715811168066,
+          "zIndex": 88,
           "widthName": 65.02391052246094,
           "widthComment": 60
         },
@@ -1446,7 +1446,7 @@
         "id": "a0465b92-2ebf-40f0-835f-6854ee73a873"
       },
       {
-        "name": "OrdenCompraDetalle",
+        "name": "Orden_Compra_Detalle",
         "comment": "",
         "columns": [
           {
@@ -1590,17 +1590,17 @@
         ],
         "ui": {
           "active": false,
-          "left": 1822.2593800267598,
-          "top": 1342.4648466677427,
-          "zIndex": 1271,
-          "widthName": 132.10386657714844,
+          "left": 1434.0471,
+          "top": 1803.5958,
+          "zIndex": 21,
+          "widthName": 143.64784240722656,
           "widthComment": 60
         },
         "visible": true,
         "id": "337f8f3b-ffd6-494d-a3ae-04a808c789c5"
       },
       {
-        "name": "EstadoDocumento",
+        "name": "Estado_Documento",
         "comment": "",
         "columns": [
           {
@@ -1652,10 +1652,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 1529.494571005905,
-          "top": 1723.8159750603152,
-          "zIndex": 1228,
-          "widthName": 115.00889587402344,
+          "left": 2188.7301327849373,
+          "top": 1364.9312740615578,
+          "zIndex": 2,
+          "widthName": 120.7808837890625,
           "widthComment": 60
         },
         "visible": true,
@@ -1666,7 +1666,7 @@
         "comment": "",
         "columns": [
           {
-            "name": "id_factura",
+            "name": "nro_entrada_factura",
             "comment": "",
             "dataType": "INT",
             "default": "",
@@ -1681,35 +1681,12 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 62.25494384765625,
+              "widthName": 125.43489074707031,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
             },
             "id": "6434738c-7b4b-47a4-b88d-098a5d22451f"
-          },
-          {
-            "name": "nro_entrada",
-            "comment": "",
-            "dataType": "INT",
-            "default": "",
-            "option": {
-              "autoIncrement": true,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 76.5289306640625,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "0687aa03-247c-4e14-b7ce-6b564e96fa70"
           },
           {
             "name": "fecha_facturacion",
@@ -1783,7 +1760,7 @@
           {
             "name": "total_items",
             "comment": "",
-            "dataType": "nume",
+            "dataType": "NUMERIC",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1798,7 +1775,7 @@
               "pfk": false,
               "widthName": 69.430908203125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 61.1109619140625,
               "widthDefault": 60
             },
             "id": "9ff01f82-0cdc-4bf1-a33a-0d9765795b0a"
@@ -1852,9 +1829,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1732.8367843451626,
-          "top": 834.5649602399945,
-          "zIndex": 1288,
+          "left": 1961.039,
+          "top": 1649.4321,
+          "zIndex": 66,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1862,7 +1839,7 @@
         "id": "59cbcd0c-95eb-4f66-88ef-e7e155e1a8ae"
       },
       {
-        "name": "FacturaDetalle",
+        "name": "Factura_Detalle",
         "comment": "",
         "columns": [
           {
@@ -1889,7 +1866,7 @@
             "id": "33d20741-1ef3-43e7-9db7-433e9933ed2b"
           },
           {
-            "name": "id_factura",
+            "name": "nro_entrada_factura",
             "comment": "",
             "dataType": "INT",
             "default": "",
@@ -1904,7 +1881,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 62.25494384765625,
+              "widthName": 125.43489074707031,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1960,10 +1937,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 2306.938979157213,
-          "top": 1552.8714168864576,
-          "zIndex": 1339,
-          "widthName": 90.25689697265625,
+          "left": 1870.5697992325559,
+          "top": 2669.8533051835734,
+          "zIndex": 59,
+          "widthName": 96.02888488769531,
           "widthComment": 60
         },
         "visible": true,
@@ -1974,7 +1951,7 @@
         "comment": "",
         "columns": [
           {
-            "name": "id_salida",
+            "name": "nro_salida",
             "comment": "",
             "dataType": "INT",
             "default": "",
@@ -1989,35 +1966,12 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "2ae23ee0-ff1b-4990-b28a-81e5fce05979"
-          },
-          {
-            "name": "nro_salida",
-            "comment": "",
-            "dataType": "INT",
-            "default": "",
-            "option": {
-              "autoIncrement": true,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
               "widthName": 64.29592895507812,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "26b8303b-1793-4a69-aa2d-e15884479959"
+            "id": "2ae23ee0-ff1b-4990-b28a-81e5fce05979"
           },
           {
             "name": "fecha_salida",
@@ -2068,9 +2022,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 2781.9756161071587,
-          "top": 2249.9060826790856,
-          "zIndex": 1324,
+          "left": 1046.9455,
+          "top": 2536.2778,
+          "zIndex": 31,
           "widthName": 60,
           "widthComment": 60
         },
@@ -2078,7 +2032,7 @@
         "id": "76d57bf0-f437-4be1-8d94-85ad19ea4e3d"
       },
       {
-        "name": "SalidaDetalle",
+        "name": "Salida_Detalle",
         "comment": "",
         "columns": [
           {
@@ -2105,7 +2059,7 @@
             "id": "5719fd4f-16d9-4907-b4ed-2e2bf4c82bb3"
           },
           {
-            "name": "id_salida",
+            "name": "nro_salida",
             "comment": "",
             "dataType": "INT",
             "default": "",
@@ -2120,12 +2074,12 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 64.29592895507812,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "4c239e29-1276-4deb-99fd-84e99d5a3ecc"
+            "id": "ff493aab-531a-4d2b-adb4-8f1d714a642e"
           },
           {
             "name": "id_personal",
@@ -2195,21 +2149,44 @@
               "widthDefault": 60
             },
             "id": "5ddf461b-69af-4692-931d-79b39a84bd75"
+          },
+          {
+            "name": "codigo_ubicacion",
+            "comment": "",
+            "dataType": "VARCHAR(12)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 107.494873046875,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "e4a41848-69f0-4e31-b200-915f7b06b7dd"
           }
         ],
         "ui": {
           "active": false,
-          "left": 2456.2199226294583,
-          "top": 2560.4611866430055,
-          "zIndex": 1345,
-          "widthName": 81.27389526367188,
+          "left": 1396.9318392884397,
+          "top": 2352.7668729869365,
+          "zIndex": 100,
+          "widthName": 87.04588317871094,
           "widthComment": 60
         },
         "visible": true,
         "id": "de2d9389-c48e-41fe-a0bb-cba872ab0759"
       },
       {
-        "name": "EntredaSalida(Kardex)",
+        "name": "Entrada_Salida",
         "comment": "",
         "columns": [
           {
@@ -2261,10 +2238,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 2124.232066516859,
-          "top": 2314.1454302349025,
-          "zIndex": 1353,
-          "widthName": 136.30288696289062,
+          "left": 1816.0661,
+          "top": 2248.6752,
+          "zIndex": 93,
+          "widthName": 91.84292602539062,
           "widthComment": 60
         },
         "visible": true,
@@ -2281,7 +2258,7 @@
           "active": false,
           "left": 3565,
           "top": 2497.7999999999984,
-          "zIndex": 1264,
+          "zIndex": 12,
           "width": 414.9999999999998,
           "height": 100
         },
@@ -2300,8 +2277,8 @@
           "columnIds": [
             "bbbc6042-15fa-4ebd-b450-883e1af1d9e9"
           ],
-          "x": 2235.6680483895,
-          "y": 2885.4868138327183,
+          "x": 2457.177630455005,
+          "y": 2235.0968817914645,
           "direction": "top"
         },
         "end": {
@@ -2309,9 +2286,9 @@
           "columnIds": [
             "ae15427d-19ad-4395-b42f-0fc43e78173c"
           ],
-          "x": 2186.985847443555,
-          "y": 2676.1093252461797,
-          "direction": "right"
+          "x": 2805.1049789414606,
+          "y": 1528.2906207710757,
+          "direction": "bottom"
         },
         "constraintName": "fk_personal_to_area",
         "visible": true,
@@ -2326,18 +2303,18 @@
           "columnIds": [
             "c40ab109-d12b-4df6-9ab0-46e9ec43f486"
           ],
-          "x": 1923.625337445331,
-          "y": 3028.807169472001,
-          "direction": "top"
+          "x": 2672.154149412782,
+          "y": 2734.000070309567,
+          "direction": "right"
         },
         "end": {
           "tableId": "f4258728-62e6-46d3-a38b-0e74386bd51e",
           "columnIds": [
             "edc884ee-fed5-4728-80dc-c2e5a9cbebda"
           ],
-          "x": 1786.014271541297,
-          "y": 2816.0801596379683,
-          "direction": "right"
+          "x": 2668.38989636644,
+          "y": 2492.780369609087,
+          "direction": "left"
         },
         "constraintName": "fk_cargo_to_autorizacion",
         "visible": true,
@@ -2352,18 +2329,18 @@
           "columnIds": [
             "c40ab109-d12b-4df6-9ab0-46e9ec43f486"
           ],
-          "x": 2099.418794476581,
-          "y": 3094.057169472001,
-          "direction": "right"
+          "x": 2496.360692381532,
+          "y": 2668.750070309567,
+          "direction": "top"
         },
         "end": {
           "tableId": "d6152a46-7b94-468c-b366-0b87f3601bc0",
           "columnIds": [
             "b469ea38-2eb7-4439-8154-3312ebfc683d"
           ],
-          "x": 2144.623843677586,
-          "y": 2960.9868138327183,
-          "direction": "left"
+          "x": 2457.177630455005,
+          "y": 2386.0968817914645,
+          "direction": "bottom"
         },
         "constraintName": "fk_cargo_to_personal",
         "visible": true,
@@ -2378,8 +2355,8 @@
           "columnIds": [
             "14fdb808-01f8-4883-b3c0-c2d3e9c4ed09"
           ],
-          "x": 1592.9083755452032,
-          "y": 2740.5801596379683,
+          "x": 2861.495792362534,
+          "y": 2417.280369609087,
           "direction": "top"
         },
         "end": {
@@ -2387,12 +2364,12 @@
           "columnIds": [
             "b3cceedd-27c6-4848-bb0c-d80d4d76ee65"
           ],
-          "x": 1368.8740384260511,
-          "y": 2081.24825572721,
-          "direction": "bottom"
+          "x": 2962.073730289029,
+          "y": 2159.0365841755934,
+          "direction": "left"
         },
         "constraintName": "fk_autorizacion_to_documento autorizacion",
-        "visible": true,
+        "visible": false,
         "id": "ba0d1554-2261-43fc-8a44-27bd025ff148"
       },
       {
@@ -2404,8 +2381,8 @@
           "columnIds": [
             "d8c4af43-dbc5-4444-a165-ba7ee38a76f7"
           ],
-          "x": 1276.2433947325849,
-          "y": 1679.863388552496,
+          "x": 3150.420404248279,
+          "y": 1756.0443328193264,
           "direction": "bottom"
         },
         "end": {
@@ -2413,12 +2390,12 @@
           "columnIds": [
             "d6d9c224-a8be-4f5b-ad8c-17852748bcdd"
           ],
-          "x": 1368.8740384260511,
-          "y": 1971.24825572721,
+          "x": 3143.8861692538726,
+          "y": 2104.0365841755934,
           "direction": "top"
         },
         "constraintName": "fk_documento_herencia_to_documento autorizacion",
-        "visible": true,
+        "visible": false,
         "id": "b14786b7-855c-49a0-b5f0-91fb667e2d29"
       },
       {
@@ -2430,18 +2407,18 @@
           "columnIds": [
             "d8c4af43-dbc5-4444-a165-ba7ee38a76f7"
           ],
-          "x": 1455.4103487731122,
-          "y": 1652.363388552496,
-          "direction": "right"
+          "x": 2971.2534502077515,
+          "y": 1728.5443328193264,
+          "direction": "left"
         },
         "end": {
           "tableId": "c5851639-21f7-4476-bfc0-b33e7a8e2e4e",
           "columnIds": [
             "9f2dd645-fe49-4852-ac9e-c6d17d9a751f"
           ],
-          "x": 1928.0344239935819,
-          "y": 2157.2175250761097,
-          "direction": "top"
+          "x": 2367.949295099007,
+          "y": 1093.2902051853937,
+          "direction": "right"
         },
         "constraintName": "fk_documento_herencia_to_solicitud",
         "visible": true,
@@ -2456,18 +2433,18 @@
           "columnIds": [
             "cef8ed32-7a0c-4226-b262-78ef03684e34"
           ],
-          "x": 1538.7930594431311,
-          "y": 2448.677489154851,
-          "direction": "right"
+          "x": 2416.2444802680407,
+          "y": 1048.8306015286803,
+          "direction": "left"
         },
         "end": {
           "tableId": "c5851639-21f7-4476-bfc0-b33e7a8e2e4e",
           "columnIds": [
             "f57e7374-8b34-4efb-a0f1-229f82424e45"
           ],
-          "x": 1536.4462892279569,
-          "y": 2263.4675250761097,
-          "direction": "left"
+          "x": 2367.949295099007,
+          "y": 951.623538518727,
+          "direction": "right"
         },
         "constraintName": "fk_rubro presupuestal_to_solicitud",
         "visible": true,
@@ -2482,8 +2459,8 @@
           "columnIds": [
             "796f8b73-1876-48cf-a62e-e2f890db88c6"
           ],
-          "x": 1822.809028595899,
-          "y": 2676.1093252461797,
+          "x": 2623.0165695176324,
+          "y": 1463.0406207710757,
           "direction": "left"
         },
         "end": {
@@ -2491,9 +2468,9 @@
           "columnIds": [
             "16362f94-4d64-4107-abd0-0bc3ed37cfab"
           ],
-          "x": 1771.3991700873319,
-          "y": 2369.7175250761097,
-          "direction": "bottom"
+          "x": 2367.949295099007,
+          "y": 1022.4568718520603,
+          "direction": "right"
         },
         "constraintName": "fk_area_to_solicitud",
         "visible": true,
@@ -2508,18 +2485,18 @@
           "columnIds": [
             "2a3f5e58-74fb-496c-8bfc-7f0d830adfaa"
           ],
-          "x": 1614.7639161810819,
-          "y": 2157.2175250761097,
-          "direction": "top"
+          "x": 1898.043533380257,
+          "y": 1022.4568718520602,
+          "direction": "left"
         },
         "end": {
           "tableId": "ae283690-3f4f-4cc1-ac6f-ababe594ae05",
           "columnIds": [
             "9d6e22b1-e5bf-48cd-895f-6cc51ae9a753"
           ],
-          "x": 1939.0698250174364,
-          "y": 1935.406287770893,
-          "direction": "left"
+          "x": 1682.8954984114137,
+          "y": 1570.4213424247569,
+          "direction": "right"
         },
         "constraintName": "fk_solicitud_to_solicitud detalle",
         "visible": true,
@@ -2534,17 +2511,17 @@
           "columnIds": [
             "7e6f5237-7f47-4783-9491-f997a4c4463b"
           ],
-          "x": 2736.669492030328,
-          "y": 1756.236653508054,
-          "direction": "left"
+          "x": 1235.6104965422705,
+          "y": 1750.840346106772,
+          "direction": "right"
         },
         "end": {
           "tableId": "368a7434-dc48-4edc-8810-0c5e1dfc333b",
           "columnIds": [
             "4d14412d-9720-4bc8-bce1-dbc3373d89e7"
           ],
-          "x": 2511.5419428148534,
-          "y": 1990.0708131411802,
+          "x": 1172.372297994563,
+          "y": 2050.5455210149644,
           "direction": "top"
         },
         "constraintName": "fk_tipo item_to_item",
@@ -2560,18 +2537,18 @@
           "columnIds": [
             "41525532-575d-483d-b8e6-336240a1397d"
           ],
-          "x": 2414.4949838915136,
-          "y": 2065.57081314118,
-          "direction": "left"
+          "x": 1366.4662158412427,
+          "y": 2050.5455210149644,
+          "direction": "top"
         },
         "end": {
           "tableId": "ae283690-3f4f-4cc1-ac6f-ababe594ae05",
           "columnIds": [
             "12bf389b-55da-426c-b70e-4745b9f8857c"
           ],
-          "x": 2392.9466102957567,
-          "y": 1935.406287770893,
-          "direction": "right"
+          "x": 1455.9571057722535,
+          "y": 1613.2963424247569,
+          "direction": "bottom"
         },
         "constraintName": "fk_item_to_solicitud detalle",
         "visible": true,
@@ -2586,18 +2563,18 @@
           "columnIds": [
             "41525532-575d-483d-b8e6-336240a1397d"
           ],
-          "x": 2705.635860661533,
-          "y": 1990.0708131411802,
-          "direction": "top"
+          "x": 1463.5131747645826,
+          "y": 2163.7955210149644,
+          "direction": "right"
         },
         "end": {
           "tableId": "a0465b92-2ebf-40f0-835f-6854ee73a873",
           "columnIds": [
             "6b93ea3b-84c9-46ea-9a15-e4504c45a8e4"
           ],
-          "x": 2811.5366096420416,
-          "y": 1354.1170497555406,
-          "direction": "bottom"
+          "x": 1719.0755204061213,
+          "y": 1540.8215811168066,
+          "direction": "left"
         },
         "constraintName": "fk_item_to_proveedoritem",
         "visible": true,
@@ -2612,8 +2589,8 @@
           "columnIds": [
             "88f6b3eb-18b7-42d6-acc1-85df298105f2"
           ],
-          "x": 2584.7018210292567,
-          "y": 1122.600936444493,
+          "x": 1867.5560017275068,
+          "y": 1111.3438951054197,
           "direction": "right"
         },
         "end": {
@@ -2621,9 +2598,9 @@
           "columnIds": [
             "17d17acb-87e3-4368-9869-7d327014a342"
           ],
-          "x": 2601.712711326612,
-          "y": 1228.2837164222071,
-          "direction": "left"
+          "x": 1928.899418721551,
+          "y": 1427.5715811168066,
+          "direction": "top"
         },
         "constraintName": "fk_proveedor_to_proveedoritem",
         "visible": true,
@@ -2638,18 +2615,18 @@
           "columnIds": [
             "d8c4af43-dbc5-4444-a165-ba7ee38a76f7"
           ],
-          "x": 1455.4103487731122,
-          "y": 1597.363388552496,
-          "direction": "right"
+          "x": 2971.2534502077515,
+          "y": 1673.5443328193264,
+          "direction": "left"
         },
         "end": {
           "tableId": "74d0db9a-ec9c-462d-b08c-c87d8f70a01e",
           "columnIds": [
             "94346feb-67a3-4d23-874f-d0b454355033"
           ],
-          "x": 1462.8888205968287,
-          "y": 1361.4599626069469,
-          "direction": "bottom"
+          "x": 2989.518924257504,
+          "y": 1915.0776771868448,
+          "direction": "right"
         },
         "constraintName": "fk_documento_to_ordencompra",
         "visible": true,
@@ -2665,9 +2642,9 @@
             "cef6cf86-8ed3-4eab-b7d8-d2ce2f28f5c0",
             "94346feb-67a3-4d23-874f-d0b454355033"
           ],
-          "x": 1815.3181418858912,
-          "y": 1217.4599626069469,
-          "direction": "right"
+          "x": 2519.613162538754,
+          "y": 1963.0776771868448,
+          "direction": "left"
         },
         "end": {
           "tableId": "337f8f3b-ffd6-494d-a3ae-04a808c789c5",
@@ -2675,9 +2652,9 @@
             "1804729c-e29a-4bea-aae2-1a9b11633566",
             "304ed568-33f7-4d83-a0ca-84a0148a3085"
           ],
-          "x": 1822.2593800267598,
-          "y": 1438.4648466677427,
-          "direction": "left"
+          "x": 1922.4518241210938,
+          "y": 1899.5958,
+          "direction": "right"
         },
         "constraintName": "fk_ordencompra_to_ordencompradetalle",
         "visible": true,
@@ -2692,18 +2669,18 @@
           "columnIds": [
             "1b81a6f6-546e-4bc7-b190-da61ecd02f63"
           ],
-          "x": 1732.2499955054168,
-          "y": 1833.8159750603152,
-          "direction": "bottom"
+          "x": 2188.7301327849373,
+          "y": 1419.9312740615578,
+          "direction": "left"
         },
         "end": {
           "tableId": "c5851639-21f7-4476-bfc0-b33e7a8e2e4e",
           "columnIds": [
             "0f8e5919-0df3-460b-81cb-f86451ed3e8c"
           ],
-          "x": 1771.3991700873319,
-          "y": 2157.2175250761097,
-          "direction": "top"
+          "x": 2132.996414239632,
+          "y": 1128.7068718520602,
+          "direction": "bottom"
         },
         "constraintName": "fk_estadodocumento_to_solicitud",
         "visible": true,
@@ -2718,18 +2695,18 @@
           "columnIds": [
             "1b81a6f6-546e-4bc7-b190-da61ecd02f63"
           ],
-          "x": 1732.2499955054168,
-          "y": 1723.8159750603152,
-          "direction": "top"
+          "x": 2594.2409817839607,
+          "y": 1419.9312740615578,
+          "direction": "right"
         },
         "end": {
           "tableId": "74d0db9a-ec9c-462d-b08c-c87d8f70a01e",
           "columnIds": [
             "4d1bd026-8330-4525-a749-dcabb22e6b8e"
           ],
-          "x": 1697.8417014562037,
-          "y": 1361.4599626069469,
-          "direction": "bottom"
+          "x": 2754.566043398129,
+          "y": 1819.0776771868448,
+          "direction": "top"
         },
         "constraintName": "fk_estadodocumento_to_ordencompra",
         "visible": true,
@@ -2744,8 +2721,8 @@
           "columnIds": [
             "0aa94603-b1ac-444e-aadb-fb494c8d10d2"
           ],
-          "x": 2601.712711326612,
-          "y": 1328.9503830888737,
+          "x": 1719.0755204061213,
+          "y": 1465.3215811168066,
           "direction": "left"
         },
         "end": {
@@ -2753,9 +2730,9 @@
           "columnIds": [
             "b0900d22-896f-4c07-ac12-57e1d9e50a02"
           ],
-          "x": 2310.6641041478533,
-          "y": 1438.4648466677427,
-          "direction": "right"
+          "x": 1800.3506430908203,
+          "y": 1803.5958,
+          "direction": "top"
         },
         "constraintName": "fk_proveedoritem_to_ordencompradetalle",
         "visible": true,
@@ -2770,18 +2747,18 @@
           "columnIds": [
             "e82cf660-6735-4d90-88eb-097e1f81ecc4"
           ],
-          "x": 2166.0082176565966,
-          "y": 1849.656287770893,
-          "direction": "top"
+          "x": 1682.8954984114137,
+          "y": 1484.6713424247569,
+          "direction": "right"
         },
         "end": {
           "tableId": "337f8f3b-ffd6-494d-a3ae-04a808c789c5",
           "columnIds": [
             "39ac6190-ae1a-4c86-b7bb-726db0644daf"
           ],
-          "x": 2066.4617420873064,
-          "y": 1534.4648466677427,
-          "direction": "bottom"
+          "x": 1556.1482810302734,
+          "y": 1803.5958,
+          "direction": "top"
         },
         "constraintName": "fk_solicituddetalle_to_ordencompradetalle",
         "visible": true,
@@ -2797,9 +2774,9 @@
             "cef6cf86-8ed3-4eab-b7d8-d2ce2f28f5c0",
             "94346feb-67a3-4d23-874f-d0b454355033"
           ],
-          "x": 1815.3181418858912,
-          "y": 1313.4599626069469,
-          "direction": "right"
+          "x": 2519.613162538754,
+          "y": 1867.0776771868448,
+          "direction": "left"
         },
         "end": {
           "tableId": "59cbcd0c-95eb-4f66-88ef-e7e155e1a8ae",
@@ -2807,9 +2784,9 @@
             "ea79f7f7-367c-4611-b824-f9c98949e712",
             "bf9fd0bf-5c9a-4386-a3e4-86c64f8791f9"
           ],
-          "x": 1843.6279868903287,
-          "y": 1067.5649602399944,
-          "direction": "bottom"
+          "x": 2419.8688034667966,
+          "y": 1755.6821,
+          "direction": "right"
         },
         "constraintName": "fk_ordencompra_to_factura",
         "visible": true,
@@ -2824,17 +2801,17 @@
           "columnIds": [
             "0aa94603-b1ac-444e-aadb-fb494c8d10d2"
           ],
-          "x": 2601.712711326612,
-          "y": 1278.6170497555404,
-          "direction": "left"
+          "x": 1928.899418721551,
+          "y": 1578.5715811168066,
+          "direction": "bottom"
         },
         "end": {
           "tableId": "f02b1bcc-8263-438c-a738-36b5f1230f5f",
           "columnIds": [
             "7a918491-3a49-4176-92b7-dcad97514ac2"
           ],
-          "x": 2503.8669042670763,
-          "y": 1552.8714168864576,
+          "x": 2200.191343116833,
+          "y": 2669.8533051835734,
           "direction": "top"
         },
         "constraintName": "fk_cotizacion_to_facturadetalle",
@@ -2850,8 +2827,8 @@
           "columnIds": [
             "6434738c-7b4b-47a4-b88d-098a5d22451f"
           ],
-          "x": 2065.2103919806605,
-          "y": 1067.5649602399944,
+          "x": 2190.453901733398,
+          "y": 1861.9321,
           "direction": "bottom"
         },
         "end": {
@@ -2859,9 +2836,9 @@
           "columnIds": [
             "bc5379a4-bc9a-48b9-95e7-8a5ad850d6b7"
           ],
-          "x": 2306.938979157213,
-          "y": 1628.3714168864576,
-          "direction": "left"
+          "x": 2068.3427255631223,
+          "y": 2669.8533051835734,
+          "direction": "top"
         },
         "constraintName": "fk_factura_to_facturadetalle",
         "visible": true,
@@ -2876,18 +2853,18 @@
           "columnIds": [
             "88f6b3eb-18b7-42d6-acc1-85df298105f2"
           ],
-          "x": 2210.788017928671,
-          "y": 1122.600936444493,
-          "direction": "left"
+          "x": 1867.5560017275068,
+          "y": 1166.3438951054197,
+          "direction": "right"
         },
         "end": {
           "tableId": "59cbcd0c-95eb-4f66-88ef-e7e155e1a8ae",
           "columnIds": [
             "43165eb6-ca05-415b-b5c4-1cf115fb7eb3"
           ],
-          "x": 2176.0015945258265,
-          "y": 951.0649602399945,
-          "direction": "right"
+          "x": 2190.453901733398,
+          "y": 1649.4321,
+          "direction": "top"
         },
         "constraintName": "fk_proveedor_to_factura",
         "visible": true,
@@ -2902,18 +2879,18 @@
           "columnIds": [
             "bbbc6042-15fa-4ebd-b450-883e1af1d9e9"
           ],
-          "x": 2417.7564578133283,
-          "y": 2885.4868138327183,
-          "direction": "top"
+          "x": 2275.0892210311767,
+          "y": 2310.5968817914645,
+          "direction": "left"
         },
         "end": {
           "tableId": "de2d9389-c48e-41fe-a0bb-cba872ab0759",
           "columnIds": [
             "38a441a5-387f-449e-a6c7-493ebfe012af"
           ],
-          "x": 2456.2199226294583,
-          "y": 2646.2111866430055,
-          "direction": "left"
+          "x": 1822.8846438538694,
+          "y": 2496.7668729869365,
+          "direction": "right"
         },
         "constraintName": "fk_personal_to_salidadetalle",
         "visible": true,
@@ -2924,47 +2901,21 @@
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "76d57bf0-f437-4be1-8d94-85ad19ea4e3d",
-          "columnIds": [
-            "2ae23ee0-ff1b-4990-b28a-81e5fce05979"
-          ],
-          "x": 2781.9756161071587,
-          "y": 2325.4060826790856,
-          "direction": "left"
-        },
-        "end": {
-          "tableId": "de2d9389-c48e-41fe-a0bb-cba872ab0759",
-          "columnIds": [
-            "4c239e29-1276-4deb-99fd-84e99d5a3ecc"
-          ],
-          "x": 2658.458348837954,
-          "y": 2560.4611866430055,
-          "direction": "top"
-        },
-        "constraintName": "fk_salida_to_salidadetalle",
-        "visible": true,
-        "id": "51b0f445-943c-4ffd-9b05-1bdf16787de7"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
           "tableId": "368a7434-dc48-4edc-8810-0c5e1dfc333b",
           "columnIds": [
             "41525532-575d-483d-b8e6-336240a1397d"
           ],
-          "x": 2608.5889017381933,
-          "y": 2141.07081314118,
-          "direction": "bottom"
+          "x": 1463.5131747645826,
+          "y": 2088.2955210149644,
+          "direction": "right"
         },
         "end": {
           "tableId": "de2d9389-c48e-41fe-a0bb-cba872ab0759",
           "columnIds": [
             "c703b1b7-36e6-4af0-b5e3-5729d149090e"
           ],
-          "x": 2793.2839663102845,
-          "y": 2560.4611866430055,
+          "x": 1609.9082415711546,
+          "y": 2352.7668729869365,
           "direction": "top"
         },
         "constraintName": "fk_item_to_salidadetalle",
@@ -2980,18 +2931,18 @@
           "columnIds": [
             "33d20741-1ef3-43e7-9db7-433e9933ed2b"
           ],
-          "x": 2503.8669042670763,
-          "y": 1703.8714168864576,
-          "direction": "bottom"
+          "x": 1936.4941080094113,
+          "y": 2669.8533051835734,
+          "direction": "top"
         },
         "end": {
           "tableId": "a28bd2e2-bd12-45a8-bd6c-e45f8c72a065",
           "columnIds": [
             "4ad99555-5ae0-4f29-924a-b2582c4377ae"
           ],
-          "x": 2313.4220002937145,
-          "y": 2314.1454302349025,
-          "direction": "top"
+          "x": 2005.2560337768555,
+          "y": 2358.6752,
+          "direction": "bottom"
         },
         "constraintName": "fk_facturadetalle_to_entredasalida",
         "visible": true,
@@ -3006,22 +2957,48 @@
           "columnIds": [
             "5719fd4f-16d9-4907-b4ed-2e2bf4c82bb3"
           ],
-          "x": 2523.6327313656234,
-          "y": 2560.4611866430055,
-          "direction": "top"
+          "x": 1822.8846438538694,
+          "y": 2400.7668729869365,
+          "direction": "right"
         },
         "end": {
           "tableId": "a28bd2e2-bd12-45a8-bd6c-e45f8c72a065",
           "columnIds": [
             "888ce4fc-ddd4-44b4-9588-290ef4ca2cf5"
           ],
-          "x": 2502.61193407057,
-          "y": 2369.1454302349025,
-          "direction": "right"
+          "x": 1816.0661,
+          "y": 2303.6752,
+          "direction": "left"
         },
         "constraintName": "fk_salidadetalle_to_entredasalida",
         "visible": true,
         "id": "f419bf62-c15b-4d42-9e18-37214cab840c"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "76d57bf0-f437-4be1-8d94-85ad19ea4e3d",
+          "columnIds": [
+            "2ae23ee0-ff1b-4990-b28a-81e5fce05979"
+          ],
+          "x": 1408.6133771972657,
+          "y": 2601.5278,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "de2d9389-c48e-41fe-a0bb-cba872ab0759",
+          "columnIds": [
+            "ff493aab-531a-4d2b-adb4-8f1d714a642e"
+          ],
+          "x": 1396.9318392884397,
+          "y": 2448.7668729869365,
+          "direction": "left"
+        },
+        "constraintName": "fk_salida_to_salidadetalle",
+        "visible": true,
+        "id": "ad7e82e7-de76-4c36-8d3e-72dd2c091261"
       }
     ]
   }
