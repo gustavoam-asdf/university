@@ -1,11 +1,11 @@
 {
   "canvas": {
     "version": "2.2.11",
-    "width": 4000,
-    "height": 4000,
-    "scrollTop": -997.6000000000003,
-    "scrollLeft": -1606.399999999988,
-    "zoomLevel": 0.9,
+    "width": 8000,
+    "height": 8000,
+    "scrollTop": -3251.2062499999975,
+    "scrollLeft": -2225.5999999999985,
+    "zoomLevel": 0.4,
     "show": {
       "tableComment": false,
       "columnComment": false,
@@ -120,9 +120,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 125.1555,
-          "top": 1010.489,
-          "zIndex": 789,
+          "left": 351.1558,
+          "top": 3727.8222,
+          "zIndex": 1232,
           "widthName": 60,
           "widthComment": 60,
           "color": "#7185FF"
@@ -229,9 +229,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 225.2666,
-          "top": 95.3111,
-          "zIndex": 415,
+          "left": 125.2666,
+          "top": 555.3111,
+          "zIndex": 1209,
           "widthName": 60,
           "widthComment": 60,
           "color": "#7185FF"
@@ -315,9 +315,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1181.5714,
-          "top": 103.8002,
-          "zIndex": 416,
+          "left": 513.5714,
+          "top": 99.8002,
+          "zIndex": 1210,
           "widthName": 60,
           "widthComment": 60,
           "color": "#7185FF"
@@ -424,9 +424,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 2831.3012,
-          "top": 141.9429,
-          "zIndex": 506,
+          "left": 3403.3012,
+          "top": 281.9429,
+          "zIndex": 1246,
           "widthName": 78.51789855957031,
           "widthComment": 60,
           "color": "#7185FF"
@@ -539,7 +539,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -602,9 +602,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1229.929,
-          "top": 1202.5178,
-          "zIndex": 834,
+          "left": 2887.9292,
+          "top": 3173.1845,
+          "zIndex": 1224,
           "widthName": 60,
           "widthComment": 60
         },
@@ -664,9 +664,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 2820.5337,
-          "top": 643.7466,
-          "zIndex": 540,
+          "left": 4499.2003,
+          "top": 785.08,
+          "zIndex": 1245,
           "widthName": 150.225830078125,
           "widthComment": 60
         },
@@ -732,7 +732,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -818,9 +818,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 2475.7468,
-          "top": 929.3172,
-          "zIndex": 782,
+          "left": 3557.08,
+          "top": 829.3171,
+          "zIndex": 1256,
           "widthName": 89.25593566894531,
           "widthComment": 60
         },
@@ -839,7 +839,7 @@
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
-              "unique": false,
+              "unique": true,
               "notNull": true
             },
             "ui": {
@@ -862,7 +862,7 @@
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
-              "unique": false,
+              "unique": true,
               "notNull": true
             },
             "ui": {
@@ -880,9 +880,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 2803.4203,
-          "top": 1406.7807,
-          "zIndex": 748,
+          "left": 5434.087,
+          "top": 3472.1141,
+          "zIndex": 1231,
           "widthName": 73.70793151855469,
           "widthComment": 60
         },
@@ -965,9 +965,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1259.3964,
-          "top": 1577.455,
-          "zIndex": 836,
+          "left": 2843.3964,
+          "top": 4397.4552,
+          "zIndex": 1230,
           "widthName": 118.58387756347656,
           "widthComment": 60
         },
@@ -1048,7 +1048,7 @@
             "id": "12bf389b-55da-426c-b70e-4745b9f8857c"
           },
           {
-            "name": "cantidad_solicitada",
+            "name": "cantidad_requerida",
             "comment": "",
             "dataType": "NUMERIC",
             "default": "",
@@ -1063,7 +1063,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 118.33686828613281,
+              "widthName": 120.48187255859375,
               "widthComment": 60,
               "widthDataType": 61.1109619140625,
               "widthDefault": 60
@@ -1079,7 +1079,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -1096,9 +1096,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1244.3561,
-          "top": 869.1556,
-          "zIndex": 866,
+          "left": 1867.9555,
+          "top": 2581.9556,
+          "zIndex": 1252,
           "widthName": 96.87385559082031,
           "widthComment": 60
         },
@@ -1204,9 +1204,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 916.9332,
-          "top": 588.4666,
-          "zIndex": 800,
+          "left": 813.4568,
+          "top": 2149.0855,
+          "zIndex": 1238,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1266,9 +1266,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 452.6473,
-          "top": 381.5841,
-          "zIndex": 586,
+          "left": 474.5519,
+          "top": 1647.5842,
+          "zIndex": 1239,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1328,9 +1328,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 2064.1969,
-          "top": 207.7149,
-          "zIndex": 838,
+          "left": 1160.4513,
+          "top": 746.3026,
+          "zIndex": 1249,
           "widthName": 65.07591247558594,
           "widthComment": 60
         },
@@ -1436,9 +1436,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1428.4284,
-          "top": 328.5429,
-          "zIndex": 859,
+          "left": 1145.5717,
+          "top": 1418.8759,
+          "zIndex": 1240,
           "widthName": 65.02391052246094,
           "widthComment": 60
         },
@@ -1542,7 +1542,7 @@
             "id": "39ac6190-ae1a-4c86-b7bb-726db0644daf"
           },
           {
-            "name": "cantidad_despachada",
+            "name": "cantidad_solicitada",
             "comment": "",
             "dataType": "NUMERIC",
             "default": "",
@@ -1557,7 +1557,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 134.3658905029297,
+              "widthName": 118.33686828613281,
               "widthComment": 60,
               "widthDataType": 61.1109619140625,
               "widthDefault": 60
@@ -1573,7 +1573,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -1590,9 +1590,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1873.2442,
-          "top": 629.333,
-          "zIndex": 867,
+          "left": 2463.4553,
+          "top": 1794.1146,
+          "zIndex": 1251,
           "widthName": 132.10386657714844,
           "widthComment": 60
         },
@@ -1609,7 +1609,7 @@
             "dataType": "INT",
             "default": "",
             "option": {
-              "autoIncrement": false,
+              "autoIncrement": true,
               "primaryKey": true,
               "unique": false,
               "notNull": true
@@ -1652,20 +1652,449 @@
         ],
         "ui": {
           "active": false,
-          "left": 2097.1574,
-          "top": 1272.4445,
-          "zIndex": 781,
+          "left": 3572.6242,
+          "top": 2575.6446,
+          "zIndex": 1228,
           "widthName": 115.00889587402344,
           "widthComment": 60
         },
         "visible": true,
         "id": "a4249ae7-780d-49f2-91cf-c822cf0f56e2"
+      },
+      {
+        "name": "EntradaItem",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id_item",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "bfe7f3ca-2730-4ab6-8887-9093a3d1364f"
+          },
+          {
+            "name": "cantidad",
+            "comment": "",
+            "dataType": "NUMERIC",
+            "default": "0",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 61.1109619140625,
+              "widthDefault": 60
+            },
+            "id": "81c6eaca-466e-4305-b322-2d0344edb456"
+          },
+          {
+            "name": "id_area",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "7e5ed9ec-7b65-4669-8d15-6cd7e4f2f2db"
+          },
+          {
+            "name": "nro_orden",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 65.11492919921875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "8a00ff27-4b28-4804-99c1-d871f71fde36"
+          },
+          {
+            "name": "id_factura",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 62.25494384765625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9fcf292d-f846-4a46-978f-032640d86519"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 891.9586,
+          "top": 2832.7233,
+          "zIndex": 1233,
+          "widthName": 78.23194885253906,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "3ee9d603-903e-409c-840a-60d71d65d227"
+      },
+      {
+        "name": "Factura",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id_factura",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": true,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 62.25494384765625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6434738c-7b4b-47a4-b88d-098a5d22451f"
+          },
+          {
+            "name": "nro_entrada",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": true,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 76.5289306640625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0687aa03-247c-4e14-b7ce-6b564e96fa70"
+          },
+          {
+            "name": "fecha_facturacion",
+            "comment": "",
+            "dataType": "DATETIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 109.7698974609375,
+              "widthComment": 60,
+              "widthDataType": 63.736968994140625,
+              "widthDefault": 60
+            },
+            "id": "35539abc-b049-446f-8c1b-65ebc63ee1ff"
+          },
+          {
+            "name": "nro_factura",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 71.9139404296875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d30852d4-97b8-4c98-8cb2-8a2bea754e79"
+          },
+          {
+            "name": "nro_orden",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 65.11492919921875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ea79f7f7-367c-4611-b824-f9c98949e712"
+          },
+          {
+            "name": "total_items",
+            "comment": "",
+            "dataType": "nume",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 69.430908203125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9ff01f82-0cdc-4bf1-a33a-0d9765795b0a"
+          },
+          {
+            "name": "valor_total",
+            "comment": "",
+            "dataType": "DOUBLE PRECISION",
+            "default": "0",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 66.1549072265625,
+              "widthComment": 60,
+              "widthDataType": 124.39491271972656,
+              "widthDefault": 60
+            },
+            "id": "c442b218-d113-4fcf-8c52-ff917085f369"
+          },
+          {
+            "name": "id_proveedor",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 82.32688903808594,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "43165eb6-ca05-415b-b5c4-1cf115fb7eb3"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 2292.1339,
+          "top": 569.5278,
+          "zIndex": 1248,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "59cbcd0c-95eb-4f66-88ef-e7e155e1a8ae"
+      },
+      {
+        "name": "FacturaDetalle",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id_factura",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 62.25494384765625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "bc5379a4-bc9a-48b9-95e7-8a5ad850d6b7"
+          },
+          {
+            "name": "id_cotizacion",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 80.16888427734375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "7a918491-3a49-4176-92b7-dcad97514ac2"
+          },
+          {
+            "name": "cantidad_entregada",
+            "comment": "",
+            "dataType": "NUMERIC",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 123.74488830566406,
+              "widthComment": 60,
+              "widthDataType": 61.1109619140625,
+              "widthDefault": 60
+            },
+            "id": "c10ddfa1-3adb-47d5-a713-ae2d4e32401c"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 2180.6724,
+          "top": 1271.9489,
+          "zIndex": 1247,
+          "widthName": 90.25689697265625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "f02b1bcc-8263-438c-a738-36b5f1230f5f"
       }
     ],
     "indexes": []
   },
   "memo": {
-    "memos": []
+    "memos": [
+      {
+        "value": "Es cantidad solicitada porque es la cantidad de producto que se pide al proveedor",
+        "ui": {
+          "active": false,
+          "left": 2816.99999999998,
+          "top": 1953.7999999999988,
+          "zIndex": 1254,
+          "width": 128.5999999999999,
+          "height": 100
+        },
+        "id": "75ba2b59-a41f-4d16-b336-281358d12dc6"
+      }
+    ]
   },
   "relationship": {
     "relationships": [
@@ -1678,8 +2107,8 @@
           "columnIds": [
             "bbbc6042-15fa-4ebd-b450-883e1af1d9e9"
           ],
-          "x": 407.35500942382816,
-          "y": 246.3111,
+          "x": 307.3550094238281,
+          "y": 706.3111,
           "direction": "bottom"
         },
         "end": {
@@ -1687,8 +2116,8 @@
           "columnIds": [
             "ae15427d-19ad-4395-b42f-0fc43e78173c"
           ],
-          "x": 307.24390942382814,
-          "y": 1010.489,
+          "x": 533.2442094238281,
+          "y": 3727.8222,
           "direction": "top"
         },
         "constraintName": "fk_personal_to_area",
@@ -1704,8 +2133,8 @@
           "columnIds": [
             "c40ab109-d12b-4df6-9ab0-46e9ec43f486"
           ],
-          "x": 1533.1583140625,
-          "y": 169.05020000000002,
+          "x": 865.1583140625,
+          "y": 165.05020000000002,
           "direction": "right"
         },
         "end": {
@@ -1713,8 +2142,8 @@
           "columnIds": [
             "edc884ee-fed5-4728-80dc-c2e5a9cbebda"
           ],
-          "x": 2831.3012,
-          "y": 217.4429,
+          "x": 3403.3012,
+          "y": 357.4429,
           "direction": "left"
         },
         "constraintName": "fk_cargo_to_autorizacion",
@@ -1730,8 +2159,8 @@
           "columnIds": [
             "c40ab109-d12b-4df6-9ab0-46e9ec43f486"
           ],
-          "x": 1181.5714,
-          "y": 169.05020000000002,
+          "x": 513.5714,
+          "y": 165.05020000000002,
           "direction": "left"
         },
         "end": {
@@ -1739,9 +2168,9 @@
           "columnIds": [
             "b469ea38-2eb7-4439-8154-3312ebfc683d"
           ],
-          "x": 589.4434188476563,
-          "y": 170.8111,
-          "direction": "right"
+          "x": 307.3550094238281,
+          "y": 555.3111,
+          "direction": "top"
         },
         "constraintName": "fk_cargo_to_personal",
         "visible": true,
@@ -1756,18 +2185,18 @@
           "columnIds": [
             "14fdb808-01f8-4883-b3c0-c2d3e9c4ed09"
           ],
-          "x": 3024.4070959960936,
-          "y": 292.9429,
-          "direction": "bottom"
+          "x": 3789.5129919921874,
+          "y": 357.4429,
+          "direction": "right"
         },
         "end": {
           "tableId": "00b48009-f20d-4aab-b0f8-2a3e2ddf8715",
           "columnIds": [
             "b3cceedd-27c6-4848-bb0c-d80d4d76ee65"
           ],
-          "x": 3002.3461389648437,
-          "y": 643.7466,
-          "direction": "top"
+          "x": 4499.2003,
+          "y": 840.08,
+          "direction": "left"
         },
         "constraintName": "fk_autorizacion_to_documento autorizacion",
         "visible": true,
@@ -1782,8 +2211,8 @@
           "columnIds": [
             "d8c4af43-dbc5-4444-a165-ba7ee38a76f7"
           ],
-          "x": 2982.5872540405276,
-          "y": 1406.7807,
+          "x": 5613.253954040528,
+          "y": 3472.1141,
           "direction": "top"
         },
         "end": {
@@ -1791,9 +2220,9 @@
           "columnIds": [
             "d6d9c224-a8be-4f5b-ad8c-17852748bcdd"
           ],
-          "x": 3002.3461389648437,
-          "y": 753.7466,
-          "direction": "bottom"
+          "x": 4862.825177929688,
+          "y": 840.08,
+          "direction": "right"
         },
         "constraintName": "fk_documento_herencia_to_documento autorizacion",
         "visible": true,
@@ -1808,8 +2237,8 @@
           "columnIds": [
             "d8c4af43-dbc5-4444-a165-ba7ee38a76f7"
           ],
-          "x": 2803.4203,
-          "y": 1489.2807,
+          "x": 5434.087,
+          "y": 3499.6141,
           "direction": "left"
         },
         "end": {
@@ -1817,8 +2246,8 @@
           "columnIds": [
             "9f2dd645-fe49-4852-ac9e-c6d17d9a751f"
           ],
-          "x": 1699.83476171875,
-          "y": 1361.8928,
+          "x": 3357.83496171875,
+          "y": 3332.5595,
           "direction": "right"
         },
         "constraintName": "fk_documento_herencia_to_solicitud",
@@ -1834,8 +2263,8 @@
           "columnIds": [
             "cef8ed32-7a0c-4226-b262-78ef03684e34"
           ],
-          "x": 1465.5153117431641,
-          "y": 1577.455,
+          "x": 3049.515311743164,
+          "y": 4397.4552,
           "direction": "top"
         },
         "end": {
@@ -1843,8 +2272,8 @@
           "columnIds": [
             "f57e7374-8b34-4efb-a0f1-229f82424e45"
           ],
-          "x": 1464.881880859375,
-          "y": 1415.0178,
+          "x": 3122.882080859375,
+          "y": 3385.6845,
           "direction": "bottom"
         },
         "constraintName": "fk_rubro presupuestal_to_solicitud",
@@ -1860,8 +2289,8 @@
           "columnIds": [
             "796f8b73-1876-48cf-a62e-e2f890db88c6"
           ],
-          "x": 489.33231884765627,
-          "y": 1075.739,
+          "x": 715.3326188476562,
+          "y": 3825.6972,
           "direction": "right"
         },
         "end": {
@@ -1869,8 +2298,8 @@
           "columnIds": [
             "16362f94-4d64-4107-abd0-0bc3ed37cfab"
           ],
-          "x": 1229.929,
-          "y": 1308.7678,
+          "x": 2887.9292,
+          "y": 3332.5595,
           "direction": "left"
         },
         "constraintName": "fk_area_to_solicitud",
@@ -1886,18 +2315,18 @@
           "columnIds": [
             "2a3f5e58-74fb-496c-8bfc-7f0d830adfaa"
           ],
-          "x": 1464.881880859375,
-          "y": 1202.5178,
-          "direction": "top"
+          "x": 2887.9292,
+          "y": 3226.3095,
+          "direction": "left"
         },
         "end": {
           "tableId": "ae283690-3f4f-4cc1-ac6f-ababe594ae05",
           "columnIds": [
             "9d6e22b1-e5bf-48cd-895f-6cc51ae9a753"
           ],
-          "x": 1470.2219905029297,
-          "y": 1040.6556,
-          "direction": "bottom"
+          "x": 2321.8322852783203,
+          "y": 2710.5806,
+          "direction": "right"
         },
         "constraintName": "fk_solicitud_to_solicitud detalle",
         "visible": true,
@@ -1912,8 +2341,8 @@
           "columnIds": [
             "7e6f5237-7f47-4783-9491-f997a4c4463b"
           ],
-          "x": 820.5681068847656,
-          "y": 436.5841,
+          "x": 842.4727068847656,
+          "y": 1702.5842,
           "direction": "right"
         },
         "end": {
@@ -1921,9 +2350,9 @@
           "columnIds": [
             "4d14412d-9720-4bc8-bce1-dbc3373d89e7"
           ],
-          "x": 916.9332,
-          "y": 663.9666,
-          "direction": "left"
+          "x": 910.5037589233399,
+          "y": 2149.0855,
+          "direction": "top"
         },
         "constraintName": "fk_tipo item_to_item",
         "visible": true,
@@ -1938,17 +2367,17 @@
           "columnIds": [
             "41525532-575d-483d-b8e6-336240a1397d"
           ],
-          "x": 1111.0271178466796,
-          "y": 739.4666,
-          "direction": "bottom"
+          "x": 1201.6446356933593,
+          "y": 2224.5855,
+          "direction": "right"
         },
         "end": {
           "tableId": "ae283690-3f4f-4cc1-ac6f-ababe594ae05",
           "columnIds": [
             "12bf389b-55da-426c-b70e-4745b9f8857c"
           ],
-          "x": 1244.3561,
-          "y": 954.9056,
+          "x": 1867.9555,
+          "y": 2667.7056,
           "direction": "left"
         },
         "constraintName": "fk_item_to_solicitud detalle",
@@ -1964,17 +2393,17 @@
           "columnIds": [
             "41525532-575d-483d-b8e6-336240a1397d"
           ],
-          "x": 1305.1210356933593,
-          "y": 663.9666,
-          "direction": "right"
+          "x": 1104.5976767700195,
+          "y": 2149.0855,
+          "direction": "top"
         },
         "end": {
           "tableId": "a0465b92-2ebf-40f0-835f-6854ee73a873",
           "columnIds": [
             "6b93ea3b-84c9-46ea-9a15-e4504c45a8e4"
           ],
-          "x": 1428.4284,
-          "y": 404.0429,
+          "x": 1145.5717,
+          "y": 1494.3759,
           "direction": "left"
         },
         "constraintName": "fk_item_to_proveedoritem",
@@ -1990,18 +2419,18 @@
           "columnIds": [
             "88f6b3eb-18b7-42d6-acc1-85df298105f2"
           ],
-          "x": 2064.1969,
-          "y": 262.7149,
-          "direction": "left"
+          "x": 1347.408201550293,
+          "y": 856.3026,
+          "direction": "bottom"
         },
         "end": {
           "tableId": "a0465b92-2ebf-40f0-835f-6854ee73a873",
           "columnIds": [
             "17d17acb-87e3-4368-9869-7d327014a342"
           ],
-          "x": 1848.0761966308594,
-          "y": 366.2929,
-          "direction": "right"
+          "x": 1355.3955983154297,
+          "y": 1418.8759,
+          "direction": "top"
         },
         "constraintName": "fk_proveedor_to_proveedoritem",
         "visible": true,
@@ -2016,8 +2445,8 @@
           "columnIds": [
             "d8c4af43-dbc5-4444-a165-ba7ee38a76f7"
           ],
-          "x": 2803.4203,
-          "y": 1434.2807,
+          "x": 5434.087,
+          "y": 3554.6141,
           "direction": "left"
         },
         "end": {
@@ -2025,9 +2454,9 @@
           "columnIds": [
             "94346feb-67a3-4d23-874f-d0b454355033"
           ],
-          "x": 2828.1761212890624,
-          "y": 1121.3172,
-          "direction": "bottom"
+          "x": 4026.98576171875,
+          "y": 925.3171,
+          "direction": "right"
         },
         "constraintName": "fk_documento_to_ordencompra",
         "visible": true,
@@ -2043,8 +2472,8 @@
             "cef6cf86-8ed3-4eab-b7d8-d2ce2f28f5c0",
             "94346feb-67a3-4d23-874f-d0b454355033"
           ],
-          "x": 2475.7468,
-          "y": 1025.3172,
+          "x": 3557.08,
+          "y": 973.3171,
           "direction": "left"
         },
         "end": {
@@ -2053,8 +2482,8 @@
             "1804729c-e29a-4bea-aae2-1a9b11633566",
             "304ed568-33f7-4d83-a0ca-84a0148a3085"
           ],
-          "x": 2361.648924121094,
-          "y": 725.333,
+          "x": 2951.860024121094,
+          "y": 1890.1146,
           "direction": "right"
         },
         "constraintName": "fk_ordencompra_to_ordencompradetalle",
@@ -2070,8 +2499,8 @@
           "columnIds": [
             "1b81a6f6-546e-4bc7-b190-da61ecd02f63"
           ],
-          "x": 2097.1574,
-          "y": 1327.4445,
+          "x": 3572.6242,
+          "y": 2630.6446,
           "direction": "left"
         },
         "end": {
@@ -2079,8 +2508,8 @@
           "columnIds": [
             "0f8e5919-0df3-460b-81cb-f86451ed3e8c"
           ],
-          "x": 1699.83476171875,
-          "y": 1255.6428,
+          "x": 3357.83496171875,
+          "y": 3226.3095,
           "direction": "right"
         },
         "constraintName": "fk_estadodocumento_to_solicitud",
@@ -2096,17 +2525,17 @@
           "columnIds": [
             "1b81a6f6-546e-4bc7-b190-da61ecd02f63"
           ],
-          "x": 2502.6682489990235,
-          "y": 1327.4445,
-          "direction": "right"
+          "x": 3775.379624499512,
+          "y": 2575.6446,
+          "direction": "top"
         },
         "end": {
           "tableId": "74d0db9a-ec9c-462d-b08c-c87d8f70a01e",
           "columnIds": [
             "4d1bd026-8330-4525-a749-dcabb22e6b8e"
           ],
-          "x": 2593.2232404296874,
-          "y": 1121.3172,
+          "x": 3792.032880859375,
+          "y": 1021.3171,
           "direction": "bottom"
         },
         "constraintName": "fk_estadodocumento_to_ordencompra",
@@ -2122,8 +2551,8 @@
           "columnIds": [
             "0aa94603-b1ac-444e-aadb-fb494c8d10d2"
           ],
-          "x": 1848.0761966308594,
-          "y": 441.7929,
+          "x": 1565.2194966308593,
+          "y": 1532.1259,
           "direction": "right"
         },
         "end": {
@@ -2131,8 +2560,8 @@
           "columnIds": [
             "b0900d22-896f-4c07-ac12-57e1d9e50a02"
           ],
-          "x": 1873.2442,
-          "y": 677.333,
+          "x": 2463.4553,
+          "y": 1890.1146,
           "direction": "left"
         },
         "constraintName": "fk_proveedoritem_to_ordencompradetalle",
@@ -2148,8 +2577,8 @@
           "columnIds": [
             "e82cf660-6735-4d90-88eb-097e1f81ecc4"
           ],
-          "x": 1696.0878810058593,
-          "y": 954.9056,
+          "x": 2321.8322852783203,
+          "y": 2624.8306,
           "direction": "right"
         },
         "end": {
@@ -2157,13 +2586,171 @@
           "columnIds": [
             "39ac6190-ae1a-4c86-b7bb-726db0644daf"
           ],
-          "x": 1873.2442,
-          "y": 773.333,
-          "direction": "left"
+          "x": 2707.657662060547,
+          "y": 1986.1146,
+          "direction": "bottom"
         },
         "constraintName": "fk_solicituddetalle_to_ordencompradetalle",
         "visible": true,
         "id": "7cec7549-f028-46b6-a769-388aec6670ab"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "368a7434-dc48-4edc-8810-0c5e1dfc333b",
+          "columnIds": [
+            "41525532-575d-483d-b8e6-336240a1397d"
+          ],
+          "x": 1007.5507178466797,
+          "y": 2300.0855,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "3ee9d603-903e-409c-840a-60d71d65d227",
+          "columnIds": [
+            "bfe7f3ca-2730-4ab6-8887-9093a3d1364f"
+          ],
+          "x": 1059.5715455566406,
+          "y": 2832.7233,
+          "direction": "top"
+        },
+        "constraintName": "fk_item_to_itemalmacen",
+        "visible": true,
+        "id": "b95604c7-1eb7-4e37-a787-6d3a009060f9"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "3c5e51ad-c9cb-4fd2-959a-bad77a5768ab",
+          "columnIds": [
+            "796f8b73-1876-48cf-a62e-e2f890db88c6"
+          ],
+          "x": 715.3326188476562,
+          "y": 3760.4472,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "3ee9d603-903e-409c-840a-60d71d65d227",
+          "columnIds": [
+            "7e5ed9ec-7b65-4669-8d15-6cd7e4f2f2db"
+          ],
+          "x": 1059.5715455566406,
+          "y": 3004.2233,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_area_to_recepcionitem",
+        "visible": true,
+        "id": "908ca7dc-6496-4780-a2fc-f03ad659549e"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "74d0db9a-ec9c-462d-b08c-c87d8f70a01e",
+          "columnIds": [
+            "cef6cf86-8ed3-4eab-b7d8-d2ce2f28f5c0",
+            "94346feb-67a3-4d23-874f-d0b454355033"
+          ],
+          "x": 3557.08,
+          "y": 877.3171,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "59cbcd0c-95eb-4f66-88ef-e7e155e1a8ae",
+          "columnIds": [
+            "ea79f7f7-367c-4611-b824-f9c98949e712",
+            "bf9fd0bf-5c9a-4386-a3e4-86c64f8791f9"
+          ],
+          "x": 2735.298710180664,
+          "y": 686.0278,
+          "direction": "right"
+        },
+        "constraintName": "fk_ordencompra_to_factura",
+        "visible": true,
+        "id": "0990b95a-6425-4cbb-b586-42b1d1615d2f"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "a0465b92-2ebf-40f0-835f-6854ee73a873",
+          "columnIds": [
+            "0aa94603-b1ac-444e-aadb-fb494c8d10d2"
+          ],
+          "x": 1565.2194966308593,
+          "y": 1456.6259,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "f02b1bcc-8263-438c-a738-36b5f1230f5f",
+          "columnIds": [
+            "7a918491-3a49-4176-92b7-dcad97514ac2"
+          ],
+          "x": 2180.6724,
+          "y": 1337.1989,
+          "direction": "left"
+        },
+        "constraintName": "fk_cotizacion_to_facturadetalle",
+        "visible": true,
+        "id": "c0547cf1-7679-44bb-8ef0-23d525d8ff71"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "59cbcd0c-95eb-4f66-88ef-e7e155e1a8ae",
+          "columnIds": [
+            "6434738c-7b4b-47a4-b88d-098a5d22451f"
+          ],
+          "x": 2513.716305090332,
+          "y": 802.5278,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "f02b1bcc-8263-438c-a738-36b5f1230f5f",
+          "columnIds": [
+            "bc5379a4-bc9a-48b9-95e7-8a5ad850d6b7"
+          ],
+          "x": 2377.600325109863,
+          "y": 1271.9489,
+          "direction": "top"
+        },
+        "constraintName": "fk_factura_to_facturadetalle",
+        "visible": true,
+        "id": "183ccc93-2a03-473e-b137-5a93143e7400"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "95126be2-dcd2-4ab9-bacc-6019db141418",
+          "columnIds": [
+            "88f6b3eb-18b7-42d6-acc1-85df298105f2"
+          ],
+          "x": 1534.3651031005859,
+          "y": 801.3026,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "59cbcd0c-95eb-4f66-88ef-e7e155e1a8ae",
+          "columnIds": [
+            "43165eb6-ca05-415b-b5c4-1cf115fb7eb3"
+          ],
+          "x": 2292.1339,
+          "y": 686.0278,
+          "direction": "left"
+        },
+        "constraintName": "fk_proveedor_to_factura",
+        "visible": true,
+        "id": "18725411-05f8-4b3e-aeaf-9cc973cd1282"
       }
     ]
   }
