@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 4000,
     "height": 4000,
-    "scrollTop": -792.8697916666665,
-    "scrollLeft": -1468.5213541666699,
-    "zoomLevel": 1,
+    "scrollTop": -1558.4697916666676,
+    "scrollLeft": -995.7213541666691,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": false,
       "columnComment": false,
@@ -122,7 +122,7 @@
           "active": false,
           "left": 2623.0165695176324,
           "top": 1397.7906207710757,
-          "zIndex": 15,
+          "zIndex": 11,
           "widthName": 60,
           "widthComment": 60,
           "color": "#7185FF"
@@ -231,7 +231,7 @@
           "active": false,
           "left": 2275.0892210311767,
           "top": 2235.0968817914645,
-          "zIndex": 7,
+          "zIndex": 14,
           "widthName": 60,
           "widthComment": 60,
           "color": "#7185FF"
@@ -317,7 +317,7 @@
           "active": false,
           "left": 2320.567235350282,
           "top": 2668.750070309567,
-          "zIndex": 1,
+          "zIndex": 15,
           "widthName": 60,
           "widthComment": 60,
           "color": "#7185FF"
@@ -426,7 +426,7 @@
           "active": false,
           "left": 2668.38989636644,
           "top": 2417.280369609087,
-          "zIndex": 16,
+          "zIndex": 3,
           "widthName": 78.51789855957031,
           "widthComment": 60,
           "color": "#7185FF"
@@ -602,9 +602,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1898.043533380257,
-          "top": 916.2068718520602,
-          "zIndex": 22,
+          "left": 1905.1548,
+          "top": 792.6512,
+          "zIndex": 18,
           "widthName": 60,
           "widthComment": 60
         },
@@ -666,7 +666,7 @@
           "active": false,
           "left": 2962.073730289029,
           "top": 2104.0365841755934,
-          "zIndex": 17,
+          "zIndex": 12,
           "widthName": 155.99781799316406,
           "widthComment": 60
         },
@@ -820,7 +820,7 @@
           "active": false,
           "left": 2519.613162538754,
           "top": 1819.0776771868448,
-          "zIndex": 5,
+          "zIndex": 13,
           "widthName": 95.02792358398438,
           "widthComment": 60
         },
@@ -880,9 +880,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 2971.2534502077515,
-          "top": 1646.0443328193264,
-          "zIndex": 14,
+          "left": 3116.1425,
+          "top": 1164.2661,
+          "zIndex": 10,
           "widthName": 73.70793151855469,
           "widthComment": 60
         },
@@ -965,9 +965,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 2416.2444802680407,
-          "top": 983.5806015286803,
-          "zIndex": 3,
+          "left": 2655.3554,
+          "top": 949.8024,
+          "zIndex": 20,
           "widthName": 124.35586547851562,
           "widthComment": 60
         },
@@ -1096,9 +1096,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1229.0187131330933,
-          "top": 1441.7963424247569,
-          "zIndex": 9,
+          "left": 1047.6854,
+          "top": 1368.9072,
+          "zIndex": 17,
           "widthName": 102.64584350585938,
           "widthComment": 60
         },
@@ -1206,7 +1206,7 @@
           "active": false,
           "left": 1075.3253390712232,
           "top": 2050.5455210149644,
-          "zIndex": 8,
+          "zIndex": 16,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1268,7 +1268,7 @@
           "active": false,
           "left": 867.6896896575048,
           "top": 1695.840346106772,
-          "zIndex": 21,
+          "zIndex": 5,
           "widthName": 62.800933837890625,
           "widthComment": 60
         },
@@ -1330,7 +1330,7 @@
           "active": false,
           "left": 1493.6421986269208,
           "top": 1083.8438951054197,
-          "zIndex": 4,
+          "zIndex": 21,
           "widthName": 65.07591247558594,
           "widthComment": 60
         },
@@ -1438,7 +1438,7 @@
           "active": false,
           "left": 1719.0755204061213,
           "top": 1427.5715811168066,
-          "zIndex": 18,
+          "zIndex": 4,
           "widthName": 65.02391052246094,
           "widthComment": 60
         },
@@ -1592,7 +1592,7 @@
           "active": false,
           "left": 1434.0471,
           "top": 1803.5958,
-          "zIndex": 10,
+          "zIndex": 22,
           "widthName": 143.64784240722656,
           "widthComment": 60
         },
@@ -1654,7 +1654,7 @@
           "active": false,
           "left": 2188.7301327849373,
           "top": 1364.9312740615578,
-          "zIndex": 2,
+          "zIndex": 8,
           "widthName": 120.7808837890625,
           "widthComment": 60
         },
@@ -1831,7 +1831,7 @@
           "active": false,
           "left": 1961.039,
           "top": 1649.4321,
-          "zIndex": 13,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1939,7 +1939,7 @@
           "active": false,
           "left": 1870.5697992325559,
           "top": 2669.8533051835734,
-          "zIndex": 12,
+          "zIndex": 9,
           "widthName": 96.02888488769531,
           "widthComment": 60
         },
@@ -2024,7 +2024,7 @@
           "active": false,
           "left": 1046.9455,
           "top": 2536.2778,
-          "zIndex": 11,
+          "zIndex": 6,
           "widthName": 60,
           "widthComment": 60
         },
@@ -2178,7 +2178,7 @@
           "active": false,
           "left": 1396.9318392884397,
           "top": 2352.7668729869365,
-          "zIndex": 20,
+          "zIndex": 19,
           "widthName": 87.04588317871094,
           "widthComment": 60
         },
@@ -2238,9 +2238,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1816.0661,
-          "top": 2248.6752,
-          "zIndex": 19,
+          "left": 1740.5107,
+          "top": 2103.7866,
+          "zIndex": 7,
           "widthName": 91.84292602539062,
           "widthComment": 60
         },
@@ -2258,7 +2258,7 @@
           "active": false,
           "left": 3565,
           "top": 2497.7999999999984,
-          "zIndex": 6,
+          "zIndex": 1,
           "width": 414.9999999999998,
           "height": 100
         },
@@ -2407,8 +2407,8 @@
           "columnIds": [
             "d8c4af43-dbc5-4444-a165-ba7ee38a76f7"
           ],
-          "x": 2971.2534502077515,
-          "y": 1728.5443328193264,
+          "x": 3116.1425,
+          "y": 1246.7661,
           "direction": "left"
         },
         "end": {
@@ -2416,8 +2416,8 @@
           "columnIds": [
             "9f2dd645-fe49-4852-ac9e-c6d17d9a751f"
           ],
-          "x": 2367.949295099007,
-          "y": 1093.2902051853937,
+          "x": 2375.0605617187503,
+          "y": 969.7345333333335,
           "direction": "right"
         },
         "constraintName": "fk_documento_herencia_to_solicitud",
@@ -2433,8 +2433,8 @@
           "columnIds": [
             "cef8ed32-7a0c-4226-b262-78ef03684e34"
           ],
-          "x": 2416.2444802680407,
-          "y": 1048.8306015286803,
+          "x": 2655.3554,
+          "y": 1015.0524,
           "direction": "left"
         },
         "end": {
@@ -2442,8 +2442,8 @@
           "columnIds": [
             "f57e7374-8b34-4efb-a0f1-229f82424e45"
           ],
-          "x": 2367.949295099007,
-          "y": 951.623538518727,
+          "x": 2375.0605617187503,
+          "y": 828.0678666666668,
           "direction": "right"
         },
         "constraintName": "fk_rubro presupuestal_to_solicitud",
@@ -2468,8 +2468,8 @@
           "columnIds": [
             "16362f94-4d64-4107-abd0-0bc3ed37cfab"
           ],
-          "x": 2367.949295099007,
-          "y": 1022.4568718520603,
+          "x": 2375.0605617187503,
+          "y": 898.9012000000001,
           "direction": "right"
         },
         "constraintName": "fk_area_to_solicitud",
@@ -2485,8 +2485,8 @@
           "columnIds": [
             "2a3f5e58-74fb-496c-8bfc-7f0d830adfaa"
           ],
-          "x": 1898.043533380257,
-          "y": 1022.4568718520602,
+          "x": 1905.1548,
+          "y": 898.9012,
           "direction": "left"
         },
         "end": {
@@ -2494,8 +2494,8 @@
           "columnIds": [
             "9d6e22b1-e5bf-48cd-895f-6cc51ae9a753"
           ],
-          "x": 1682.8954984114137,
-          "y": 1570.4213424247569,
+          "x": 1501.5621852783204,
+          "y": 1497.5322,
           "direction": "right"
         },
         "constraintName": "fk_solicitud_to_solicitud detalle",
@@ -2546,8 +2546,8 @@
           "columnIds": [
             "12bf389b-55da-426c-b70e-4745b9f8857c"
           ],
-          "x": 1455.9571057722535,
-          "y": 1613.2963424247569,
+          "x": 1274.6237926391602,
+          "y": 1540.4072,
           "direction": "bottom"
         },
         "constraintName": "fk_item_to_solicitud detalle",
@@ -2615,8 +2615,8 @@
           "columnIds": [
             "d8c4af43-dbc5-4444-a165-ba7ee38a76f7"
           ],
-          "x": 2971.2534502077515,
-          "y": 1673.5443328193264,
+          "x": 3116.1425,
+          "y": 1191.7661,
           "direction": "left"
         },
         "end": {
@@ -2624,9 +2624,9 @@
           "columnIds": [
             "94346feb-67a3-4d23-874f-d0b454355033"
           ],
-          "x": 2989.518924257504,
-          "y": 1915.0776771868448,
-          "direction": "right"
+          "x": 2872.0424838278163,
+          "y": 1819.0776771868448,
+          "direction": "top"
         },
         "constraintName": "fk_documento_to_ordencompra",
         "visible": true,
@@ -2678,8 +2678,8 @@
           "columnIds": [
             "0f8e5919-0df3-460b-81cb-f86451ed3e8c"
           ],
-          "x": 2132.996414239632,
-          "y": 1128.7068718520602,
+          "x": 2140.1076808593753,
+          "y": 1005.1512,
           "direction": "bottom"
         },
         "constraintName": "fk_estadodocumento_to_solicitud",
@@ -2704,7 +2704,7 @@
           "columnIds": [
             "4d1bd026-8330-4525-a749-dcabb22e6b8e"
           ],
-          "x": 2754.566043398129,
+          "x": 2637.0896029684413,
           "y": 1819.0776771868448,
           "direction": "top"
         },
@@ -2730,7 +2730,7 @@
           "columnIds": [
             "b0900d22-896f-4c07-ac12-57e1d9e50a02"
           ],
-          "x": 1800.3506430908203,
+          "x": 1556.1482810302734,
           "y": 1803.5958,
           "direction": "top"
         },
@@ -2747,8 +2747,8 @@
           "columnIds": [
             "e82cf660-6735-4d90-88eb-097e1f81ecc4"
           ],
-          "x": 1682.8954984114137,
-          "y": 1484.6713424247569,
+          "x": 1501.5621852783204,
+          "y": 1411.7822,
           "direction": "right"
         },
         "end": {
@@ -2756,7 +2756,7 @@
           "columnIds": [
             "39ac6190-ae1a-4c86-b7bb-726db0644daf"
           ],
-          "x": 1556.1482810302734,
+          "x": 1800.3506430908203,
           "y": 1803.5958,
           "direction": "top"
         },
@@ -2889,7 +2889,7 @@
             "38a441a5-387f-449e-a6c7-493ebfe012af"
           ],
           "x": 1822.8846438538694,
-          "y": 2496.7668729869365,
+          "y": 2448.7668729869365,
           "direction": "right"
         },
         "constraintName": "fk_personal_to_salidadetalle",
@@ -2914,7 +2914,7 @@
           "columnIds": [
             "c703b1b7-36e6-4af0-b5e3-5729d149090e"
           ],
-          "x": 1609.9082415711546,
+          "x": 1716.396442712512,
           "y": 2352.7668729869365,
           "direction": "top"
         },
@@ -2940,8 +2940,8 @@
           "columnIds": [
             "4ad99555-5ae0-4f29-924a-b2582c4377ae"
           ],
-          "x": 2005.2560337768555,
-          "y": 2358.6752,
+          "x": 1929.7006337768555,
+          "y": 2213.7866,
           "direction": "bottom"
         },
         "constraintName": "fk_facturadetalle_to_entredasalida",
@@ -2957,17 +2957,17 @@
           "columnIds": [
             "5719fd4f-16d9-4907-b4ed-2e2bf4c82bb3"
           ],
-          "x": 1822.8846438538694,
-          "y": 2400.7668729869365,
-          "direction": "right"
+          "x": 1503.4200404297972,
+          "y": 2352.7668729869365,
+          "direction": "top"
         },
         "end": {
           "tableId": "a28bd2e2-bd12-45a8-bd6c-e45f8c72a065",
           "columnIds": [
             "888ce4fc-ddd4-44b4-9588-290ef4ca2cf5"
           ],
-          "x": 1816.0661,
-          "y": 2303.6752,
+          "x": 1740.5107,
+          "y": 2158.7866,
           "direction": "left"
         },
         "constraintName": "fk_salidadetalle_to_entredasalida",
