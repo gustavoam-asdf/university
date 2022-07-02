@@ -1,4 +1,4 @@
-$backupDir = "$github\university\database-management\database\logistica_unheval\sql-server\backup"
+$backupDir = "$HOME\desktop\all\github.com\university\database-management\database\logistica_unheval\sql-server\backup"
 $database = "logistica_unheval"
 $date = Get-Date -Format yyyy_MM_dd_HH_mm_ss
 
