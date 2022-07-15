@@ -1,0 +1,47 @@
+use('logistica_unheval');
+
+db.areas.find({ 
+	nombre : {
+		$regex : /^(Facultad).*/
+	}
+})
+
+db.productos.find({
+	nombre: {
+		$regex: /.*(computadora).*/i
+	}
+})
+
+db.productos.find({
+	proveedores: {
+		$elemMatch: {
+			nombre: {
+				$regex: /(Bluejam).*/i
+			}
+		}
+	}
+})
+
+db.productos.find({
+	kardex: {
+		$elemMatch: {
+			saldo: {
+				cantidad: {
+					$lt: 1000
+				}
+			}
+		}
+	}
+})
+
+db.facturas.find({
+	productos_facturados: {
+		$elemMatch: {
+			cantidad: {
+				$gt: 20
+			}
+		}
+	}
+})
+
+db.proveedores.find()

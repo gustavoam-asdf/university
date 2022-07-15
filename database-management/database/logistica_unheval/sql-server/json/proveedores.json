@@ -1,0 +1,10282 @@
+﻿[
+	{
+		"nombre": "Meedoo",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.79,
+				"cantidad": 187
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 285.42,
+				"cantidad": 319
+			}
+		]
+	},
+	{
+		"nombre": "Bluejam",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1033.28,
+				"cantidad": 48
+			}
+		]
+	},
+	{
+		"nombre": "Kare",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.46,
+				"cantidad": 720
+			}
+		]
+	},
+	{
+		"nombre": "Jabberstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 321.83,
+				"cantidad": 823
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 600.65,
+				"cantidad": 146
+			}
+		]
+	},
+	{
+		"nombre": "Photospace"
+	},
+	{
+		"nombre": "Dabtype",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 445.58,
+				"cantidad": 347
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 414.03,
+				"cantidad": 39
+			}
+		]
+	},
+	{
+		"nombre": "Browsedrive",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1.72,
+				"cantidad": 830
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1283.07,
+				"cantidad": 766
+			}
+		]
+	},
+	{
+		"nombre": "LiveZ",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 821.92,
+				"cantidad": 292
+			}
+		]
+	},
+	{
+		"nombre": "Dynazzy"
+	},
+	{
+		"nombre": "Tekfly"
+	},
+	{
+		"nombre": "Geba",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.52,
+				"cantidad": 821
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1339.89,
+				"cantidad": 58
+			}
+		]
+	},
+	{
+		"nombre": "Fanoodle",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 348.22,
+				"cantidad": 638
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 639.04,
+				"cantidad": 962
+			}
+		]
+	},
+	{
+		"nombre": "Kazio",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 713.23,
+				"cantidad": 441
+			}
+		]
+	},
+	{
+		"nombre": "Linkbridge",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.28,
+				"cantidad": 330
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.78,
+				"cantidad": 890
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 537.12,
+				"cantidad": 865
+			}
+		]
+	},
+	{
+		"nombre": "Kamba"
+	},
+	{
+		"nombre": "Blogspan"
+	},
+	{
+		"nombre": "Janyx"
+	},
+	{
+		"nombre": "Quinu"
+	},
+	{
+		"nombre": "Youbridge"
+	},
+	{
+		"nombre": "Browseblab",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.58,
+				"cantidad": 665
+			}
+		]
+	},
+	{
+		"nombre": "Tazz",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1082.87,
+				"cantidad": 741
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.33,
+				"cantidad": 651
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1111.86,
+				"cantidad": 11
+			}
+		]
+	},
+	{
+		"nombre": "Wordtune",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 712.06,
+				"cantidad": 30
+			}
+		]
+	},
+	{
+		"nombre": "Einti",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 640.09,
+				"cantidad": 398
+			}
+		]
+	},
+	{
+		"nombre": "Cogilith"
+	},
+	{
+		"nombre": "Leexo",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.49,
+				"cantidad": 403
+			}
+		]
+	},
+	{
+		"nombre": "Dynazzy",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 39.85,
+				"cantidad": 403
+			}
+		]
+	},
+	{
+		"nombre": "Eadel",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.40,
+				"cantidad": 943
+			}
+		]
+	},
+	{
+		"nombre": "Oyoba",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.00,
+				"cantidad": 199
+			}
+		]
+	},
+	{
+		"nombre": "Skibox",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.66,
+				"cantidad": 656
+			}
+		]
+	},
+	{
+		"nombre": "Chatterpoint"
+	},
+	{
+		"nombre": "Divape",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.15,
+				"cantidad": 731
+			}
+		]
+	},
+	{
+		"nombre": "Agimba",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 299.17,
+				"cantidad": 319
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 554.06,
+				"cantidad": 932
+			}
+		]
+	},
+	{
+		"nombre": "Devbug",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.94,
+				"cantidad": 281
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.45,
+				"cantidad": 913
+			}
+		]
+	},
+	{
+		"nombre": "Wikizz",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1166.84,
+				"cantidad": 234
+			}
+		]
+	},
+	{
+		"nombre": "Mita",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.69,
+				"cantidad": 528
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.06,
+				"cantidad": 471
+			}
+		]
+	},
+	{
+		"nombre": "Topicware",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.94,
+				"cantidad": 592
+			}
+		]
+	},
+	{
+		"nombre": "Yombu"
+	},
+	{
+		"nombre": "Rhycero",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.05,
+				"cantidad": 447
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.99,
+				"cantidad": 192
+			}
+		]
+	},
+	{
+		"nombre": "Riffpath",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 627.14,
+				"cantidad": 397
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 528.95,
+				"cantidad": 338
+			}
+		]
+	},
+	{
+		"nombre": "Lazzy",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1019.03,
+				"cantidad": 587
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 970.68,
+				"cantidad": 945
+			}
+		]
+	},
+	{
+		"nombre": "Fivebridge",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.21,
+				"cantidad": 876
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.88,
+				"cantidad": 951
+			}
+		]
+	},
+	{
+		"nombre": "Jabbercube",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.77,
+				"cantidad": 590
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 295.71,
+				"cantidad": 633
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 0.28,
+				"cantidad": 425
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1119.87,
+				"cantidad": 809
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.09,
+				"cantidad": 502
+			}
+		]
+	},
+	{
+		"nombre": "Vipe",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 571.53,
+				"cantidad": 126
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 348.34,
+				"cantidad": 485
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.88,
+				"cantidad": 475
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.80,
+				"cantidad": 413
+			}
+		]
+	},
+	{
+		"nombre": "Mynte",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.53,
+				"cantidad": 66
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.45,
+				"cantidad": 111
+			}
+		]
+	},
+	{
+		"nombre": "Voolith"
+	},
+	{
+		"nombre": "Wordware",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 722.80,
+				"cantidad": 724
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.74,
+				"cantidad": 260
+			}
+		]
+	},
+	{
+		"nombre": "Rhybox"
+	},
+	{
+		"nombre": "Skaboo",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.71,
+				"cantidad": 708
+			}
+		]
+	},
+	{
+		"nombre": "Plambee",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 9.14,
+				"cantidad": 180
+			}
+		]
+	},
+	{
+		"nombre": "Photobug"
+	},
+	{
+		"nombre": "Meemm",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1361.97,
+				"cantidad": 422
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.62,
+				"cantidad": 97
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 669.15,
+				"cantidad": 169
+			}
+		]
+	},
+	{
+		"nombre": "Jatri"
+	},
+	{
+		"nombre": "Dabjam",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.61,
+				"cantidad": 12
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 291.53,
+				"cantidad": 633
+			}
+		]
+	},
+	{
+		"nombre": "Livetube",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1103.98,
+				"cantidad": 956
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 2.08,
+				"cantidad": 599
+			}
+		]
+	},
+	{
+		"nombre": "Topicshots",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.81,
+				"cantidad": 815
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 401.67,
+				"cantidad": 884
+			}
+		]
+	},
+	{
+		"nombre": "Skyvu",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 350.67,
+				"cantidad": 318
+			}
+		]
+	},
+	{
+		"nombre": "Rhynyx",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.99,
+				"cantidad": 455
+			}
+		]
+	},
+	{
+		"nombre": "Skimia"
+	},
+	{
+		"nombre": "Ainyx",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.94,
+				"cantidad": 155
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 512.08,
+				"cantidad": 770
+			}
+		]
+	},
+	{
+		"nombre": "Trupe"
+	},
+	{
+		"nombre": "Meedoo"
+	},
+	{
+		"nombre": "Browsetype",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.27,
+				"cantidad": 751
+			}
+		]
+	},
+	{
+		"nombre": "Ozu",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 306.37,
+				"cantidad": 956
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 861.75,
+				"cantidad": 59
+			}
+		]
+	},
+	{
+		"nombre": "Devshare",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 301.51,
+				"cantidad": 244
+			}
+		]
+	},
+	{
+		"nombre": "Gigashots"
+	},
+	{
+		"nombre": "Brainverse"
+	},
+	{
+		"nombre": "Linkbuzz"
+	},
+	{
+		"nombre": "Jayo",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 725.74,
+				"cantidad": 98
+			}
+		]
+	},
+	{
+		"nombre": "Zoonder"
+	},
+	{
+		"nombre": "Yata",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.16,
+				"cantidad": 572
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 338.09,
+				"cantidad": 67
+			}
+		]
+	},
+	{
+		"nombre": "Oyoloo",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 475.62,
+				"cantidad": 605
+			}
+		]
+	},
+	{
+		"nombre": "Eire",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1041.62,
+				"cantidad": 112
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 609.39,
+				"cantidad": 747
+			}
+		]
+	},
+	{
+		"nombre": "Lazz",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.03,
+				"cantidad": 353
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.57,
+				"cantidad": 148
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 9.03,
+				"cantidad": 433
+			}
+		]
+	},
+	{
+		"nombre": "Kwinu"
+	},
+	{
+		"nombre": "Browsetype",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.75,
+				"cantidad": 586
+			}
+		]
+	},
+	{
+		"nombre": "Livefish",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.46,
+				"cantidad": 514
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1017.38,
+				"cantidad": 15
+			}
+		]
+	},
+	{
+		"nombre": "Realcube"
+	},
+	{
+		"nombre": "Jaxbean",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1236.11,
+				"cantidad": 645
+			}
+		]
+	},
+	{
+		"nombre": "Bluejam",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.80,
+				"cantidad": 720
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 398.23,
+				"cantidad": 391
+			}
+		]
+	},
+	{
+		"nombre": "Jaxbean",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.74,
+				"cantidad": 92
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.92,
+				"cantidad": 42
+			}
+		]
+	},
+	{
+		"nombre": "Twimm",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.57,
+				"cantidad": 836
+			}
+		]
+	},
+	{
+		"nombre": "Yakidoo",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1287.82,
+				"cantidad": 644
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.44,
+				"cantidad": 851
+			}
+		]
+	},
+	{
+		"nombre": "Jabbersphere",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 821.75,
+				"cantidad": 27
+			}
+		]
+	},
+	{
+		"nombre": "Edgeify",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 601.88,
+				"cantidad": 644
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.33,
+				"cantidad": 79
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1337.59,
+				"cantidad": 32
+			}
+		]
+	},
+	{
+		"nombre": "Twinte",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1319.99,
+				"cantidad": 471
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 564.81,
+				"cantidad": 786
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.36,
+				"cantidad": 431
+			}
+		]
+	},
+	{
+		"nombre": "Riffpedia",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 76.77,
+				"cantidad": 492
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.50,
+				"cantidad": 436
+			}
+		]
+	},
+	{
+		"nombre": "Quimba"
+	},
+	{
+		"nombre": "Shuffletag"
+	},
+	{
+		"nombre": "Thoughtmix"
+	},
+	{
+		"nombre": "Youspan",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.92,
+				"cantidad": 390
+			}
+		]
+	},
+	{
+		"nombre": "Tazz",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.15,
+				"cantidad": 785
+			}
+		]
+	},
+	{
+		"nombre": "Feedfish"
+	},
+	{
+		"nombre": "Jabbercube",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 636.89,
+				"cantidad": 970
+			}
+		]
+	},
+	{
+		"nombre": "Eamia",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 10.79,
+				"cantidad": 35
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1203.87,
+				"cantidad": 501
+			}
+		]
+	},
+	{
+		"nombre": "Twiyo",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 359.23,
+				"cantidad": 59
+			}
+		]
+	},
+	{
+		"nombre": "Ntag"
+	},
+	{
+		"nombre": "Snaptags"
+	},
+	{
+		"nombre": "Photobug"
+	},
+	{
+		"nombre": "Eamia",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.47,
+				"cantidad": 474
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.69,
+				"cantidad": 0
+			}
+		]
+	},
+	{
+		"nombre": "Pixonyx",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 893.59,
+				"cantidad": 269
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 698.47,
+				"cantidad": 73
+			}
+		]
+	},
+	{
+		"nombre": "Dynabox",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.02,
+				"cantidad": 40
+			}
+		]
+	},
+	{
+		"nombre": "Flipstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 815.67,
+				"cantidad": 994
+			}
+		]
+	},
+	{
+		"nombre": "Quatz",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1154.95,
+				"cantidad": 740
+			}
+		]
+	},
+	{
+		"nombre": "Skippad",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1168.79,
+				"cantidad": 657
+			}
+		]
+	},
+	{
+		"nombre": "Brainsphere"
+	},
+	{
+		"nombre": "Linkbuzz",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 317.40,
+				"cantidad": 236
+			}
+		]
+	},
+	{
+		"nombre": "Tavu"
+	},
+	{
+		"nombre": "Rhybox",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 537.56,
+				"cantidad": 942
+			}
+		]
+	},
+	{
+		"nombre": "Jabbertype"
+	},
+	{
+		"nombre": "Quamba",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.04,
+				"cantidad": 87
+			}
+		]
+	},
+	{
+		"nombre": "Zoomcast",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.15,
+				"cantidad": 802
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.54,
+				"cantidad": 303
+			}
+		]
+	},
+	{
+		"nombre": "Plambee"
+	},
+	{
+		"nombre": "Fivespan",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.48,
+				"cantidad": 971
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 721.20,
+				"cantidad": 677
+			}
+		]
+	},
+	{
+		"nombre": "Jabbersphere"
+	},
+	{
+		"nombre": "Wordtune",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.12,
+				"cantidad": 177
+			}
+		]
+	},
+	{
+		"nombre": "Skidoo"
+	},
+	{
+		"nombre": "Mycat",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 934.43,
+				"cantidad": 983
+			}
+		]
+	},
+	{
+		"nombre": "Eire",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 316.40,
+				"cantidad": 138
+			}
+		]
+	},
+	{
+		"nombre": "Meejo"
+	},
+	{
+		"nombre": "Dynabox",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 677.71,
+				"cantidad": 1
+			}
+		]
+	},
+	{
+		"nombre": "InnoZ",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 406.82,
+				"cantidad": 141
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 469.78,
+				"cantidad": 868
+			}
+		]
+	},
+	{
+		"nombre": "Meevee",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 572.09,
+				"cantidad": 713
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.72,
+				"cantidad": 297
+			}
+		]
+	},
+	{
+		"nombre": "Voomm",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 536.00,
+				"cantidad": 777
+			}
+		]
+	},
+	{
+		"nombre": "Geba",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 332.47,
+				"cantidad": 510
+			}
+		]
+	},
+	{
+		"nombre": "InnoZ",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 196.97,
+				"cantidad": 620
+			}
+		]
+	},
+	{
+		"nombre": "Nlounge"
+	},
+	{
+		"nombre": "Voonte",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 352.75,
+				"cantidad": 188
+			}
+		]
+	},
+	{
+		"nombre": "Edgewire",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.39,
+				"cantidad": 757
+			}
+		]
+	},
+	{
+		"nombre": "Trilia",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 292.83,
+				"cantidad": 979
+			}
+		]
+	},
+	{
+		"nombre": "Jaxspan"
+	},
+	{
+		"nombre": "Centimia"
+	},
+	{
+		"nombre": "Thoughtbridge",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 710.29,
+				"cantidad": 799
+			}
+		]
+	},
+	{
+		"nombre": "Wordware",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 459.03,
+				"cantidad": 563
+			}
+		]
+	},
+	{
+		"nombre": "Agimba",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 743.90,
+				"cantidad": 387
+			}
+		]
+	},
+	{
+		"nombre": "Photobug",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.42,
+				"cantidad": 752
+			}
+		]
+	},
+	{
+		"nombre": "Cogibox"
+	},
+	{
+		"nombre": "Bubblemix"
+	},
+	{
+		"nombre": "Riffpedia",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 456.46,
+				"cantidad": 360
+			}
+		]
+	},
+	{
+		"nombre": "Aivee",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 778.00,
+				"cantidad": 445
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1251.98,
+				"cantidad": 107
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 748.54,
+				"cantidad": 518
+			}
+		]
+	},
+	{
+		"nombre": "Pixoboo",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 157.12,
+				"cantidad": 854
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 342.96,
+				"cantidad": 865
+			}
+		]
+	},
+	{
+		"nombre": "Skippad"
+	},
+	{
+		"nombre": "Voonte",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1172.37,
+				"cantidad": 645
+			}
+		]
+	},
+	{
+		"nombre": "Blognation"
+	},
+	{
+		"nombre": "Kwilith",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 813.00,
+				"cantidad": 151
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1363.07,
+				"cantidad": 390
+			}
+		]
+	},
+	{
+		"nombre": "Trilith"
+	},
+	{
+		"nombre": "Topicware",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.78,
+				"cantidad": 818
+			}
+		]
+	},
+	{
+		"nombre": "Ozu",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.57,
+				"cantidad": 612
+			}
+		]
+	},
+	{
+		"nombre": "Jaxspan",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 286.59,
+				"cantidad": 8
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.60,
+				"cantidad": 7
+			}
+		]
+	},
+	{
+		"nombre": "Photobug",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 670.83,
+				"cantidad": 185
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.37,
+				"cantidad": 92
+			}
+		]
+	},
+	{
+		"nombre": "Izio"
+	},
+	{
+		"nombre": "Skipfire",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 377.83,
+				"cantidad": 237
+			}
+		]
+	},
+	{
+		"nombre": "Voomm"
+	},
+	{
+		"nombre": "Flashset"
+	},
+	{
+		"nombre": "Vinte",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1439.12,
+				"cantidad": 70
+			}
+		]
+	},
+	{
+		"nombre": "Mynte",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.80,
+				"cantidad": 749
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.49,
+				"cantidad": 857
+			}
+		]
+	},
+	{
+		"nombre": "Quaxo"
+	},
+	{
+		"nombre": "Zoombox"
+	},
+	{
+		"nombre": "Mita",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.12,
+				"cantidad": 123
+			}
+		]
+	},
+	{
+		"nombre": "Youopia",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 495.73,
+				"cantidad": 309
+			}
+		]
+	},
+	{
+		"nombre": "Zava",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1211.27,
+				"cantidad": 876
+			}
+		]
+	},
+	{
+		"nombre": "Fliptune",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.70,
+				"cantidad": 431
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.21,
+				"cantidad": 832
+			}
+		]
+	},
+	{
+		"nombre": "Jabbercube"
+	},
+	{
+		"nombre": "Realcube"
+	},
+	{
+		"nombre": "Viva",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 22.64,
+				"cantidad": 361
+			}
+		]
+	},
+	{
+		"nombre": "Rhyzio",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.94,
+				"cantidad": 755
+			}
+		]
+	},
+	{
+		"nombre": "Pixoboo",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 977.34,
+				"cantidad": 84
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 388.83,
+				"cantidad": 481
+			}
+		]
+	},
+	{
+		"nombre": "Photobug"
+	},
+	{
+		"nombre": "Wikido",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 631.12,
+				"cantidad": 718
+			}
+		]
+	},
+	{
+		"nombre": "Podcat"
+	},
+	{
+		"nombre": "Yodoo",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1233.03,
+				"cantidad": 342
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 3.62,
+				"cantidad": 50
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 788.30,
+				"cantidad": 627
+			}
+		]
+	},
+	{
+		"nombre": "Voomm"
+	},
+	{
+		"nombre": "Thoughtblab",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.70,
+				"cantidad": 868
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.07,
+				"cantidad": 366
+			}
+		]
+	},
+	{
+		"nombre": "Topicstorm"
+	},
+	{
+		"nombre": "Linklinks"
+	},
+	{
+		"nombre": "Topicshots",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 968.47,
+				"cantidad": 83
+			}
+		]
+	},
+	{
+		"nombre": "Jayo",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 303.77,
+				"cantidad": 257
+			}
+		]
+	},
+	{
+		"nombre": "Agivu",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 11.22,
+				"cantidad": 813
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.33,
+				"cantidad": 533
+			}
+		]
+	},
+	{
+		"nombre": "Browsebug"
+	},
+	{
+		"nombre": "Abata",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.59,
+				"cantidad": 596
+			}
+		]
+	},
+	{
+		"nombre": "Aivee",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 347.31,
+				"cantidad": 352
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 358.20,
+				"cantidad": 305
+			}
+		]
+	},
+	{
+		"nombre": "Thoughtsphere"
+	},
+	{
+		"nombre": "Edgeblab"
+	},
+	{
+		"nombre": "Quimba",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 304.30,
+				"cantidad": 540
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1149.75,
+				"cantidad": 348
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1303.98,
+				"cantidad": 360
+			}
+		]
+	},
+	{
+		"nombre": "Realpoint"
+	},
+	{
+		"nombre": "Skaboo"
+	},
+	{
+		"nombre": "Quimba",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 969.59,
+				"cantidad": 117
+			}
+		]
+	},
+	{
+		"nombre": "Thoughtworks",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1.79,
+				"cantidad": 772
+			}
+		]
+	},
+	{
+		"nombre": "Rhynoodle",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.40,
+				"cantidad": 786
+			}
+		]
+	},
+	{
+		"nombre": "Wordify",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 257.04,
+				"cantidad": 859
+			}
+		]
+	},
+	{
+		"nombre": "Eimbee",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.84,
+				"cantidad": 244
+			}
+		]
+	},
+	{
+		"nombre": "Abata",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 804.55,
+				"cantidad": 727
+			}
+		]
+	},
+	{
+		"nombre": "Vinder",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 445.53,
+				"cantidad": 5
+			}
+		]
+	},
+	{
+		"nombre": "Yoveo",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1251.31,
+				"cantidad": 57
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1304.54,
+				"cantidad": 441
+			}
+		]
+	},
+	{
+		"nombre": "Eadel"
+	},
+	{
+		"nombre": "Pixope"
+	},
+	{
+		"nombre": "Thoughtbeat"
+	},
+	{
+		"nombre": "Shuffledrive",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 531.73,
+				"cantidad": 120
+			}
+		]
+	},
+	{
+		"nombre": "LiveZ",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 762.22,
+				"cantidad": 48
+			}
+		]
+	},
+	{
+		"nombre": "Zoonoodle",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.53,
+				"cantidad": 235
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1201.24,
+				"cantidad": 576
+			}
+		]
+	},
+	{
+		"nombre": "Wordware"
+	},
+	{
+		"nombre": "Mynte"
+	},
+	{
+		"nombre": "Linkbridge"
+	},
+	{
+		"nombre": "Zooxo",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 290.73,
+				"cantidad": 502
+			}
+		]
+	},
+	{
+		"nombre": "Jetpulse"
+	},
+	{
+		"nombre": "Yozio",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 397.65,
+				"cantidad": 851
+			}
+		]
+	},
+	{
+		"nombre": "Twitternation"
+	},
+	{
+		"nombre": "Photojam",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1161.61,
+				"cantidad": 839
+			}
+		]
+	},
+	{
+		"nombre": "Quinu",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 696.20,
+				"cantidad": 135
+			}
+		]
+	},
+	{
+		"nombre": "Dabjam",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.83,
+				"cantidad": 988
+			}
+		]
+	},
+	{
+		"nombre": "Latz"
+	},
+	{
+		"nombre": "Brightdog",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 541.19,
+				"cantidad": 46
+			}
+		]
+	},
+	{
+		"nombre": "Photobug",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 580.10,
+				"cantidad": 162
+			}
+		]
+	},
+	{
+		"nombre": "Kazio",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 955.86,
+				"cantidad": 652
+			}
+		]
+	},
+	{
+		"nombre": "Snaptags",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 356.26,
+				"cantidad": 239
+			}
+		]
+	},
+	{
+		"nombre": "Dabjam"
+	},
+	{
+		"nombre": "Zazio",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1198.38,
+				"cantidad": 542
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 331.69,
+				"cantidad": 24
+			}
+		]
+	},
+	{
+		"nombre": "Meevee"
+	},
+	{
+		"nombre": "Linktype",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 300.08,
+				"cantidad": 357
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 377.36,
+				"cantidad": 233
+			}
+		]
+	},
+	{
+		"nombre": "Voonyx",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.35,
+				"cantidad": 486
+			}
+		]
+	},
+	{
+		"nombre": "Babbleopia"
+	},
+	{
+		"nombre": "Browsecat",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 995.74,
+				"cantidad": 646
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.32,
+				"cantidad": 842
+			}
+		]
+	},
+	{
+		"nombre": "Photobug"
+	},
+	{
+		"nombre": "Oyoyo"
+	},
+	{
+		"nombre": "Yodo",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 364.12,
+				"cantidad": 424
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 816.87,
+				"cantidad": 949
+			}
+		]
+	},
+	{
+		"nombre": "Blognation",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.76,
+				"cantidad": 156
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 504.37,
+				"cantidad": 195
+			}
+		]
+	},
+	{
+		"nombre": "Jaxworks",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 646.93,
+				"cantidad": 291
+			}
+		]
+	},
+	{
+		"nombre": "Bluezoom"
+	},
+	{
+		"nombre": "Twitterbridge"
+	},
+	{
+		"nombre": "Eidel",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.50,
+				"cantidad": 82
+			}
+		]
+	},
+	{
+		"nombre": "Rhycero",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 775.31,
+				"cantidad": 150
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 666.71,
+				"cantidad": 687
+			}
+		]
+	},
+	{
+		"nombre": "Rhyloo",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.80,
+				"cantidad": 367
+			}
+		]
+	},
+	{
+		"nombre": "Roombo",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 357.91,
+				"cantidad": 224
+			}
+		]
+	},
+	{
+		"nombre": "Jabberstorm"
+	},
+	{
+		"nombre": "Edgewire",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 582.42,
+				"cantidad": 669
+			}
+		]
+	},
+	{
+		"nombre": "LiveZ"
+	},
+	{
+		"nombre": "Abata",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.08,
+				"cantidad": 281
+			}
+		]
+	},
+	{
+		"nombre": "Blognation",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.91,
+				"cantidad": 87
+			}
+		]
+	},
+	{
+		"nombre": "Yotz",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.19,
+				"cantidad": 343
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 874.28,
+				"cantidad": 694
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.22,
+				"cantidad": 705
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.05,
+				"cantidad": 654
+			}
+		]
+	},
+	{
+		"nombre": "Reallinks"
+	},
+	{
+		"nombre": "Vinte",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.03,
+				"cantidad": 369
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.36,
+				"cantidad": 496
+			}
+		]
+	},
+	{
+		"nombre": "Chatterbridge",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 594.16,
+				"cantidad": 413
+			}
+		]
+	},
+	{
+		"nombre": "Talane",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1199.90,
+				"cantidad": 126
+			}
+		]
+	},
+	{
+		"nombre": "Oba"
+	},
+	{
+		"nombre": "Yabox",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1131.78,
+				"cantidad": 751
+			}
+		]
+	},
+	{
+		"nombre": "Quamba",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.80,
+				"cantidad": 500
+			}
+		]
+	},
+	{
+		"nombre": "Realblab"
+	},
+	{
+		"nombre": "Shuffletag"
+	},
+	{
+		"nombre": "Dabtype",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 355.79,
+				"cantidad": 565
+			}
+		]
+	},
+	{
+		"nombre": "Agivu"
+	},
+	{
+		"nombre": "Eire",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.84,
+				"cantidad": 611
+			}
+		]
+	},
+	{
+		"nombre": "Dabfeed",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 319.61,
+				"cantidad": 267
+			}
+		]
+	},
+	{
+		"nombre": "Yata",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 10.15,
+				"cantidad": 900
+			}
+		]
+	},
+	{
+		"nombre": "Topicshots",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 579.42,
+				"cantidad": 438
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.56,
+				"cantidad": 577
+			}
+		]
+	},
+	{
+		"nombre": "Omba",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1281.59,
+				"cantidad": 175
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.47,
+				"cantidad": 763
+			}
+		]
+	},
+	{
+		"nombre": "Livetube",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.66,
+				"cantidad": 805
+			}
+		]
+	},
+	{
+		"nombre": "Mynte"
+	},
+	{
+		"nombre": "Meevee",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.65,
+				"cantidad": 416
+			}
+		]
+	},
+	{
+		"nombre": "Muxo",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 136.05,
+				"cantidad": 861
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1128.95,
+				"cantidad": 119
+			}
+		]
+	},
+	{
+		"nombre": "Plambee"
+	},
+	{
+		"nombre": "Cogibox",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 619.86,
+				"cantidad": 385
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 710.86,
+				"cantidad": 273
+			}
+		]
+	},
+	{
+		"nombre": "Brainlounge",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 367.80,
+				"cantidad": 374
+			}
+		]
+	},
+	{
+		"nombre": "Photospace",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.73,
+				"cantidad": 191
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1069.12,
+				"cantidad": 827
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 453.02,
+				"cantidad": 890
+			}
+		]
+	},
+	{
+		"nombre": "Ozu",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.80,
+				"cantidad": 33
+			}
+		]
+	},
+	{
+		"nombre": "Gigabox"
+	},
+	{
+		"nombre": "Kare",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 419.13,
+				"cantidad": 739
+			}
+		]
+	},
+	{
+		"nombre": "Dablist",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.62,
+				"cantidad": 469
+			}
+		]
+	},
+	{
+		"nombre": "Quamba"
+	},
+	{
+		"nombre": "Gabspot"
+	},
+	{
+		"nombre": "Bubblemix"
+	},
+	{
+		"nombre": "Meetz"
+	},
+	{
+		"nombre": "Oyondu",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 707.48,
+				"cantidad": 937
+			}
+		]
+	},
+	{
+		"nombre": "Topicshots"
+	},
+	{
+		"nombre": "Skyndu"
+	},
+	{
+		"nombre": "Skyvu",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.27,
+				"cantidad": 73
+			}
+		]
+	},
+	{
+		"nombre": "Leexo",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 730.94,
+				"cantidad": 346
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.38,
+				"cantidad": 460
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.70,
+				"cantidad": 709
+			}
+		]
+	},
+	{
+		"nombre": "Fivespan"
+	},
+	{
+		"nombre": "Realbridge",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1306.67,
+				"cantidad": 289
+			}
+		]
+	},
+	{
+		"nombre": "Edgeify",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 363.19,
+				"cantidad": 122
+			}
+		]
+	},
+	{
+		"nombre": "Quire",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1326.77,
+				"cantidad": 310
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 595.59,
+				"cantidad": 630
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1.83,
+				"cantidad": 768
+			}
+		]
+	},
+	{
+		"nombre": "Centidel"
+	},
+	{
+		"nombre": "Agimba",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 424.65,
+				"cantidad": 949
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.60,
+				"cantidad": 10
+			}
+		]
+	},
+	{
+		"nombre": "Flashdog"
+	},
+	{
+		"nombre": "Zoonder",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 626.02,
+				"cantidad": 621
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 298.93,
+				"cantidad": 841
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 809.20,
+				"cantidad": 455
+			}
+		]
+	},
+	{
+		"nombre": "Wikivu",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.40,
+				"cantidad": 714
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 864.40,
+				"cantidad": 698
+			}
+		]
+	},
+	{
+		"nombre": "Meevee",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 760.29,
+				"cantidad": 102
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1031.56,
+				"cantidad": 764
+			}
+		]
+	},
+	{
+		"nombre": "Plambee"
+	},
+	{
+		"nombre": "Gigashots",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.85,
+				"cantidad": 588
+			}
+		]
+	},
+	{
+		"nombre": "Dabjam",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 338.58,
+				"cantidad": 223
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.05,
+				"cantidad": 299
+			}
+		]
+	},
+	{
+		"nombre": "Skinix",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 635.09,
+				"cantidad": 548
+			}
+		]
+	},
+	{
+		"nombre": "Tavu",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.41,
+				"cantidad": 31
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 777.77,
+				"cantidad": 759
+			}
+		]
+	},
+	{
+		"nombre": "Photobug"
+	},
+	{
+		"nombre": "Meemm",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.88,
+				"cantidad": 193
+			}
+		]
+	},
+	{
+		"nombre": "Voolith",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.57,
+				"cantidad": 156
+			}
+		]
+	},
+	{
+		"nombre": "Riffpedia",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 480.70,
+				"cantidad": 339
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.31,
+				"cantidad": 139
+			}
+		]
+	},
+	{
+		"nombre": "Mymm"
+	},
+	{
+		"nombre": "Bluejam",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.30,
+				"cantidad": 778
+			}
+		]
+	},
+	{
+		"nombre": "Aivee"
+	},
+	{
+		"nombre": "Izio",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.41,
+				"cantidad": 856
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1344.68,
+				"cantidad": 961
+			}
+		]
+	},
+	{
+		"nombre": "Skipfire"
+	},
+	{
+		"nombre": "Rhynoodle"
+	},
+	{
+		"nombre": "Topicware"
+	},
+	{
+		"nombre": "Twitterworks",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.35,
+				"cantidad": 555
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 812.06,
+				"cantidad": 990
+			}
+		]
+	},
+	{
+		"nombre": "Wordtune",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 455.31,
+				"cantidad": 785
+			}
+		]
+	},
+	{
+		"nombre": "Viva",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1133.85,
+				"cantidad": 439
+			}
+		]
+	},
+	{
+		"nombre": "Roodel",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1359.96,
+				"cantidad": 546
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 991.48,
+				"cantidad": 730
+			}
+		]
+	},
+	{
+		"nombre": "Tazz",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 295.48,
+				"cantidad": 959
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 396.53,
+				"cantidad": 569
+			}
+		]
+	},
+	{
+		"nombre": "Browsebug"
+	},
+	{
+		"nombre": "Dynava"
+	},
+	{
+		"nombre": "Skipstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.21,
+				"cantidad": 326
+			}
+		]
+	},
+	{
+		"nombre": "Fivebridge",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.13,
+				"cantidad": 218
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.94,
+				"cantidad": 160
+			}
+		]
+	},
+	{
+		"nombre": "Kazu"
+	},
+	{
+		"nombre": "Mynte"
+	},
+	{
+		"nombre": "Dynava",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 512.54,
+				"cantidad": 221
+			}
+		]
+	},
+	{
+		"nombre": "Jayo"
+	},
+	{
+		"nombre": "Fivechat"
+	},
+	{
+		"nombre": "Ooba",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 423.30,
+				"cantidad": 472
+			}
+		]
+	},
+	{
+		"nombre": "Lazz",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.96,
+				"cantidad": 399
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.79,
+				"cantidad": 797
+			}
+		]
+	},
+	{
+		"nombre": "Skajo",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1265.57,
+				"cantidad": 939
+			}
+		]
+	},
+	{
+		"nombre": "Yambee",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 333.40,
+				"cantidad": 174
+			}
+		]
+	},
+	{
+		"nombre": "Browseblab",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 619.86,
+				"cantidad": 237
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 469.08,
+				"cantidad": 454
+			}
+		]
+	},
+	{
+		"nombre": "LiveZ"
+	},
+	{
+		"nombre": "Zoonoodle"
+	},
+	{
+		"nombre": "Agimba",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 415.04,
+				"cantidad": 619
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 641.36,
+				"cantidad": 936
+			}
+		]
+	},
+	{
+		"nombre": "Topicware"
+	},
+	{
+		"nombre": "Twiyo",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 827.68,
+				"cantidad": 506
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 682.41,
+				"cantidad": 719
+			}
+		]
+	},
+	{
+		"nombre": "Skimia",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.15,
+				"cantidad": 250
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 496.75,
+				"cantidad": 210
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 746.39,
+				"cantidad": 691
+			}
+		]
+	},
+	{
+		"nombre": "Feednation"
+	},
+	{
+		"nombre": "Bubblebox",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.84,
+				"cantidad": 775
+			}
+		]
+	},
+	{
+		"nombre": "Riffpath"
+	},
+	{
+		"nombre": "Feedfire"
+	},
+	{
+		"nombre": "Dynazzy"
+	},
+	{
+		"nombre": "Topdrive",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.69,
+				"cantidad": 150
+			}
+		]
+	},
+	{
+		"nombre": "Gabcube",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1064.26,
+				"cantidad": 577
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 880.30,
+				"cantidad": 841
+			}
+		]
+	},
+	{
+		"nombre": "Fanoodle",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.26,
+				"cantidad": 85
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 378.68,
+				"cantidad": 863
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 291.15,
+				"cantidad": 190
+			}
+		]
+	},
+	{
+		"nombre": "LiveZ",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1265.94,
+				"cantidad": 946
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.12,
+				"cantidad": 757
+			}
+		]
+	},
+	{
+		"nombre": "Avavee"
+	},
+	{
+		"nombre": "Jamia",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 915.19,
+				"cantidad": 99
+			}
+		]
+	},
+	{
+		"nombre": "Skiptube",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1022.85,
+				"cantidad": 369
+			}
+		]
+	},
+	{
+		"nombre": "Mydeo",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 391.58,
+				"cantidad": 108
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 307.01,
+				"cantidad": 862
+			}
+		]
+	},
+	{
+		"nombre": "Meembee",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1237.80,
+				"cantidad": 946
+			}
+		]
+	},
+	{
+		"nombre": "JumpXS",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.86,
+				"cantidad": 542
+			}
+		]
+	},
+	{
+		"nombre": "Yozio"
+	},
+	{
+		"nombre": "Jetpulse"
+	},
+	{
+		"nombre": "Edgeclub"
+	},
+	{
+		"nombre": "InnoZ",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 562.17,
+				"cantidad": 750
+			}
+		]
+	},
+	{
+		"nombre": "Yodoo"
+	},
+	{
+		"nombre": "Zazio",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 308.25,
+				"cantidad": 969
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.57,
+				"cantidad": 872
+			}
+		]
+	},
+	{
+		"nombre": "Mymm",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 489.94,
+				"cantidad": 815
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.17,
+				"cantidad": 984
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 9.20,
+				"cantidad": 296
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 787.55,
+				"cantidad": 852
+			}
+		]
+	},
+	{
+		"nombre": "Wikivu",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 691.31,
+				"cantidad": 526
+			}
+		]
+	},
+	{
+		"nombre": "Camido"
+	},
+	{
+		"nombre": "Jaloo",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 343.56,
+				"cantidad": 781
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 408.91,
+				"cantidad": 993
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1232.27,
+				"cantidad": 885
+			}
+		]
+	},
+	{
+		"nombre": "Yata"
+	},
+	{
+		"nombre": "Linklinks"
+	},
+	{
+		"nombre": "Tagopia"
+	},
+	{
+		"nombre": "Devcast",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.73,
+				"cantidad": 98
+			}
+		]
+	},
+	{
+		"nombre": "Riffwire"
+	},
+	{
+		"nombre": "Youtags",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 998.43,
+				"cantidad": 595
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 368.68,
+				"cantidad": 19
+			}
+		]
+	},
+	{
+		"nombre": "Voonte",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.26,
+				"cantidad": 285
+			}
+		]
+	},
+	{
+		"nombre": "Eidel"
+	},
+	{
+		"nombre": "Ailane",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 791.49,
+				"cantidad": 85
+			}
+		]
+	},
+	{
+		"nombre": "Blognation"
+	},
+	{
+		"nombre": "Blognation"
+	},
+	{
+		"nombre": "Babbleblab"
+	},
+	{
+		"nombre": "BlogXS",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.79,
+				"cantidad": 329
+			}
+		]
+	},
+	{
+		"nombre": "Lajo",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 972.24,
+				"cantidad": 887
+			}
+		]
+	},
+	{
+		"nombre": "Meeveo"
+	},
+	{
+		"nombre": "Riffpath",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 373.62,
+				"cantidad": 739
+			}
+		]
+	},
+	{
+		"nombre": "Topiclounge",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 404.46,
+				"cantidad": 727
+			}
+		]
+	},
+	{
+		"nombre": "Feedbug",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 986.77,
+				"cantidad": 495
+			}
+		]
+	},
+	{
+		"nombre": "Centidel"
+	},
+	{
+		"nombre": "Tekfly",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.05,
+				"cantidad": 874
+			}
+		]
+	},
+	{
+		"nombre": "Omba",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.72,
+				"cantidad": 151
+			}
+		]
+	},
+	{
+		"nombre": "Centizu",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 388.58,
+				"cantidad": 676
+			}
+		]
+	},
+	{
+		"nombre": "Realfire"
+	},
+	{
+		"nombre": "Centizu"
+	},
+	{
+		"nombre": "Realblab",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 587.35,
+				"cantidad": 418
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1220.74,
+				"cantidad": 918
+			}
+		]
+	},
+	{
+		"nombre": "Jabbercube",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.86,
+				"cantidad": 475
+			}
+		]
+	},
+	{
+		"nombre": "Zoombox",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.04,
+				"cantidad": 903
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.35,
+				"cantidad": 412
+			}
+		]
+	},
+	{
+		"nombre": "Rhybox"
+	},
+	{
+		"nombre": "Gabtype"
+	},
+	{
+		"nombre": "Realbuzz"
+	},
+	{
+		"nombre": "Realbridge",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.56,
+				"cantidad": 608
+			}
+		]
+	},
+	{
+		"nombre": "Katz",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.69,
+				"cantidad": 730
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 353.55,
+				"cantidad": 522
+			}
+		]
+	},
+	{
+		"nombre": "Quinu"
+	},
+	{
+		"nombre": "Topicblab",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.65,
+				"cantidad": 296
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.84,
+				"cantidad": 508
+			}
+		]
+	},
+	{
+		"nombre": "Eazzy",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 560.06,
+				"cantidad": 700
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 348.94,
+				"cantidad": 697
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.37,
+				"cantidad": 858
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 246.56,
+				"cantidad": 149
+			}
+		]
+	},
+	{
+		"nombre": "Buzzster",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.31,
+				"cantidad": 223
+			}
+		]
+	},
+	{
+		"nombre": "Realpoint"
+	},
+	{
+		"nombre": "Tazzy",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 284.59,
+				"cantidad": 957
+			}
+		]
+	},
+	{
+		"nombre": "Gabspot"
+	},
+	{
+		"nombre": "Innojam"
+	},
+	{
+		"nombre": "Jaxbean",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 729.27,
+				"cantidad": 767
+			}
+		]
+	},
+	{
+		"nombre": "Janyx",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 729.64,
+				"cantidad": 933
+			}
+		]
+	},
+	{
+		"nombre": "Brightbean",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 861.12,
+				"cantidad": 612
+			}
+		]
+	},
+	{
+		"nombre": "Demivee"
+	},
+	{
+		"nombre": "Kwideo"
+	},
+	{
+		"nombre": "Realpoint"
+	},
+	{
+		"nombre": "Zoonoodle"
+	},
+	{
+		"nombre": "Gigaclub"
+	},
+	{
+		"nombre": "Katz",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 427.31,
+				"cantidad": 705
+			}
+		]
+	},
+	{
+		"nombre": "Youspan"
+	},
+	{
+		"nombre": "Miboo"
+	},
+	{
+		"nombre": "Eimbee",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.69,
+				"cantidad": 325
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1116.32,
+				"cantidad": 685
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 584.58,
+				"cantidad": 706
+			}
+		]
+	},
+	{
+		"nombre": "Jaloo"
+	},
+	{
+		"nombre": "Zava",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.25,
+				"cantidad": 122
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.74,
+				"cantidad": 354
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 613.51,
+				"cantidad": 927
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.37,
+				"cantidad": 733
+			}
+		]
+	},
+	{
+		"nombre": "Blogpad",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.67,
+				"cantidad": 511
+			}
+		]
+	},
+	{
+		"nombre": "Dabtype",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 624.91,
+				"cantidad": 725
+			}
+		]
+	},
+	{
+		"nombre": "Innotype",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1081.11,
+				"cantidad": 145
+			}
+		]
+	},
+	{
+		"nombre": "Linkbuzz"
+	},
+	{
+		"nombre": "Aivee",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 325.73,
+				"cantidad": 809
+			}
+		]
+	},
+	{
+		"nombre": "Flashdog"
+	},
+	{
+		"nombre": "Gabtune"
+	},
+	{
+		"nombre": "Vitz",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 356.59,
+				"cantidad": 15
+			}
+		]
+	},
+	{
+		"nombre": "Livefish",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.96,
+				"cantidad": 9
+			}
+		]
+	},
+	{
+		"nombre": "Yacero"
+	},
+	{
+		"nombre": "Tazzy"
+	},
+	{
+		"nombre": "Feedmix",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 387.32,
+				"cantidad": 438
+			}
+		]
+	},
+	{
+		"nombre": "Twinder"
+	},
+	{
+		"nombre": "Voomm"
+	},
+	{
+		"nombre": "Pixonyx",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.08,
+				"cantidad": 313
+			}
+		]
+	},
+	{
+		"nombre": "Tekfly",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1117.06,
+				"cantidad": 835
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.70,
+				"cantidad": 793
+			}
+		]
+	},
+	{
+		"nombre": "Riffpath",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 459.11,
+				"cantidad": 363
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 162.66,
+				"cantidad": 437
+			}
+		]
+	},
+	{
+		"nombre": "Zooxo"
+	},
+	{
+		"nombre": "Yata"
+	},
+	{
+		"nombre": "Kare",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.05,
+				"cantidad": 223
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.58,
+				"cantidad": 463
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 477.21,
+				"cantidad": 573
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.85,
+				"cantidad": 792
+			}
+		]
+	},
+	{
+		"nombre": "BlogXS",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 795.14,
+				"cantidad": 886
+			}
+		]
+	},
+	{
+		"nombre": "Quimm",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 359.15,
+				"cantidad": 89
+			}
+		]
+	},
+	{
+		"nombre": "BlogXS",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.52,
+				"cantidad": 759
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.60,
+				"cantidad": 244
+			}
+		]
+	},
+	{
+		"nombre": "Zoomcast",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 751.85,
+				"cantidad": 144
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.07,
+				"cantidad": 111
+			}
+		]
+	},
+	{
+		"nombre": "Kaymbo",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.43,
+				"cantidad": 188
+			}
+		]
+	},
+	{
+		"nombre": "Edgeclub"
+	},
+	{
+		"nombre": "Jayo"
+	},
+	{
+		"nombre": "Plajo",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.53,
+				"cantidad": 484
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 927.26,
+				"cantidad": 235
+			}
+		]
+	},
+	{
+		"nombre": "Realpoint",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1269.93,
+				"cantidad": 781
+			}
+		]
+	},
+	{
+		"nombre": "Quimm",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.99,
+				"cantidad": 0
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.33,
+				"cantidad": 295
+			}
+		]
+	},
+	{
+		"nombre": "Yacero"
+	},
+	{
+		"nombre": "Yambee"
+	},
+	{
+		"nombre": "Trupe",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 923.06,
+				"cantidad": 935
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 9.24,
+				"cantidad": 613
+			}
+		]
+	},
+	{
+		"nombre": "Devcast",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 722.67,
+				"cantidad": 476
+			}
+		]
+	},
+	{
+		"nombre": "Aimbo",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 595.53,
+				"cantidad": 849
+			}
+		]
+	},
+	{
+		"nombre": "Quimba"
+	},
+	{
+		"nombre": "Talane"
+	},
+	{
+		"nombre": "Rhynoodle"
+	},
+	{
+		"nombre": "Linkbuzz"
+	},
+	{
+		"nombre": "Avamm",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 676.73,
+				"cantidad": 520
+			}
+		]
+	},
+	{
+		"nombre": "JumpXS",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 495.66,
+				"cantidad": 871
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 434.52,
+				"cantidad": 945
+			}
+		]
+	},
+	{
+		"nombre": "Dabshots",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 286.28,
+				"cantidad": 575
+			}
+		]
+	},
+	{
+		"nombre": "Eazzy",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 357.89,
+				"cantidad": 697
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.21,
+				"cantidad": 198
+			}
+		]
+	},
+	{
+		"nombre": "Jamia",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.61,
+				"cantidad": 85
+			}
+		]
+	},
+	{
+		"nombre": "Jabbercube",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 796.64,
+				"cantidad": 488
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 576.21,
+				"cantidad": 32
+			}
+		]
+	},
+	{
+		"nombre": "Dynazzy",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.23,
+				"cantidad": 191
+			}
+		]
+	},
+	{
+		"nombre": "Blogtag"
+	},
+	{
+		"nombre": "Twitterwire"
+	},
+	{
+		"nombre": "Edgepulse",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 647.14,
+				"cantidad": 894
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.21,
+				"cantidad": 815
+			}
+		]
+	},
+	{
+		"nombre": "Topicware",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 831.49,
+				"cantidad": 771
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 273.99,
+				"cantidad": 570
+			}
+		]
+	},
+	{
+		"nombre": "Yata",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 414.83,
+				"cantidad": 330
+			}
+		]
+	},
+	{
+		"nombre": "Flashset",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 684.50,
+				"cantidad": 92
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.07,
+				"cantidad": 493
+			}
+		]
+	},
+	{
+		"nombre": "Dynava"
+	},
+	{
+		"nombre": "Pixope",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 10.30,
+				"cantidad": 835
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1227.29,
+				"cantidad": 481
+			}
+		]
+	},
+	{
+		"nombre": "Flipbug"
+	},
+	{
+		"nombre": "Muxo",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.25,
+				"cantidad": 756
+			}
+		]
+	},
+	{
+		"nombre": "Yambee",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 898.06,
+				"cantidad": 496
+			}
+		]
+	},
+	{
+		"nombre": "Zoomdog",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 316.05,
+				"cantidad": 827
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 382.55,
+				"cantidad": 81
+			}
+		]
+	},
+	{
+		"nombre": "Bluejam",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.57,
+				"cantidad": 434
+			}
+		]
+	},
+	{
+		"nombre": "Riffpath",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.40,
+				"cantidad": 66
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1270.02,
+				"cantidad": 244
+			}
+		]
+	},
+	{
+		"nombre": "Tagcat",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 959.69,
+				"cantidad": 312
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.56,
+				"cantidad": 983
+			}
+		]
+	},
+	{
+		"nombre": "Livepath",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 364.35,
+				"cantidad": 342
+			}
+		]
+	},
+	{
+		"nombre": "JumpXS",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.14,
+				"cantidad": 636
+			}
+		]
+	},
+	{
+		"nombre": "Mycat",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 662.75,
+				"cantidad": 342
+			}
+		]
+	},
+	{
+		"nombre": "Wikizz",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 432.53,
+				"cantidad": 750
+			}
+		]
+	},
+	{
+		"nombre": "Oozz"
+	},
+	{
+		"nombre": "Fanoodle",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 387.06,
+				"cantidad": 616
+			}
+		]
+	},
+	{
+		"nombre": "Thoughtstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.10,
+				"cantidad": 425
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 449.94,
+				"cantidad": 868
+			}
+		]
+	},
+	{
+		"nombre": "Aivee",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.50,
+				"cantidad": 40
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.55,
+				"cantidad": 755
+			}
+		]
+	},
+	{
+		"nombre": "Centimia"
+	},
+	{
+		"nombre": "Yodo"
+	},
+	{
+		"nombre": "Mudo",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1204.69,
+				"cantidad": 347
+			}
+		]
+	},
+	{
+		"nombre": "Centidel",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.95,
+				"cantidad": 902
+			}
+		]
+	},
+	{
+		"nombre": "Topiclounge"
+	},
+	{
+		"nombre": "Rhybox",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 385.04,
+				"cantidad": 106
+			}
+		]
+	},
+	{
+		"nombre": "Yodo"
+	},
+	{
+		"nombre": "Eazzy",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.53,
+				"cantidad": 564
+			}
+		]
+	},
+	{
+		"nombre": "Dynabox",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.06,
+				"cantidad": 878
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 737.31,
+				"cantidad": 227
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.76,
+				"cantidad": 345
+			}
+		]
+	},
+	{
+		"nombre": "Zoovu"
+	},
+	{
+		"nombre": "Flashpoint",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 546.01,
+				"cantidad": 173
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.02,
+				"cantidad": 417
+			}
+		]
+	},
+	{
+		"nombre": "Kwinu",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.32,
+				"cantidad": 91
+			}
+		]
+	},
+	{
+		"nombre": "Feedspan",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1132.26,
+				"cantidad": 198
+			}
+		]
+	},
+	{
+		"nombre": "Miboo",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 360.11,
+				"cantidad": 580
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1240.92,
+				"cantidad": 660
+			}
+		]
+	},
+	{
+		"nombre": "Quinu"
+	},
+	{
+		"nombre": "Mita"
+	},
+	{
+		"nombre": "Riffpedia",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 421.73,
+				"cantidad": 564
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.24,
+				"cantidad": 31
+			}
+		]
+	},
+	{
+		"nombre": "Wordpedia"
+	},
+	{
+		"nombre": "Topicshots",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.33,
+				"cantidad": 834
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 394.11,
+				"cantidad": 842
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.63,
+				"cantidad": 509
+			}
+		]
+	},
+	{
+		"nombre": "Divavu",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 636.02,
+				"cantidad": 266
+			}
+		]
+	},
+	{
+		"nombre": "Cogilith"
+	},
+	{
+		"nombre": "Yamia",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.53,
+				"cantidad": 487
+			}
+		]
+	},
+	{
+		"nombre": "Blogtag"
+	},
+	{
+		"nombre": "Aivee",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 817.04,
+				"cantidad": 812
+			}
+		]
+	},
+	{
+		"nombre": "Tambee",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 343.92,
+				"cantidad": 549
+			}
+		]
+	},
+	{
+		"nombre": "Quatz"
+	},
+	{
+		"nombre": "Leexo",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 474.52,
+				"cantidad": 24
+			}
+		]
+	},
+	{
+		"nombre": "Twitterbridge"
+	},
+	{
+		"nombre": "Realbuzz"
+	},
+	{
+		"nombre": "Leenti",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 413.48,
+				"cantidad": 823
+			}
+		]
+	},
+	{
+		"nombre": "Topiclounge",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.87,
+				"cantidad": 630
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.42,
+				"cantidad": 373
+			}
+		]
+	},
+	{
+		"nombre": "Kayveo"
+	},
+	{
+		"nombre": "Katz",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 524.71,
+				"cantidad": 114
+			}
+		]
+	},
+	{
+		"nombre": "Dabvine",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.83,
+				"cantidad": 657
+			}
+		]
+	},
+	{
+		"nombre": "Browsecat",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.31,
+				"cantidad": 409
+			}
+		]
+	},
+	{
+		"nombre": "Fanoodle",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 331.41,
+				"cantidad": 252
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 392.32,
+				"cantidad": 169
+			}
+		]
+	},
+	{
+		"nombre": "Oyonder",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.44,
+				"cantidad": 875
+			}
+		]
+	},
+	{
+		"nombre": "Yodoo"
+	},
+	{
+		"nombre": "Yambee"
+	},
+	{
+		"nombre": "Dabvine"
+	},
+	{
+		"nombre": "Skyndu",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 188.70,
+				"cantidad": 152
+			}
+		]
+	},
+	{
+		"nombre": "Thoughtbeat",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 460.14,
+				"cantidad": 623
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 722.59,
+				"cantidad": 681
+			}
+		]
+	},
+	{
+		"nombre": "Jabbertype",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.58,
+				"cantidad": 272
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 303.98,
+				"cantidad": 784
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 902.00,
+				"cantidad": 410
+			}
+		]
+	},
+	{
+		"nombre": "Zoomlounge",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1369.28,
+				"cantidad": 653
+			}
+		]
+	},
+	{
+		"nombre": "Blogspan",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 149.24,
+				"cantidad": 98
+			}
+		]
+	},
+	{
+		"nombre": "Minyx",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 816.88,
+				"cantidad": 922
+			}
+		]
+	},
+	{
+		"nombre": "Kwinu",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 450.00,
+				"cantidad": 868
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 236.77,
+				"cantidad": 803
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.95,
+				"cantidad": 235
+			}
+		]
+	},
+	{
+		"nombre": "Jamia",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1379.96,
+				"cantidad": 27
+			}
+		]
+	},
+	{
+		"nombre": "Centidel",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 946.40,
+				"cantidad": 348
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.05,
+				"cantidad": 57
+			}
+		]
+	},
+	{
+		"nombre": "Chatterbridge",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1142.93,
+				"cantidad": 714
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.58,
+				"cantidad": 82
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.18,
+				"cantidad": 947
+			}
+		]
+	},
+	{
+		"nombre": "Fliptune",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 754.06,
+				"cantidad": 53
+			}
+		]
+	},
+	{
+		"nombre": "Youfeed"
+	},
+	{
+		"nombre": "Dynabox",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.77,
+				"cantidad": 637
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 410.19,
+				"cantidad": 551
+			}
+		]
+	},
+	{
+		"nombre": "Meevee"
+	},
+	{
+		"nombre": "Twitterlist",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1154.76,
+				"cantidad": 863
+			}
+		]
+	},
+	{
+		"nombre": "Wordtune",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 403.36,
+				"cantidad": 479
+			}
+		]
+	},
+	{
+		"nombre": "Skimia",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.32,
+				"cantidad": 214
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 539.46,
+				"cantidad": 66
+			}
+		]
+	},
+	{
+		"nombre": "Youfeed"
+	},
+	{
+		"nombre": "Browsecat",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 247.40,
+				"cantidad": 299
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 674.55,
+				"cantidad": 272
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 671.97,
+				"cantidad": 471
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.22,
+				"cantidad": 379
+			}
+		]
+	},
+	{
+		"nombre": "Yodoo"
+	},
+	{
+		"nombre": "Kare",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 362.00,
+				"cantidad": 829
+			}
+		]
+	},
+	{
+		"nombre": "Oyoyo",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.17,
+				"cantidad": 315
+			}
+		]
+	},
+	{
+		"nombre": "Skyba",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1.71,
+				"cantidad": 169
+			}
+		]
+	},
+	{
+		"nombre": "Eazzy",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 532.61,
+				"cantidad": 652
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1.22,
+				"cantidad": 243
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.64,
+				"cantidad": 240
+			}
+		]
+	},
+	{
+		"nombre": "Eazzy",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 158.07,
+				"cantidad": 679
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.80,
+				"cantidad": 758
+			}
+		]
+	},
+	{
+		"nombre": "Yacero"
+	},
+	{
+		"nombre": "Oba",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 414.32,
+				"cantidad": 805
+			}
+		]
+	},
+	{
+		"nombre": "Dablist",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1270.31,
+				"cantidad": 919
+			}
+		]
+	},
+	{
+		"nombre": "Midel"
+	},
+	{
+		"nombre": "Quimba",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1285.13,
+				"cantidad": 744
+			}
+		]
+	},
+	{
+		"nombre": "Kazu"
+	},
+	{
+		"nombre": "Livetube"
+	},
+	{
+		"nombre": "Gigaclub",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.35,
+				"cantidad": 825
+			}
+		]
+	},
+	{
+		"nombre": "Dabvine",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.97,
+				"cantidad": 858
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 806.40,
+				"cantidad": 961
+			}
+		]
+	},
+	{
+		"nombre": "Jetpulse",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.32,
+				"cantidad": 387
+			}
+		]
+	},
+	{
+		"nombre": "Skiptube",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 738.06,
+				"cantidad": 834
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.60,
+				"cantidad": 21
+			}
+		]
+	},
+	{
+		"nombre": "Einti",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 846.50,
+				"cantidad": 132
+			}
+		]
+	},
+	{
+		"nombre": "Bubblebox",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 743.71,
+				"cantidad": 904
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1223.63,
+				"cantidad": 782
+			}
+		]
+	},
+	{
+		"nombre": "Livetube"
+	},
+	{
+		"nombre": "Browsedrive"
+	},
+	{
+		"nombre": "Yacero",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 934.80,
+				"cantidad": 755
+			}
+		]
+	},
+	{
+		"nombre": "Yadel"
+	},
+	{
+		"nombre": "Jayo",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1178.47,
+				"cantidad": 337
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.19,
+				"cantidad": 338
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1092.40,
+				"cantidad": 731
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.16,
+				"cantidad": 236
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1169.93,
+				"cantidad": 63
+			}
+		]
+	},
+	{
+		"nombre": "Thoughtstorm"
+	},
+	{
+		"nombre": "Browseblab"
+	},
+	{
+		"nombre": "Livetube",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 447.00,
+				"cantidad": 510
+			}
+		]
+	},
+	{
+		"nombre": "Vidoo",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 697.02,
+				"cantidad": 668
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1341.23,
+				"cantidad": 520
+			}
+		]
+	},
+	{
+		"nombre": "Oyonder",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1068.43,
+				"cantidad": 992
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 431.53,
+				"cantidad": 307
+			}
+		]
+	},
+	{
+		"nombre": "Trudeo",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1263.37,
+				"cantidad": 401
+			}
+		]
+	},
+	{
+		"nombre": "Dynabox"
+	},
+	{
+		"nombre": "Quinu",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.32,
+				"cantidad": 191
+			}
+		]
+	},
+	{
+		"nombre": "Youspan",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 317.09,
+				"cantidad": 811
+			}
+		]
+	},
+	{
+		"nombre": "Fliptune",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 730.55,
+				"cantidad": 16
+			}
+		]
+	},
+	{
+		"nombre": "Zooxo"
+	},
+	{
+		"nombre": "LiveZ",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 739.40,
+				"cantidad": 165
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 10.49,
+				"cantidad": 904
+			}
+		]
+	},
+	{
+		"nombre": "Youfeed"
+	},
+	{
+		"nombre": "Flipopia",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 377.32,
+				"cantidad": 639
+			}
+		]
+	},
+	{
+		"nombre": "Myworks"
+	},
+	{
+		"nombre": "Fanoodle"
+	},
+	{
+		"nombre": "Meembee"
+	},
+	{
+		"nombre": "Kazio",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.71,
+				"cantidad": 964
+			}
+		]
+	},
+	{
+		"nombre": "Photobean"
+	},
+	{
+		"nombre": "Quimba",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 34.05,
+				"cantidad": 93
+			}
+		]
+	},
+	{
+		"nombre": "Kamba",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 664.76,
+				"cantidad": 170
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 629.15,
+				"cantidad": 292
+			}
+		]
+	},
+	{
+		"nombre": "Flipopia",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 833.09,
+				"cantidad": 522
+			}
+		]
+	},
+	{
+		"nombre": "Jayo",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 688.51,
+				"cantidad": 329
+			}
+		]
+	},
+	{
+		"nombre": "Quatz"
+	},
+	{
+		"nombre": "Cogidoo"
+	},
+	{
+		"nombre": "Tagpad",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 687.57,
+				"cantidad": 892
+			}
+		]
+	},
+	{
+		"nombre": "Ntags",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.13,
+				"cantidad": 959
+			}
+		]
+	},
+	{
+		"nombre": "Zoombeat"
+	},
+	{
+		"nombre": "Rooxo",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 995.91,
+				"cantidad": 232
+			}
+		]
+	},
+	{
+		"nombre": "Mydo",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 11.26,
+				"cantidad": 487
+			}
+		]
+	},
+	{
+		"nombre": "Brainbox",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 360.54,
+				"cantidad": 192
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 977.77,
+				"cantidad": 642
+			}
+		]
+	},
+	{
+		"nombre": "Rhycero",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 3.88,
+				"cantidad": 528
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.39,
+				"cantidad": 9
+			}
+		]
+	},
+	{
+		"nombre": "Vinte",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 650.17,
+				"cantidad": 259
+			}
+		]
+	},
+	{
+		"nombre": "Oyonder"
+	},
+	{
+		"nombre": "Vinder"
+	},
+	{
+		"nombre": "Buzzdog",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1484.91,
+				"cantidad": 111
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 195.86,
+				"cantidad": 158
+			}
+		]
+	},
+	{
+		"nombre": "Feedspan",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.74,
+				"cantidad": 430
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.12,
+				"cantidad": 33
+			}
+		]
+	},
+	{
+		"nombre": "Avamba"
+	},
+	{
+		"nombre": "Eazzy",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1059.22,
+				"cantidad": 149
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 521.15,
+				"cantidad": 915
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 647.57,
+				"cantidad": 428
+			}
+		]
+	},
+	{
+		"nombre": "Trilith"
+	},
+	{
+		"nombre": "Tavu",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.29,
+				"cantidad": 94
+			}
+		]
+	},
+	{
+		"nombre": "Jetwire",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.26,
+				"cantidad": 266
+			}
+		]
+	},
+	{
+		"nombre": "Yoveo"
+	},
+	{
+		"nombre": "Feedbug",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 802.67,
+				"cantidad": 291
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.54,
+				"cantidad": 241
+			}
+		]
+	},
+	{
+		"nombre": "Meemm"
+	},
+	{
+		"nombre": "Gabspot"
+	},
+	{
+		"nombre": "Devify",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 523.87,
+				"cantidad": 86
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 505.41,
+				"cantidad": 160
+			}
+		]
+	},
+	{
+		"nombre": "Dabfeed"
+	},
+	{
+		"nombre": "Voonix",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 654.97,
+				"cantidad": 884
+			}
+		]
+	},
+	{
+		"nombre": "Wordtune"
+	},
+	{
+		"nombre": "Tanoodle"
+	},
+	{
+		"nombre": "Pixope"
+	},
+	{
+		"nombre": "Fiveclub",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.85,
+				"cantidad": 384
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 771.11,
+				"cantidad": 26
+			}
+		]
+	},
+	{
+		"nombre": "Midel",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 410.87,
+				"cantidad": 430
+			}
+		]
+	},
+	{
+		"nombre": "Meevee",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.88,
+				"cantidad": 300
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 687.24,
+				"cantidad": 915
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 400.00,
+				"cantidad": 890
+			}
+		]
+	},
+	{
+		"nombre": "Topicstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 716.34,
+				"cantidad": 261
+			}
+		]
+	},
+	{
+		"nombre": "Buzzshare",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.34,
+				"cantidad": 693
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.80,
+				"cantidad": 689
+			}
+		]
+	},
+	{
+		"nombre": "Buzzbean",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.47,
+				"cantidad": 655
+			}
+		]
+	},
+	{
+		"nombre": "Katz"
+	},
+	{
+		"nombre": "Skipstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1042.52,
+				"cantidad": 527
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1076.99,
+				"cantidad": 851
+			}
+		]
+	},
+	{
+		"nombre": "Abata"
+	},
+	{
+		"nombre": "Blognation",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1094.33,
+				"cantidad": 784
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 9.00,
+				"cantidad": 378
+			}
+		]
+	},
+	{
+		"nombre": "Jazzy"
+	},
+	{
+		"nombre": "Cogidoo"
+	},
+	{
+		"nombre": "Topicstorm"
+	},
+	{
+		"nombre": "Avamm",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 319.07,
+				"cantidad": 335
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 786.49,
+				"cantidad": 103
+			}
+		]
+	},
+	{
+		"nombre": "Blogpad"
+	},
+	{
+		"nombre": "Voonyx",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 205.33,
+				"cantidad": 808
+			}
+		]
+	},
+	{
+		"nombre": "Quaxo",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 689.54,
+				"cantidad": 215
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.03,
+				"cantidad": 190
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 682.31,
+				"cantidad": 128
+			}
+		]
+	},
+	{
+		"nombre": "Tambee",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 465.12,
+				"cantidad": 92
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.48,
+				"cantidad": 512
+			}
+		]
+	},
+	{
+		"nombre": "Tazz"
+	},
+	{
+		"nombre": "Yata"
+	},
+	{
+		"nombre": "Mita"
+	},
+	{
+		"nombre": "Thoughtbridge",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 343.04,
+				"cantidad": 822
+			}
+		]
+	},
+	{
+		"nombre": "Agivu",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1298.20,
+				"cantidad": 825
+			}
+		]
+	},
+	{
+		"nombre": "Skimia"
+	},
+	{
+		"nombre": "Camido",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 341.17,
+				"cantidad": 354
+			}
+		]
+	},
+	{
+		"nombre": "Youbridge"
+	},
+	{
+		"nombre": "Meevee",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1338.71,
+				"cantidad": 779
+			}
+		]
+	},
+	{
+		"nombre": "Yodoo",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.53,
+				"cantidad": 788
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1077.42,
+				"cantidad": 956
+			}
+		]
+	},
+	{
+		"nombre": "Kazio",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 874.39,
+				"cantidad": 540
+			}
+		]
+	},
+	{
+		"nombre": "Mynte"
+	},
+	{
+		"nombre": "Skyndu"
+	},
+	{
+		"nombre": "Skinix"
+	},
+	{
+		"nombre": "Muxo",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1350.22,
+				"cantidad": 470
+			}
+		]
+	},
+	{
+		"nombre": "Tazzy",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.06,
+				"cantidad": 46
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.07,
+				"cantidad": 942
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.59,
+				"cantidad": 500
+			}
+		]
+	},
+	{
+		"nombre": "Zoovu"
+	},
+	{
+		"nombre": "Centizu",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.75,
+				"cantidad": 453
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 329.15,
+				"cantidad": 587
+			}
+		]
+	},
+	{
+		"nombre": "Kamba",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.62,
+				"cantidad": 147
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 570.57,
+				"cantidad": 587
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.38,
+				"cantidad": 961
+			}
+		]
+	},
+	{
+		"nombre": "Zoovu",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 927.17,
+				"cantidad": 342
+			}
+		]
+	},
+	{
+		"nombre": "Dazzlesphere",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.43,
+				"cantidad": 112
+			}
+		]
+	},
+	{
+		"nombre": "Wikivu"
+	},
+	{
+		"nombre": "Meedoo",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 398.24,
+				"cantidad": 444
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.83,
+				"cantidad": 103
+			}
+		]
+	},
+	{
+		"nombre": "Mymm"
+	},
+	{
+		"nombre": "Brainlounge",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 950.56,
+				"cantidad": 803
+			}
+		]
+	},
+	{
+		"nombre": "DabZ",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.01,
+				"cantidad": 546
+			}
+		]
+	},
+	{
+		"nombre": "Skiba",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.50,
+				"cantidad": 106
+			}
+		]
+	},
+	{
+		"nombre": "Twitternation",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 575.41,
+				"cantidad": 217
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 320.80,
+				"cantidad": 480
+			}
+		]
+	},
+	{
+		"nombre": "Centimia",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.79,
+				"cantidad": 402
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 442.77,
+				"cantidad": 24
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1346.72,
+				"cantidad": 652
+			}
+		]
+	},
+	{
+		"nombre": "Skipstorm"
+	},
+	{
+		"nombre": "Tanoodle",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.03,
+				"cantidad": 968
+			}
+		]
+	},
+	{
+		"nombre": "Yozio",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.25,
+				"cantidad": 381
+			}
+		]
+	},
+	{
+		"nombre": "Blogpad",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.89,
+				"cantidad": 606
+			}
+		]
+	},
+	{
+		"nombre": "Babbleopia",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 782.20,
+				"cantidad": 173
+			}
+		]
+	},
+	{
+		"nombre": "Flashdog",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 872.77,
+				"cantidad": 836
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 330.42,
+				"cantidad": 977
+			}
+		]
+	},
+	{
+		"nombre": "Brainverse"
+	},
+	{
+		"nombre": "Abata",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 358.38,
+				"cantidad": 339
+			}
+		]
+	},
+	{
+		"nombre": "Kazio"
+	},
+	{
+		"nombre": "Camimbo"
+	},
+	{
+		"nombre": "Midel",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 749.76,
+				"cantidad": 973
+			}
+		]
+	},
+	{
+		"nombre": "Avamm",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.57,
+				"cantidad": 822
+			}
+		]
+	},
+	{
+		"nombre": "Voolith",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.45,
+				"cantidad": 85
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.26,
+				"cantidad": 394
+			}
+		]
+	},
+	{
+		"nombre": "Aimbo",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1195.55,
+				"cantidad": 630
+			}
+		]
+	},
+	{
+		"nombre": "Photojam"
+	},
+	{
+		"nombre": "Fivechat",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1199.95,
+				"cantidad": 139
+			}
+		]
+	},
+	{
+		"nombre": "Demizz",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 383.85,
+				"cantidad": 350
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 776.40,
+				"cantidad": 910
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 666.28,
+				"cantidad": 378
+			}
+		]
+	},
+	{
+		"nombre": "Geba"
+	},
+	{
+		"nombre": "Cogibox",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.19,
+				"cantidad": 637
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1044.02,
+				"cantidad": 149
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 92.36,
+				"cantidad": 867
+			}
+		]
+	},
+	{
+		"nombre": "Skajo",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 511.46,
+				"cantidad": 885
+			}
+		]
+	},
+	{
+		"nombre": "Dynabox",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 714.74,
+				"cantidad": 744
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 212.23,
+				"cantidad": 354
+			}
+		]
+	},
+	{
+		"nombre": "Voonder"
+	},
+	{
+		"nombre": "Katz"
+	},
+	{
+		"nombre": "Twinder"
+	},
+	{
+		"nombre": "Youspan"
+	},
+	{
+		"nombre": "Kimia",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.66,
+				"cantidad": 967
+			}
+		]
+	},
+	{
+		"nombre": "Kanoodle",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.25,
+				"cantidad": 750
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1407.67,
+				"cantidad": 641
+			}
+		]
+	},
+	{
+		"nombre": "Skajo"
+	},
+	{
+		"nombre": "Ainyx"
+	},
+	{
+		"nombre": "Midel",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.50,
+				"cantidad": 725
+			}
+		]
+	},
+	{
+		"nombre": "Realcube",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 305.78,
+				"cantidad": 776
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.94,
+				"cantidad": 326
+			}
+		]
+	},
+	{
+		"nombre": "Gigashots"
+	},
+	{
+		"nombre": "Latz",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.65,
+				"cantidad": 597
+			}
+		]
+	},
+	{
+		"nombre": "Miboo",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 227.45,
+				"cantidad": 276
+			}
+		]
+	},
+	{
+		"nombre": "BlogXS"
+	},
+	{
+		"nombre": "Yadel",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1247.70,
+				"cantidad": 91
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.80,
+				"cantidad": 145
+			}
+		]
+	},
+	{
+		"nombre": "Jabberbean"
+	},
+	{
+		"nombre": "Livetube",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 309.04,
+				"cantidad": 525
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.27,
+				"cantidad": 288
+			}
+		]
+	},
+	{
+		"nombre": "Rhybox"
+	},
+	{
+		"nombre": "Skiba",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.07,
+				"cantidad": 239
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 9.41,
+				"cantidad": 557
+			}
+		]
+	},
+	{
+		"nombre": "Oozz"
+	},
+	{
+		"nombre": "Jabberstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1222.67,
+				"cantidad": 367
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.33,
+				"cantidad": 195
+			}
+		]
+	},
+	{
+		"nombre": "Flashpoint",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 439.25,
+				"cantidad": 95
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 684.07,
+				"cantidad": 497
+			}
+		]
+	},
+	{
+		"nombre": "Aivee",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.27,
+				"cantidad": 649
+			}
+		]
+	},
+	{
+		"nombre": "Skipfire",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 312.78,
+				"cantidad": 22
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 9.96,
+				"cantidad": 877
+			}
+		]
+	},
+	{
+		"nombre": "Shuffletag",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 549.58,
+				"cantidad": 983
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 645.36,
+				"cantidad": 329
+			}
+		]
+	},
+	{
+		"nombre": "Mudo",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 170.92,
+				"cantidad": 284
+			}
+		]
+	},
+	{
+		"nombre": "Digitube"
+	},
+	{
+		"nombre": "Devshare"
+	},
+	{
+		"nombre": "Youfeed",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 912.18,
+				"cantidad": 91
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 761.53,
+				"cantidad": 963
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.91,
+				"cantidad": 24
+			}
+		]
+	},
+	{
+		"nombre": "Yambee",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 719.17,
+				"cantidad": 839
+			}
+		]
+	},
+	{
+		"nombre": "Brightdog"
+	},
+	{
+		"nombre": "Twimbo",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 579.97,
+				"cantidad": 29
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1078.61,
+				"cantidad": 803
+			}
+		]
+	},
+	{
+		"nombre": "Voomm",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.53,
+				"cantidad": 437
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.87,
+				"cantidad": 371
+			}
+		]
+	},
+	{
+		"nombre": "Youopia"
+	},
+	{
+		"nombre": "Quimba",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1469.22,
+				"cantidad": 469
+			}
+		]
+	},
+	{
+		"nombre": "Roomm"
+	},
+	{
+		"nombre": "Blogpad",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 530.18,
+				"cantidad": 993
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 356.54,
+				"cantidad": 145
+			}
+		]
+	},
+	{
+		"nombre": "Devify",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 292.23,
+				"cantidad": 307
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.41,
+				"cantidad": 228
+			}
+		]
+	},
+	{
+		"nombre": "Mybuzz",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.39,
+				"cantidad": 9
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.04,
+				"cantidad": 702
+			}
+		]
+	},
+	{
+		"nombre": "Jaxspan",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.69,
+				"cantidad": 941
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 413.41,
+				"cantidad": 850
+			}
+		]
+	},
+	{
+		"nombre": "Linkbuzz",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.02,
+				"cantidad": 753
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1156.23,
+				"cantidad": 178
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 448.74,
+				"cantidad": 788
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.56,
+				"cantidad": 221
+			}
+		]
+	},
+	{
+		"nombre": "Tambee",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 702.12,
+				"cantidad": 433
+			}
+		]
+	},
+	{
+		"nombre": "Dabjam"
+	},
+	{
+		"nombre": "Yodoo"
+	},
+	{
+		"nombre": "Twitternation"
+	},
+	{
+		"nombre": "Skynoodle",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.87,
+				"cantidad": 998
+			}
+		]
+	},
+	{
+		"nombre": "Gabcube",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 242.15,
+				"cantidad": 757
+			}
+		]
+	},
+	{
+		"nombre": "Twimbo",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.07,
+				"cantidad": 754
+			}
+		]
+	},
+	{
+		"nombre": "Mycat"
+	},
+	{
+		"nombre": "Livetube"
+	},
+	{
+		"nombre": "Yoveo",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1118.01,
+				"cantidad": 724
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.17,
+				"cantidad": 719
+			}
+		]
+	},
+	{
+		"nombre": "Dazzlesphere",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.47,
+				"cantidad": 734
+			}
+		]
+	},
+	{
+		"nombre": "Twitterbeat"
+	},
+	{
+		"nombre": "Lazz"
+	},
+	{
+		"nombre": "Gabtype"
+	},
+	{
+		"nombre": "Photobug",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.91,
+				"cantidad": 953
+			}
+		]
+	},
+	{
+		"nombre": "Meeveo"
+	},
+	{
+		"nombre": "Edgepulse"
+	},
+	{
+		"nombre": "Thoughtsphere",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 878.08,
+				"cantidad": 395
+			}
+		]
+	},
+	{
+		"nombre": "Miboo"
+	},
+	{
+		"nombre": "Fatz",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.70,
+				"cantidad": 370
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 983.78,
+				"cantidad": 698
+			}
+		]
+	},
+	{
+		"nombre": "Fiveclub"
+	},
+	{
+		"nombre": "Skivee",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 364.93,
+				"cantidad": 477
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1188.37,
+				"cantidad": 658
+			}
+		]
+	},
+	{
+		"nombre": "Mita",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.01,
+				"cantidad": 228
+			}
+		]
+	},
+	{
+		"nombre": "Feednation",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 763.20,
+				"cantidad": 544
+			}
+		]
+	},
+	{
+		"nombre": "Janyx",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.02,
+				"cantidad": 688
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 562.96,
+				"cantidad": 112
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 654.53,
+				"cantidad": 773
+			}
+		]
+	},
+	{
+		"nombre": "Kanoodle",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.37,
+				"cantidad": 770
+			}
+		]
+	},
+	{
+		"nombre": "Tagcat",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 540.58,
+				"cantidad": 311
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 338.17,
+				"cantidad": 938
+			}
+		]
+	},
+	{
+		"nombre": "Yoveo",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 9.98,
+				"cantidad": 283
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 924.15,
+				"cantidad": 96
+			}
+		]
+	},
+	{
+		"nombre": "Kwilith"
+	},
+	{
+		"nombre": "Photojam",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 546.20,
+				"cantidad": 397
+			}
+		]
+	},
+	{
+		"nombre": "Yodel"
+	},
+	{
+		"nombre": "Shufflester"
+	},
+	{
+		"nombre": "Lajo"
+	},
+	{
+		"nombre": "Digitube"
+	},
+	{
+		"nombre": "Eadel"
+	},
+	{
+		"nombre": "Linktype",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 345.22,
+				"cantidad": 827
+			}
+		]
+	},
+	{
+		"nombre": "Kwilith",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.69,
+				"cantidad": 231
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1167.15,
+				"cantidad": 264
+			}
+		]
+	},
+	{
+		"nombre": "Feedbug"
+	},
+	{
+		"nombre": "Shufflester",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.52,
+				"cantidad": 549
+			}
+		]
+	},
+	{
+		"nombre": "Twitterlist",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 234.83,
+				"cantidad": 244
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 515.37,
+				"cantidad": 58
+			}
+		]
+	},
+	{
+		"nombre": "Ntag"
+	},
+	{
+		"nombre": "Twinte"
+	},
+	{
+		"nombre": "Digitube"
+	},
+	{
+		"nombre": "BlogXS",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.24,
+				"cantidad": 701
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 8.18,
+				"cantidad": 992
+			}
+		]
+	},
+	{
+		"nombre": "Avaveo",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.61,
+				"cantidad": 153
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.59,
+				"cantidad": 198
+			}
+		]
+	},
+	{
+		"nombre": "Twiyo",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 771.99,
+				"cantidad": 353
+			}
+		]
+	},
+	{
+		"nombre": "Trilith"
+	},
+	{
+		"nombre": "Skyble",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.56,
+				"cantidad": 424
+			}
+		]
+	},
+	{
+		"nombre": "Skinix",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1161.04,
+				"cantidad": 912
+			}
+		]
+	},
+	{
+		"nombre": "Brainsphere"
+	},
+	{
+		"nombre": "Devbug",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.34,
+				"cantidad": 448
+			}
+		]
+	},
+	{
+		"nombre": "Skimia",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 412.62,
+				"cantidad": 196
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1046.90,
+				"cantidad": 580
+			}
+		]
+	},
+	{
+		"nombre": "Mynte",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.93,
+				"cantidad": 655
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.38,
+				"cantidad": 344
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.32,
+				"cantidad": 817
+			}
+		]
+	},
+	{
+		"nombre": "InnoZ",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.16,
+				"cantidad": 177
+			}
+		]
+	},
+	{
+		"nombre": "Cogidoo",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.04,
+				"cantidad": 732
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.61,
+				"cantidad": 861
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 353.91,
+				"cantidad": 809
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 581.74,
+				"cantidad": 602
+			}
+		]
+	},
+	{
+		"nombre": "Twimbo",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.72,
+				"cantidad": 666
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 300.07,
+				"cantidad": 585
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 562.80,
+				"cantidad": 328
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.25,
+				"cantidad": 594
+			}
+		]
+	},
+	{
+		"nombre": "Zava",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 981.91,
+				"cantidad": 843
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 579.36,
+				"cantidad": 457
+			}
+		]
+	},
+	{
+		"nombre": "Riffpedia",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1151.70,
+				"cantidad": 571
+			}
+		]
+	},
+	{
+		"nombre": "Pixope",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 723.05,
+				"cantidad": 652
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 266.17,
+				"cantidad": 59
+			}
+		]
+	},
+	{
+		"nombre": "Thoughtstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 383.62,
+				"cantidad": 438
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 0.57,
+				"cantidad": 71
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1118.99,
+				"cantidad": 524
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 633.88,
+				"cantidad": 641
+			}
+		]
+	},
+	{
+		"nombre": "Thoughtbridge"
+	},
+	{
+		"nombre": "Photojam"
+	},
+	{
+		"nombre": "Youopia",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 384.36,
+				"cantidad": 587
+			}
+		]
+	},
+	{
+		"nombre": "Gigashots"
+	},
+	{
+		"nombre": "Eayo",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 909.81,
+				"cantidad": 917
+			}
+		]
+	},
+	{
+		"nombre": "DabZ",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 352.26,
+				"cantidad": 776
+			}
+		]
+	},
+	{
+		"nombre": "Blogtags",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.96,
+				"cantidad": 713
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.93,
+				"cantidad": 880
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 938.60,
+				"cantidad": 308
+			}
+		]
+	},
+	{
+		"nombre": "Skilith"
+	},
+	{
+		"nombre": "Jabberstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1296.47,
+				"cantidad": 201
+			}
+		]
+	},
+	{
+		"nombre": "Babbleblab",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.29,
+				"cantidad": 960
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1218.60,
+				"cantidad": 352
+			}
+		]
+	},
+	{
+		"nombre": "Dynazzy",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 285.45,
+				"cantidad": 353
+			}
+		]
+	},
+	{
+		"nombre": "Eabox"
+	},
+	{
+		"nombre": "Camimbo"
+	},
+	{
+		"nombre": "Buzzshare",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1243.94,
+				"cantidad": 615
+			}
+		]
+	},
+	{
+		"nombre": "Kare"
+	},
+	{
+		"nombre": "Topiczoom",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.91,
+				"cantidad": 145
+			}
+		]
+	},
+	{
+		"nombre": "Devpoint",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1296.34,
+				"cantidad": 539
+			}
+		]
+	},
+	{
+		"nombre": "Realmix"
+	},
+	{
+		"nombre": "Skiptube",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.55,
+				"cantidad": 811
+			}
+		]
+	},
+	{
+		"nombre": "Podcat",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.95,
+				"cantidad": 264
+			}
+		]
+	},
+	{
+		"nombre": "Layo",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1264.60,
+				"cantidad": 483
+			}
+		]
+	},
+	{
+		"nombre": "Zoomzone",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 390.52,
+				"cantidad": 316
+			}
+		]
+	},
+	{
+		"nombre": "Jabbertype",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1087.14,
+				"cantidad": 816
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.23,
+				"cantidad": 907
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1106.61,
+				"cantidad": 270
+			}
+		]
+	},
+	{
+		"nombre": "Meetz",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 923.99,
+				"cantidad": 337
+			}
+		]
+	},
+	{
+		"nombre": "Skimia",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 980.57,
+				"cantidad": 990
+			}
+		]
+	},
+	{
+		"nombre": "Podcat"
+	},
+	{
+		"nombre": "Thoughtstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 369.53,
+				"cantidad": 414
+			}
+		]
+	},
+	{
+		"nombre": "Dabvine"
+	},
+	{
+		"nombre": "Tagpad",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 243.63,
+				"cantidad": 533
+			}
+		]
+	},
+	{
+		"nombre": "Mudo",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 384.06,
+				"cantidad": 305
+			}
+		]
+	},
+	{
+		"nombre": "Eire",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 650.52,
+				"cantidad": 800
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.57,
+				"cantidad": 290
+			}
+		]
+	},
+	{
+		"nombre": "Feedfire",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 687.48,
+				"cantidad": 794
+			}
+		]
+	},
+	{
+		"nombre": "Divanoodle"
+	},
+	{
+		"nombre": "Blogpad",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.49,
+				"cantidad": 355
+			}
+		]
+	},
+	{
+		"nombre": "Wikibox",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 583.50,
+				"cantidad": 267
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1104.29,
+				"cantidad": 981
+			}
+		]
+	},
+	{
+		"nombre": "Mydo"
+	},
+	{
+		"nombre": "Lazz"
+	},
+	{
+		"nombre": "Fivechat",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.65,
+				"cantidad": 644
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 773.53,
+				"cantidad": 488
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 678.89,
+				"cantidad": 460
+			}
+		]
+	},
+	{
+		"nombre": "Rhyloo"
+	},
+	{
+		"nombre": "Edgeify",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1085.45,
+				"cantidad": 292
+			}
+		]
+	},
+	{
+		"nombre": "Rhycero",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.97,
+				"cantidad": 775
+			}
+		]
+	},
+	{
+		"nombre": "Eayo",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.66,
+				"cantidad": 724
+			}
+		]
+	},
+	{
+		"nombre": "Voomm",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.71,
+				"cantidad": 612
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.24,
+				"cantidad": 774
+			}
+		]
+	},
+	{
+		"nombre": "Skyba",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 9.63,
+				"cantidad": 95
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 483.79,
+				"cantidad": 686
+			}
+		]
+	},
+	{
+		"nombre": "Kwilith"
+	},
+	{
+		"nombre": "Photobug",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 9.30,
+				"cantidad": 819
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1.09,
+				"cantidad": 402
+			}
+		]
+	},
+	{
+		"nombre": "Bluejam",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 455.71,
+				"cantidad": 822
+			}
+		]
+	},
+	{
+		"nombre": "Flipstorm"
+	},
+	{
+		"nombre": "Yakijo",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 388.03,
+				"cantidad": 206
+			}
+		]
+	},
+	{
+		"nombre": "Skidoo",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 326.06,
+				"cantidad": 950
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 791.50,
+				"cantidad": 150
+			}
+		]
+	},
+	{
+		"nombre": "Quinu"
+	},
+	{
+		"nombre": "Skivee"
+	},
+	{
+		"nombre": "Tavu",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.14,
+				"cantidad": 552
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 965.61,
+				"cantidad": 294
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1207.17,
+				"cantidad": 561
+			}
+		]
+	},
+	{
+		"nombre": "Skipstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 260.56,
+				"cantidad": 129
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 514.60,
+				"cantidad": 985
+			}
+		]
+	},
+	{
+		"nombre": "Meedoo",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.05,
+				"cantidad": 481
+			}
+		]
+	},
+	{
+		"nombre": "Feedmix",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1016.79,
+				"cantidad": 473
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.10,
+				"cantidad": 319
+			}
+		]
+	},
+	{
+		"nombre": "Meedoo"
+	},
+	{
+		"nombre": "Yodo",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 794.59,
+				"cantidad": 481
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1270.26,
+				"cantidad": 347
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.07,
+				"cantidad": 699
+			}
+		]
+	},
+	{
+		"nombre": "Gabtune"
+	},
+	{
+		"nombre": "Dazzlesphere"
+	},
+	{
+		"nombre": "Vidoo",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.07,
+				"cantidad": 380
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 284.97,
+				"cantidad": 201
+			}
+		]
+	},
+	{
+		"nombre": "Meezzy"
+	},
+	{
+		"nombre": "Eamia",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 685.43,
+				"cantidad": 15
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 442.46,
+				"cantidad": 359
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.70,
+				"cantidad": 371
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 331.04,
+				"cantidad": 281
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 337.14,
+				"cantidad": 848
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 340.11,
+				"cantidad": 604
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.14,
+				"cantidad": 114
+			}
+		]
+	},
+	{
+		"nombre": "Ailane",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 363.10,
+				"cantidad": 416
+			}
+		]
+	},
+	{
+		"nombre": "Podcat"
+	},
+	{
+		"nombre": "Skajo",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1354.30,
+				"cantidad": 326
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1168.87,
+				"cantidad": 537
+			}
+		]
+	},
+	{
+		"nombre": "Skyble"
+	},
+	{
+		"nombre": "Jamia",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 564.49,
+				"cantidad": 203
+			}
+		]
+	},
+	{
+		"nombre": "Photojam"
+	},
+	{
+		"nombre": "Twimm",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.96,
+				"cantidad": 584
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1218.08,
+				"cantidad": 181
+			}
+		]
+	},
+	{
+		"nombre": "Buzzdog"
+	},
+	{
+		"nombre": "Quinu"
+	},
+	{
+		"nombre": "Gigaclub"
+	},
+	{
+		"nombre": "Fivechat",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1223.10,
+				"cantidad": 153
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 739.55,
+				"cantidad": 925
+			}
+		]
+	},
+	{
+		"nombre": "Voonder"
+	},
+	{
+		"nombre": "Demivee",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 9.00,
+				"cantidad": 770
+			}
+		]
+	},
+	{
+		"nombre": "Photofeed"
+	},
+	{
+		"nombre": "Rhynoodle",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1104.05,
+				"cantidad": 623
+			}
+		]
+	},
+	{
+		"nombre": "Skaboo",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.39,
+				"cantidad": 756
+			}
+		]
+	},
+	{
+		"nombre": "Rhycero",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1345.98,
+				"cantidad": 703
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.99,
+				"cantidad": 294
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 304.96,
+				"cantidad": 915
+			}
+		]
+	},
+	{
+		"nombre": "Yakijo"
+	},
+	{
+		"nombre": "Fadeo",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1056.31,
+				"cantidad": 724
+			}
+		]
+	},
+	{
+		"nombre": "Youfeed",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.84,
+				"cantidad": 824
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.59,
+				"cantidad": 16
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 350.93,
+				"cantidad": 516
+			}
+		]
+	},
+	{
+		"nombre": "Tagfeed",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1260.28,
+				"cantidad": 838
+			}
+		]
+	},
+	{
+		"nombre": "Jaxspan",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 335.70,
+				"cantidad": 778
+			}
+		]
+	},
+	{
+		"nombre": "Mymm"
+	},
+	{
+		"nombre": "DabZ",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.49,
+				"cantidad": 843
+			}
+		]
+	},
+	{
+		"nombre": "Voomm",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 437.76,
+				"cantidad": 566
+			}
+		]
+	},
+	{
+		"nombre": "Linktype",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.03,
+				"cantidad": 717
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.64,
+				"cantidad": 274
+			}
+		]
+	},
+	{
+		"nombre": "Avavee",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.70,
+				"cantidad": 988
+			}
+		]
+	},
+	{
+		"nombre": "Divape"
+	},
+	{
+		"nombre": "Dablist",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.68,
+				"cantidad": 531
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 374.07,
+				"cantidad": 923
+			}
+		]
+	},
+	{
+		"nombre": "Buzzster",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 687.64,
+				"cantidad": 654
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1211.90,
+				"cantidad": 811
+			}
+		]
+	},
+	{
+		"nombre": "Katz",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.87,
+				"cantidad": 91
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 547.27,
+				"cantidad": 566
+			}
+		]
+	},
+	{
+		"nombre": "Yakidoo",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1011.27,
+				"cantidad": 872
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1302.57,
+				"cantidad": 524
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.35,
+				"cantidad": 256
+			}
+		]
+	},
+	{
+		"nombre": "Yacero",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.93,
+				"cantidad": 778
+			}
+		]
+	},
+	{
+		"nombre": "Jaxnation",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 926.08,
+				"cantidad": 686
+			}
+		]
+	},
+	{
+		"nombre": "Blogpad"
+	},
+	{
+		"nombre": "Thoughtstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 361.35,
+				"cantidad": 816
+			}
+		]
+	},
+	{
+		"nombre": "Avamba",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 778.29,
+				"cantidad": 595
+			}
+		]
+	},
+	{
+		"nombre": "Zazio",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1153.10,
+				"cantidad": 82
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.23,
+				"cantidad": 983
+			}
+		]
+	},
+	{
+		"nombre": "Shuffletag",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 52.62,
+				"cantidad": 25
+			}
+		]
+	},
+	{
+		"nombre": "Myworks"
+	},
+	{
+		"nombre": "Demivee"
+	},
+	{
+		"nombre": "Skibox"
+	},
+	{
+		"nombre": "Pixope"
+	},
+	{
+		"nombre": "Tanoodle",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 937.55,
+				"cantidad": 121
+			}
+		]
+	},
+	{
+		"nombre": "Roodel"
+	},
+	{
+		"nombre": "Avamba",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 798.28,
+				"cantidad": 976
+			}
+		]
+	},
+	{
+		"nombre": "Plambee"
+	},
+	{
+		"nombre": "Browsezoom",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 896.46,
+				"cantidad": 987
+			}
+		]
+	},
+	{
+		"nombre": "Oba",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.36,
+				"cantidad": 941
+			}
+		]
+	},
+	{
+		"nombre": "Snaptags",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 323.80,
+				"cantidad": 83
+			}
+		]
+	},
+	{
+		"nombre": "Flashspan",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.87,
+				"cantidad": 116
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 228.10,
+				"cantidad": 850
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 344.39,
+				"cantidad": 179
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 782.45,
+				"cantidad": 995
+			}
+		]
+	},
+	{
+		"nombre": "Yambee"
+	},
+	{
+		"nombre": "Kwilith",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 431.82,
+				"cantidad": 965
+			}
+		]
+	},
+	{
+		"nombre": "Rooxo"
+	},
+	{
+		"nombre": "Quatz"
+	},
+	{
+		"nombre": "Feedfish",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 691.88,
+				"cantidad": 238
+			}
+		]
+	},
+	{
+		"nombre": "Blogpad"
+	},
+	{
+		"nombre": "Twitterbridge",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.58,
+				"cantidad": 828
+			}
+		]
+	},
+	{
+		"nombre": "Skimia",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.04,
+				"cantidad": 992
+			}
+		]
+	},
+	{
+		"nombre": "Devcast",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.86,
+				"cantidad": 580
+			}
+		]
+	},
+	{
+		"nombre": "Jabbercube",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 426.96,
+				"cantidad": 629
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.33,
+				"cantidad": 929
+			}
+		]
+	},
+	{
+		"nombre": "Pixope",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 625.88,
+				"cantidad": 447
+			}
+		]
+	},
+	{
+		"nombre": "Thoughtworks",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.23,
+				"cantidad": 975
+			}
+		]
+	},
+	{
+		"nombre": "Skivee",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 714.76,
+				"cantidad": 481
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 285.86,
+				"cantidad": 888
+			}
+		]
+	},
+	{
+		"nombre": "Voonyx",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 169.81,
+				"cantidad": 719
+			}
+		]
+	},
+	{
+		"nombre": "Feednation",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 790.50,
+				"cantidad": 49
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 420.94,
+				"cantidad": 425
+			}
+		]
+	},
+	{
+		"nombre": "Devify",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 356.06,
+				"cantidad": 943
+			}
+		]
+	},
+	{
+		"nombre": "Reallinks"
+	},
+	{
+		"nombre": "Voomm"
+	},
+	{
+		"nombre": "Youspan"
+	},
+	{
+		"nombre": "Dazzlesphere",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.30,
+				"cantidad": 552
+			}
+		]
+	},
+	{
+		"nombre": "Topicblab",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.76,
+				"cantidad": 771
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.56,
+				"cantidad": 155
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.30,
+				"cantidad": 69
+			}
+		]
+	},
+	{
+		"nombre": "Trupe",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.64,
+				"cantidad": 906
+			}
+		]
+	},
+	{
+		"nombre": "Edgepulse"
+	},
+	{
+		"nombre": "Divape",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.16,
+				"cantidad": 527
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1073.82,
+				"cantidad": 514
+			}
+		]
+	},
+	{
+		"nombre": "Devpulse",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 9.10,
+				"cantidad": 905
+			}
+		]
+	},
+	{
+		"nombre": "Mita",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 487.88,
+				"cantidad": 79
+			}
+		]
+	},
+	{
+		"nombre": "Voomm",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.79,
+				"cantidad": 855
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 924.82,
+				"cantidad": 499
+			},
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 319.02,
+				"cantidad": 837
+			}
+		]
+	},
+	{
+		"nombre": "Jamia",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1213.13,
+				"cantidad": 117
+			}
+		]
+	},
+	{
+		"nombre": "Skipstorm"
+	},
+	{
+		"nombre": "Yodel"
+	},
+	{
+		"nombre": "Trilith",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 621.18,
+				"cantidad": 780
+			}
+		]
+	},
+	{
+		"nombre": "Demizz",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.55,
+				"cantidad": 398
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1093.26,
+				"cantidad": 741
+			}
+		]
+	},
+	{
+		"nombre": "Flipstorm"
+	},
+	{
+		"nombre": "Oyoloo",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 426.36,
+				"cantidad": 743
+			}
+		]
+	},
+	{
+		"nombre": "Shufflebeat"
+	},
+	{
+		"nombre": "Yoveo",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.91,
+				"cantidad": 959
+			}
+		]
+	},
+	{
+		"nombre": "Babblestorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1099.96,
+				"cantidad": 947
+			}
+		]
+	},
+	{
+		"nombre": "Ntag",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.84,
+				"cantidad": 180
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 222.36,
+				"cantidad": 111
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 761.73,
+				"cantidad": 700
+			}
+		]
+	},
+	{
+		"nombre": "Reallinks",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.00,
+				"cantidad": 807
+			}
+		]
+	},
+	{
+		"nombre": "Twitterbeat"
+	},
+	{
+		"nombre": "Fliptune",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 448.12,
+				"cantidad": 85
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1257.51,
+				"cantidad": 216
+			},
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.67,
+				"cantidad": 990
+			}
+		]
+	},
+	{
+		"nombre": "Wordtune",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1211.75,
+				"cantidad": 598
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 420.00,
+				"cantidad": 659
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 857.46,
+				"cantidad": 359
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 637.56,
+				"cantidad": 978
+			}
+		]
+	},
+	{
+		"nombre": "Meeveo",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 884.63,
+				"cantidad": 20
+			}
+		]
+	},
+	{
+		"nombre": "Avavee",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 447.12,
+				"cantidad": 129
+			}
+		]
+	},
+	{
+		"nombre": "Pixonyx"
+	},
+	{
+		"nombre": "Thoughtbridge"
+	},
+	{
+		"nombre": "Jaxspan"
+	},
+	{
+		"nombre": "Vipe"
+	},
+	{
+		"nombre": "Yadel",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1290.42,
+				"cantidad": 157
+			}
+		]
+	},
+	{
+		"nombre": "Dabtype",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 891.57,
+				"cantidad": 206
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.50,
+				"cantidad": 161
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 675.48,
+				"cantidad": 574
+			}
+		]
+	},
+	{
+		"nombre": "Twitterworks",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 6.76,
+				"cantidad": 819
+			}
+		]
+	},
+	{
+		"nombre": "Mudo",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 453.95,
+				"cantidad": 522
+			}
+		]
+	},
+	{
+		"nombre": "Voonyx",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 531.56,
+				"cantidad": 193
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.35,
+				"cantidad": 779
+			}
+		]
+	},
+	{
+		"nombre": "Quatz",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 854.56,
+				"cantidad": 620
+			}
+		]
+	},
+	{
+		"nombre": "Npath",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 499.62,
+				"cantidad": 794
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.89,
+				"cantidad": 385
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 716.05,
+				"cantidad": 398
+			}
+		]
+	},
+	{
+		"nombre": "Oba",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.33,
+				"cantidad": 1
+			}
+		]
+	},
+	{
+		"nombre": "Realmix",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 373.58,
+				"cantidad": 521
+			}
+		]
+	},
+	{
+		"nombre": "Katz"
+	},
+	{
+		"nombre": "Kwideo"
+	},
+	{
+		"nombre": "Eamia",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.63,
+				"cantidad": 462
+			}
+		]
+	},
+	{
+		"nombre": "Dynabox",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.56,
+				"cantidad": 908
+			}
+		]
+	},
+	{
+		"nombre": "Wikizz",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1085.91,
+				"cantidad": 679
+			}
+		]
+	},
+	{
+		"nombre": "Geba"
+	},
+	{
+		"nombre": "Realcube",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 330.63,
+				"cantidad": 587
+			}
+		]
+	},
+	{
+		"nombre": "Midel"
+	},
+	{
+		"nombre": "Skilith",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 484.40,
+				"cantidad": 767
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 887.53,
+				"cantidad": 241
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 8.15,
+				"cantidad": 220
+			}
+		]
+	},
+	{
+		"nombre": "Wikizz",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 5.92,
+				"cantidad": 425
+			}
+		]
+	},
+	{
+		"nombre": "Jabbercube",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 4.71,
+				"cantidad": 627
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 788.45,
+				"cantidad": 972
+			}
+		]
+	},
+	{
+		"nombre": "Ntags"
+	},
+	{
+		"nombre": "Abata"
+	},
+	{
+		"nombre": "Quatz",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 436.11,
+				"cantidad": 403
+			}
+		]
+	},
+	{
+		"nombre": "Kwimbee",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 595.31,
+				"cantidad": 545
+			},
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 668.27,
+				"cantidad": 789
+			}
+		]
+	},
+	{
+		"nombre": "Livefish"
+	},
+	{
+		"nombre": "Feedspan"
+	},
+	{
+		"nombre": "Innojam"
+	},
+	{
+		"nombre": "Cogibox",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.81,
+				"cantidad": 373
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 950.33,
+				"cantidad": 306
+			}
+		]
+	},
+	{
+		"nombre": "Topicstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 530.81,
+				"cantidad": 938
+			}
+		]
+	},
+	{
+		"nombre": "Twimm",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 4.42,
+				"cantidad": 444
+			}
+		]
+	},
+	{
+		"nombre": "Oozz",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 10.13,
+				"cantidad": 928
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 2.77,
+				"cantidad": 460
+			}
+		]
+	},
+	{
+		"nombre": "Roombo",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 580.32,
+				"cantidad": 21
+			}
+		]
+	},
+	{
+		"nombre": "Yoveo"
+	},
+	{
+		"nombre": "Browsedrive",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 661.09,
+				"cantidad": 514
+			}
+		]
+	},
+	{
+		"nombre": "Brainsphere"
+	},
+	{
+		"nombre": "Viva",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1405.04,
+				"cantidad": 282
+			}
+		]
+	},
+	{
+		"nombre": "Kwilith",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 428.76,
+				"cantidad": 524
+			}
+		]
+	},
+	{
+		"nombre": "Roombo"
+	},
+	{
+		"nombre": "Pixoboo"
+	},
+	{
+		"nombre": "Twinte",
+		"productos_ofertados": [
+			{
+				"nombre": "Caja de grapas 26\/6 X 5000 ",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.03,
+				"cantidad": 455
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.04,
+				"cantidad": 751
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.86,
+				"cantidad": 241
+			}
+		]
+	},
+	{
+		"nombre": "Zazio",
+		"productos_ofertados": [
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1335.37,
+				"cantidad": 800
+			}
+		]
+	},
+	{
+		"nombre": "Quamba",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.18,
+				"cantidad": 644
+			}
+		]
+	},
+	{
+		"nombre": "Youspan",
+		"productos_ofertados": [
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.13,
+				"cantidad": 414
+			}
+		]
+	},
+	{
+		"nombre": "Trilia",
+		"productos_ofertados": [
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.00,
+				"cantidad": 100
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 734.99,
+				"cantidad": 398
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 663.04,
+				"cantidad": 793
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 791.70,
+				"cantidad": 773
+			}
+		]
+	},
+	{
+		"nombre": "Vidoo",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 668.56,
+				"cantidad": 10
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 5.30,
+				"cantidad": 487
+			}
+		]
+	},
+	{
+		"nombre": "Zava",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 775.30,
+				"cantidad": 346
+			}
+		]
+	},
+	{
+		"nombre": "Riffpedia",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 577.20,
+				"cantidad": 506
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 9.80,
+				"cantidad": 278
+			},
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 738.16,
+				"cantidad": 574
+			}
+		]
+	},
+	{
+		"nombre": "Yakidoo",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 383.98,
+				"cantidad": 278
+			},
+			{
+				"nombre": "Bolígrado L-036 Caja X 10",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.00,
+				"cantidad": 221
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 301.40,
+				"cantidad": 579
+			}
+		]
+	},
+	{
+		"nombre": "Thoughtsphere",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 652.42,
+				"cantidad": 587
+			}
+		]
+	},
+	{
+		"nombre": "Zoovu",
+		"productos_ofertados": [
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 3.98,
+				"cantidad": 543
+			},
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 322.55,
+				"cantidad": 643
+			},
+			{
+				"nombre": "Pantalla de computadora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 1117.19,
+				"cantidad": 887
+			}
+		]
+	},
+	{
+		"nombre": "Flipstorm",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 841.42,
+				"cantidad": 39
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 6.60,
+				"cantidad": 994
+			}
+		]
+	},
+	{
+		"nombre": "Jaxworks"
+	},
+	{
+		"nombre": "Twitterwire"
+	},
+	{
+		"nombre": "Photolist",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 659.15,
+				"cantidad": 589
+			}
+		]
+	},
+	{
+		"nombre": "Cogilith",
+		"productos_ofertados": [
+			{
+				"nombre": "Silla giratoria",
+				"unidad_medida": "unidades",
+				"precio_unitario": 643.72,
+				"cantidad": 449
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 721.21,
+				"cantidad": 544
+			}
+		]
+	},
+	{
+		"nombre": "LiveZ",
+		"productos_ofertados": [
+			{
+				"nombre": "Discos SSD",
+				"unidad_medida": "unidades",
+				"precio_unitario": 447.13,
+				"cantidad": 596
+			},
+			{
+				"nombre": "Engrapadoras",
+				"unidad_medida": "unidades",
+				"precio_unitario": 7.62,
+				"cantidad": 985
+			},
+			{
+				"nombre": "Millar papel bond",
+				"unidad_medida": "gramos",
+				"precio_unitario": 7.74,
+				"cantidad": 500
+			}
+		]
+	},
+	{
+		"nombre": "Katz",
+		"productos_ofertados": [
+			{
+				"nombre": "Impresora",
+				"unidad_medida": "unidades",
+				"precio_unitario": 431.26,
+				"cantidad": 431
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 911.86,
+				"cantidad": 388
+			}
+		]
+	},
+	{
+		"nombre": "Shuffledrive"
+	},
+	{
+		"nombre": "Twimbo",
+		"productos_ofertados": [
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 949.12,
+				"cantidad": 707
+			},
+			{
+				"nombre": "Monitor",
+				"unidad_medida": "unidades",
+				"precio_unitario": 734.59,
+				"cantidad": 563
+			}
+		]
+	},
+	{
+		"nombre": "Shufflester",
+		"productos_ofertados": [
+			{
+				"nombre": "Escritorios",
+				"unidad_medida": "unidades",
+				"precio_unitario": 177.70,
+				"cantidad": 614
+			}
+		]
+	}
+]

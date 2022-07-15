@@ -1,0 +1,8091 @@
+﻿[
+	{
+		"nombre": "Unidad de Almacén",
+		"trabajadores": [
+			{
+				"nombre": "Annmaria Brion",
+				"DNI": "90763546",
+				"contrato": {
+					"fecha_inicio": "2021-05-18",
+					"fecha_finalizacion": "2024-06-11",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Ede Laville",
+				"DNI": "08253230",
+				"contrato": {
+					"fecha_inicio": "2020-10-18",
+					"fecha_finalizacion": "2024-12-14",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Eve Kalker",
+				"DNI": "74351090",
+				"contrato": {
+					"fecha_inicio": "2020-05-07",
+					"fecha_finalizacion": "2024-08-31",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Vanya Pane",
+				"DNI": "15697518",
+				"contrato": {
+					"fecha_inicio": "2020-01-02",
+					"fecha_finalizacion": "2024-03-27",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Milicent Saveall",
+				"DNI": "17964545",
+				"contrato": {
+					"fecha_inicio": "2021-09-08",
+					"fecha_finalizacion": "2024-04-11",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Thatch Whereat",
+				"DNI": "09877289",
+				"contrato": {
+					"fecha_inicio": "2020-10-26",
+					"fecha_finalizacion": "2024-04-22",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Donnie Cooch",
+			"dni": "90594469",
+			"contrato": {
+				"fecha_inicio": "2020-10-18",
+				"fecha_finalizacion": "2024-12-14"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina de Desarrollo Académico",
+		"trabajadores": [
+			{
+				"nombre": "Gherardo Mytton",
+				"DNI": "94937799",
+				"contrato": {
+					"fecha_inicio": "2020-07-19",
+					"fecha_finalizacion": "2024-11-24",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Flor Melling",
+				"DNI": "58595519",
+				"contrato": {
+					"fecha_inicio": "2020-02-19",
+					"fecha_finalizacion": "2024-06-07",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Lorene Constantinou",
+				"DNI": "14800461",
+				"contrato": {
+					"fecha_inicio": "2020-08-30",
+					"fecha_finalizacion": "2025-05-02",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Raynard Fautly",
+				"DNI": "37935739",
+				"contrato": {
+					"fecha_inicio": "2022-01-04",
+					"fecha_finalizacion": "2025-01-03",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Laraine Senner",
+				"DNI": "66177982",
+				"contrato": {
+					"fecha_inicio": "2021-09-02",
+					"fecha_finalizacion": "2023-01-15",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Agnes Wegener",
+				"DNI": "54715663",
+				"contrato": {
+					"fecha_inicio": "2019-12-01",
+					"fecha_finalizacion": "2023-10-05",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Collette Purseglove",
+			"dni": "69297375",
+			"contrato": {
+				"fecha_inicio": "2020-08-30",
+				"fecha_finalizacion": "2025-05-02"
+			}
+		}
+	},
+	{
+		"nombre": "Facultad de Medicina Veterinaria y Zootecnia",
+		"trabajadores": [
+			{
+				"nombre": "Abramo Casperri",
+				"DNI": "05993056",
+				"contrato": {
+					"fecha_inicio": "2022-03-16",
+					"fecha_finalizacion": "2025-12-01",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Bellanca Di Frisco",
+				"DNI": "30302861",
+				"contrato": {
+					"fecha_inicio": "2021-04-17",
+					"fecha_finalizacion": "2023-09-13",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Lucas Hollyard",
+				"DNI": "88646099",
+				"contrato": {
+					"fecha_inicio": "2021-02-07",
+					"fecha_finalizacion": "2024-04-05",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Otis Nares",
+				"DNI": "32287617",
+				"contrato": {
+					"fecha_inicio": "2020-07-12",
+					"fecha_finalizacion": "2024-12-19",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Lia Burnsell",
+				"DNI": "94566858",
+				"contrato": {
+					"fecha_inicio": "2021-06-29",
+					"fecha_finalizacion": "2024-06-09",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Kathye Elt",
+				"DNI": "90725421",
+				"contrato": {
+					"fecha_inicio": "2022-05-25",
+					"fecha_finalizacion": "2025-02-03",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Leroi Bach",
+			"dni": "07078912",
+			"contrato": {
+				"fecha_inicio": "2020-07-12",
+				"fecha_finalizacion": "2024-12-19"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina de Logística",
+		"trabajadores": [
+			{
+				"nombre": "Marcile Adran",
+				"DNI": "11336781",
+				"contrato": {
+					"fecha_inicio": "2020-12-09",
+					"fecha_finalizacion": "2023-03-18",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Melinda Sasser",
+				"DNI": "31512513",
+				"contrato": {
+					"fecha_inicio": "2022-03-12",
+					"fecha_finalizacion": "2024-09-27",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Roderic Oliphard",
+				"DNI": "09606716",
+				"contrato": {
+					"fecha_inicio": "2021-01-08",
+					"fecha_finalizacion": "2024-09-28",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Maisey Grocutt",
+				"DNI": "07830238",
+				"contrato": {
+					"fecha_inicio": "2019-12-16",
+					"fecha_finalizacion": "2024-08-29",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Syman Atwater",
+				"DNI": "87698752",
+				"contrato": {
+					"fecha_inicio": "2020-09-09",
+					"fecha_finalizacion": "2024-05-03",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Jase Bitcheno",
+			"dni": "25155923",
+			"contrato": {
+				"fecha_inicio": "2021-01-08",
+				"fecha_finalizacion": "2024-09-28"
+			}
+		}
+	},
+	{
+		"nombre": "Centro de Producción e Investigación Pecuaria de Kotosh",
+		"trabajadores": [
+			{
+				"nombre": "Jase Bitcheno",
+				"DNI": "25155923",
+				"contrato": {
+					"fecha_inicio": "2022-03-31",
+					"fecha_finalizacion": "2024-09-07",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Barry Somerlie",
+				"DNI": "94052215",
+				"contrato": {
+					"fecha_inicio": "2022-02-04",
+					"fecha_finalizacion": "2024-12-11",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Hillel Jaszczak",
+				"DNI": "89096806",
+				"contrato": {
+					"fecha_inicio": "2020-02-16",
+					"fecha_finalizacion": "2025-12-22",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Albrecht Farleigh",
+				"DNI": "80107720",
+				"contrato": {
+					"fecha_inicio": "2022-04-29",
+					"fecha_finalizacion": "2024-11-15",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Isobel Disney",
+				"DNI": "56396942",
+				"contrato": {
+					"fecha_inicio": "2021-06-16",
+					"fecha_finalizacion": "2023-11-21",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Alexis Gandey",
+				"DNI": "95588691",
+				"contrato": {
+					"fecha_inicio": "2021-02-18",
+					"fecha_finalizacion": "2025-07-20",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Carver Jeffery",
+				"DNI": "33952228",
+				"contrato": {
+					"fecha_inicio": "2021-03-31",
+					"fecha_finalizacion": "2024-12-10",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Lise Cozzi",
+			"dni": "64707859",
+			"contrato": {
+				"fecha_inicio": "2022-04-29",
+				"fecha_finalizacion": "2024-11-15"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina de Recursos Humanos",
+		"trabajadores": [
+			{
+				"nombre": "Addy Trahearn",
+				"DNI": "17513951",
+				"contrato": {
+					"fecha_inicio": "2021-09-08",
+					"fecha_finalizacion": "2023-08-04",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Babbie Hallett",
+				"DNI": "55234059",
+				"contrato": {
+					"fecha_inicio": "2020-12-01",
+					"fecha_finalizacion": "2024-10-09",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Etan Kolak",
+				"DNI": "08472097",
+				"contrato": {
+					"fecha_inicio": "2021-07-23",
+					"fecha_finalizacion": "2024-03-12",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Frederic Hafford",
+				"DNI": "94140114",
+				"contrato": {
+					"fecha_inicio": "2020-09-14",
+					"fecha_finalizacion": "2025-02-27",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Bing Proback",
+				"DNI": "88602519",
+				"contrato": {
+					"fecha_inicio": "2021-05-10",
+					"fecha_finalizacion": "2023-09-08",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Malory Hopewell",
+				"DNI": "81192722",
+				"contrato": {
+					"fecha_inicio": "2019-12-25",
+					"fecha_finalizacion": "2023-07-24",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Egon Sorrell",
+				"DNI": "09878696",
+				"contrato": {
+					"fecha_inicio": "2021-03-12",
+					"fecha_finalizacion": "2025-07-20",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Kerwin Brain",
+				"DNI": "77356653",
+				"contrato": {
+					"fecha_inicio": "2020-09-29",
+					"fecha_finalizacion": "2025-09-04",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Lise Cozzi",
+			"dni": "64707859",
+			"contrato": {
+				"fecha_inicio": "2021-05-10",
+				"fecha_finalizacion": "2023-09-08"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Desarrollo de Educación a Distancia y formación Continua",
+		"trabajadores": [
+			{
+				"nombre": "Teressa Flintoff",
+				"DNI": "45181787",
+				"contrato": {
+					"fecha_inicio": "2021-12-24",
+					"fecha_finalizacion": "2025-12-17",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Irvin Nasey",
+				"DNI": "07129684",
+				"contrato": {
+					"fecha_inicio": "2021-06-24",
+					"fecha_finalizacion": "2025-09-13",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Tanner Ingilson",
+				"DNI": "09362828",
+				"contrato": {
+					"fecha_inicio": "2021-05-29",
+					"fecha_finalizacion": "2023-07-24",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Cassi Sirr",
+				"DNI": "56553999",
+				"contrato": {
+					"fecha_inicio": "2021-10-11",
+					"fecha_finalizacion": "2025-11-28",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Dareen Doyley",
+				"DNI": "31001129",
+				"contrato": {
+					"fecha_inicio": "2021-06-29",
+					"fecha_finalizacion": "2025-09-18",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Violette Ellershaw",
+				"DNI": "49696007",
+				"contrato": {
+					"fecha_inicio": "2020-09-16",
+					"fecha_finalizacion": "2023-05-06",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Sherilyn Gale",
+				"DNI": "28508947",
+				"contrato": {
+					"fecha_inicio": "2021-10-14",
+					"fecha_finalizacion": "2025-07-17",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Neysa Ekless",
+				"DNI": "54112740",
+				"contrato": {
+					"fecha_inicio": "2020-04-15",
+					"fecha_finalizacion": "2024-03-17",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Gordy Marquot",
+			"dni": "22438158",
+			"contrato": {
+				"fecha_inicio": "2020-09-16",
+				"fecha_finalizacion": "2023-05-06"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina de Bienestar Universitario",
+		"trabajadores": [
+			{
+				"nombre": "Bryan Keeley",
+				"DNI": "79204418",
+				"contrato": {
+					"fecha_inicio": "2022-02-09",
+					"fecha_finalizacion": "2023-09-30",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Charity Alldis",
+				"DNI": "25978118",
+				"contrato": {
+					"fecha_inicio": "2021-11-11",
+					"fecha_finalizacion": "2023-10-29",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Bess Maciak",
+			"dni": "58321579",
+			"contrato": {
+				"fecha_inicio": "2022-02-09",
+				"fecha_finalizacion": "2023-09-30"
+			}
+		}
+	},
+	{
+		"nombre": "Dirección General de Administración",
+		"trabajadores": [
+			{
+				"nombre": "Dewey Swait",
+				"DNI": "94307321",
+				"contrato": {
+					"fecha_inicio": "2021-05-01",
+					"fecha_finalizacion": "2023-04-02",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Ariel Leftwich",
+				"DNI": "79263580",
+				"contrato": {
+					"fecha_inicio": "2022-04-05",
+					"fecha_finalizacion": "2024-08-22",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Trudi Quinnelly",
+				"DNI": "11048975",
+				"contrato": {
+					"fecha_inicio": "2020-01-18",
+					"fecha_finalizacion": "2023-07-18",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Kendell Carvell",
+			"dni": "96232599",
+			"contrato": {
+				"fecha_inicio": "2021-05-01",
+				"fecha_finalizacion": "2023-04-02"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina del Centro de Producción de Bienes y Servicios",
+		"trabajadores": [
+			{
+				"nombre": "Annetta Donaway",
+				"DNI": "11771027",
+				"contrato": {
+					"fecha_inicio": "2021-12-15",
+					"fecha_finalizacion": "2023-08-23",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Kaela Canellas",
+				"DNI": "50206207",
+				"contrato": {
+					"fecha_inicio": "2021-09-21",
+					"fecha_finalizacion": "2024-07-25",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Gwyneth Andersson",
+				"DNI": "60813735",
+				"contrato": {
+					"fecha_inicio": "2021-08-13",
+					"fecha_finalizacion": "2025-03-13",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Nert Hairon",
+				"DNI": "62584099",
+				"contrato": {
+					"fecha_inicio": "2020-12-23",
+					"fecha_finalizacion": "2023-08-02",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Alice McLice",
+				"DNI": "74770452",
+				"contrato": {
+					"fecha_inicio": "2022-01-13",
+					"fecha_finalizacion": "2023-11-11",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Opaline Grunnill",
+				"DNI": "35448436",
+				"contrato": {
+					"fecha_inicio": "2019-12-25",
+					"fecha_finalizacion": "2025-07-08",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Irvin Nasey",
+			"dni": "07129684",
+			"contrato": {
+				"fecha_inicio": "2021-08-13",
+				"fecha_finalizacion": "2025-03-13"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Sistemas de Calidad e Información",
+		"trabajadores": [
+			{
+				"nombre": "Hinda Cisco",
+				"DNI": "26179782",
+				"contrato": {
+					"fecha_inicio": "2020-08-18",
+					"fecha_finalizacion": "2024-05-22",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Carmon Beamand",
+				"DNI": "94384398",
+				"contrato": {
+					"fecha_inicio": "2019-12-13",
+					"fecha_finalizacion": "2023-03-07",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Selene Alcido",
+				"DNI": "30194288",
+				"contrato": {
+					"fecha_inicio": "2020-10-07",
+					"fecha_finalizacion": "2023-09-08",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Rori Tucker",
+				"DNI": "12506816",
+				"contrato": {
+					"fecha_inicio": "2020-03-04",
+					"fecha_finalizacion": "2025-01-30",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Hephzibah Scarce",
+				"DNI": "60528196",
+				"contrato": {
+					"fecha_inicio": "2020-10-25",
+					"fecha_finalizacion": "2025-01-01",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Cinda Towersey",
+			"dni": "67667213",
+			"contrato": {
+				"fecha_inicio": "2020-10-07",
+				"fecha_finalizacion": "2023-09-08"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina de Evaluación Académica",
+		"trabajadores": [
+			{
+				"nombre": "Myrwyn Scarth",
+				"DNI": "83450323",
+				"contrato": {
+					"fecha_inicio": "2020-08-15",
+					"fecha_finalizacion": "2024-04-27",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Franni Amor",
+				"DNI": "60657362",
+				"contrato": {
+					"fecha_inicio": "2021-05-15",
+					"fecha_finalizacion": "2024-08-01",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Merrick Pigford",
+				"DNI": "17257985",
+				"contrato": {
+					"fecha_inicio": "2020-02-06",
+					"fecha_finalizacion": "2024-03-20",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Gordan Brimilcombe",
+				"DNI": "19567283",
+				"contrato": {
+					"fecha_inicio": "2022-02-24",
+					"fecha_finalizacion": "2025-01-16",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Briggs Lasselle",
+				"DNI": "07186926",
+				"contrato": {
+					"fecha_inicio": "2021-02-14",
+					"fecha_finalizacion": "2024-01-03",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Cinda Towersey",
+			"dni": "67667213",
+			"contrato": {
+				"fecha_inicio": "2021-02-14",
+				"fecha_finalizacion": "2024-01-03"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina de Logística",
+		"trabajadores": [
+			{
+				"nombre": "Marcile Adran",
+				"DNI": "11336781",
+				"contrato": {
+					"fecha_inicio": "2020-12-09",
+					"fecha_finalizacion": "2023-03-18",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Melinda Sasser",
+				"DNI": "31512513",
+				"contrato": {
+					"fecha_inicio": "2022-03-12",
+					"fecha_finalizacion": "2024-09-27",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Roderic Oliphard",
+				"DNI": "09606716",
+				"contrato": {
+					"fecha_inicio": "2021-01-08",
+					"fecha_finalizacion": "2024-09-28",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Maisey Grocutt",
+				"DNI": "07830238",
+				"contrato": {
+					"fecha_inicio": "2019-12-16",
+					"fecha_finalizacion": "2024-08-29",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Syman Atwater",
+				"DNI": "87698752",
+				"contrato": {
+					"fecha_inicio": "2020-09-09",
+					"fecha_finalizacion": "2024-05-03",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Geoffry Fontell",
+			"dni": "46995727",
+			"contrato": {
+				"fecha_inicio": "2020-12-09",
+				"fecha_finalizacion": "2023-03-18"
+			}
+		}
+	},
+	{
+		"nombre": "Instituto de Investigación Cs. Agropecuarias",
+		"trabajadores": [
+			{
+				"nombre": "Maritsa Sallings",
+				"DNI": "53473664",
+				"contrato": {
+					"fecha_inicio": "2021-01-26",
+					"fecha_finalizacion": "2023-08-18",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Dorthy Swinney",
+				"DNI": "42986041",
+				"contrato": {
+					"fecha_inicio": "2021-01-22",
+					"fecha_finalizacion": "2024-09-28",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Ingaberg Mayzes",
+				"DNI": "91853408",
+				"contrato": {
+					"fecha_inicio": "2021-12-06",
+					"fecha_finalizacion": "2025-05-03",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Ivett Fallowes",
+				"DNI": "10691811",
+				"contrato": {
+					"fecha_inicio": "2022-05-31",
+					"fecha_finalizacion": "2023-04-15",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Felic Eloi",
+				"DNI": "51630602",
+				"contrato": {
+					"fecha_inicio": "2022-02-28",
+					"fecha_finalizacion": "2025-02-01",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Tobin Hellsdon",
+				"DNI": "07929426",
+				"contrato": {
+					"fecha_inicio": "2020-05-09",
+					"fecha_finalizacion": "2023-05-19",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Beaufort Slogrove",
+				"DNI": "86798888",
+				"contrato": {
+					"fecha_inicio": "2021-10-28",
+					"fecha_finalizacion": "2024-04-15",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Cherin Parradye",
+				"DNI": "61495176",
+				"contrato": {
+					"fecha_inicio": "2019-12-26",
+					"fecha_finalizacion": "2024-11-11",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Marne Stather",
+				"DNI": "64600287",
+				"contrato": {
+					"fecha_inicio": "2021-05-17",
+					"fecha_finalizacion": "2025-10-20",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Mil Hallett",
+				"DNI": "48248833",
+				"contrato": {
+					"fecha_inicio": "2022-05-17",
+					"fecha_finalizacion": "2023-01-11",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Jeanne Fassum",
+			"dni": "63412219",
+			"contrato": {
+				"fecha_inicio": "2021-01-26",
+				"fecha_finalizacion": "2023-08-18"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de trámite documentario",
+		"trabajadores": [
+			{
+				"nombre": "Izzy Venner",
+				"DNI": "24737168",
+				"contrato": {
+					"fecha_inicio": "2020-01-21",
+					"fecha_finalizacion": "2023-06-14",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Hatti Drains",
+				"DNI": "31503991",
+				"contrato": {
+					"fecha_inicio": "2021-09-24",
+					"fecha_finalizacion": "2023-09-28",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Emily Bridson",
+				"DNI": "69977798",
+				"contrato": {
+					"fecha_inicio": "2021-04-21",
+					"fecha_finalizacion": "2023-06-09",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Moira McBeath",
+				"DNI": "52670270",
+				"contrato": {
+					"fecha_inicio": "2021-06-17",
+					"fecha_finalizacion": "2023-04-28",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Ana Steinhammer",
+				"DNI": "50262208",
+				"contrato": {
+					"fecha_inicio": "2020-06-22",
+					"fecha_finalizacion": "2023-02-05",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Constantino Lippatt",
+				"DNI": "67819997",
+				"contrato": {
+					"fecha_inicio": "2022-01-17",
+					"fecha_finalizacion": "2025-07-11",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Kessia Gorries",
+			"dni": "74280019",
+			"contrato": {
+				"fecha_inicio": "2021-06-17",
+				"fecha_finalizacion": "2023-04-28"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Contabilidad Presupuestal",
+		"trabajadores": [
+			{
+				"nombre": "Ebony Castillon",
+				"DNI": "29030235",
+				"contrato": {
+					"fecha_inicio": "2020-10-30",
+					"fecha_finalizacion": "2023-05-19",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Beryl Regan",
+				"DNI": "20027317",
+				"contrato": {
+					"fecha_inicio": "2021-10-01",
+					"fecha_finalizacion": "2023-05-10",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Sophia Gollin",
+				"DNI": "98303621",
+				"contrato": {
+					"fecha_inicio": "2021-07-29",
+					"fecha_finalizacion": "2023-06-07",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Conrade Matityahu",
+				"DNI": "59488503",
+				"contrato": {
+					"fecha_inicio": "2021-10-11",
+					"fecha_finalizacion": "2023-06-14",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Bridie Dymoke",
+				"DNI": "01875826",
+				"contrato": {
+					"fecha_inicio": "2020-02-01",
+					"fecha_finalizacion": "2025-06-15",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Simone Kingsman",
+			"dni": "11376013",
+			"contrato": {
+				"fecha_inicio": "2020-10-30",
+				"fecha_finalizacion": "2023-05-19"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Adquisiciones",
+		"trabajadores": [
+			{
+				"nombre": "Sydelle Bispo",
+				"DNI": "61809970",
+				"contrato": {
+					"fecha_inicio": "2020-02-28",
+					"fecha_finalizacion": "2025-07-20",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Gerek Gillow",
+				"DNI": "07896781",
+				"contrato": {
+					"fecha_inicio": "2021-07-03",
+					"fecha_finalizacion": "2025-08-25",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Alameda Tambling",
+				"DNI": "62558924",
+				"contrato": {
+					"fecha_inicio": "2020-12-15",
+					"fecha_finalizacion": "2023-12-20",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Augustine Esherwood",
+				"DNI": "30212123",
+				"contrato": {
+					"fecha_inicio": "2019-12-04",
+					"fecha_finalizacion": "2024-08-28",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Humfried Colleer",
+				"DNI": "60665032",
+				"contrato": {
+					"fecha_inicio": "2022-01-31",
+					"fecha_finalizacion": "2024-04-14",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Neysa MacGlory",
+				"DNI": "65944390",
+				"contrato": {
+					"fecha_inicio": "2020-08-05",
+					"fecha_finalizacion": "2023-09-08",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Ryan Pummery",
+				"DNI": "19425649",
+				"contrato": {
+					"fecha_inicio": "2021-02-24",
+					"fecha_finalizacion": "2024-05-27",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Viole Giovanni",
+				"DNI": "99179863",
+				"contrato": {
+					"fecha_inicio": "2020-11-29",
+					"fecha_finalizacion": "2025-11-23",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Candis Frondt",
+				"DNI": "97832564",
+				"contrato": {
+					"fecha_inicio": "2020-09-27",
+					"fecha_finalizacion": "2025-05-12",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Jodi Dagnall",
+				"DNI": "27069697",
+				"contrato": {
+					"fecha_inicio": "2020-09-23",
+					"fecha_finalizacion": "2023-07-18",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Chelsie McCully",
+			"dni": "01455261",
+			"contrato": {
+				"fecha_inicio": "2020-12-15",
+				"fecha_finalizacion": "2023-12-20"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Desarrollo Tecnológico",
+		"trabajadores": [
+			{
+				"nombre": "Vida Runge",
+				"DNI": "70090345",
+				"contrato": {
+					"fecha_inicio": "2020-04-06",
+					"fecha_finalizacion": "2023-03-25",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Saundra Wharram",
+				"DNI": "84354226",
+				"contrato": {
+					"fecha_inicio": "2020-12-31",
+					"fecha_finalizacion": "2025-06-28",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Mariquilla Haversham",
+				"DNI": "53181438",
+				"contrato": {
+					"fecha_inicio": "2022-05-28",
+					"fecha_finalizacion": "2023-03-07",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Delmar Ankrett",
+				"DNI": "76886940",
+				"contrato": {
+					"fecha_inicio": "2022-03-18",
+					"fecha_finalizacion": "2024-02-21",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Ulla Shawcroft",
+				"DNI": "75584089",
+				"contrato": {
+					"fecha_inicio": "2020-02-07",
+					"fecha_finalizacion": "2023-03-19",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Nelia Jindrak",
+				"DNI": "80795476",
+				"contrato": {
+					"fecha_inicio": "2021-05-16",
+					"fecha_finalizacion": "2023-10-03",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Gualterio Rotge",
+				"DNI": "71860459",
+				"contrato": {
+					"fecha_inicio": "2021-07-17",
+					"fecha_finalizacion": "2024-02-06",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Chandler Dewen",
+				"DNI": "07607606",
+				"contrato": {
+					"fecha_inicio": "2021-12-13",
+					"fecha_finalizacion": "2024-10-02",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Clayborn Warrell",
+				"DNI": "90214318",
+				"contrato": {
+					"fecha_inicio": "2020-02-15",
+					"fecha_finalizacion": "2023-04-16",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Tiebout Petruska",
+				"DNI": "88584270",
+				"contrato": {
+					"fecha_inicio": "2021-03-15",
+					"fecha_finalizacion": "2025-01-31",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Tessi Bullin",
+				"DNI": "46046470",
+				"contrato": {
+					"fecha_inicio": "2020-01-05",
+					"fecha_finalizacion": "2025-03-13",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Matthew Adamolli",
+				"DNI": "53028553",
+				"contrato": {
+					"fecha_inicio": "2021-10-21",
+					"fecha_finalizacion": "2025-04-29",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Winni Delacourt",
+				"DNI": "09940249",
+				"contrato": {
+					"fecha_inicio": "2021-04-04",
+					"fecha_finalizacion": "2025-04-27",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Ruttger Duinbleton",
+			"dni": "61917768",
+			"contrato": {
+				"fecha_inicio": "2021-03-15",
+				"fecha_finalizacion": "2025-01-31"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Archivo Central",
+		"trabajadores": [
+			{
+				"nombre": "Langsdon Ludlam",
+				"DNI": "90067851",
+				"contrato": {
+					"fecha_inicio": "2020-10-03",
+					"fecha_finalizacion": "2024-06-24",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Marjory Geroldi",
+				"DNI": "58712149",
+				"contrato": {
+					"fecha_inicio": "2022-03-29",
+					"fecha_finalizacion": "2023-06-23",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Lamar L' Anglois",
+				"DNI": "98578646",
+				"contrato": {
+					"fecha_inicio": "2021-06-12",
+					"fecha_finalizacion": "2023-10-30",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Coleman McEttigen",
+				"DNI": "37518197",
+				"contrato": {
+					"fecha_inicio": "2020-10-09",
+					"fecha_finalizacion": "2024-09-25",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Nolly Laverty",
+				"DNI": "72072968",
+				"contrato": {
+					"fecha_inicio": "2021-07-10",
+					"fecha_finalizacion": "2023-08-18",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Dory Mulder",
+				"DNI": "36542198",
+				"contrato": {
+					"fecha_inicio": "2021-04-26",
+					"fecha_finalizacion": "2024-01-04",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Guillaume Hamsson",
+				"DNI": "56043336",
+				"contrato": {
+					"fecha_inicio": "2020-11-13",
+					"fecha_finalizacion": "2023-05-19",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Konstantine Tudor",
+				"DNI": "03085820",
+				"contrato": {
+					"fecha_inicio": "2021-04-08",
+					"fecha_finalizacion": "2025-07-29",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Dud Pechacek",
+				"DNI": "13849762",
+				"contrato": {
+					"fecha_inicio": "2022-06-09",
+					"fecha_finalizacion": "2025-07-24",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Daron Hardie",
+				"DNI": "51648496",
+				"contrato": {
+					"fecha_inicio": "2020-04-19",
+					"fecha_finalizacion": "2025-01-30",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Kendal Skeldinge",
+				"DNI": "57556610",
+				"contrato": {
+					"fecha_inicio": "2020-01-20",
+					"fecha_finalizacion": "2025-03-30",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Andros Saffon",
+			"dni": "36759770",
+			"contrato": {
+				"fecha_inicio": "2020-11-13",
+				"fecha_finalizacion": "2023-05-19"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Desarrollo de Sistema",
+		"trabajadores": [
+			{
+				"nombre": "Claybourne Bowling",
+				"DNI": "69636800",
+				"contrato": {
+					"fecha_inicio": "2020-12-17",
+					"fecha_finalizacion": "2024-12-24",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Fairlie Muttitt",
+				"DNI": "11141194",
+				"contrato": {
+					"fecha_inicio": "2020-06-02",
+					"fecha_finalizacion": "2025-06-23",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Imogen Lacroux",
+				"DNI": "23644104",
+				"contrato": {
+					"fecha_inicio": "2021-11-15",
+					"fecha_finalizacion": "2025-01-15",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Halimeda Hearnshaw",
+				"DNI": "57233504",
+				"contrato": {
+					"fecha_inicio": "2021-07-21",
+					"fecha_finalizacion": "2025-10-05",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Reinhard Hessing",
+				"DNI": "79913706",
+				"contrato": {
+					"fecha_inicio": "2021-01-09",
+					"fecha_finalizacion": "2023-04-26",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Selby Ord",
+				"DNI": "12438239",
+				"contrato": {
+					"fecha_inicio": "2021-03-19",
+					"fecha_finalizacion": "2023-03-11",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Carmon Beamand",
+			"dni": "94384398",
+			"contrato": {
+				"fecha_inicio": "2020-06-02",
+				"fecha_finalizacion": "2025-06-23"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Escalafón y Control",
+		"trabajadores": [
+			{
+				"nombre": "Molly Braker",
+				"DNI": "02400106",
+				"contrato": {
+					"fecha_inicio": "2022-01-27",
+					"fecha_finalizacion": "2025-04-27",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Johannes Feathersby",
+				"DNI": "73417983",
+				"contrato": {
+					"fecha_inicio": "2021-05-28",
+					"fecha_finalizacion": "2023-08-01",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Lainey Zarfati",
+				"DNI": "14709490",
+				"contrato": {
+					"fecha_inicio": "2022-05-03",
+					"fecha_finalizacion": "2024-02-19",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Wyn Olyet",
+				"DNI": "47265845",
+				"contrato": {
+					"fecha_inicio": "2021-04-12",
+					"fecha_finalizacion": "2023-07-15",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Jason Willoughley",
+				"DNI": "37158109",
+				"contrato": {
+					"fecha_inicio": "2021-03-02",
+					"fecha_finalizacion": "2024-09-07",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Sukey Woodfine",
+				"DNI": "54003751",
+				"contrato": {
+					"fecha_inicio": "2021-03-24",
+					"fecha_finalizacion": "2024-01-12",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Madge Buffin",
+				"DNI": "51696343",
+				"contrato": {
+					"fecha_inicio": "2020-12-12",
+					"fecha_finalizacion": "2023-08-24",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Ernesto Peoples",
+				"DNI": "27745357",
+				"contrato": {
+					"fecha_inicio": "2020-06-24",
+					"fecha_finalizacion": "2023-07-24",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Gareth Goning",
+				"DNI": "94470251",
+				"contrato": {
+					"fecha_inicio": "2021-12-10",
+					"fecha_finalizacion": "2024-06-14",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Franny Sebrens",
+			"dni": "03042389",
+			"contrato": {
+				"fecha_inicio": "2020-12-12",
+				"fecha_finalizacion": "2023-08-24"
+			}
+		}
+	},
+	{
+		"nombre": "Centro de Producción, Investigación y Experimentación de Canchan y Conobamba",
+		"trabajadores": [
+			{
+				"nombre": "Agnese de Keyser",
+				"DNI": "41329408",
+				"contrato": {
+					"fecha_inicio": "2020-06-26",
+					"fecha_finalizacion": "2025-05-09",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Otis O' Dornan",
+				"DNI": "97086639",
+				"contrato": {
+					"fecha_inicio": "2021-07-10",
+					"fecha_finalizacion": "2023-03-31",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Banky Josefsson",
+				"DNI": "49938126",
+				"contrato": {
+					"fecha_inicio": "2021-04-01",
+					"fecha_finalizacion": "2025-07-29",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Aldwin True",
+				"DNI": "93924519",
+				"contrato": {
+					"fecha_inicio": "2022-01-24",
+					"fecha_finalizacion": "2023-03-25",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Brinna Callery",
+				"DNI": "12949403",
+				"contrato": {
+					"fecha_inicio": "2020-09-09",
+					"fecha_finalizacion": "2023-12-29",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Leighton Robard",
+				"DNI": "98433585",
+				"contrato": {
+					"fecha_inicio": "2021-03-12",
+					"fecha_finalizacion": "2024-09-16",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Pet Applebee",
+				"DNI": "13495492",
+				"contrato": {
+					"fecha_inicio": "2020-04-20",
+					"fecha_finalizacion": "2023-08-09",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Arty Wylie",
+				"DNI": "83056166",
+				"contrato": {
+					"fecha_inicio": "2020-09-04",
+					"fecha_finalizacion": "2024-03-30",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Isidore Micklewright",
+				"DNI": "91741426",
+				"contrato": {
+					"fecha_inicio": "2021-05-22",
+					"fecha_finalizacion": "2025-12-01",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Lelia Hearsey",
+			"dni": "45779215",
+			"contrato": {
+				"fecha_inicio": "2021-07-10",
+				"fecha_finalizacion": "2023-03-31"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Extensión Cultural",
+		"trabajadores": [
+			{
+				"nombre": "Ced Twiddle",
+				"DNI": "40358249",
+				"contrato": {
+					"fecha_inicio": "2021-02-06",
+					"fecha_finalizacion": "2023-11-25",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Andras Rubenfeld",
+				"DNI": "51827820",
+				"contrato": {
+					"fecha_inicio": "2022-01-14",
+					"fecha_finalizacion": "2025-12-03",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Wilbert Decaze",
+				"DNI": "40056638",
+				"contrato": {
+					"fecha_inicio": "2021-06-13",
+					"fecha_finalizacion": "2025-04-29",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Emery Alldis",
+				"DNI": "45845601",
+				"contrato": {
+					"fecha_inicio": "2021-04-18",
+					"fecha_finalizacion": "2025-10-30",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Reece Sinnett",
+				"DNI": "38037687",
+				"contrato": {
+					"fecha_inicio": "2020-02-18",
+					"fecha_finalizacion": "2024-08-06",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Vincenty Penreth",
+				"DNI": "90344787",
+				"contrato": {
+					"fecha_inicio": "2020-04-28",
+					"fecha_finalizacion": "2024-12-22",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Beryl Regan",
+			"dni": "20027317",
+			"contrato": {
+				"fecha_inicio": "2020-02-18",
+				"fecha_finalizacion": "2024-08-06"
+			}
+		}
+	},
+	{
+		"nombre": "Vice Rectorado Académico",
+		"trabajadores": [
+			{
+				"nombre": "Zonnya Mewha",
+				"DNI": "33779079",
+				"contrato": {
+					"fecha_inicio": "2022-05-20",
+					"fecha_finalizacion": "2024-11-16",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Giff Carberry",
+				"DNI": "18708080",
+				"contrato": {
+					"fecha_inicio": "2020-01-17",
+					"fecha_finalizacion": "2025-06-05",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Howard Masarrat",
+				"DNI": "30543358",
+				"contrato": {
+					"fecha_inicio": "2021-06-03",
+					"fecha_finalizacion": "2025-07-31",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Natalina Harlowe",
+			"dni": "61796956",
+			"contrato": {
+				"fecha_inicio": "2022-05-20",
+				"fecha_finalizacion": "2024-11-16"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina de Responsabilidad Social Universitaria",
+		"trabajadores": [
+			{
+				"nombre": "Kirsten Sprackling",
+				"DNI": "77124310",
+				"contrato": {
+					"fecha_inicio": "2022-02-09",
+					"fecha_finalizacion": "2023-04-08",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Mario Wince",
+				"DNI": "78204517",
+				"contrato": {
+					"fecha_inicio": "2022-03-15",
+					"fecha_finalizacion": "2024-06-22",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Niels Alliband",
+				"DNI": "68957107",
+				"contrato": {
+					"fecha_inicio": "2020-11-07",
+					"fecha_finalizacion": "2023-07-06",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Iona Cowsby",
+				"DNI": "10049289",
+				"contrato": {
+					"fecha_inicio": "2020-03-31",
+					"fecha_finalizacion": "2023-06-08",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Leigha O'Donoghue",
+				"DNI": "47114468",
+				"contrato": {
+					"fecha_inicio": "2021-09-03",
+					"fecha_finalizacion": "2023-08-06",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Loutitia Caplis",
+				"DNI": "04244948",
+				"contrato": {
+					"fecha_inicio": "2021-09-16",
+					"fecha_finalizacion": "2025-04-22",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Patty Churches",
+				"DNI": "58156500",
+				"contrato": {
+					"fecha_inicio": "2021-07-20",
+					"fecha_finalizacion": "2024-12-10",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Kyla Laidler",
+				"DNI": "06201951",
+				"contrato": {
+					"fecha_inicio": "2021-08-06",
+					"fecha_finalizacion": "2023-06-10",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Kit Houdhury",
+			"dni": "23965461",
+			"contrato": {
+				"fecha_inicio": "2020-03-31",
+				"fecha_finalizacion": "2023-06-08"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Remuneraciones, Pensiones y Compensaciones",
+		"trabajadores": [
+			{
+				"nombre": "Kiele Bliben",
+				"DNI": "12223711",
+				"contrato": {
+					"fecha_inicio": "2020-12-14",
+					"fecha_finalizacion": "2025-07-08",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Madge Tilbury",
+				"DNI": "61320683",
+				"contrato": {
+					"fecha_inicio": "2020-04-16",
+					"fecha_finalizacion": "2023-02-09",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Kameko Skyrme",
+				"DNI": "74357824",
+				"contrato": {
+					"fecha_inicio": "2020-05-10",
+					"fecha_finalizacion": "2023-12-10",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Zeb Fairlem",
+				"DNI": "23239544",
+				"contrato": {
+					"fecha_inicio": "2021-06-16",
+					"fecha_finalizacion": "2024-06-28",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Doralia Cota",
+				"DNI": "26017301",
+				"contrato": {
+					"fecha_inicio": "2021-02-24",
+					"fecha_finalizacion": "2025-05-19",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Perrine MacKomb",
+				"DNI": "69507994",
+				"contrato": {
+					"fecha_inicio": "2019-12-07",
+					"fecha_finalizacion": "2023-07-26",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Keir De Clairmont",
+			"dni": "86538275",
+			"contrato": {
+				"fecha_inicio": "2021-02-24",
+				"fecha_finalizacion": "2025-05-19"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Adquisiciones",
+		"trabajadores": [
+			{
+				"nombre": "Sydelle Bispo",
+				"DNI": "61809970",
+				"contrato": {
+					"fecha_inicio": "2020-02-28",
+					"fecha_finalizacion": "2025-07-20",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Gerek Gillow",
+				"DNI": "07896781",
+				"contrato": {
+					"fecha_inicio": "2021-07-03",
+					"fecha_finalizacion": "2025-08-25",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Alameda Tambling",
+				"DNI": "62558924",
+				"contrato": {
+					"fecha_inicio": "2020-12-15",
+					"fecha_finalizacion": "2023-12-20",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Augustine Esherwood",
+				"DNI": "30212123",
+				"contrato": {
+					"fecha_inicio": "2019-12-04",
+					"fecha_finalizacion": "2024-08-28",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Humfried Colleer",
+				"DNI": "60665032",
+				"contrato": {
+					"fecha_inicio": "2022-01-31",
+					"fecha_finalizacion": "2024-04-14",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Neysa MacGlory",
+				"DNI": "65944390",
+				"contrato": {
+					"fecha_inicio": "2020-08-05",
+					"fecha_finalizacion": "2023-09-08",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Ryan Pummery",
+				"DNI": "19425649",
+				"contrato": {
+					"fecha_inicio": "2021-02-24",
+					"fecha_finalizacion": "2024-05-27",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Viole Giovanni",
+				"DNI": "99179863",
+				"contrato": {
+					"fecha_inicio": "2020-11-29",
+					"fecha_finalizacion": "2025-11-23",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Candis Frondt",
+				"DNI": "97832564",
+				"contrato": {
+					"fecha_inicio": "2020-09-27",
+					"fecha_finalizacion": "2025-05-12",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Jodi Dagnall",
+				"DNI": "27069697",
+				"contrato": {
+					"fecha_inicio": "2020-09-23",
+					"fecha_finalizacion": "2023-07-18",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Phillipp Broscombe",
+			"dni": "68257109",
+			"contrato": {
+				"fecha_inicio": "2020-11-29",
+				"fecha_finalizacion": "2025-11-23"
+			}
+		}
+	},
+	{
+		"nombre": "Comité Electoral",
+		"trabajadores": [
+			{
+				"nombre": "Mateo Rex",
+				"DNI": "66629459",
+				"contrato": {
+					"fecha_inicio": "2022-03-19",
+					"fecha_finalizacion": "2023-03-30",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Darda Boldero",
+				"DNI": "46618617",
+				"contrato": {
+					"fecha_inicio": "2022-01-03",
+					"fecha_finalizacion": "2025-03-02",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Rae Fickling",
+				"DNI": "30284441",
+				"contrato": {
+					"fecha_inicio": "2020-01-02",
+					"fecha_finalizacion": "2025-11-19",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Nil Blase",
+				"DNI": "89440190",
+				"contrato": {
+					"fecha_inicio": "2019-12-05",
+					"fecha_finalizacion": "2024-03-14",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Jojo Templeman",
+				"DNI": "59849956",
+				"contrato": {
+					"fecha_inicio": "2022-04-20",
+					"fecha_finalizacion": "2025-02-27",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Pren Matantsev",
+				"DNI": "67593029",
+				"contrato": {
+					"fecha_inicio": "2022-01-03",
+					"fecha_finalizacion": "2023-09-13",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Gallard MacIlhargy",
+				"DNI": "43441708",
+				"contrato": {
+					"fecha_inicio": "2020-01-24",
+					"fecha_finalizacion": "2024-01-14",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Jackson Zink",
+			"dni": "75296652",
+			"contrato": {
+				"fecha_inicio": "2020-01-02",
+				"fecha_finalizacion": "2025-11-19"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina de Cooperación Técnica Internacional",
+		"trabajadores": [
+			{
+				"nombre": "Harley Clemens",
+				"DNI": "72098210",
+				"contrato": {
+					"fecha_inicio": "2020-12-30",
+					"fecha_finalizacion": "2024-01-31",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Cinda Towersey",
+				"DNI": "67667213",
+				"contrato": {
+					"fecha_inicio": "2019-12-11",
+					"fecha_finalizacion": "2024-06-23",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Lind Faire",
+				"DNI": "36659155",
+				"contrato": {
+					"fecha_inicio": "2020-02-13",
+					"fecha_finalizacion": "2023-12-05",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Cindee Mattersley",
+				"DNI": "46247752",
+				"contrato": {
+					"fecha_inicio": "2020-03-10",
+					"fecha_finalizacion": "2023-03-31",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Noel Grayer",
+				"DNI": "42173343",
+				"contrato": {
+					"fecha_inicio": "2020-11-22",
+					"fecha_finalizacion": "2023-02-27",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Celene Stanway",
+				"DNI": "38302617",
+				"contrato": {
+					"fecha_inicio": "2021-01-16",
+					"fecha_finalizacion": "2025-07-11",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Dom Sieur",
+				"DNI": "27633117",
+				"contrato": {
+					"fecha_inicio": "2020-05-29",
+					"fecha_finalizacion": "2023-12-23",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Averill Merrilees",
+			"dni": "56134907",
+			"contrato": {
+				"fecha_inicio": "2019-12-11",
+				"fecha_finalizacion": "2024-06-23"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Emprendimiento e Incubadora de Empresas",
+		"trabajadores": [
+			{
+				"nombre": "Donnell Scheu",
+				"DNI": "12177398",
+				"contrato": {
+					"fecha_inicio": "2021-08-05",
+					"fecha_finalizacion": "2023-08-11",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Pandora Serjeant",
+				"DNI": "82391072",
+				"contrato": {
+					"fecha_inicio": "2020-06-21",
+					"fecha_finalizacion": "2024-06-15",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Eudora Sedgefield",
+				"DNI": "75424697",
+				"contrato": {
+					"fecha_inicio": "2021-07-02",
+					"fecha_finalizacion": "2024-06-17",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Ruby MacLucais",
+				"DNI": "08090360",
+				"contrato": {
+					"fecha_inicio": "2022-03-03",
+					"fecha_finalizacion": "2025-05-01",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Valeria Jopling",
+				"DNI": "86943824",
+				"contrato": {
+					"fecha_inicio": "2020-03-15",
+					"fecha_finalizacion": "2025-12-19",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Nadiya State",
+				"DNI": "28919606",
+				"contrato": {
+					"fecha_inicio": "2021-02-22",
+					"fecha_finalizacion": "2024-09-03",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Milli Andrzej",
+				"DNI": "66446390",
+				"contrato": {
+					"fecha_inicio": "2021-11-02",
+					"fecha_finalizacion": "2023-09-24",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Nannie Daniel",
+				"DNI": "93530221",
+				"contrato": {
+					"fecha_inicio": "2021-08-15",
+					"fecha_finalizacion": "2023-09-08",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Yettie Croft",
+				"DNI": "25376856",
+				"contrato": {
+					"fecha_inicio": "2020-07-17",
+					"fecha_finalizacion": "2023-02-16",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Sher Trimmill",
+				"DNI": "45883487",
+				"contrato": {
+					"fecha_inicio": "2022-02-08",
+					"fecha_finalizacion": "2025-03-29",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Jason Willoughley",
+			"dni": "37158109",
+			"contrato": {
+				"fecha_inicio": "2021-08-15",
+				"fecha_finalizacion": "2023-09-08"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Organización y Análisis de la Información",
+		"trabajadores": [
+			{
+				"nombre": "Miguelita Lage",
+				"DNI": "71305798",
+				"contrato": {
+					"fecha_inicio": "2020-10-20",
+					"fecha_finalizacion": "2024-04-09",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Franny Sebrens",
+				"DNI": "03042389",
+				"contrato": {
+					"fecha_inicio": "2022-04-03",
+					"fecha_finalizacion": "2024-04-15",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Odille Shawyer",
+				"DNI": "38614202",
+				"contrato": {
+					"fecha_inicio": "2022-06-03",
+					"fecha_finalizacion": "2023-10-29",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Cyndia Croome",
+				"DNI": "91953506",
+				"contrato": {
+					"fecha_inicio": "2020-11-10",
+					"fecha_finalizacion": "2023-02-20",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Elise Lazare",
+			"dni": "10096260",
+			"contrato": {
+				"fecha_inicio": "2020-11-10",
+				"fecha_finalizacion": "2023-02-20"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Seguimiento al Egresado",
+		"trabajadores": [
+			{
+				"nombre": "Donnie Cooch",
+				"DNI": "90594469",
+				"contrato": {
+					"fecha_inicio": "2022-06-09",
+					"fecha_finalizacion": "2024-08-19",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Collette Purseglove",
+				"DNI": "69297375",
+				"contrato": {
+					"fecha_inicio": "2019-12-22",
+					"fecha_finalizacion": "2025-01-29",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Katha Verne",
+				"DNI": "91640730",
+				"contrato": {
+					"fecha_inicio": "2021-01-31",
+					"fecha_finalizacion": "2024-09-07",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Rafa Andriulis",
+				"DNI": "83341842",
+				"contrato": {
+					"fecha_inicio": "2021-08-25",
+					"fecha_finalizacion": "2023-04-05",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Binni Tweedle",
+				"DNI": "32667540",
+				"contrato": {
+					"fecha_inicio": "2020-05-13",
+					"fecha_finalizacion": "2023-05-28",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Estelle Butts",
+				"DNI": "17138082",
+				"contrato": {
+					"fecha_inicio": "2021-08-30",
+					"fecha_finalizacion": "2024-12-21",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Hillyer Golland",
+				"DNI": "43625639",
+				"contrato": {
+					"fecha_inicio": "2021-10-29",
+					"fecha_finalizacion": "2025-10-24",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Nerte Morfell",
+				"DNI": "66353072",
+				"contrato": {
+					"fecha_inicio": "2022-06-05",
+					"fecha_finalizacion": "2023-01-22",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Maritsa Conachie",
+			"dni": "23244607",
+			"contrato": {
+				"fecha_inicio": "2022-06-05",
+				"fecha_finalizacion": "2023-01-22"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Archivo Central",
+		"trabajadores": [
+			{
+				"nombre": "Langsdon Ludlam",
+				"DNI": "90067851",
+				"contrato": {
+					"fecha_inicio": "2020-10-03",
+					"fecha_finalizacion": "2024-06-24",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Marjory Geroldi",
+				"DNI": "58712149",
+				"contrato": {
+					"fecha_inicio": "2022-03-29",
+					"fecha_finalizacion": "2023-06-23",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Lamar L' Anglois",
+				"DNI": "98578646",
+				"contrato": {
+					"fecha_inicio": "2021-06-12",
+					"fecha_finalizacion": "2023-10-30",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Coleman McEttigen",
+				"DNI": "37518197",
+				"contrato": {
+					"fecha_inicio": "2020-10-09",
+					"fecha_finalizacion": "2024-09-25",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Nolly Laverty",
+				"DNI": "72072968",
+				"contrato": {
+					"fecha_inicio": "2021-07-10",
+					"fecha_finalizacion": "2023-08-18",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Dory Mulder",
+				"DNI": "36542198",
+				"contrato": {
+					"fecha_inicio": "2021-04-26",
+					"fecha_finalizacion": "2024-01-04",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Guillaume Hamsson",
+				"DNI": "56043336",
+				"contrato": {
+					"fecha_inicio": "2020-11-13",
+					"fecha_finalizacion": "2023-05-19",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Konstantine Tudor",
+				"DNI": "03085820",
+				"contrato": {
+					"fecha_inicio": "2021-04-08",
+					"fecha_finalizacion": "2025-07-29",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Dud Pechacek",
+				"DNI": "13849762",
+				"contrato": {
+					"fecha_inicio": "2022-06-09",
+					"fecha_finalizacion": "2025-07-24",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Daron Hardie",
+				"DNI": "51648496",
+				"contrato": {
+					"fecha_inicio": "2020-04-19",
+					"fecha_finalizacion": "2025-01-30",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Kendal Skeldinge",
+				"DNI": "57556610",
+				"contrato": {
+					"fecha_inicio": "2020-01-20",
+					"fecha_finalizacion": "2025-03-30",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Blinni Carnegy",
+			"dni": "04277240",
+			"contrato": {
+				"fecha_inicio": "2020-04-19",
+				"fecha_finalizacion": "2025-01-30"
+			}
+		}
+	},
+	{
+		"nombre": "Dirección de Educación a Distancia y Formación Continua",
+		"trabajadores": [
+			{
+				"nombre": "Fletcher Roocroft",
+				"DNI": "29520343",
+				"contrato": {
+					"fecha_inicio": "2022-04-11",
+					"fecha_finalizacion": "2024-12-31",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Aguste Greed",
+				"DNI": "40261868",
+				"contrato": {
+					"fecha_inicio": "2020-10-20",
+					"fecha_finalizacion": "2025-10-13",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Yetta Coultar",
+				"DNI": "64825508",
+				"contrato": {
+					"fecha_inicio": "2021-10-02",
+					"fecha_finalizacion": "2024-05-13",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Farand Bullene",
+				"DNI": "36636782",
+				"contrato": {
+					"fecha_inicio": "2020-01-26",
+					"fecha_finalizacion": "2023-07-16",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Johann Snel",
+				"DNI": "07737562",
+				"contrato": {
+					"fecha_inicio": "2021-11-05",
+					"fecha_finalizacion": "2025-07-17",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Naomi Picken",
+				"DNI": "71043628",
+				"contrato": {
+					"fecha_inicio": "2020-07-20",
+					"fecha_finalizacion": "2024-10-12",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Lesley Colclough",
+				"DNI": "68107494",
+				"contrato": {
+					"fecha_inicio": "2021-02-13",
+					"fecha_finalizacion": "2025-11-16",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Perceval Lannin",
+				"DNI": "58567942",
+				"contrato": {
+					"fecha_inicio": "2021-03-04",
+					"fecha_finalizacion": "2025-02-05",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Arty Wylie",
+			"dni": "83056166",
+			"contrato": {
+				"fecha_inicio": "2021-10-02",
+				"fecha_finalizacion": "2024-05-13"
+			}
+		}
+	},
+	{
+		"nombre": "Facultad de Derecho y Ciencias Poléticas",
+		"trabajadores": [
+			{
+				"nombre": "Venita Janko",
+				"DNI": "21685063",
+				"contrato": {
+					"fecha_inicio": "2020-01-04",
+					"fecha_finalizacion": "2024-04-11",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Cornall Cluely",
+				"DNI": "52227400",
+				"contrato": {
+					"fecha_inicio": "2020-12-07",
+					"fecha_finalizacion": "2023-04-02",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Rivi Brereton",
+				"DNI": "94189309",
+				"contrato": {
+					"fecha_inicio": "2021-04-18",
+					"fecha_finalizacion": "2024-01-18",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Tymon Dorot",
+				"DNI": "85128500",
+				"contrato": {
+					"fecha_inicio": "2020-11-29",
+					"fecha_finalizacion": "2024-08-08",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Faustina Emney",
+				"DNI": "74365422",
+				"contrato": {
+					"fecha_inicio": "2019-12-08",
+					"fecha_finalizacion": "2025-10-09",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Ralph O'Dea",
+				"DNI": "78797967",
+				"contrato": {
+					"fecha_inicio": "2021-01-10",
+					"fecha_finalizacion": "2025-01-24",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Mathias Jenny",
+				"DNI": "90478573",
+				"contrato": {
+					"fecha_inicio": "2020-03-07",
+					"fecha_finalizacion": "2023-02-14",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Dorine Holsall",
+				"DNI": "69820609",
+				"contrato": {
+					"fecha_inicio": "2021-01-14",
+					"fecha_finalizacion": "2025-05-14",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Wendall Adamovitz",
+				"DNI": "48764509",
+				"contrato": {
+					"fecha_inicio": "2020-11-16",
+					"fecha_finalizacion": "2024-01-31",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Eldon McGarrahan",
+				"DNI": "45547994",
+				"contrato": {
+					"fecha_inicio": "2020-04-04",
+					"fecha_finalizacion": "2024-08-18",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Aubine Leither",
+			"dni": "97053154",
+			"contrato": {
+				"fecha_inicio": "2021-04-18",
+				"fecha_finalizacion": "2024-01-18"
+			}
+		}
+	},
+	{
+		"nombre": "Centro Recreacional de Kotosh",
+		"trabajadores": [
+			{
+				"nombre": "Dael Coldbath",
+				"DNI": "04567896",
+				"contrato": {
+					"fecha_inicio": "2021-08-15",
+					"fecha_finalizacion": "2025-08-31",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Lynne Yakhin",
+				"DNI": "94518984",
+				"contrato": {
+					"fecha_inicio": "2022-05-02",
+					"fecha_finalizacion": "2024-12-11",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Cletus Giorgi",
+				"DNI": "79581902",
+				"contrato": {
+					"fecha_inicio": "2022-01-11",
+					"fecha_finalizacion": "2025-07-30",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Franny Loyndon",
+				"DNI": "34886282",
+				"contrato": {
+					"fecha_inicio": "2020-01-31",
+					"fecha_finalizacion": "2024-09-29",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Fredericka Iacobacci",
+				"DNI": "71968778",
+				"contrato": {
+					"fecha_inicio": "2019-12-09",
+					"fecha_finalizacion": "2025-10-08",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Nadiya State",
+			"dni": "28919606",
+			"contrato": {
+				"fecha_inicio": "2021-08-15",
+				"fecha_finalizacion": "2025-08-31"
+			}
+		}
+	},
+	{
+		"nombre": "Dirección de Imagen Institucional",
+		"trabajadores": [
+			{
+				"nombre": "Rebecka Gwin",
+				"DNI": "72236733",
+				"contrato": {
+					"fecha_inicio": "2020-12-09",
+					"fecha_finalizacion": "2025-02-27",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Andros Saffon",
+				"DNI": "36759770",
+				"contrato": {
+					"fecha_inicio": "2022-05-02",
+					"fecha_finalizacion": "2024-07-26",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Charis Search",
+				"DNI": "19579676",
+				"contrato": {
+					"fecha_inicio": "2020-05-10",
+					"fecha_finalizacion": "2025-12-08",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Natalina Harlowe",
+				"DNI": "61796956",
+				"contrato": {
+					"fecha_inicio": "2021-12-20",
+					"fecha_finalizacion": "2024-04-02",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Ertha Jephcott",
+				"DNI": "90902400",
+				"contrato": {
+					"fecha_inicio": "2022-05-03",
+					"fecha_finalizacion": "2023-02-16",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Lammond Hyland",
+				"DNI": "41705764",
+				"contrato": {
+					"fecha_inicio": "2021-07-01",
+					"fecha_finalizacion": "2024-06-15",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Frasco Crone",
+				"DNI": "45592556",
+				"contrato": {
+					"fecha_inicio": "2020-12-16",
+					"fecha_finalizacion": "2024-11-07",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Edwina Wyett",
+				"DNI": "02776951",
+				"contrato": {
+					"fecha_inicio": "2021-09-07",
+					"fecha_finalizacion": "2025-09-29",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Whitney Mulvenna",
+				"DNI": "51066185",
+				"contrato": {
+					"fecha_inicio": "2022-01-12",
+					"fecha_finalizacion": "2024-06-10",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Nadiya State",
+			"dni": "28919606",
+			"contrato": {
+				"fecha_inicio": "2021-09-07",
+				"fecha_finalizacion": "2025-09-29"
+			}
+		}
+	},
+	{
+		"nombre": "Órgano de Control Institucional",
+		"trabajadores": [
+			{
+				"nombre": "Bess Maciak",
+				"DNI": "58321579",
+				"contrato": {
+					"fecha_inicio": "2019-12-13",
+					"fecha_finalizacion": "2023-04-04",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Verna Gammet",
+				"DNI": "77932695",
+				"contrato": {
+					"fecha_inicio": "2020-05-20",
+					"fecha_finalizacion": "2025-12-22",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Latia Stoffel",
+				"DNI": "79952720",
+				"contrato": {
+					"fecha_inicio": "2020-10-06",
+					"fecha_finalizacion": "2024-03-14",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Isadora Dasent",
+				"DNI": "51637905",
+				"contrato": {
+					"fecha_inicio": "2022-06-01",
+					"fecha_finalizacion": "2024-11-15",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Andres Langabeer",
+				"DNI": "23575557",
+				"contrato": {
+					"fecha_inicio": "2021-01-18",
+					"fecha_finalizacion": "2025-08-12",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Cindee Mattersley",
+			"dni": "46247752",
+			"contrato": {
+				"fecha_inicio": "2021-01-18",
+				"fecha_finalizacion": "2025-08-12"
+			}
+		}
+	},
+	{
+		"nombre": "Dirección de Biblioteca Central",
+		"trabajadores": [
+			{
+				"nombre": "Alessandra Cassie",
+				"DNI": "48181200",
+				"contrato": {
+					"fecha_inicio": "2021-04-01",
+					"fecha_finalizacion": "2023-12-05",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Helge Primrose",
+				"DNI": "11850306",
+				"contrato": {
+					"fecha_inicio": "2021-11-19",
+					"fecha_finalizacion": "2024-02-16",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Adaline Campaigne",
+				"DNI": "46683562",
+				"contrato": {
+					"fecha_inicio": "2019-12-15",
+					"fecha_finalizacion": "2023-08-18",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Brocky Sewart",
+				"DNI": "51916660",
+				"contrato": {
+					"fecha_inicio": "2021-10-11",
+					"fecha_finalizacion": "2024-08-12",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Melony Pavelka",
+				"DNI": "33601336",
+				"contrato": {
+					"fecha_inicio": "2020-08-30",
+					"fecha_finalizacion": "2025-05-07",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Lynsey Jarnell",
+				"DNI": "65693136",
+				"contrato": {
+					"fecha_inicio": "2022-06-09",
+					"fecha_finalizacion": "2024-05-27",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Tam Hassin",
+				"DNI": "37492921",
+				"contrato": {
+					"fecha_inicio": "2020-01-12",
+					"fecha_finalizacion": "2024-04-18",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Eolanda Teresi",
+				"DNI": "06376176",
+				"contrato": {
+					"fecha_inicio": "2020-05-04",
+					"fecha_finalizacion": "2023-07-21",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Delila De Lorenzo",
+				"DNI": "82955047",
+				"contrato": {
+					"fecha_inicio": "2020-10-11",
+					"fecha_finalizacion": "2023-06-28",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Madge Tilbury",
+			"dni": "61320683",
+			"contrato": {
+				"fecha_inicio": "2022-06-09",
+				"fecha_finalizacion": "2024-05-27"
+			}
+		}
+	},
+	{
+		"nombre": "Programa de Capacitación y Titulación Profesional (PROCATP)",
+		"trabajadores": [
+			{
+				"nombre": "Saundra Dowker",
+				"DNI": "74947034",
+				"contrato": {
+					"fecha_inicio": "2021-06-16",
+					"fecha_finalizacion": "2023-02-22",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Danice Driver",
+				"DNI": "86716809",
+				"contrato": {
+					"fecha_inicio": "2021-05-26",
+					"fecha_finalizacion": "2024-05-06",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Raquela Clayal",
+				"DNI": "45308940",
+				"contrato": {
+					"fecha_inicio": "2022-02-17",
+					"fecha_finalizacion": "2023-11-05",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Nikos Dawson",
+				"DNI": "31006066",
+				"contrato": {
+					"fecha_inicio": "2020-09-03",
+					"fecha_finalizacion": "2023-02-08",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Bekki Bass",
+				"DNI": "39302047",
+				"contrato": {
+					"fecha_inicio": "2020-03-03",
+					"fecha_finalizacion": "2024-04-01",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Inglebert Ripping",
+				"DNI": "63979507",
+				"contrato": {
+					"fecha_inicio": "2019-12-25",
+					"fecha_finalizacion": "2025-12-29",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Karylin Chevers",
+				"DNI": "03160864",
+				"contrato": {
+					"fecha_inicio": "2020-05-07",
+					"fecha_finalizacion": "2024-10-28",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Larine Click",
+			"dni": "27129401",
+			"contrato": {
+				"fecha_inicio": "2022-02-17",
+				"fecha_finalizacion": "2023-11-05"
+			}
+		}
+	},
+	{
+		"nombre": "Facultad de Economía",
+		"trabajadores": [
+			{
+				"nombre": "Etan Tilt",
+				"DNI": "54904087",
+				"contrato": {
+					"fecha_inicio": "2020-03-03",
+					"fecha_finalizacion": "2023-06-11",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Crista Ingall",
+				"DNI": "19598393",
+				"contrato": {
+					"fecha_inicio": "2022-06-05",
+					"fecha_finalizacion": "2025-09-15",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Dani Cawsby",
+				"DNI": "30784994",
+				"contrato": {
+					"fecha_inicio": "2020-03-14",
+					"fecha_finalizacion": "2025-10-04",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Lucho Rickarsey",
+				"DNI": "05612091",
+				"contrato": {
+					"fecha_inicio": "2021-12-16",
+					"fecha_finalizacion": "2023-02-24",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Fidelity Sambles",
+				"DNI": "18019052",
+				"contrato": {
+					"fecha_inicio": "2020-06-20",
+					"fecha_finalizacion": "2024-07-26",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Mahmoud Toffel",
+				"DNI": "10411283",
+				"contrato": {
+					"fecha_inicio": "2020-09-02",
+					"fecha_finalizacion": "2025-08-11",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Aleksandr Crossley",
+				"DNI": "14220846",
+				"contrato": {
+					"fecha_inicio": "2020-01-05",
+					"fecha_finalizacion": "2025-10-27",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Effie Dench",
+			"dni": "92438783",
+			"contrato": {
+				"fecha_inicio": "2021-12-16",
+				"fecha_finalizacion": "2023-02-24"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina del Centro de Producción de Bienes y Servicios",
+		"trabajadores": [
+			{
+				"nombre": "Annetta Donaway",
+				"DNI": "11771027",
+				"contrato": {
+					"fecha_inicio": "2021-12-15",
+					"fecha_finalizacion": "2023-08-23",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Kaela Canellas",
+				"DNI": "50206207",
+				"contrato": {
+					"fecha_inicio": "2021-09-21",
+					"fecha_finalizacion": "2024-07-25",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Gwyneth Andersson",
+				"DNI": "60813735",
+				"contrato": {
+					"fecha_inicio": "2021-08-13",
+					"fecha_finalizacion": "2025-03-13",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Nert Hairon",
+				"DNI": "62584099",
+				"contrato": {
+					"fecha_inicio": "2020-12-23",
+					"fecha_finalizacion": "2023-08-02",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Alice McLice",
+				"DNI": "74770452",
+				"contrato": {
+					"fecha_inicio": "2022-01-13",
+					"fecha_finalizacion": "2023-11-11",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Opaline Grunnill",
+				"DNI": "35448436",
+				"contrato": {
+					"fecha_inicio": "2019-12-25",
+					"fecha_finalizacion": "2025-07-08",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Dell Leal",
+			"dni": "82801209",
+			"contrato": {
+				"fecha_inicio": "2020-12-23",
+				"fecha_finalizacion": "2023-08-02"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina Central de los Centros Generadores de BB Y SS de la UNHEVAL",
+		"trabajadores": [
+			{
+				"nombre": "Hilda McCreery",
+				"DNI": "29427510",
+				"contrato": {
+					"fecha_inicio": "2022-05-15",
+					"fecha_finalizacion": "2023-05-12",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Arden McConnal",
+				"DNI": "00132265",
+				"contrato": {
+					"fecha_inicio": "2021-03-12",
+					"fecha_finalizacion": "2024-11-09",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Susette Reed",
+				"DNI": "08231464",
+				"contrato": {
+					"fecha_inicio": "2020-08-08",
+					"fecha_finalizacion": "2024-04-10",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Evania Aberkirder",
+				"DNI": "98731912",
+				"contrato": {
+					"fecha_inicio": "2020-03-07",
+					"fecha_finalizacion": "2024-04-14",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Bond Ivanonko",
+				"DNI": "03615808",
+				"contrato": {
+					"fecha_inicio": "2020-02-09",
+					"fecha_finalizacion": "2024-11-30",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Ileane Grier",
+			"dni": "20313097",
+			"contrato": {
+				"fecha_inicio": "2022-05-15",
+				"fecha_finalizacion": "2023-05-12"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Becas y Movilidad Académica Nacional e Internacional",
+		"trabajadores": [
+			{
+				"nombre": "Lise Cozzi",
+				"DNI": "64707859",
+				"contrato": {
+					"fecha_inicio": "2020-10-02",
+					"fecha_finalizacion": "2025-07-28",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Riannon Davenell",
+				"DNI": "07499462",
+				"contrato": {
+					"fecha_inicio": "2020-07-18",
+					"fecha_finalizacion": "2025-07-27",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Catha Grzes",
+				"DNI": "82778842",
+				"contrato": {
+					"fecha_inicio": "2020-12-31",
+					"fecha_finalizacion": "2023-06-24",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Alonso Doogan",
+				"DNI": "95805731",
+				"contrato": {
+					"fecha_inicio": "2021-09-20",
+					"fecha_finalizacion": "2023-04-11",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Cyrille Reddish",
+				"DNI": "92386402",
+				"contrato": {
+					"fecha_inicio": "2020-11-25",
+					"fecha_finalizacion": "2024-01-14",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Bruce McCloud",
+			"dni": "98725043",
+			"contrato": {
+				"fecha_inicio": "2021-09-20",
+				"fecha_finalizacion": "2023-04-11"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Extensión Cultural",
+		"trabajadores": [
+			{
+				"nombre": "Ced Twiddle",
+				"DNI": "40358249",
+				"contrato": {
+					"fecha_inicio": "2021-02-06",
+					"fecha_finalizacion": "2023-11-25",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Andras Rubenfeld",
+				"DNI": "51827820",
+				"contrato": {
+					"fecha_inicio": "2022-01-14",
+					"fecha_finalizacion": "2025-12-03",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Wilbert Decaze",
+				"DNI": "40056638",
+				"contrato": {
+					"fecha_inicio": "2021-06-13",
+					"fecha_finalizacion": "2025-04-29",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Emery Alldis",
+				"DNI": "45845601",
+				"contrato": {
+					"fecha_inicio": "2021-04-18",
+					"fecha_finalizacion": "2025-10-30",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Reece Sinnett",
+				"DNI": "38037687",
+				"contrato": {
+					"fecha_inicio": "2020-02-18",
+					"fecha_finalizacion": "2024-08-06",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Vincenty Penreth",
+				"DNI": "90344787",
+				"contrato": {
+					"fecha_inicio": "2020-04-28",
+					"fecha_finalizacion": "2024-12-22",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Kameko Skyrme",
+			"dni": "74357824",
+			"contrato": {
+				"fecha_inicio": "2022-01-14",
+				"fecha_finalizacion": "2025-12-03"
+			}
+		}
+	},
+	{
+		"nombre": "Centro de Producción, Investigación y Experimentación Llullapichis",
+		"trabajadores": [
+			{
+				"nombre": "Juline Taplow",
+				"DNI": "19809840",
+				"contrato": {
+					"fecha_inicio": "2021-10-24",
+					"fecha_finalizacion": "2024-10-01",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Kare Wardley",
+				"DNI": "35834804",
+				"contrato": {
+					"fecha_inicio": "2021-03-27",
+					"fecha_finalizacion": "2025-12-11",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Conway Wix",
+				"DNI": "36528743",
+				"contrato": {
+					"fecha_inicio": "2020-10-15",
+					"fecha_finalizacion": "2024-09-01",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Maurita Saffell",
+				"DNI": "48338621",
+				"contrato": {
+					"fecha_inicio": "2022-01-04",
+					"fecha_finalizacion": "2024-10-22",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Drucie Juhruke",
+				"DNI": "31341709",
+				"contrato": {
+					"fecha_inicio": "2020-01-02",
+					"fecha_finalizacion": "2025-07-24",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Claudetta Guerre",
+				"DNI": "95927380",
+				"contrato": {
+					"fecha_inicio": "2020-05-04",
+					"fecha_finalizacion": "2023-03-26",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Mag Reddick",
+				"DNI": "32571097",
+				"contrato": {
+					"fecha_inicio": "2020-08-10",
+					"fecha_finalizacion": "2024-04-29",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Clevey Macartney",
+				"DNI": "72765342",
+				"contrato": {
+					"fecha_inicio": "2020-12-17",
+					"fecha_finalizacion": "2025-05-24",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Eddi Capitano",
+				"DNI": "36952672",
+				"contrato": {
+					"fecha_inicio": "2021-03-12",
+					"fecha_finalizacion": "2024-07-29",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Maribeth Sealove",
+				"DNI": "54942631",
+				"contrato": {
+					"fecha_inicio": "2021-10-26",
+					"fecha_finalizacion": "2024-01-30",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Fin Parkins",
+			"dni": "70597541",
+			"contrato": {
+				"fecha_inicio": "2020-08-10",
+				"fecha_finalizacion": "2024-04-29"
+			}
+		}
+	},
+	{
+		"nombre": "Centro de Producción, Investigación y Experimentación Llullapichis",
+		"trabajadores": [
+			{
+				"nombre": "Juline Taplow",
+				"DNI": "19809840",
+				"contrato": {
+					"fecha_inicio": "2021-10-24",
+					"fecha_finalizacion": "2024-10-01",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Kare Wardley",
+				"DNI": "35834804",
+				"contrato": {
+					"fecha_inicio": "2021-03-27",
+					"fecha_finalizacion": "2025-12-11",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Conway Wix",
+				"DNI": "36528743",
+				"contrato": {
+					"fecha_inicio": "2020-10-15",
+					"fecha_finalizacion": "2024-09-01",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Maurita Saffell",
+				"DNI": "48338621",
+				"contrato": {
+					"fecha_inicio": "2022-01-04",
+					"fecha_finalizacion": "2024-10-22",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Drucie Juhruke",
+				"DNI": "31341709",
+				"contrato": {
+					"fecha_inicio": "2020-01-02",
+					"fecha_finalizacion": "2025-07-24",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Claudetta Guerre",
+				"DNI": "95927380",
+				"contrato": {
+					"fecha_inicio": "2020-05-04",
+					"fecha_finalizacion": "2023-03-26",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Mag Reddick",
+				"DNI": "32571097",
+				"contrato": {
+					"fecha_inicio": "2020-08-10",
+					"fecha_finalizacion": "2024-04-29",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Clevey Macartney",
+				"DNI": "72765342",
+				"contrato": {
+					"fecha_inicio": "2020-12-17",
+					"fecha_finalizacion": "2025-05-24",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Eddi Capitano",
+				"DNI": "36952672",
+				"contrato": {
+					"fecha_inicio": "2021-03-12",
+					"fecha_finalizacion": "2024-07-29",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Maribeth Sealove",
+				"DNI": "54942631",
+				"contrato": {
+					"fecha_inicio": "2021-10-26",
+					"fecha_finalizacion": "2024-01-30",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "June Herche",
+			"dni": "87318331",
+			"contrato": {
+				"fecha_inicio": "2020-10-15",
+				"fecha_finalizacion": "2024-09-01"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de trámite documentario",
+		"trabajadores": [
+			{
+				"nombre": "Izzy Venner",
+				"DNI": "24737168",
+				"contrato": {
+					"fecha_inicio": "2020-01-21",
+					"fecha_finalizacion": "2023-06-14",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Hatti Drains",
+				"DNI": "31503991",
+				"contrato": {
+					"fecha_inicio": "2021-09-24",
+					"fecha_finalizacion": "2023-09-28",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Emily Bridson",
+				"DNI": "69977798",
+				"contrato": {
+					"fecha_inicio": "2021-04-21",
+					"fecha_finalizacion": "2023-06-09",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Moira McBeath",
+				"DNI": "52670270",
+				"contrato": {
+					"fecha_inicio": "2021-06-17",
+					"fecha_finalizacion": "2023-04-28",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Ana Steinhammer",
+				"DNI": "50262208",
+				"contrato": {
+					"fecha_inicio": "2020-06-22",
+					"fecha_finalizacion": "2023-02-05",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Constantino Lippatt",
+				"DNI": "67819997",
+				"contrato": {
+					"fecha_inicio": "2022-01-17",
+					"fecha_finalizacion": "2025-07-11",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Latia Stoffel",
+			"dni": "79952720",
+			"contrato": {
+				"fecha_inicio": "2020-01-21",
+				"fecha_finalizacion": "2023-06-14"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina de Infraestructura y Mantenimiento",
+		"trabajadores": [
+			{
+				"nombre": "Dreddy Milsom",
+				"DNI": "87485445",
+				"contrato": {
+					"fecha_inicio": "2021-02-12",
+					"fecha_finalizacion": "2025-11-29",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Berty Wittleton",
+				"DNI": "82915826",
+				"contrato": {
+					"fecha_inicio": "2020-10-02",
+					"fecha_finalizacion": "2025-03-28",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Ralf Broomhead",
+				"DNI": "24743193",
+				"contrato": {
+					"fecha_inicio": "2020-11-26",
+					"fecha_finalizacion": "2025-04-25",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Kimball Richt",
+				"DNI": "58706996",
+				"contrato": {
+					"fecha_inicio": "2020-07-31",
+					"fecha_finalizacion": "2023-02-14",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Axel Ingilson",
+				"DNI": "36510824",
+				"contrato": {
+					"fecha_inicio": "2022-05-30",
+					"fecha_finalizacion": "2025-07-09",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Merell Wheldon",
+				"DNI": "20303018",
+				"contrato": {
+					"fecha_inicio": "2020-05-29",
+					"fecha_finalizacion": "2024-06-23",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Sol Nancarrow",
+				"DNI": "36744833",
+				"contrato": {
+					"fecha_inicio": "2022-03-12",
+					"fecha_finalizacion": "2025-08-11",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Lucas Hollyard",
+			"dni": "88646099",
+			"contrato": {
+				"fecha_inicio": "2022-05-30",
+				"fecha_finalizacion": "2025-07-09"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina del Museo Regional de Leoncio Prado",
+		"trabajadores": [
+			{
+				"nombre": "Ethelda Bonavia",
+				"DNI": "01764255",
+				"contrato": {
+					"fecha_inicio": "2021-01-15",
+					"fecha_finalizacion": "2024-06-11",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Gale Russel",
+				"DNI": "51760510",
+				"contrato": {
+					"fecha_inicio": "2021-02-25",
+					"fecha_finalizacion": "2024-05-23",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Cari Bunstone",
+				"DNI": "36741627",
+				"contrato": {
+					"fecha_inicio": "2021-03-30",
+					"fecha_finalizacion": "2025-10-12",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Moishe Janoschek",
+				"DNI": "26533768",
+				"contrato": {
+					"fecha_inicio": "2021-02-08",
+					"fecha_finalizacion": "2024-10-13",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Madge Buffin",
+			"dni": "51696343",
+			"contrato": {
+				"fecha_inicio": "2021-03-30",
+				"fecha_finalizacion": "2025-10-12"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Ingresos",
+		"trabajadores": [
+			{
+				"nombre": "Brina Grigoroni",
+				"DNI": "71152886",
+				"contrato": {
+					"fecha_inicio": "2020-05-08",
+					"fecha_finalizacion": "2025-10-12",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Hendrik Dayes",
+				"DNI": "14191326",
+				"contrato": {
+					"fecha_inicio": "2021-01-29",
+					"fecha_finalizacion": "2025-07-20",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Erasmus Copperwaite",
+				"DNI": "36454872",
+				"contrato": {
+					"fecha_inicio": "2021-12-04",
+					"fecha_finalizacion": "2025-02-18",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Roobbie Branigan",
+				"DNI": "97372377",
+				"contrato": {
+					"fecha_inicio": "2021-01-16",
+					"fecha_finalizacion": "2023-10-05",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Pandora Lathee",
+				"DNI": "37020889",
+				"contrato": {
+					"fecha_inicio": "2020-11-01",
+					"fecha_finalizacion": "2023-01-11",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Hendrik Dayes",
+			"dni": "14191326",
+			"contrato": {
+				"fecha_inicio": "2021-01-29",
+				"fecha_finalizacion": "2025-07-20"
+			}
+		}
+	},
+	{
+		"nombre": "Facultad de Derecho y Ciencias Poléticas",
+		"trabajadores": [
+			{
+				"nombre": "Venita Janko",
+				"DNI": "21685063",
+				"contrato": {
+					"fecha_inicio": "2020-01-04",
+					"fecha_finalizacion": "2024-04-11",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Cornall Cluely",
+				"DNI": "52227400",
+				"contrato": {
+					"fecha_inicio": "2020-12-07",
+					"fecha_finalizacion": "2023-04-02",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Rivi Brereton",
+				"DNI": "94189309",
+				"contrato": {
+					"fecha_inicio": "2021-04-18",
+					"fecha_finalizacion": "2024-01-18",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Tymon Dorot",
+				"DNI": "85128500",
+				"contrato": {
+					"fecha_inicio": "2020-11-29",
+					"fecha_finalizacion": "2024-08-08",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Faustina Emney",
+				"DNI": "74365422",
+				"contrato": {
+					"fecha_inicio": "2019-12-08",
+					"fecha_finalizacion": "2025-10-09",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Ralph O'Dea",
+				"DNI": "78797967",
+				"contrato": {
+					"fecha_inicio": "2021-01-10",
+					"fecha_finalizacion": "2025-01-24",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Mathias Jenny",
+				"DNI": "90478573",
+				"contrato": {
+					"fecha_inicio": "2020-03-07",
+					"fecha_finalizacion": "2023-02-14",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Dorine Holsall",
+				"DNI": "69820609",
+				"contrato": {
+					"fecha_inicio": "2021-01-14",
+					"fecha_finalizacion": "2025-05-14",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Wendall Adamovitz",
+				"DNI": "48764509",
+				"contrato": {
+					"fecha_inicio": "2020-11-16",
+					"fecha_finalizacion": "2024-01-31",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Eldon McGarrahan",
+				"DNI": "45547994",
+				"contrato": {
+					"fecha_inicio": "2020-04-04",
+					"fecha_finalizacion": "2024-08-18",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Robin Jailler",
+			"dni": "40261812",
+			"contrato": {
+				"fecha_inicio": "2020-11-16",
+				"fecha_finalizacion": "2024-01-31"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina de Bienestar Universitario",
+		"trabajadores": [
+			{
+				"nombre": "Bryan Keeley",
+				"DNI": "79204418",
+				"contrato": {
+					"fecha_inicio": "2022-02-09",
+					"fecha_finalizacion": "2023-09-30",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Charity Alldis",
+				"DNI": "25978118",
+				"contrato": {
+					"fecha_inicio": "2021-11-11",
+					"fecha_finalizacion": "2023-10-29",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Selby Ord",
+			"dni": "12438239",
+			"contrato": {
+				"fecha_inicio": "2021-11-11",
+				"fecha_finalizacion": "2023-10-29"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina Central de los Centros Generadores de BB Y SS de la UNHEVAL",
+		"trabajadores": [
+			{
+				"nombre": "Hilda McCreery",
+				"DNI": "29427510",
+				"contrato": {
+					"fecha_inicio": "2022-05-15",
+					"fecha_finalizacion": "2023-05-12",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Arden McConnal",
+				"DNI": "00132265",
+				"contrato": {
+					"fecha_inicio": "2021-03-12",
+					"fecha_finalizacion": "2024-11-09",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Susette Reed",
+				"DNI": "08231464",
+				"contrato": {
+					"fecha_inicio": "2020-08-08",
+					"fecha_finalizacion": "2024-04-10",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Evania Aberkirder",
+				"DNI": "98731912",
+				"contrato": {
+					"fecha_inicio": "2020-03-07",
+					"fecha_finalizacion": "2024-04-14",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Bond Ivanonko",
+				"DNI": "03615808",
+				"contrato": {
+					"fecha_inicio": "2020-02-09",
+					"fecha_finalizacion": "2024-11-30",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Egbert Fountaine",
+			"dni": "11629511",
+			"contrato": {
+				"fecha_inicio": "2020-02-09",
+				"fecha_finalizacion": "2024-11-30"
+			}
+		}
+	},
+	{
+		"nombre": "Escuela de Posgrado",
+		"trabajadores": [
+			{
+				"nombre": "Selle Segeswoeth",
+				"DNI": "79273421",
+				"contrato": {
+					"fecha_inicio": "2021-04-06",
+					"fecha_finalizacion": "2024-08-11",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Letizia Simpkiss",
+				"DNI": "49671583",
+				"contrato": {
+					"fecha_inicio": "2020-04-28",
+					"fecha_finalizacion": "2025-12-11",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Carly Ridett",
+				"DNI": "46178052",
+				"contrato": {
+					"fecha_inicio": "2020-11-17",
+					"fecha_finalizacion": "2024-01-17",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Guillaume Hamsson",
+			"dni": "56043336",
+			"contrato": {
+				"fecha_inicio": "2020-04-28",
+				"fecha_finalizacion": "2025-12-11"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Licenciamiento",
+		"trabajadores": [
+			{
+				"nombre": "Kamillah Shooter",
+				"DNI": "86781275",
+				"contrato": {
+					"fecha_inicio": "2022-05-06",
+					"fecha_finalizacion": "2023-10-23",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Connie Nicolson",
+				"DNI": "13725477",
+				"contrato": {
+					"fecha_inicio": "2021-05-16",
+					"fecha_finalizacion": "2024-12-17",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Louie Salzberg",
+				"DNI": "30139832",
+				"contrato": {
+					"fecha_inicio": "2020-05-26",
+					"fecha_finalizacion": "2025-11-23",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Hurleigh Hamberston",
+				"DNI": "50021361",
+				"contrato": {
+					"fecha_inicio": "2020-04-22",
+					"fecha_finalizacion": "2024-05-17",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Delbert Mackelworth",
+				"DNI": "73354319",
+				"contrato": {
+					"fecha_inicio": "2021-02-16",
+					"fecha_finalizacion": "2025-04-01",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Haily Luckings",
+				"DNI": "31312696",
+				"contrato": {
+					"fecha_inicio": "2021-11-15",
+					"fecha_finalizacion": "2025-11-02",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Jereme Francello",
+				"DNI": "96405474",
+				"contrato": {
+					"fecha_inicio": "2021-02-28",
+					"fecha_finalizacion": "2024-01-30",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Elsi Yansons",
+				"DNI": "62288059",
+				"contrato": {
+					"fecha_inicio": "2020-02-23",
+					"fecha_finalizacion": "2024-09-13",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Celina Karmel",
+				"DNI": "88836861",
+				"contrato": {
+					"fecha_inicio": "2020-11-20",
+					"fecha_finalizacion": "2025-09-26",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Pete Kensley",
+				"DNI": "53604236",
+				"contrato": {
+					"fecha_inicio": "2020-10-22",
+					"fecha_finalizacion": "2025-09-04",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Dareen Doyley",
+			"dni": "31001129",
+			"contrato": {
+				"fecha_inicio": "2021-02-28",
+				"fecha_finalizacion": "2024-01-30"
+			}
+		}
+	},
+	{
+		"nombre": "Facultad de Ciencias de la Educación",
+		"trabajadores": [
+			{
+				"nombre": "Lizzy Pougher",
+				"DNI": "20377438",
+				"contrato": {
+					"fecha_inicio": "2021-08-29",
+					"fecha_finalizacion": "2023-04-24",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Noel Flowitt",
+				"DNI": "31938605",
+				"contrato": {
+					"fecha_inicio": "2021-06-22",
+					"fecha_finalizacion": "2023-08-12",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Ange Cuttell",
+				"DNI": "19745272",
+				"contrato": {
+					"fecha_inicio": "2022-05-03",
+					"fecha_finalizacion": "2024-04-08",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Kit Houdhury",
+				"DNI": "23965461",
+				"contrato": {
+					"fecha_inicio": "2021-09-30",
+					"fecha_finalizacion": "2024-04-09",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Norma Adrien",
+				"DNI": "73570843",
+				"contrato": {
+					"fecha_inicio": "2022-01-23",
+					"fecha_finalizacion": "2025-02-20",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Sonnie Hartlebury",
+				"DNI": "27516151",
+				"contrato": {
+					"fecha_inicio": "2022-02-09",
+					"fecha_finalizacion": "2023-10-09",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Hank Giddy",
+				"DNI": "91114242",
+				"contrato": {
+					"fecha_inicio": "2021-03-02",
+					"fecha_finalizacion": "2023-01-27",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Reube Shawell",
+				"DNI": "52781673",
+				"contrato": {
+					"fecha_inicio": "2021-08-04",
+					"fecha_finalizacion": "2024-11-02",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Arvy Jakubovski",
+				"DNI": "31450128",
+				"contrato": {
+					"fecha_inicio": "2020-01-08",
+					"fecha_finalizacion": "2024-06-13",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Sophronia Hubery",
+			"dni": "50908571",
+			"contrato": {
+				"fecha_inicio": "2021-06-22",
+				"fecha_finalizacion": "2023-08-12"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Proyección Social",
+		"trabajadores": [
+			{
+				"nombre": "Daren Brantl",
+				"DNI": "94313719",
+				"contrato": {
+					"fecha_inicio": "2020-10-01",
+					"fecha_finalizacion": "2024-07-25",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Lelia Hearsey",
+				"DNI": "45779215",
+				"contrato": {
+					"fecha_inicio": "2021-05-09",
+					"fecha_finalizacion": "2024-01-05",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Preston Fern",
+				"DNI": "50323190",
+				"contrato": {
+					"fecha_inicio": "2020-07-27",
+					"fecha_finalizacion": "2023-04-14",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Paolina Okie",
+				"DNI": "24753686",
+				"contrato": {
+					"fecha_inicio": "2020-03-16",
+					"fecha_finalizacion": "2023-04-16",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Gillian Agass",
+				"DNI": "52583765",
+				"contrato": {
+					"fecha_inicio": "2021-12-24",
+					"fecha_finalizacion": "2023-02-13",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Wynn Plaschke",
+			"dni": "53212360",
+			"contrato": {
+				"fecha_inicio": "2021-12-24",
+				"fecha_finalizacion": "2023-02-13"
+			}
+		}
+	},
+	{
+		"nombre": "Fundación UNHEVAL",
+		"trabajadores": [
+			{
+				"nombre": "Marijo Bromet",
+				"DNI": "96276064",
+				"contrato": {
+					"fecha_inicio": "2020-09-16",
+					"fecha_finalizacion": "2025-05-13",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Teodor Vasic",
+				"DNI": "19640987",
+				"contrato": {
+					"fecha_inicio": "2020-01-08",
+					"fecha_finalizacion": "2023-10-22",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Sigismund Doumic",
+				"DNI": "34050531",
+				"contrato": {
+					"fecha_inicio": "2021-07-18",
+					"fecha_finalizacion": "2024-04-20",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Phillipp Firbanks",
+				"DNI": "58431096",
+				"contrato": {
+					"fecha_inicio": "2021-01-26",
+					"fecha_finalizacion": "2025-09-15",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Seline Getcliffe",
+				"DNI": "55115344",
+				"contrato": {
+					"fecha_inicio": "2022-04-07",
+					"fecha_finalizacion": "2023-06-24",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Risa Sleep",
+			"dni": "87655591",
+			"contrato": {
+				"fecha_inicio": "2022-04-07",
+				"fecha_finalizacion": "2023-06-24"
+			}
+		}
+	},
+	{
+		"nombre": "Dirección de Informática",
+		"trabajadores": [
+			{
+				"nombre": "Elaine Voelker",
+				"DNI": "36247506",
+				"contrato": {
+					"fecha_inicio": "2021-04-01",
+					"fecha_finalizacion": "2025-08-10",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Karlis Greated",
+				"DNI": "86966465",
+				"contrato": {
+					"fecha_inicio": "2020-03-06",
+					"fecha_finalizacion": "2023-12-06",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Lancelot Goodier",
+				"DNI": "85307818",
+				"contrato": {
+					"fecha_inicio": "2021-12-17",
+					"fecha_finalizacion": "2023-08-19",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Archibaldo Lacasa",
+				"DNI": "21743282",
+				"contrato": {
+					"fecha_inicio": "2020-07-14",
+					"fecha_finalizacion": "2024-03-07",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Man Frondt",
+				"DNI": "22140651",
+				"contrato": {
+					"fecha_inicio": "2022-02-25",
+					"fecha_finalizacion": "2024-05-26",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Milli Audus",
+				"DNI": "62548053",
+				"contrato": {
+					"fecha_inicio": "2020-07-20",
+					"fecha_finalizacion": "2023-07-12",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Ilse Frankland",
+				"DNI": "31239179",
+				"contrato": {
+					"fecha_inicio": "2022-06-03",
+					"fecha_finalizacion": "2025-12-02",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Rodolfo Cricket",
+			"dni": "58736111",
+			"contrato": {
+				"fecha_inicio": "2020-07-20",
+				"fecha_finalizacion": "2023-07-12"
+			}
+		}
+	},
+	{
+		"nombre": "Instituto de Investigación de Cs. Sociales",
+		"trabajadores": [
+			{
+				"nombre": "Melania Kiledal",
+				"DNI": "17700480",
+				"contrato": {
+					"fecha_inicio": "2020-03-27",
+					"fecha_finalizacion": "2023-04-24",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Frannie Cudby",
+				"DNI": "45813224",
+				"contrato": {
+					"fecha_inicio": "2021-06-20",
+					"fecha_finalizacion": "2024-12-23",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Tobiah Waterworth",
+				"DNI": "83493221",
+				"contrato": {
+					"fecha_inicio": "2020-06-17",
+					"fecha_finalizacion": "2024-04-07",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Pauline Vobes",
+				"DNI": "82228741",
+				"contrato": {
+					"fecha_inicio": "2021-10-25",
+					"fecha_finalizacion": "2024-09-23",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Fidelity Sambles",
+			"dni": "18019052",
+			"contrato": {
+				"fecha_inicio": "2021-06-20",
+				"fecha_finalizacion": "2024-12-23"
+			}
+		}
+	},
+	{
+		"nombre": "Instituto de Investigación Cs. Agropecuarias",
+		"trabajadores": [
+			{
+				"nombre": "Maritsa Sallings",
+				"DNI": "53473664",
+				"contrato": {
+					"fecha_inicio": "2021-01-26",
+					"fecha_finalizacion": "2023-08-18",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Dorthy Swinney",
+				"DNI": "42986041",
+				"contrato": {
+					"fecha_inicio": "2021-01-22",
+					"fecha_finalizacion": "2024-09-28",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Ingaberg Mayzes",
+				"DNI": "91853408",
+				"contrato": {
+					"fecha_inicio": "2021-12-06",
+					"fecha_finalizacion": "2025-05-03",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Ivett Fallowes",
+				"DNI": "10691811",
+				"contrato": {
+					"fecha_inicio": "2022-05-31",
+					"fecha_finalizacion": "2023-04-15",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Felic Eloi",
+				"DNI": "51630602",
+				"contrato": {
+					"fecha_inicio": "2022-02-28",
+					"fecha_finalizacion": "2025-02-01",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Tobin Hellsdon",
+				"DNI": "07929426",
+				"contrato": {
+					"fecha_inicio": "2020-05-09",
+					"fecha_finalizacion": "2023-05-19",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Beaufort Slogrove",
+				"DNI": "86798888",
+				"contrato": {
+					"fecha_inicio": "2021-10-28",
+					"fecha_finalizacion": "2024-04-15",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Cherin Parradye",
+				"DNI": "61495176",
+				"contrato": {
+					"fecha_inicio": "2019-12-26",
+					"fecha_finalizacion": "2024-11-11",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Marne Stather",
+				"DNI": "64600287",
+				"contrato": {
+					"fecha_inicio": "2021-05-17",
+					"fecha_finalizacion": "2025-10-20",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Mil Hallett",
+				"DNI": "48248833",
+				"contrato": {
+					"fecha_inicio": "2022-05-17",
+					"fecha_finalizacion": "2023-01-11",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Cosette Maylott",
+			"dni": "49514204",
+			"contrato": {
+				"fecha_inicio": "2022-02-28",
+				"fecha_finalizacion": "2025-02-01"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina de Programación e Inversiones",
+		"trabajadores": [
+			{
+				"nombre": "Elka Calfe",
+				"DNI": "59950748",
+				"contrato": {
+					"fecha_inicio": "2020-06-12",
+					"fecha_finalizacion": "2024-06-16",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Etty Gyppes",
+				"DNI": "88182546",
+				"contrato": {
+					"fecha_inicio": "2022-03-24",
+					"fecha_finalizacion": "2024-09-29",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Kylila McLurg",
+				"DNI": "70184826",
+				"contrato": {
+					"fecha_inicio": "2022-03-06",
+					"fecha_finalizacion": "2025-08-25",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Dona Hardiman",
+				"DNI": "62856406",
+				"contrato": {
+					"fecha_inicio": "2020-04-10",
+					"fecha_finalizacion": "2023-11-25",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Ulrika Egger",
+			"dni": "62530754",
+			"contrato": {
+				"fecha_inicio": "2020-06-12",
+				"fecha_finalizacion": "2024-06-16"
+			}
+		}
+	},
+	{
+		"nombre": "Facultad de Ciencias Contables y Financieras",
+		"trabajadores": [
+			{
+				"nombre": "Griselda Helbeck",
+				"DNI": "37843291",
+				"contrato": {
+					"fecha_inicio": "2022-06-03",
+					"fecha_finalizacion": "2024-06-24",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Lurleen Abramovici",
+				"DNI": "19431133",
+				"contrato": {
+					"fecha_inicio": "2021-06-08",
+					"fecha_finalizacion": "2024-06-23",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Trix Fosbraey",
+				"DNI": "79023733",
+				"contrato": {
+					"fecha_inicio": "2020-04-14",
+					"fecha_finalizacion": "2024-07-14",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Shane Spreag",
+				"DNI": "79314017",
+				"contrato": {
+					"fecha_inicio": "2022-04-26",
+					"fecha_finalizacion": "2024-09-27",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Gavrielle Fellona",
+				"DNI": "02915412",
+				"contrato": {
+					"fecha_inicio": "2020-10-29",
+					"fecha_finalizacion": "2023-07-18",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Malorie Hryskiewicz",
+				"DNI": "99097063",
+				"contrato": {
+					"fecha_inicio": "2022-05-23",
+					"fecha_finalizacion": "2023-05-27",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Quillan Reeder",
+			"dni": "14069270",
+			"contrato": {
+				"fecha_inicio": "2020-10-29",
+				"fecha_finalizacion": "2023-07-18"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Gestión Cultural: Historia, Arqueología e Investigación",
+		"trabajadores": [
+			{
+				"nombre": "Brittni Klaussen",
+				"DNI": "77885311",
+				"contrato": {
+					"fecha_inicio": "2021-03-18",
+					"fecha_finalizacion": "2025-07-13",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Moe Filippazzo",
+				"DNI": "26314075",
+				"contrato": {
+					"fecha_inicio": "2021-08-11",
+					"fecha_finalizacion": "2025-05-13",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Augusta D'Aeth",
+				"DNI": "58373317",
+				"contrato": {
+					"fecha_inicio": "2022-04-08",
+					"fecha_finalizacion": "2023-03-22",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Archer Purdey",
+				"DNI": "87778902",
+				"contrato": {
+					"fecha_inicio": "2021-10-30",
+					"fecha_finalizacion": "2024-11-11",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Jacenta Wale",
+				"DNI": "02466403",
+				"contrato": {
+					"fecha_inicio": "2021-12-06",
+					"fecha_finalizacion": "2024-01-05",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Helga Tasseler",
+				"DNI": "64652508",
+				"contrato": {
+					"fecha_inicio": "2020-02-18",
+					"fecha_finalizacion": "2023-06-19",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Reed Landrean",
+				"DNI": "10111818",
+				"contrato": {
+					"fecha_inicio": "2021-01-25",
+					"fecha_finalizacion": "2024-11-23",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Shermy Briffett",
+				"DNI": "90832401",
+				"contrato": {
+					"fecha_inicio": "2021-06-25",
+					"fecha_finalizacion": "2024-06-17",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Konstantine Tudor",
+			"dni": "03085820",
+			"contrato": {
+				"fecha_inicio": "2021-08-11",
+				"fecha_finalizacion": "2025-05-13"
+			}
+		}
+	},
+	{
+		"nombre": "Facultad de Derecho y Ciencias Poléticas",
+		"trabajadores": [
+			{
+				"nombre": "Venita Janko",
+				"DNI": "21685063",
+				"contrato": {
+					"fecha_inicio": "2020-01-04",
+					"fecha_finalizacion": "2024-04-11",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Cornall Cluely",
+				"DNI": "52227400",
+				"contrato": {
+					"fecha_inicio": "2020-12-07",
+					"fecha_finalizacion": "2023-04-02",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Rivi Brereton",
+				"DNI": "94189309",
+				"contrato": {
+					"fecha_inicio": "2021-04-18",
+					"fecha_finalizacion": "2024-01-18",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Tymon Dorot",
+				"DNI": "85128500",
+				"contrato": {
+					"fecha_inicio": "2020-11-29",
+					"fecha_finalizacion": "2024-08-08",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Faustina Emney",
+				"DNI": "74365422",
+				"contrato": {
+					"fecha_inicio": "2019-12-08",
+					"fecha_finalizacion": "2025-10-09",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Ralph O'Dea",
+				"DNI": "78797967",
+				"contrato": {
+					"fecha_inicio": "2021-01-10",
+					"fecha_finalizacion": "2025-01-24",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Mathias Jenny",
+				"DNI": "90478573",
+				"contrato": {
+					"fecha_inicio": "2020-03-07",
+					"fecha_finalizacion": "2023-02-14",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Dorine Holsall",
+				"DNI": "69820609",
+				"contrato": {
+					"fecha_inicio": "2021-01-14",
+					"fecha_finalizacion": "2025-05-14",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Wendall Adamovitz",
+				"DNI": "48764509",
+				"contrato": {
+					"fecha_inicio": "2020-11-16",
+					"fecha_finalizacion": "2024-01-31",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Eldon McGarrahan",
+				"DNI": "45547994",
+				"contrato": {
+					"fecha_inicio": "2020-04-04",
+					"fecha_finalizacion": "2024-08-18",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Kimberlee Falk",
+			"dni": "88682127",
+			"contrato": {
+				"fecha_inicio": "2021-01-14",
+				"fecha_finalizacion": "2025-05-14"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Servicios Auxiliares",
+		"trabajadores": [
+			{
+				"nombre": "Hedvige Geldert",
+				"DNI": "89130416",
+				"contrato": {
+					"fecha_inicio": "2020-10-24",
+					"fecha_finalizacion": "2023-01-11",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Dugald Lockley",
+				"DNI": "54224781",
+				"contrato": {
+					"fecha_inicio": "2021-09-08",
+					"fecha_finalizacion": "2025-01-20",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Jacqui Hardison",
+				"DNI": "69663925",
+				"contrato": {
+					"fecha_inicio": "2020-06-10",
+					"fecha_finalizacion": "2023-07-26",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Keir De Clairmont",
+				"DNI": "86538275",
+				"contrato": {
+					"fecha_inicio": "2022-05-24",
+					"fecha_finalizacion": "2024-04-06",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Babs Garrettson",
+				"DNI": "82605202",
+				"contrato": {
+					"fecha_inicio": "2022-04-18",
+					"fecha_finalizacion": "2023-02-07",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Jeralee Speedin",
+				"DNI": "92009171",
+				"contrato": {
+					"fecha_inicio": "2021-03-26",
+					"fecha_finalizacion": "2023-12-15",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Goddart Deeming",
+				"DNI": "81954626",
+				"contrato": {
+					"fecha_inicio": "2020-12-25",
+					"fecha_finalizacion": "2023-09-26",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Kettie Plunkett",
+				"DNI": "80408424",
+				"contrato": {
+					"fecha_inicio": "2021-04-11",
+					"fecha_finalizacion": "2023-08-01",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Jacobo Mugglestone",
+				"DNI": "38223060",
+				"contrato": {
+					"fecha_inicio": "2022-02-18",
+					"fecha_finalizacion": "2024-01-07",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Susanne Labram",
+			"dni": "28645929",
+			"contrato": {
+				"fecha_inicio": "2021-09-08",
+				"fecha_finalizacion": "2025-01-20"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Costos y Tributación",
+		"trabajadores": [
+			{
+				"nombre": "Maiga Pykerman",
+				"DNI": "78086673",
+				"contrato": {
+					"fecha_inicio": "2022-03-14",
+					"fecha_finalizacion": "2024-05-25",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Aldridge Huskinson",
+				"DNI": "79743474",
+				"contrato": {
+					"fecha_inicio": "2021-11-04",
+					"fecha_finalizacion": "2023-02-12",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Jodi Jakubowsky",
+				"DNI": "73521695",
+				"contrato": {
+					"fecha_inicio": "2022-02-16",
+					"fecha_finalizacion": "2023-01-26",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Melodie Archell",
+				"DNI": "48301351",
+				"contrato": {
+					"fecha_inicio": "2021-10-15",
+					"fecha_finalizacion": "2025-06-28",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Rafi Blucher",
+				"DNI": "74765420",
+				"contrato": {
+					"fecha_inicio": "2020-02-03",
+					"fecha_finalizacion": "2025-09-24",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Flora Skamal",
+				"DNI": "51875708",
+				"contrato": {
+					"fecha_inicio": "2020-09-23",
+					"fecha_finalizacion": "2024-02-27",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Kirsten Connikie",
+			"dni": "61367996",
+			"contrato": {
+				"fecha_inicio": "2020-02-03",
+				"fecha_finalizacion": "2025-09-24"
+			}
+		}
+	},
+	{
+		"nombre": "Dirección de Responsabilidad Social Universitaria",
+		"trabajadores": [
+			{
+				"nombre": "Claiborne Newlands",
+				"DNI": "45406105",
+				"contrato": {
+					"fecha_inicio": "2021-04-23",
+					"fecha_finalizacion": "2025-11-04",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Abran Krates",
+				"DNI": "44875008",
+				"contrato": {
+					"fecha_inicio": "2021-01-13",
+					"fecha_finalizacion": "2025-05-28",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Adele Handslip",
+				"DNI": "14509864",
+				"contrato": {
+					"fecha_inicio": "2020-07-02",
+					"fecha_finalizacion": "2024-10-11",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Sophronia Hubery",
+				"DNI": "50908571",
+				"contrato": {
+					"fecha_inicio": "2022-04-01",
+					"fecha_finalizacion": "2023-01-20",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Elliott Siege",
+				"DNI": "96564882",
+				"contrato": {
+					"fecha_inicio": "2021-06-12",
+					"fecha_finalizacion": "2025-12-28",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Guilbert Schust",
+				"DNI": "78818837",
+				"contrato": {
+					"fecha_inicio": "2021-10-24",
+					"fecha_finalizacion": "2024-08-26",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Ailis Chasson",
+				"DNI": "39040111",
+				"contrato": {
+					"fecha_inicio": "2020-04-10",
+					"fecha_finalizacion": "2025-05-29",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Francyne Cassells",
+				"DNI": "66055436",
+				"contrato": {
+					"fecha_inicio": "2021-05-27",
+					"fecha_finalizacion": "2024-09-09",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Katya Lomansey",
+				"DNI": "08939587",
+				"contrato": {
+					"fecha_inicio": "2020-03-06",
+					"fecha_finalizacion": "2023-01-18",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Thatch Whereat",
+			"dni": "09877289",
+			"contrato": {
+				"fecha_inicio": "2022-04-01",
+				"fecha_finalizacion": "2023-01-20"
+			}
+		}
+	},
+	{
+		"nombre": "Rectorado",
+		"trabajadores": [
+			{
+				"nombre": "Brook Goretti",
+				"DNI": "10039666",
+				"contrato": {
+					"fecha_inicio": "2022-01-14",
+					"fecha_finalizacion": "2023-11-05",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Kendall Vlies",
+				"DNI": "92864813",
+				"contrato": {
+					"fecha_inicio": "2021-01-22",
+					"fecha_finalizacion": "2024-08-13",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Elvin Capini",
+				"DNI": "38575891",
+				"contrato": {
+					"fecha_inicio": "2022-05-29",
+					"fecha_finalizacion": "2024-03-03",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Deeyn Moodey",
+				"DNI": "80299327",
+				"contrato": {
+					"fecha_inicio": "2022-02-12",
+					"fecha_finalizacion": "2024-10-13",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Hazlett Razzell",
+			"dni": "20775650",
+			"contrato": {
+				"fecha_inicio": "2022-02-12",
+				"fecha_finalizacion": "2024-10-13"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Soporte Técnico y Virtual",
+		"trabajadores": [
+			{
+				"nombre": "Gerek Kitlee",
+				"DNI": "37760584",
+				"contrato": {
+					"fecha_inicio": "2020-08-27",
+					"fecha_finalizacion": "2025-08-15",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Bonni Sibyllina",
+				"DNI": "43108694",
+				"contrato": {
+					"fecha_inicio": "2020-11-30",
+					"fecha_finalizacion": "2024-03-11",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "North Kimberley",
+				"DNI": "24719172",
+				"contrato": {
+					"fecha_inicio": "2022-03-28",
+					"fecha_finalizacion": "2024-01-19",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Sher Pinfold",
+				"DNI": "95291183",
+				"contrato": {
+					"fecha_inicio": "2020-05-27",
+					"fecha_finalizacion": "2024-02-26",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Massimo Field",
+				"DNI": "05906140",
+				"contrato": {
+					"fecha_inicio": "2022-05-10",
+					"fecha_finalizacion": "2024-10-05",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Romonda Ledram",
+				"DNI": "61143330",
+				"contrato": {
+					"fecha_inicio": "2020-01-31",
+					"fecha_finalizacion": "2025-04-21",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Lyn McClean",
+				"DNI": "56881458",
+				"contrato": {
+					"fecha_inicio": "2020-04-18",
+					"fecha_finalizacion": "2024-09-07",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Jeremias Laise",
+				"DNI": "33313220",
+				"contrato": {
+					"fecha_inicio": "2022-01-10",
+					"fecha_finalizacion": "2025-08-21",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Walliw Lermouth",
+			"dni": "40111397",
+			"contrato": {
+				"fecha_inicio": "2020-05-27",
+				"fecha_finalizacion": "2024-02-26"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Servicios Universitarios",
+		"trabajadores": [
+			{
+				"nombre": "Chance Durdy",
+				"DNI": "96114820",
+				"contrato": {
+					"fecha_inicio": "2021-11-16",
+					"fecha_finalizacion": "2024-06-08",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Elladine Gatward",
+				"DNI": "59313393",
+				"contrato": {
+					"fecha_inicio": "2020-02-09",
+					"fecha_finalizacion": "2025-07-26",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Hyacinthie Grastye",
+				"DNI": "44739263",
+				"contrato": {
+					"fecha_inicio": "2020-11-29",
+					"fecha_finalizacion": "2023-05-03",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Jordain Simonutti",
+				"DNI": "07322066",
+				"contrato": {
+					"fecha_inicio": "2022-04-27",
+					"fecha_finalizacion": "2023-08-06",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Cosmo Bees",
+			"dni": "53855323",
+			"contrato": {
+				"fecha_inicio": "2020-11-29",
+				"fecha_finalizacion": "2023-05-03"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina de Asesoría Legal",
+		"trabajadores": [
+			{
+				"nombre": "Bernice Hunn",
+				"DNI": "65093271",
+				"contrato": {
+					"fecha_inicio": "2021-12-28",
+					"fecha_finalizacion": "2024-05-05",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Ham Albertson",
+				"DNI": "44538730",
+				"contrato": {
+					"fecha_inicio": "2021-01-26",
+					"fecha_finalizacion": "2025-03-30",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Jemie Ackerman",
+				"DNI": "24301945",
+				"contrato": {
+					"fecha_inicio": "2020-05-23",
+					"fecha_finalizacion": "2024-12-18",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Zorah Chalmers",
+				"DNI": "98355414",
+				"contrato": {
+					"fecha_inicio": "2021-01-01",
+					"fecha_finalizacion": "2023-03-06",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Tory Condit",
+				"DNI": "40987392",
+				"contrato": {
+					"fecha_inicio": "2022-03-27",
+					"fecha_finalizacion": "2023-02-17",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Gavin Berthon",
+				"DNI": "88263798",
+				"contrato": {
+					"fecha_inicio": "2021-03-19",
+					"fecha_finalizacion": "2024-01-17",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Kimberlee Falk",
+				"DNI": "88682127",
+				"contrato": {
+					"fecha_inicio": "2021-09-25",
+					"fecha_finalizacion": "2025-12-30",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Connie Camois",
+				"DNI": "63404995",
+				"contrato": {
+					"fecha_inicio": "2021-10-20",
+					"fecha_finalizacion": "2024-10-17",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Nealy Messer",
+				"DNI": "78878473",
+				"contrato": {
+					"fecha_inicio": "2021-01-23",
+					"fecha_finalizacion": "2024-07-24",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Wilfrid Amort",
+			"dni": "27009162",
+			"contrato": {
+				"fecha_inicio": "2021-01-23",
+				"fecha_finalizacion": "2024-07-24"
+			}
+		}
+	},
+	{
+		"nombre": "Oficina de Admisión",
+		"trabajadores": [
+			{
+				"nombre": "Cathrin Pinching",
+				"DNI": "35021251",
+				"contrato": {
+					"fecha_inicio": "2022-05-11",
+					"fecha_finalizacion": "2023-02-15",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Celinka Handover",
+				"DNI": "13228916",
+				"contrato": {
+					"fecha_inicio": "2022-04-13",
+					"fecha_finalizacion": "2023-03-06",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Chelsie McCully",
+				"DNI": "01455261",
+				"contrato": {
+					"fecha_inicio": "2021-11-23",
+					"fecha_finalizacion": "2023-10-10",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Thomasa Bansal",
+				"DNI": "05965812",
+				"contrato": {
+					"fecha_inicio": "2020-12-27",
+					"fecha_finalizacion": "2024-03-16",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Randi Cheney",
+				"DNI": "78967135",
+				"contrato": {
+					"fecha_inicio": "2020-04-19",
+					"fecha_finalizacion": "2024-12-30",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Shelly Blatchford",
+				"DNI": "29467922",
+				"contrato": {
+					"fecha_inicio": "2020-12-02",
+					"fecha_finalizacion": "2023-01-25",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Hammad Lethabridge",
+				"DNI": "88418587",
+				"contrato": {
+					"fecha_inicio": "2022-04-29",
+					"fecha_finalizacion": "2023-01-16",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Billie Stenhouse",
+				"DNI": "72500351",
+				"contrato": {
+					"fecha_inicio": "2020-10-18",
+					"fecha_finalizacion": "2024-05-09",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Olin Hazeldene",
+				"DNI": "48082102",
+				"contrato": {
+					"fecha_inicio": "2020-02-20",
+					"fecha_finalizacion": "2023-05-29",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Leopold Bezants",
+				"DNI": "05617934",
+				"contrato": {
+					"fecha_inicio": "2019-12-10",
+					"fecha_finalizacion": "2023-12-15",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Quillan Reeder",
+				"DNI": "14069270",
+				"contrato": {
+					"fecha_inicio": "2020-09-01",
+					"fecha_finalizacion": "2023-09-07",
+					"cargo": {
+						"nombre": "Rector"
+					}
+				}
+			},
+			{
+				"nombre": "Fair Sutherland",
+				"DNI": "23604016",
+				"contrato": {
+					"fecha_inicio": "2020-01-01",
+					"fecha_finalizacion": "2025-02-04",
+					"cargo": {
+						"nombre": "Coordinador de área"
+					}
+				}
+			},
+			{
+				"nombre": "Kurt Tourville",
+				"DNI": "22035673",
+				"contrato": {
+					"fecha_inicio": "2021-09-10",
+					"fecha_finalizacion": "2023-02-28",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Patty Churches",
+			"dni": "58156500",
+			"contrato": {
+				"fecha_inicio": "2021-09-10",
+				"fecha_finalizacion": "2023-02-28"
+			}
+		}
+	},
+	{
+		"nombre": "Facultad de Ciencias Contables y Financieras",
+		"trabajadores": [
+			{
+				"nombre": "Griselda Helbeck",
+				"DNI": "37843291",
+				"contrato": {
+					"fecha_inicio": "2022-06-03",
+					"fecha_finalizacion": "2024-06-24",
+					"cargo": {
+						"nombre": "Miembro"
+					}
+				}
+			},
+			{
+				"nombre": "Lurleen Abramovici",
+				"DNI": "19431133",
+				"contrato": {
+					"fecha_inicio": "2021-06-08",
+					"fecha_finalizacion": "2024-06-23",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Trix Fosbraey",
+				"DNI": "79023733",
+				"contrato": {
+					"fecha_inicio": "2020-04-14",
+					"fecha_finalizacion": "2024-07-14",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Shane Spreag",
+				"DNI": "79314017",
+				"contrato": {
+					"fecha_inicio": "2022-04-26",
+					"fecha_finalizacion": "2024-09-27",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Gavrielle Fellona",
+				"DNI": "02915412",
+				"contrato": {
+					"fecha_inicio": "2020-10-29",
+					"fecha_finalizacion": "2023-07-18",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Malorie Hryskiewicz",
+				"DNI": "99097063",
+				"contrato": {
+					"fecha_inicio": "2022-05-23",
+					"fecha_finalizacion": "2023-05-27",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Reube Shawell",
+			"dni": "52781673",
+			"contrato": {
+				"fecha_inicio": "2022-04-26",
+				"fecha_finalizacion": "2024-09-27"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Desarrollo Tecnológico",
+		"trabajadores": [
+			{
+				"nombre": "Vida Runge",
+				"DNI": "70090345",
+				"contrato": {
+					"fecha_inicio": "2020-04-06",
+					"fecha_finalizacion": "2023-03-25",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Saundra Wharram",
+				"DNI": "84354226",
+				"contrato": {
+					"fecha_inicio": "2020-12-31",
+					"fecha_finalizacion": "2025-06-28",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Mariquilla Haversham",
+				"DNI": "53181438",
+				"contrato": {
+					"fecha_inicio": "2022-05-28",
+					"fecha_finalizacion": "2023-03-07",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Delmar Ankrett",
+				"DNI": "76886940",
+				"contrato": {
+					"fecha_inicio": "2022-03-18",
+					"fecha_finalizacion": "2024-02-21",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Ulla Shawcroft",
+				"DNI": "75584089",
+				"contrato": {
+					"fecha_inicio": "2020-02-07",
+					"fecha_finalizacion": "2023-03-19",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Nelia Jindrak",
+				"DNI": "80795476",
+				"contrato": {
+					"fecha_inicio": "2021-05-16",
+					"fecha_finalizacion": "2023-10-03",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Gualterio Rotge",
+				"DNI": "71860459",
+				"contrato": {
+					"fecha_inicio": "2021-07-17",
+					"fecha_finalizacion": "2024-02-06",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Chandler Dewen",
+				"DNI": "07607606",
+				"contrato": {
+					"fecha_inicio": "2021-12-13",
+					"fecha_finalizacion": "2024-10-02",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Clayborn Warrell",
+				"DNI": "90214318",
+				"contrato": {
+					"fecha_inicio": "2020-02-15",
+					"fecha_finalizacion": "2023-04-16",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Tiebout Petruska",
+				"DNI": "88584270",
+				"contrato": {
+					"fecha_inicio": "2021-03-15",
+					"fecha_finalizacion": "2025-01-31",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Tessi Bullin",
+				"DNI": "46046470",
+				"contrato": {
+					"fecha_inicio": "2020-01-05",
+					"fecha_finalizacion": "2025-03-13",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Matthew Adamolli",
+				"DNI": "53028553",
+				"contrato": {
+					"fecha_inicio": "2021-10-21",
+					"fecha_finalizacion": "2025-04-29",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			},
+			{
+				"nombre": "Winni Delacourt",
+				"DNI": "09940249",
+				"contrato": {
+					"fecha_inicio": "2021-04-04",
+					"fecha_finalizacion": "2025-04-27",
+					"cargo": {
+						"nombre": "Presidente de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Malorie Hryskiewicz",
+			"dni": "99097063",
+			"contrato": {
+				"fecha_inicio": "2021-05-16",
+				"fecha_finalizacion": "2023-10-03"
+			}
+		}
+	},
+	{
+		"nombre": "Unidad de Adquisiciones",
+		"trabajadores": [
+			{
+				"nombre": "Sydelle Bispo",
+				"DNI": "61809970",
+				"contrato": {
+					"fecha_inicio": "2020-02-28",
+					"fecha_finalizacion": "2025-07-20",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Gerek Gillow",
+				"DNI": "07896781",
+				"contrato": {
+					"fecha_inicio": "2021-07-03",
+					"fecha_finalizacion": "2025-08-25",
+					"cargo": {
+						"nombre": "Director(a) de área",
+						"autorizaciones": [
+							{
+								"resumen": "Aprobacion de solicitud",
+								"descripcion": "El director financiero autoriza la validez de una solicitud"
+							},
+							{
+								"resumen": "Emision de orden de compra",
+								"descripcion": "El director financiero autoriza la emision de la orden de compra al proveedor"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Alameda Tambling",
+				"DNI": "62558924",
+				"contrato": {
+					"fecha_inicio": "2020-12-15",
+					"fecha_finalizacion": "2023-12-20",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Augustine Esherwood",
+				"DNI": "30212123",
+				"contrato": {
+					"fecha_inicio": "2019-12-04",
+					"fecha_finalizacion": "2024-08-28",
+					"cargo": {
+						"nombre": "Decano"
+					}
+				}
+			},
+			{
+				"nombre": "Humfried Colleer",
+				"DNI": "60665032",
+				"contrato": {
+					"fecha_inicio": "2022-01-31",
+					"fecha_finalizacion": "2024-04-14",
+					"cargo": {
+						"nombre": "Vicerrector de Investigación"
+					}
+				}
+			},
+			{
+				"nombre": "Neysa MacGlory",
+				"DNI": "65944390",
+				"contrato": {
+					"fecha_inicio": "2020-08-05",
+					"fecha_finalizacion": "2023-09-08",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Ryan Pummery",
+				"DNI": "19425649",
+				"contrato": {
+					"fecha_inicio": "2021-02-24",
+					"fecha_finalizacion": "2024-05-27",
+					"cargo": {
+						"nombre": "Secretario(a) general"
+					}
+				}
+			},
+			{
+				"nombre": "Viole Giovanni",
+				"DNI": "99179863",
+				"contrato": {
+					"fecha_inicio": "2020-11-29",
+					"fecha_finalizacion": "2025-11-23",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Candis Frondt",
+				"DNI": "97832564",
+				"contrato": {
+					"fecha_inicio": "2020-09-27",
+					"fecha_finalizacion": "2025-05-12",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Jodi Dagnall",
+				"DNI": "27069697",
+				"contrato": {
+					"fecha_inicio": "2020-09-23",
+					"fecha_finalizacion": "2023-07-18",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Jolyn Paeckmeyer",
+			"dni": "93667500",
+			"contrato": {
+				"fecha_inicio": "2020-09-27",
+				"fecha_finalizacion": "2025-05-12"
+			}
+		}
+	},
+	{
+		"nombre": "Vice Rectorado Académico",
+		"trabajadores": [
+			{
+				"nombre": "Zonnya Mewha",
+				"DNI": "33779079",
+				"contrato": {
+					"fecha_inicio": "2022-05-20",
+					"fecha_finalizacion": "2024-11-16",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Giff Carberry",
+				"DNI": "18708080",
+				"contrato": {
+					"fecha_inicio": "2020-01-17",
+					"fecha_finalizacion": "2025-06-05",
+					"cargo": {
+						"nombre": "Secretario(a) de área"
+					}
+				}
+			},
+			{
+				"nombre": "Howard Masarrat",
+				"DNI": "30543358",
+				"contrato": {
+					"fecha_inicio": "2021-06-03",
+					"fecha_finalizacion": "2025-07-31",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Dante Keuneke",
+			"dni": "63453842",
+			"contrato": {
+				"fecha_inicio": "2021-06-03",
+				"fecha_finalizacion": "2025-07-31"
+			}
+		}
+	},
+	{
+		"nombre": "Consejo de Investigación",
+		"trabajadores": [
+			{
+				"nombre": "Karlene Nayer",
+				"DNI": "32126271",
+				"contrato": {
+					"fecha_inicio": "2020-08-27",
+					"fecha_finalizacion": "2024-10-28",
+					"cargo": {
+						"nombre": "Chofer"
+					}
+				}
+			},
+			{
+				"nombre": "Aubine Leither",
+				"DNI": "97053154",
+				"contrato": {
+					"fecha_inicio": "2021-11-28",
+					"fecha_finalizacion": "2024-02-13",
+					"cargo": {
+						"nombre": "Conserje"
+					}
+				}
+			},
+			{
+				"nombre": "Delbert Kagan",
+				"DNI": "46095821",
+				"contrato": {
+					"fecha_inicio": "2021-08-25",
+					"fecha_finalizacion": "2023-12-03",
+					"cargo": {
+						"nombre": "Jefe de área",
+						"autorizaciones": [
+							{
+								"resumen": "Emision de solicitud ",
+								"descripcion": "El jefe de area aprueba la emisión de una solicitud"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre": "Anna-maria Normand",
+				"DNI": "05373954",
+				"contrato": {
+					"fecha_inicio": "2021-08-15",
+					"fecha_finalizacion": "2023-02-12",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			},
+			{
+				"nombre": "Symon Purry",
+				"DNI": "02025475",
+				"contrato": {
+					"fecha_inicio": "2020-12-13",
+					"fecha_finalizacion": "2023-08-19",
+					"cargo": {
+						"nombre": "Vicerrector Academico"
+					}
+				}
+			}
+		],
+		"encargado": {
+			"nombre": "Dona Hardiman",
+			"dni": "62856406",
+			"contrato": {
+				"fecha_inicio": "2021-08-25",
+				"fecha_finalizacion": "2023-12-03"
+			}
+		}
+	}
+]
